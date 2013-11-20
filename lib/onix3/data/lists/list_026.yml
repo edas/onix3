@@ -1,0 +1,520 @@
+---
+:number: '26'
+:description: Main subject scheme identifier code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Dewey
+    :notes: Dewey Decimal Classification.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Abridged Dewey
+    :notes: ''
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: LC classification
+    :notes: US Library of Congress classification.
+    :issue_number: '9'
+  '04':
+    :value: '04'
+    :description: LC subject heading
+    :notes: US Library of Congress subject heading.
+    :issue_number: '9'
+  '05':
+    :value: '05'
+    :description: NLM classification
+    :notes: US National Library of Medicine medical classification.
+    :issue_number: '9'
+  '06':
+    :value: '06'
+    :description: MeSH heading
+    :notes: US National Library of Medicine Medical subject heading.
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: NAL subject heading
+    :notes: US National Agricultural Library subject heading.
+    :issue_number: '9'
+  08:
+    :value: 08
+    :description: AAT
+    :notes: Getty Art and Architecture Thesaurus heading.
+    :issue_number: '9'
+  09:
+    :value: 09
+    :description: UDC
+    :notes: Universal Decimal Classification.
+    :issue_number: '5'
+  '10':
+    :value: '10'
+    :description: BISAC Subject Heading
+    :notes: BISAC Subject Headings are used in the North American market to categorize
+      books based on topical content. They serve as a guideline for shelving books
+      in physical stores and browsing books in online stores. See ‘http://www.bisg.org/what-we-do-cat-20-classification-schemes.php’.
+    :issue_number: '9'
+  '11':
+    :value: '11'
+    :description: BISAC region code
+    :notes: A geographical qualifier used with a BISAC subject category.
+    :issue_number: '9'
+  '12':
+    :value: '12'
+    :description: BIC subject category
+    :notes: For all BIC subject codes and qualifiers, see ‘http://www.bic.org.uk/7/BIC-Standard-Subject-Categories/’.
+    :issue_number: '4'
+  '13':
+    :value: '13'
+    :description: BIC geographical qualifier
+    :notes: ''
+    :issue_number: '9'
+  '14':
+    :value: '14'
+    :description: BIC language qualifier (language as subject)
+    :notes: ''
+    :issue_number: '9'
+  '15':
+    :value: '15'
+    :description: BIC time period qualifier
+    :notes: ''
+    :issue_number: '9'
+  '16':
+    :value: '16'
+    :description: BIC educational purpose qualifier
+    :notes: ''
+    :issue_number: '9'
+  '17':
+    :value: '17'
+    :description: BIC reading level and special interest qualifier
+    :notes: ''
+    :issue_number: '9'
+  '18':
+    :value: '18'
+    :description: DDC-Sachgruppen der Deutschen Nationalbibliografie
+    :notes: Used for German National Bibliography since 2004 (100 subjects). Is different
+      from value 30. See http://www.d-nb.de/service/pdf/ddc_wv_aktuell.pdf (in German)
+      or http://www.d-nb.de/eng/service/pdf/ddc_wv_aktuell_eng.pdf (English).
+    :issue_number: '9'
+  '19':
+    :value: '19'
+    :description: LC fiction genre heading
+    :notes: ''
+    :issue_number: '9'
+  '20':
+    :value: '20'
+    :description: Keywords
+    :notes: Where multiple keywords or keyword phrases are sent in a single instance
+      of the <SubjectHeadingText> element, it is recommended that they should be separated
+      by semi-colons (this is consistent with Library of Congress preferred practice).
+    :issue_number: '9'
+  '21':
+    :value: '21'
+    :description: BIC children’s book marketing category
+    :notes: See ‘http://www.bic.org.uk/8/Children’s-Books-Marketing-Classifications/’.
+    :issue_number: '9'
+  '22':
+    :value: '22'
+    :description: BISAC Merchandising Theme
+    :notes: BISAC Merchandising Themes are used in addition to BISAC Subject Headings
+      to denote an audience to which a work may be of particular appeal, a time of
+      year or event for which a work may be especially appropriate, or to further
+      describe fictional works that have been subject-coded by genre.
+    :issue_number: '9'
+  '23':
+    :value: '23'
+    :description: Publisher’s own category code
+    :notes: ''
+    :issue_number: '9'
+  '24':
+    :value: '24'
+    :description: Proprietary subject scheme
+    :notes: As specified in <SubjectSchemeName>.
+    :issue_number: '9'
+  '25':
+    :value: '25'
+    :description: Tabla de materias ISBN
+    :notes: Latin America.
+    :issue_number: '0'
+  '26':
+    :value: '26'
+    :description: Warengruppen-Systematik des deutschen Buchhandels
+    :notes: See ‘http://www.boersenverein.de/sixcms/media.php/976/WGSneuVersion2_0.pdf’.
+    :issue_number: '0'
+  '27':
+    :value: '27'
+    :description: SWD
+    :notes: Schlagwortnormdatei – Subject Headings Authority File in the German-speaking
+      countries. See http://www.d-nb.de/standardisierung/normdateien/swd.htm (in German)
+      and http://www.d-nb.de/eng/standardisierung/normdateien/swd.htm (English). DEPRECATED
+      in favour of the GND.
+    :issue_number: '18'
+  '28':
+    :value: '28'
+    :description: Thèmes Electre
+    :notes: Subject classification used by Electre (France).
+    :issue_number: '0'
+  '29':
+    :value: '29'
+    :description: CLIL
+    :notes: France. A four-digit number, see http://www.clil.org/information/documentation.html
+      (in French). The first digit identifies the version of the scheme.
+    :issue_number: '22'
+  '30':
+    :value: '30'
+    :description: DNB-Sachgruppen
+    :notes: Deutsche Bibliothek subject groups. Used for German National Bibliography
+      until 2003 (65 subjects). Is different from value 18. See ‘http://www.d-nb.de/service/pdf/ddc_wv_alt_neu.pdf’.
+    :issue_number: '1'
+  '31':
+    :value: '31'
+    :description: NUGI
+    :notes: Nederlandse Uniforme Genre-Indeling (former Dutch book trade classification).
+    :issue_number: '9'
+  '32':
+    :value: '32'
+    :description: NUR
+    :notes: Nederlandstalige Uniforme Rubrieksindeling (Dutch book trade classification,
+      from 2002),see http://reeks.boekwinkeltjes.nl/downloads/NUR-lijst.pdf (in Dutch).
+    :issue_number: '1'
+  '33':
+    :value: '33'
+    :description: ECPA Christian Book Category
+    :notes: ECPA Christian Product Category Book Codes, consisting of up to three
+      x 3-letter blocks, for Super Category, Primary Category and Sub-Category. See
+      ‘http://www.ecpa.org/ECPA/cbacategories.xls’.
+    :issue_number: '1'
+  '34':
+    :value: '34'
+    :description: SISO
+    :notes: Schema Indeling Systematische Catalogus Openbare Bibliotheken (Dutch library
+      classification).
+    :issue_number: '9'
+  '35':
+    :value: '35'
+    :description: Korean Decimal Classification (KDC)
+    :notes: A modified Dewey Decimal Classification used in the Republic of Korea.
+    :issue_number: '1'
+  '36':
+    :value: '36'
+    :description: DDC Deutsch 22
+    :notes: German Translation of Dewey Decimal Classification 22. Also known as DDC
+      22 ger. See ‘http://www.ddc-deutsch.de/produkte/uebersichten/’.
+    :issue_number: '2'
+  '37':
+    :value: '37'
+    :description: Bokgrupper
+    :notes: Norwegian book trade product categories (4701).
+    :issue_number: '9'
+  '38':
+    :value: '38'
+    :description: Varegrupper
+    :notes: Norwegian bookselling subject categories (4702).
+    :issue_number: '9'
+  '39':
+    :value: '39'
+    :description: Læreplaner
+    :notes: Norwegian school curriculum version (4703).
+    :issue_number: '9'
+  '40':
+    :value: '40'
+    :description: Nippon Decimal Classification
+    :notes: Japanese subject classification scheme.
+    :issue_number: '5'
+  '41':
+    :value: '41'
+    :description: BSQ
+    :notes: 'BookSelling Qualifier: Russian book trade classification.'
+    :issue_number: '9'
+  '42':
+    :value: '42'
+    :description: ANELE Materias
+    :notes: 'Spain: subject coding scheme of the Asociación Nacional de Editores de
+      Libros y Material de Enseñanza.'
+    :issue_number: '5'
+  '43':
+    :value: '43'
+    :description: Skolefag
+    :notes: Norwegian primary and secondary school subject categories (4705).
+    :issue_number: '9'
+  '44':
+    :value: '44'
+    :description: Videregående
+    :notes: Norwegian list of categories used in higher secondary education and vocational
+      training (4706).
+    :issue_number: '9'
+  '45':
+    :value: '45'
+    :description: Undervisningsmateriell
+    :notes: Norwegian list of categories for books and other material used in education
+      (4707).
+    :issue_number: '9'
+  '46':
+    :value: '46'
+    :description: Norsk DDK
+    :notes: Norwegian version of Dewey Decimal Classification.
+    :issue_number: '9'
+  '47':
+    :value: '47'
+    :description: Varugrupper
+    :notes: Swedish bookselling subject categories.
+    :issue_number: '9'
+  '48':
+    :value: '48'
+    :description: SAB
+    :notes: Swedish classification scheme.
+    :issue_number: '9'
+  '49':
+    :value: '49'
+    :description: Läromedel
+    :notes: Swedish bookselling educational subject.
+    :issue_number: '9'
+  '50':
+    :value: '50'
+    :description: Förhandsbeskrivning
+    :notes: Swedish publishers preliminary subject classification.
+    :issue_number: '9'
+  '51':
+    :value: '51'
+    :description: Spanish ISBN UDC subset
+    :notes: Controlled subset of UDC codes used by the Spanish ISBN Agency.
+    :issue_number: '7'
+  '52':
+    :value: '52'
+    :description: ECI subject categories
+    :notes: Subject categories defined by El Corte Inglés and used widely in the Spanish
+      book trade.
+    :issue_number: '7'
+  '53':
+    :value: '53'
+    :description: Soggetto CCE
+    :notes: Classificazione commerciale editoriale (Italian book trade subject category
+      based on BIC). CCE documentation available at ‘http://www.ie-online.it/CCE2_2.0.pdf’.
+    :issue_number: '7'
+  '54':
+    :value: '54'
+    :description: Qualificatore geografico CCE
+    :notes: ''
+    :issue_number: '9'
+  '55':
+    :value: '55'
+    :description: Qualificatore di lingua CCE
+    :notes: ''
+    :issue_number: '9'
+  '56':
+    :value: '56'
+    :description: Qualificatore di periodo storico CCE
+    :notes: ''
+    :issue_number: '9'
+  '57':
+    :value: '57'
+    :description: Qualificatore di livello scolastico CCE
+    :notes: ''
+    :issue_number: '9'
+  '58':
+    :value: '58'
+    :description: Qualificatore di età di lettura CCE
+    :notes: ''
+    :issue_number: '9'
+  '59':
+    :value: '59'
+    :description: VdS Bildungsmedien Fächer
+    :notes: Subject code list of the German association of educational media publishers.
+    :issue_number: '9'
+  '60':
+    :value: '60'
+    :description: Fagkoder
+    :notes: Undervisningsdirektoratets fagkoder for kunnskapsløftet I videregående
+      (Norwegian educational curriculum for secondary schools) (4708).
+    :issue_number: '9'
+  '61':
+    :value: '61'
+    :description: JEL classification
+    :notes: Journal of Economic Literature classification scheme.
+    :issue_number: '9'
+  '62':
+    :value: '62'
+    :description: CSH
+    :notes: National Library of Canada subject heading (English).
+    :issue_number: '9'
+  '63':
+    :value: '63'
+    :description: RVM
+    :notes: Répertoire de vedettes-matière (Bibliothèque et Archives Canada et Bibliothèque
+      de l’Université Laval) (French).
+    :issue_number: '9'
+  '64':
+    :value: '64'
+    :description: YSA
+    :notes: 'Yleinen suomalainen asiasanasto: Finnish General Thesaurus. See http://onki.fi/fi/browser/
+      (in Finnish).'
+    :issue_number: '8'
+  '65':
+    :value: '65'
+    :description: Allärs
+    :notes: 'Allmän tesaurus på svenska: Swedish translation of the Finnish General
+      Thesaurus. See http://onki.fi/fi/browser/ (in Finnish).'
+    :issue_number: '8'
+  '66':
+    :value: '66'
+    :description: YKL
+    :notes: 'Yleisten kirjastojen luokitusjärjestelmä: Finnish Public Libraries Classification
+      System. See http://ykl.kirjastot.fi/ (in Finnish).'
+    :issue_number: '8'
+  '67':
+    :value: '67'
+    :description: MUSA
+    :notes: 'Musiikin asiasanasto: Finnish Music Thesaurus. See http://onki.fi/fi/browser/
+      (in Finnish).'
+    :issue_number: '8'
+  '68':
+    :value: '68'
+    :description: CILLA
+    :notes: 'Specialtesaurus för musik: Swedish translation of the Finnish Music Thesaurus.
+      See http://onki.fi/fi/browser/ (in Finnish).'
+    :issue_number: '8'
+  '69':
+    :value: '69'
+    :description: Kaunokki
+    :notes: 'Fiktiivisen aineiston asiasanasto: Finnish thesaurus for fiction. See
+      http://kaunokki.kirjastot.fi/ (in Finnish).'
+    :issue_number: '8'
+  '70':
+    :value: '70'
+    :description: Bella
+    :notes: 'Specialtesaurus för fiktivt material: Swedish translation of the Finnish
+      thesaurus for fiction. See http://kaunokki.kirjastot.fi/sv-FI/ (in Finnish).'
+    :issue_number: '8'
+  '71':
+    :value: '71'
+    :description: YSO
+    :notes: 'Yleinen suomalainen ontologia: Finnish General Upper Ontology. See http://onki.fi/fi/browser/
+      (In Finnish).'
+    :issue_number: '8'
+  '72':
+    :value: '72'
+    :description: Paikkatieto ontologia
+    :notes: Finnish Place Ontology. See http://onki.fi/fi/browser/ (in Finnish).
+    :issue_number: '8'
+  '73':
+    :value: '73'
+    :description: Suomalainen kirja-alan luokitus
+    :notes: Finnish book trade categorisation.
+    :issue_number: '8'
+  '74':
+    :value: '74'
+    :description: Sears
+    :notes: Sears List of Subject Headings.
+    :issue_number: '9'
+  '75':
+    :value: '75'
+    :description: BIC E4L
+    :notes: BIC E4Libraries Category Headings, see ‘http://www.bic.org.uk/51/E4libraries-Subject-Category-Headings/’.
+    :issue_number: '9'
+  '76':
+    :value: '76'
+    :description: CSR
+    :notes: 'Code Sujet Rayon: subject categories used by bookstores in France.'
+    :issue_number: '11'
+  '77':
+    :value: '77'
+    :description: Suomalainen oppiaineluokitus
+    :notes: Finnish school subject categories.
+    :issue_number: '11'
+  '78':
+    :value: '78'
+    :description: Japanese book trade C-Code
+    :notes: See ‘http://www.asahi-net.or.jp/~ax2s-kmtn/ref/ccode.html’ (in Japanese).
+    :issue_number: '12'
+  '79':
+    :value: '79'
+    :description: Japanese book trade Genre Code
+    :notes: ''
+    :issue_number: '12'
+  '80':
+    :value: '80'
+    :description: Fiktiivisen aineiston lisäluokitus
+    :notes: Finnish fiction genre classification. See http://ykl.kirjastot.fi/fi-FI/lisaluokat/
+      (in Finnish).
+    :issue_number: '13'
+  '85':
+    :value: '85'
+    :description: Postal code
+    :notes: Location defined by postal code. Format is two-letter country code (from
+      List 91), space, postal code. Note some postal codes themselves contain spaces,
+      eg “GB N7 9DP” or “US 10125”.
+    :issue_number: '14'
+  '86':
+    :value: '86'
+    :description: GeoNames ID
+    :notes: ID number for geographical place, as defined at http://www.geonames.org
+      (eg 2825297 is Stuttgart, Germany, see http://www.geonames.org/2825297).
+    :issue_number: '14'
+  '87':
+    :value: '87'
+    :description: NewBooks Subject Classification
+    :notes: Used for classification of academic and specialist publication in German-speaking
+      countries. See http://www.newbooks-services.com/de/top/unternehmensportrait/klassifikation-und-mapping.html
+      (German) and http://www.newbooks-services.com/en/top/about-newbooks/classification-mapping.html
+      (English).
+    :issue_number: '14'
+  '91':
+    :value: '91'
+    :description: GND
+    :notes: Gemeinsame Normdatei – Joint Authority File in the German-speaking countries.
+      See 'http://www.dnb.de/EN/Standardisierung/Normdaten/GND/gnd_node.html (English)'.
+      Combines the PND, SWD and GKD into a single authority file, and should be used
+      in preference to the older codes.
+    :issue_number: '18'
+  '92':
+    :value: '92'
+    :description: BIC UKSLC
+    :notes: UK Standard Library Categories, the successor to BIC’s E4L classification
+      scheme.
+    :issue_number: '19'
+  '93':
+    :value: '93'
+    :description: Thema subject category
+    :notes: ''
+    :issue_number: '20'
+  '94':
+    :value: '94'
+    :description: Thema geographical qualifier
+    :notes: ''
+    :issue_number: '20'
+  '95':
+    :value: '95'
+    :description: Thema language qualifier
+    :notes: ''
+    :issue_number: '20'
+  '96':
+    :value: '96'
+    :description: Thema time period qualifier
+    :notes: ''
+    :issue_number: '20'
+  '97':
+    :value: '97'
+    :description: Thema educational purpose qualifier
+    :notes: ''
+    :issue_number: '20'
+  '98':
+    :value: '98'
+    :description: Thema interest age / special interest qualifier
+    :notes: ''
+    :issue_number: '21'
+  '99':
+    :value: '99'
+    :description: Thema style qualifier
+    :notes: ''
+    :issue_number: '21'
+  A2:
+    :value: A2
+    :description: Ämnesord
+    :notes: Swedish subject categories maintained by Bokrondellen.
+    :issue_number: '22'
+  A3:
+    :value: A3
+    :description: Statystyka Książek Papierowych, Mówionych I Elektronicznych
+    :notes: Polish Statistical Book and E-book Classification
+    :issue_number: '23'

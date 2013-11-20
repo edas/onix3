@@ -1,0 +1,48 @@
+---
+:number: '143'
+:description: US CPSIA choking hazard warning code
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: 'WARNING: CHOKING HAZARD – Small parts | Not for children under
+      3 yrs.'
+    :notes: Required on applicable products sold in the US.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: 'WARNING: CHOKING HAZARD – Children under 8 yrs. can choke or suffocate
+      on uninflated or broken balloons. Adult supervision required | Keep uninflated
+      balloons from children. Discard broken balloons at once.'
+    :notes: Required on applicable products sold in the US.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: 'WARNING: CHOKING HAZARD – This toy is a small ball | Not for children
+      under 3 yrs.'
+    :notes: Required on applicable products sold in the US.
+    :issue_number: '9'
+  '04':
+    :value: '04'
+    :description: 'WARNING: CHOKING HAZARD – Toy contains a small ball | Not for children
+      under 3 yrs.'
+    :notes: Required on applicable products sold in the US.
+    :issue_number: '9'
+  '05':
+    :value: '05'
+    :description: 'WARNING: CHOKING HAZARD – This toy is a marble | Not for children
+      under 3 yrs.'
+    :notes: Required on applicable products sold in the US.
+    :issue_number: '9'
+  '06':
+    :value: '06'
+    :description: 'WARNING: CHOKING HAZARD – Toy contains a marble | Not for children
+      under 3 yrs.'
+    :notes: Required on applicable products sold in the US.
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: No choking hazard warning necessary
+    :notes: To be used when a supplier wishes to make a clear statement that no such
+      warning is applicable to product.
+    :issue_number: '9'

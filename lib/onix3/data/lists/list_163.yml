@@ -1,0 +1,89 @@
+---
+:number: '163'
+:description: Publishing date role
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Publication date
+    :notes: Nominal date of publication.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Embargo date
+    :notes: If there is an embargo on retail sales in this market before a certain
+      date, the date from which the embargo is lifted and retail sales are permitted.
+    :issue_number: '12'
+  09:
+    :value: 09
+    :description: Public announcement date
+    :notes: Date when a new product may be announced to the general public.
+    :issue_number: '9'
+  '10':
+    :value: '10'
+    :description: Trade announcement date
+    :notes: Date when a new product may be announced for trade only.
+    :issue_number: '9'
+  '11':
+    :value: '11'
+    :description: Date of first publication
+    :notes: Date when the work incorporated in a product was first published.
+    :issue_number: '9'
+  '12':
+    :value: '12'
+    :description: Last reprint date
+    :notes: Date when a product was last reprinted.
+    :issue_number: '9'
+  '13':
+    :value: '13'
+    :description: Out-of-print / deletion date
+    :notes: Date when a product was (or will be) declared out-of-print or deleted.
+    :issue_number: '20'
+  '16':
+    :value: '16'
+    :description: Last reissue date
+    :notes: Date when a product was last reissued.
+    :issue_number: '9'
+  '19':
+    :value: '19'
+    :description: Publication date of print counterpart
+    :notes: Date of publication of a printed book which is the print counterpart to
+      a digital edition.
+    :issue_number: '11'
+  '20':
+    :value: '20'
+    :description: Date of first publication in original language
+    :notes: Year when the original language version of work incorporated in a product
+      was first published (note, use only when different from code 11).
+    :issue_number: '13'
+  '21':
+    :value: '21'
+    :description: Forthcoming reissue date
+    :notes: Date when a product will be reissued.
+    :issue_number: '13'
+  '22':
+    :value: '22'
+    :description: Expected availability date after temporary withdrawal
+    :notes: Date when a product that has been temporary withdrawn from sale or recalled
+      for any reason is expected to become available again, eg after correction of
+      quality or technical issues.
+    :issue_number: '15'
+  '23':
+    :value: '23'
+    :description: Review embargo date
+    :notes: 'Date from which reviews of a product may be published eg in newspapers
+      and magazines or online. Provided to the book trade for information only: newspapers
+      and magazines are not expected to be recipients of ONIX metadata.'
+    :issue_number: '16'
+  '25':
+    :value: '25'
+    :description: Publisher’s reservation order deadline
+    :notes: Latest date on which an order may be placed with the publisher for guaranteed
+      delivery prior to the publication date. May or may not be linked to a special
+      reservation or pre-publication price.
+    :issue_number: '18'
+  '26':
+    :value: '26'
+    :description: Forthcoming reprint date
+    :notes: Date when a product will be reprinted.
+    :issue_number: '18'

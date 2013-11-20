@@ -1,0 +1,36 @@
+---
+:number: '159'
+:description: Resource mode
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Application
+    :notes: An executable together with data on which it operates.
+    :issue_number: '10'
+  '02':
+    :value: '02'
+    :description: Audio
+    :notes: A sound recording.
+    :issue_number: '10'
+  '03':
+    :value: '03'
+    :description: Image
+    :notes: A still image.
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Text
+    :notes: Readable text, with or without associated images etc.
+    :issue_number: '10'
+  '05':
+    :value: '05'
+    :description: Video
+    :notes: Moving images, with or without accompanying sound.
+    :issue_number: '10'
+  '06':
+    :value: '06'
+    :description: Multi-mode
+    :notes: A website or other supporting resource delivering content in a variety
+      of modes.
+    :issue_number: '10'

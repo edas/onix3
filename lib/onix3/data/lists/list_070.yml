@@ -1,0 +1,15 @@
+---
+:number: '70'
+:description: Stock quantity code type
+:issue_number: '6'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: ''
+    :issue_number: '6'
+  '02':
+    :value: '02'
+    :description: APA stock quantity code
+    :notes: Code scheme defined by the Australian Publishers Association.
+    :issue_number: '6'

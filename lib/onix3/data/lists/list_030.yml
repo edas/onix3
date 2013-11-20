@@ -1,0 +1,92 @@
+---
+:number: '30'
+:description: Audience range qualifier
+:issue_number: '0'
+:codes:
+  '11':
+    :value: '11'
+    :description: US school grade range
+    :notes: Values for <AudienceRangeValue> are specified in List 77.
+    :issue_number: '0'
+  '12':
+    :value: '12'
+    :description: UK school grade
+    :notes: Values are defined by BIC for England and Wales, Scotland and N Ireland.
+    :issue_number: '6'
+  '15':
+    :value: '15'
+    :description: Reading speed, words per minute
+    :notes: Values in <AudienceRangeValue> must be integers.
+    :issue_number: '7'
+  '16':
+    :value: '16'
+    :description: Interest age, months
+    :notes: 'For use up to 30 months only: values in <AudienceRangeValue> must be
+      integers.'
+    :issue_number: '6'
+  '17':
+    :value: '17'
+    :description: Interest age, years
+    :notes: Values in <AudienceRangeValue> must be integers.
+    :issue_number: '0'
+  '18':
+    :value: '18'
+    :description: Reading age, years
+    :notes: Values in <AudienceRangeValue> must be integers.
+    :issue_number: '0'
+  '19':
+    :value: '19'
+    :description: Spanish school grade
+    :notes: 'Spain: combined grade and region code, maintained by the Ministerio de
+      Educación.'
+    :issue_number: '5'
+  '20':
+    :value: '20'
+    :description: Skoletrinn
+    :notes: Norwegian educational grades (4704).
+    :issue_number: '6'
+  '21':
+    :value: '21'
+    :description: Nivå
+    :notes: Swedish educational qualifier (code).
+    :issue_number: '7'
+  '22':
+    :value: '22'
+    :description: Italian school grade
+    :notes: ''
+    :issue_number: '7'
+  '23':
+    :value: '23'
+    :description: Schulform
+    :notes: 'DEPRECATED – assigned in error: see List 29.'
+    :issue_number: '8'
+  '24':
+    :value: '24'
+    :description: Bundesland
+    :notes: 'DEPRECATED – assigned in error: see List 29.'
+    :issue_number: '8'
+  '25':
+    :value: '25'
+    :description: Ausbildungsberuf
+    :notes: 'DEPRECATED – assigned in error: see List 29.'
+    :issue_number: '8'
+  '26':
+    :value: '26'
+    :description: Canadian school grade range
+    :notes: Values for <AudienceRangeValue> are specified in List 77.
+    :issue_number: '8'
+  '27':
+    :value: '27'
+    :description: Finnish school grade range
+    :notes: ''
+    :issue_number: '8'
+  '28':
+    :value: '28'
+    :description: Finnish Upper secondary school course
+    :notes: Lukion kurssi.
+    :issue_number: '13'
+  '29':
+    :value: '29'
+    :description: Chinese School Grade code
+    :notes: Values are P, K, 1–17 (including college-level audiences).
+    :issue_number: '15'

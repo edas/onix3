@@ -1,0 +1,236 @@
+---
+:number: '73'
+:description: Website role
+:issue_number: '1'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified, see website description
+    :notes: ''
+    :issue_number: '5'
+  '01':
+    :value: '01'
+    :description: Publisher’s corporate website
+    :notes: See also codes 17 and 18.
+    :issue_number: '5'
+  '02':
+    :value: '02'
+    :description: Publisher’s website for a specified work
+    :notes: A publisher’s informative and/or promotional webpage relating to a specified
+      work (book, journal, online resource or other publication type).
+    :issue_number: '5'
+  '03':
+    :value: '03'
+    :description: Online hosting service home page
+    :notes: A webpage giving access to an online content hosting service as a whole.
+    :issue_number: '5'
+  '04':
+    :value: '04'
+    :description: Journal home page
+    :notes: A webpage giving general information about a serial, in print or electronic
+      format or both.
+    :issue_number: '5'
+  '05':
+    :value: '05'
+    :description: Online resource ‘available content’ page
+    :notes: A webpage giving direct access to the content that is available online
+      for a specified resource version. Generally used for content available online
+      under subscription terms.
+    :issue_number: '14'
+  '06':
+    :value: '06'
+    :description: Contributor’s own website
+    :notes: A webpage maintained by an author or other contributor about her/his publications
+      and personal background.
+    :issue_number: '5'
+  '07':
+    :value: '07'
+    :description: Publisher’s website relating to specified contributor
+    :notes: A publisher’s webpage devoted to a specific author or other contributor.
+    :issue_number: '5'
+  08:
+    :value: 08
+    :description: Other publisher’s website relating to specified contributor
+    :notes: A webpage devoted to a specific author or other contributor, and maintained
+      by a publisher other than the publisher of the item described in the ONIX record.
+    :issue_number: '5'
+  09:
+    :value: 09
+    :description: Third-party website relating to specified contributor
+    :notes: A webpage devoted to a specific author or other contributor, and maintained
+      by a third party (eg a fan site).
+    :issue_number: '5'
+  '10':
+    :value: '10'
+    :description: Contributor’s own website for specified work
+    :notes: A webpage maintained by an author or other contributor and specific to
+      an individual work.
+    :issue_number: '5'
+  '11':
+    :value: '11'
+    :description: Other publisher’s website relating to specified work
+    :notes: A webpage devoted to an individual work, and maintained by a publisher
+      other than the publisher of the item described in the ONIX record.
+    :issue_number: '5'
+  '12':
+    :value: '12'
+    :description: Third-party website relating to specified work
+    :notes: A webpage devoted to an individual work, and maintained by a third party
+      (eg a fan site).
+    :issue_number: '5'
+  '13':
+    :value: '13'
+    :description: Contributor’s own website for group or series of works
+    :notes: A webpage maintained by an author or other contributor and specific to
+      a group or series of works.
+    :issue_number: '5'
+  '14':
+    :value: '14'
+    :description: Publisher’s website relating to group or series of works
+    :notes: A publisher’s webpage devoted to a group or series of works.
+    :issue_number: '5'
+  '15':
+    :value: '15'
+    :description: Other publisher’s website relating to group or series of works
+    :notes: A webpage devoted to a group or series of works, and maintained by a publisher
+      other than the publisher of the item described in the ONIX record.
+    :issue_number: '5'
+  '16':
+    :value: '16'
+    :description: Third-party website relating to group or series of works (eg a fan
+      site)
+    :notes: A webpage devoted to a group or series of works, and maintained by a third
+      party (eg a fan site).
+    :issue_number: '5'
+  '17':
+    :value: '17'
+    :description: Publisher’s B2B website
+    :notes: Use instead of code 01 to specify a publisher’s website for trade users.
+    :issue_number: '5'
+  '18':
+    :value: '18'
+    :description: Publisher’s B2C website
+    :notes: Use instead of code 01 to specify a publisher’s website for end customers
+      (consumers).
+    :issue_number: '5'
+  '23':
+    :value: '23'
+    :description: Author blog
+    :notes: For example, a Blogger or Tumblr URL, a Wordpress website or other blog
+      URL.
+    :issue_number: '16'
+  '24':
+    :value: '24'
+    :description: Web page for author presentation / commentary
+    :notes: ''
+    :issue_number: '8'
+  '25':
+    :value: '25'
+    :description: Web page for author interview
+    :notes: ''
+    :issue_number: '8'
+  '26':
+    :value: '26'
+    :description: Web page for author reading
+    :notes: ''
+    :issue_number: '8'
+  '27':
+    :value: '27'
+    :description: Web page for cover material
+    :notes: ''
+    :issue_number: '8'
+  '28':
+    :value: '28'
+    :description: Web page for sample content
+    :notes: ''
+    :issue_number: '8'
+  '29':
+    :value: '29'
+    :description: Web page for full content
+    :notes: Use this value in the <Website> composite in <SupplyDetail> when sending
+      a link to a webpage at which a digital product is available for download and/or
+      online access.
+    :issue_number: '11'
+  '30':
+    :value: '30'
+    :description: Web page for other commentary / discussion
+    :notes: ''
+    :issue_number: '8'
+  '31':
+    :value: '31'
+    :description: Transfer-URL
+    :notes: URL needed by the German National Library for direct access, harvesting
+      and storage of an electronic resource.
+    :issue_number: '9'
+  '32':
+    :value: '32'
+    :description: DOI Website Link
+    :notes: Link needed by German Books in Print (VLB) for DOI registration and ONIX
+      DOI conversion.
+    :issue_number: '9'
+  '33':
+    :value: '33'
+    :description: Supplier’s corporate website
+    :notes: A corporate website operated by a distributor or other supplier (not the
+      publisher).
+    :issue_number: '10'
+  '34':
+    :value: '34'
+    :description: Supplier’s B2B website
+    :notes: A website operated by a distributor or other supplier (not the publisher)
+      and aimed at trade customers.
+    :issue_number: '10'
+  '35':
+    :value: '35'
+    :description: Supplier’s B2C website
+    :notes: A website operated by a distributor or other supplier (not the publisher)
+      and aimed at consumers.
+    :issue_number: '10'
+  '36':
+    :value: '36'
+    :description: Supplier’s website for a specified work
+    :notes: A distributor or supplier’s webpage describing a specified work.
+    :issue_number: '10'
+  '37':
+    :value: '37'
+    :description: Supplier’s B2B website for a specified work
+    :notes: A distributor or supplier’s webpage describing a specified work, and aimed
+      at trade customers.
+    :issue_number: '10'
+  '38':
+    :value: '38'
+    :description: Supplier’s B2C website for a specified work
+    :notes: A distributor or supplier’s webpage describing a specified work, and aimed
+      at consumers.
+    :issue_number: '10'
+  '39':
+    :value: '39'
+    :description: Supplier’s website for a group or series of works
+    :notes: A distributor or supplier’s webpage describing a group or series of works.
+    :issue_number: '10'
+  '40':
+    :value: '40'
+    :description: URL of full metadata description
+    :notes: For example an ONIX or MARC record for the product, available online.
+    :issue_number: '14'
+  '41':
+    :value: '41'
+    :description: Social networking URL for specific work or product
+    :notes: For example, a Facebook, Google+ or Twitter URL for the product or work.
+    :issue_number: '16'
+  '42':
+    :value: '42'
+    :description: Author’s social networking URL
+    :notes: For example, a Facebook, Google+ or Twitter page.
+    :issue_number: '16'
+  '43':
+    :value: '43'
+    :description: Publisher’s social networking URL
+    :notes: For example, a Facebook, Google+ or Twitter page.
+    :issue_number: '16'
+  '44':
+    :value: '44'
+    :description: Social networking URL for specific article, chapter or content item
+    :notes: For example, a Facebook, Google+ or Twitter page. Use only in the context
+      of a specific content item (eg within <ContentItem>).
+    :issue_number: '17'

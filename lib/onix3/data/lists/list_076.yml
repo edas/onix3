@@ -1,0 +1,70 @@
+---
+:number: '76'
+:description: Product form feature value – DVD region codes
+:issue_number: '2'
+:codes:
+  '0':
+    :value: '0'
+    :description: All regions
+    :notes: DVD or Blu-Ray.
+    :issue_number: '8'
+  '1':
+    :value: '1'
+    :description: DVD region 1
+    :notes: US, US Territories, Canada.
+    :issue_number: '2'
+  '2':
+    :value: '2'
+    :description: DVD region 2
+    :notes: Japan, Europe, South Africa and Middle East (including Egypt).
+    :issue_number: '8'
+  '3':
+    :value: '3'
+    :description: DVD region 3
+    :notes: Southeast Asia, Hong Kong, Macau, South Korea, and Taiwan.
+    :issue_number: '8'
+  '4':
+    :value: '4'
+    :description: DVD region 4
+    :notes: Australia, New Zealand, Pacific Islands, Central America, Mexico, South
+      America and the Caribbean.
+    :issue_number: '2'
+  '5':
+    :value: '5'
+    :description: DVD region 5
+    :notes: Eastern Europe (former Soviet Union), Indian subcontinent, Africa, North
+      Korea and Mongolia.
+    :issue_number: '2'
+  '6':
+    :value: '6'
+    :description: DVD region 6
+    :notes: People’s Republic of China (except Macau and Hong Kong).
+    :issue_number: '8'
+  '7':
+    :value: '7'
+    :description: DVD region 7
+    :notes: Reserved for future use.
+    :issue_number: '8'
+  '8':
+    :value: '8'
+    :description: DVD region 8
+    :notes: 'International venues: aircraft, cruise ships etc.'
+    :issue_number: '8'
+  A:
+    :value: A
+    :description: Blu-Ray region A
+    :notes: North America, Central America, South America, Japan, Taiwan, North Korea,
+      South Korea, Hong Kong, and Southeast Asia.
+    :issue_number: '8'
+  B:
+    :value: B
+    :description: Blu-Ray region B
+    :notes: Most of Europe, Greenland, French territories, Middle East, Africa, Australia,
+      and New Zealand, plus all of Oceania.
+    :issue_number: '8'
+  C:
+    :value: C
+    :description: Blu-Ray region C
+    :notes: India, Bangladesh, Nepal, Mainland China, Pakistan, Russia, Ukraine, Belarus,
+      Central, and South Asia.
+    :issue_number: '8'

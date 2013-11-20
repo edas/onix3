@@ -1,0 +1,30 @@
+---
+:number: '169'
+:description: Quantity unit
+:issue_number: '9'
+:codes:
+  '00':
+    :value: '00'
+    :description: Units
+    :notes: The quantity refers to a unit implied by the quantity type.
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: Days
+    :notes: ''
+    :issue_number: '20'
+  08:
+    :value: 08
+    :description: Weeks
+    :notes: ''
+    :issue_number: '9'
+  09:
+    :value: 09
+    :description: Months
+    :notes: ''
+    :issue_number: '9'
+  '10':
+    :value: '10'
+    :description: Years
+    :notes: ''
+    :issue_number: '20'

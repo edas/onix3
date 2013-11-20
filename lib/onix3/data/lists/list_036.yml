@@ -1,0 +1,20 @@
+---
+:number: '36'
+:description: Front cover image file format code
+:issue_number: '0'
+:codes:
+  '02':
+    :value: '02'
+    :description: GIF
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: JPEG
+    :notes: ''
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: TIF
+    :notes: ''
+    :issue_number: '0'

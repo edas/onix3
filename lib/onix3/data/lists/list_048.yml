@@ -1,0 +1,69 @@
+---
+:number: '48'
+:description: Measure type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Height
+    :notes: For a book, the spine height when standing on a shelf. For a folded map,
+      the height when folded. In general, the height of a product in the form in which
+      it is presented or packaged for retail sale.
+    :issue_number: '7'
+  '02':
+    :value: '02'
+    :description: Width
+    :notes: For a book, the horizontal dimension of the cover when standing upright.
+      For a folded map, the width when folded. In general, the width of a product
+      in the form in which it is presented or packaged for retail sale.
+    :issue_number: '7'
+  '03':
+    :value: '03'
+    :description: Thickness
+    :notes: For a book, the thickness of the spine. For a folded map, the thickness
+      when folded. In general, the thickness or depth of a product in the form in
+      which it is presented or packaged for retail sale.
+    :issue_number: '7'
+  '04':
+    :value: '04'
+    :description: Page trim height
+    :notes: Not recommended for general use.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Page trim width
+    :notes: Not recommended for general use.
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: Unit weight
+    :notes: ''
+    :issue_number: '0'
+  09:
+    :value: 09
+    :description: Diameter (sphere)
+    :notes: Of a globe, for example.
+    :issue_number: '1'
+  '10':
+    :value: '10'
+    :description: Unfolded/unrolled sheet height
+    :notes: The height of a folded or rolled sheet map, poster etc when unfolded.
+    :issue_number: '7'
+  '11':
+    :value: '11'
+    :description: Unfolded/unrolled sheet width
+    :notes: The width of a folded or rolled sheet map, poster etc when unfolded.
+    :issue_number: '7'
+  '12':
+    :value: '12'
+    :description: Diameter (tube or cylinder)
+    :notes: The diameter of the cross-section of a tube or cylinder, usually carrying
+      a rolled sheet product. Use 01 “height” for the height or length of the tube.
+    :issue_number: '7'
+  '13':
+    :value: '13'
+    :description: Rolled sheet package side measure
+    :notes: The length of a side of the cross-section of a long triangular or square
+      package, usually carrying a rolled sheet product. Use 01 “height” for the height
+      or length of the package.
+    :issue_number: '7'

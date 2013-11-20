@@ -1,0 +1,34 @@
+---
+:number: '149'
+:description: Title element level
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Product
+    :notes: The title element refers to an individual product.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Collection level
+    :notes: The title element refers to the top level of a bibliographic collection.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Subcollection
+    :notes: The title element refers to an intermediate level of a bibliographic collection
+      that comprises two or more ‘sub-collections’.
+    :issue_number: '9'
+  '04':
+    :value: '04'
+    :description: Content item
+    :notes: The title element refers to a content item within a product, eg a work
+      included in a combined or ‘omnibus’ edition, or a chapter in a book.
+    :issue_number: '10'
+  '05':
+    :value: '05'
+    :description: Master brand
+    :notes: The title element names a master brand where the use of the brand spans
+      multiple collections and product forms, and possibly multiple imprints and publishers.
+      Used only for branded media properties such as children’s character properties.
+    :issue_number: '19'

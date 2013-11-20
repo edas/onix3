@@ -1,0 +1,2451 @@
+---
+:number: '74'
+:description: Language code – ISO 639-2/B
+:issue_number: '0'
+:codes:
+  aar:
+    :value: aar
+    :description: Afar
+    :notes: ''
+    :issue_number: '0'
+  abk:
+    :value: abk
+    :description: Abkhaz
+    :notes: ''
+    :issue_number: '0'
+  ace:
+    :value: ace
+    :description: Achinese
+    :notes: ''
+    :issue_number: '0'
+  ach:
+    :value: ach
+    :description: Acoli
+    :notes: ''
+    :issue_number: '0'
+  ada:
+    :value: ada
+    :description: Adangme
+    :notes: ''
+    :issue_number: '0'
+  ady:
+    :value: ady
+    :description: Adygei
+    :notes: ''
+    :issue_number: '0'
+  afa:
+    :value: afa
+    :description: Afro-Asiatic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  afh:
+    :value: afh
+    :description: Afrihili
+    :notes: Artificial language.
+    :issue_number: '0'
+  afr:
+    :value: afr
+    :description: Afrikaans
+    :notes: ''
+    :issue_number: '0'
+  ain:
+    :value: ain
+    :description: Ainu
+    :notes: ''
+    :issue_number: '5'
+  aka:
+    :value: aka
+    :description: Akan
+    :notes: ''
+    :issue_number: '0'
+  akk:
+    :value: akk
+    :description: Akkadian
+    :notes: ''
+    :issue_number: '0'
+  alb:
+    :value: alb
+    :description: Albanian
+    :notes: ''
+    :issue_number: '0'
+  ale:
+    :value: ale
+    :description: Aleut
+    :notes: ''
+    :issue_number: '0'
+  alg:
+    :value: alg
+    :description: Algonquian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  alt:
+    :value: alt
+    :description: Southern Altai
+    :notes: ''
+    :issue_number: '5'
+  amh:
+    :value: amh
+    :description: Amharic
+    :notes: ''
+    :issue_number: '0'
+  ang:
+    :value: ang
+    :description: English, Old (ca. 450-1100)
+    :notes: ''
+    :issue_number: '0'
+  anp:
+    :value: anp
+    :description: Angika
+    :notes: ''
+    :issue_number: '7'
+  apa:
+    :value: apa
+    :description: Apache languages
+    :notes: Collective name.
+    :issue_number: '0'
+  ara:
+    :value: ara
+    :description: Arabic
+    :notes: ''
+    :issue_number: '0'
+  arc:
+    :value: arc
+    :description: Official Aramaic; Imperial Aramaic (700-300 BCE)
+    :notes: ''
+    :issue_number: '0'
+  arg:
+    :value: arg
+    :description: Aragonese
+    :notes: ''
+    :issue_number: '0'
+  arm:
+    :value: arm
+    :description: Armenian
+    :notes: ''
+    :issue_number: '0'
+  arn:
+    :value: arn
+    :description: Mapudungun; Mapuche
+    :notes: ''
+    :issue_number: '0'
+  arp:
+    :value: arp
+    :description: Arapaho
+    :notes: ''
+    :issue_number: '0'
+  art:
+    :value: art
+    :description: Artificial languages
+    :notes: Collective name.
+    :issue_number: '0'
+  arw:
+    :value: arw
+    :description: Arawak
+    :notes: ''
+    :issue_number: '0'
+  asm:
+    :value: asm
+    :description: Assamese
+    :notes: ''
+    :issue_number: '0'
+  ast:
+    :value: ast
+    :description: Asturian; Bable; Leonese; Asturleonese
+    :notes: ''
+    :issue_number: '0'
+  ath:
+    :value: ath
+    :description: Athapascan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  aus:
+    :value: aus
+    :description: Australian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  ava:
+    :value: ava
+    :description: Avaric
+    :notes: ''
+    :issue_number: '0'
+  ave:
+    :value: ave
+    :description: Avestan
+    :notes: ''
+    :issue_number: '0'
+  awa:
+    :value: awa
+    :description: Awadhi
+    :notes: ''
+    :issue_number: '0'
+  aym:
+    :value: aym
+    :description: Aymara
+    :notes: ''
+    :issue_number: '0'
+  aze:
+    :value: aze
+    :description: Azerbaijani
+    :notes: ''
+    :issue_number: '0'
+  bad:
+    :value: bad
+    :description: Banda languages
+    :notes: Collective name.
+    :issue_number: '0'
+  bai:
+    :value: bai
+    :description: Bamileke languages
+    :notes: Collective name.
+    :issue_number: '0'
+  bak:
+    :value: bak
+    :description: Bashkir
+    :notes: ''
+    :issue_number: '0'
+  bal:
+    :value: bal
+    :description: Baluchi
+    :notes: ''
+    :issue_number: '0'
+  bam:
+    :value: bam
+    :description: Bambara
+    :notes: ''
+    :issue_number: '0'
+  ban:
+    :value: ban
+    :description: Balinese
+    :notes: ''
+    :issue_number: '0'
+  baq:
+    :value: baq
+    :description: Basque
+    :notes: ''
+    :issue_number: '0'
+  bas:
+    :value: bas
+    :description: Basa
+    :notes: ''
+    :issue_number: '0'
+  bat:
+    :value: bat
+    :description: Baltic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  bej:
+    :value: bej
+    :description: Beja; Bedawiyet
+    :notes: ''
+    :issue_number: '0'
+  bel:
+    :value: bel
+    :description: Belarusian
+    :notes: ''
+    :issue_number: '0'
+  bem:
+    :value: bem
+    :description: Bemba
+    :notes: ''
+    :issue_number: '0'
+  ben:
+    :value: ben
+    :description: Bengali
+    :notes: ''
+    :issue_number: '0'
+  ber:
+    :value: ber
+    :description: Berber languages
+    :notes: Collective name.
+    :issue_number: '0'
+  bho:
+    :value: bho
+    :description: Bhojpuri
+    :notes: ''
+    :issue_number: '0'
+  bih:
+    :value: bih
+    :description: Bihari languages
+    :notes: Collective name.
+    :issue_number: '0'
+  bik:
+    :value: bik
+    :description: Bikol
+    :notes: ''
+    :issue_number: '0'
+  bin:
+    :value: bin
+    :description: Bini; Edo
+    :notes: ''
+    :issue_number: '0'
+  bis:
+    :value: bis
+    :description: Bislama
+    :notes: ''
+    :issue_number: '0'
+  bla:
+    :value: bla
+    :description: Siksika
+    :notes: ''
+    :issue_number: '0'
+  bnt:
+    :value: bnt
+    :description: Bantu languages
+    :notes: Collective name.
+    :issue_number: '0'
+  bos:
+    :value: bos
+    :description: Bosnian
+    :notes: ''
+    :issue_number: '0'
+  bra:
+    :value: bra
+    :description: Braj
+    :notes: ''
+    :issue_number: '0'
+  bre:
+    :value: bre
+    :description: Breton
+    :notes: ''
+    :issue_number: '0'
+  btk:
+    :value: btk
+    :description: Batak languages
+    :notes: Collective name.
+    :issue_number: '0'
+  bua:
+    :value: bua
+    :description: Buriat
+    :notes: ''
+    :issue_number: '0'
+  bug:
+    :value: bug
+    :description: Buginese
+    :notes: ''
+    :issue_number: '0'
+  bul:
+    :value: bul
+    :description: Bulgarian
+    :notes: ''
+    :issue_number: '0'
+  bur:
+    :value: bur
+    :description: Burmese
+    :notes: ''
+    :issue_number: '0'
+  byn:
+    :value: byn
+    :description: Blin; Bilin
+    :notes: ''
+    :issue_number: '4'
+  cad:
+    :value: cad
+    :description: Caddo
+    :notes: ''
+    :issue_number: '0'
+  cai:
+    :value: cai
+    :description: Central American Indian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  car:
+    :value: car
+    :description: Galibi Carib
+    :notes: ''
+    :issue_number: '0'
+  cat:
+    :value: cat
+    :description: Catalan
+    :notes: ''
+    :issue_number: '0'
+  cau:
+    :value: cau
+    :description: Caucasian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  ceb:
+    :value: ceb
+    :description: Cebuano
+    :notes: ''
+    :issue_number: '0'
+  cel:
+    :value: cel
+    :description: Celtic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  cha:
+    :value: cha
+    :description: Chamorro
+    :notes: ''
+    :issue_number: '0'
+  chb:
+    :value: chb
+    :description: Chibcha
+    :notes: ''
+    :issue_number: '0'
+  che:
+    :value: che
+    :description: Chechen
+    :notes: ''
+    :issue_number: '0'
+  chg:
+    :value: chg
+    :description: Chagatai
+    :notes: ''
+    :issue_number: '0'
+  chi:
+    :value: chi
+    :description: Chinese
+    :notes: ''
+    :issue_number: '0'
+  chk:
+    :value: chk
+    :description: Chuukese (Truk)
+    :notes: ''
+    :issue_number: '0'
+  chm:
+    :value: chm
+    :description: Mari
+    :notes: ''
+    :issue_number: '0'
+  chn:
+    :value: chn
+    :description: Chinook jargon
+    :notes: ''
+    :issue_number: '0'
+  cho:
+    :value: cho
+    :description: Choctaw
+    :notes: ''
+    :issue_number: '0'
+  chp:
+    :value: chp
+    :description: Chipewyan; Dene Suline
+    :notes: ''
+    :issue_number: '0'
+  chr:
+    :value: chr
+    :description: Cherokee
+    :notes: ''
+    :issue_number: '0'
+  chu:
+    :value: chu
+    :description: Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old
+      Church Slavonic
+    :notes: ''
+    :issue_number: '0'
+  chv:
+    :value: chv
+    :description: Chuvash
+    :notes: ''
+    :issue_number: '0'
+  chy:
+    :value: chy
+    :description: Cheyenne
+    :notes: ''
+    :issue_number: '0'
+  cmc:
+    :value: cmc
+    :description: Chamic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  cop:
+    :value: cop
+    :description: Coptic
+    :notes: ''
+    :issue_number: '0'
+  cor:
+    :value: cor
+    :description: Cornish
+    :notes: ''
+    :issue_number: '0'
+  cos:
+    :value: cos
+    :description: Corsican
+    :notes: ''
+    :issue_number: '0'
+  cpe:
+    :value: cpe
+    :description: Creoles and pidgins, English-based
+    :notes: Collective name.
+    :issue_number: '0'
+  cpf:
+    :value: cpf
+    :description: Creoles and pidgins, French-based
+    :notes: Collective name.
+    :issue_number: '0'
+  cpp:
+    :value: cpp
+    :description: Creoles and pidgins, Portuguese-based
+    :notes: Collective name.
+    :issue_number: '0'
+  cre:
+    :value: cre
+    :description: Cree
+    :notes: ''
+    :issue_number: '0'
+  crh:
+    :value: crh
+    :description: Crimean Turkish; Crimean Tatar
+    :notes: ''
+    :issue_number: '0'
+  crp:
+    :value: crp
+    :description: Creoles and pidgins
+    :notes: Collective name.
+    :issue_number: '0'
+  csb:
+    :value: csb
+    :description: Kashubian
+    :notes: ''
+    :issue_number: '4'
+  cus:
+    :value: cus
+    :description: Cushitic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  cze:
+    :value: cze
+    :description: Czech
+    :notes: ''
+    :issue_number: '0'
+  dak:
+    :value: dak
+    :description: Dakota
+    :notes: ''
+    :issue_number: '0'
+  dan:
+    :value: dan
+    :description: Danish
+    :notes: ''
+    :issue_number: '0'
+  dar:
+    :value: dar
+    :description: Dargwa
+    :notes: ''
+    :issue_number: '0'
+  day:
+    :value: day
+    :description: Land Dayak languages
+    :notes: Collective name.
+    :issue_number: '0'
+  del:
+    :value: del
+    :description: Delaware
+    :notes: ''
+    :issue_number: '0'
+  den:
+    :value: den
+    :description: Slave (Athapascan)
+    :notes: ''
+    :issue_number: '0'
+  dgr:
+    :value: dgr
+    :description: Dogrib
+    :notes: ''
+    :issue_number: '0'
+  din:
+    :value: din
+    :description: Dinka
+    :notes: ''
+    :issue_number: '0'
+  div:
+    :value: div
+    :description: Divehi; Dhivehi; Maldivian
+    :notes: ''
+    :issue_number: '0'
+  doi:
+    :value: doi
+    :description: Dogri
+    :notes: ''
+    :issue_number: '0'
+  dra:
+    :value: dra
+    :description: Dravidian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  dsb:
+    :value: dsb
+    :description: Lower Sorbian
+    :notes: ''
+    :issue_number: '4'
+  dua:
+    :value: dua
+    :description: Duala
+    :notes: ''
+    :issue_number: '0'
+  dum:
+    :value: dum
+    :description: Dutch, Middle (ca. 1050-1350)
+    :notes: ''
+    :issue_number: '0'
+  dut:
+    :value: dut
+    :description: Dutch; Flemish
+    :notes: ''
+    :issue_number: '0'
+  dyu:
+    :value: dyu
+    :description: Dyula
+    :notes: ''
+    :issue_number: '0'
+  dzo:
+    :value: dzo
+    :description: Dzongkha
+    :notes: ''
+    :issue_number: '0'
+  efi:
+    :value: efi
+    :description: Efik
+    :notes: ''
+    :issue_number: '0'
+  egy:
+    :value: egy
+    :description: Egyptian (Ancient)
+    :notes: ''
+    :issue_number: '0'
+  eka:
+    :value: eka
+    :description: Ekajuk
+    :notes: ''
+    :issue_number: '0'
+  elx:
+    :value: elx
+    :description: Elamite
+    :notes: ''
+    :issue_number: '0'
+  eng:
+    :value: eng
+    :description: English
+    :notes: ''
+    :issue_number: '0'
+  enm:
+    :value: enm
+    :description: English, Middle (1100-1500)
+    :notes: ''
+    :issue_number: '0'
+  epo:
+    :value: epo
+    :description: Esperanto
+    :notes: Artificial language.
+    :issue_number: '0'
+  est:
+    :value: est
+    :description: Estonian
+    :notes: ''
+    :issue_number: '0'
+  ewe:
+    :value: ewe
+    :description: Ewe
+    :notes: ''
+    :issue_number: '0'
+  ewo:
+    :value: ewo
+    :description: Ewondo
+    :notes: ''
+    :issue_number: '0'
+  fan:
+    :value: fan
+    :description: Fang
+    :notes: ''
+    :issue_number: '0'
+  fao:
+    :value: fao
+    :description: Faroese
+    :notes: ''
+    :issue_number: '0'
+  fat:
+    :value: fat
+    :description: Fanti
+    :notes: ''
+    :issue_number: '0'
+  fij:
+    :value: fij
+    :description: Fijian
+    :notes: ''
+    :issue_number: '0'
+  fil:
+    :value: fil
+    :description: Filipino; Pilipino
+    :notes: ''
+    :issue_number: '4'
+  fin:
+    :value: fin
+    :description: Finnish
+    :notes: ''
+    :issue_number: '0'
+  fiu:
+    :value: fiu
+    :description: Finno-Ugrian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  fon:
+    :value: fon
+    :description: Fon
+    :notes: ''
+    :issue_number: '0'
+  fre:
+    :value: fre
+    :description: French
+    :notes: ''
+    :issue_number: '0'
+  frm:
+    :value: frm
+    :description: French, Middle (ca. 1400-1600)
+    :notes: ''
+    :issue_number: '0'
+  fro:
+    :value: fro
+    :description: French, Old (ca. 842-1400)
+    :notes: ''
+    :issue_number: '0'
+  frr:
+    :value: frr
+    :description: Northern Frisian
+    :notes: ''
+    :issue_number: '7'
+  frs:
+    :value: frs
+    :description: Eastern Frisian
+    :notes: ''
+    :issue_number: '7'
+  fry:
+    :value: fry
+    :description: Western Frisian
+    :notes: ''
+    :issue_number: '7'
+  ful:
+    :value: ful
+    :description: Fulah
+    :notes: ''
+    :issue_number: '0'
+  fur:
+    :value: fur
+    :description: Friulian
+    :notes: ''
+    :issue_number: '0'
+  gaa:
+    :value: gaa
+    :description: Gã
+    :notes: ''
+    :issue_number: '0'
+  gay:
+    :value: gay
+    :description: Gayo
+    :notes: ''
+    :issue_number: '0'
+  gba:
+    :value: gba
+    :description: Gbaya
+    :notes: ''
+    :issue_number: '0'
+  gem:
+    :value: gem
+    :description: Germanic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  geo:
+    :value: geo
+    :description: Georgian
+    :notes: ''
+    :issue_number: '0'
+  ger:
+    :value: ger
+    :description: German
+    :notes: ''
+    :issue_number: '0'
+  gez:
+    :value: gez
+    :description: Ethiopic (Ge’ez)
+    :notes: ''
+    :issue_number: '0'
+  gil:
+    :value: gil
+    :description: Gilbertese
+    :notes: ''
+    :issue_number: '0'
+  gla:
+    :value: gla
+    :description: Scottish Gaelic
+    :notes: ''
+    :issue_number: '0'
+  gle:
+    :value: gle
+    :description: Irish
+    :notes: ''
+    :issue_number: '0'
+  glg:
+    :value: glg
+    :description: Galician
+    :notes: ''
+    :issue_number: '0'
+  glv:
+    :value: glv
+    :description: Manx
+    :notes: ''
+    :issue_number: '0'
+  gmh:
+    :value: gmh
+    :description: German, Middle High (ca. 1050-1500)
+    :notes: ''
+    :issue_number: '0'
+  goh:
+    :value: goh
+    :description: German, Old High (ca. 750-1050)
+    :notes: ''
+    :issue_number: '0'
+  gon:
+    :value: gon
+    :description: Gondi
+    :notes: ''
+    :issue_number: '0'
+  gor:
+    :value: gor
+    :description: Gorontalo
+    :notes: ''
+    :issue_number: '0'
+  got:
+    :value: got
+    :description: Gothic
+    :notes: ''
+    :issue_number: '0'
+  grb:
+    :value: grb
+    :description: Grebo
+    :notes: ''
+    :issue_number: '0'
+  grc:
+    :value: grc
+    :description: Greek, Ancient (to 1453)
+    :notes: ''
+    :issue_number: '0'
+  gre:
+    :value: gre
+    :description: Greek, Modern (1453-)
+    :notes: ''
+    :issue_number: '0'
+  grn:
+    :value: grn
+    :description: Guarani
+    :notes: ''
+    :issue_number: '0'
+  gsw:
+    :value: gsw
+    :description: Swiss German; Alemannic
+    :notes: ''
+    :issue_number: '7'
+  guj:
+    :value: guj
+    :description: Gujarati
+    :notes: ''
+    :issue_number: '0'
+  gwi:
+    :value: gwi
+    :description: Gwich’in
+    :notes: ''
+    :issue_number: '0'
+  hai:
+    :value: hai
+    :description: Haida
+    :notes: ''
+    :issue_number: '0'
+  hat:
+    :value: hat
+    :description: Haitian French Creole
+    :notes: ''
+    :issue_number: '0'
+  hau:
+    :value: hau
+    :description: Hausa
+    :notes: ''
+    :issue_number: '0'
+  haw:
+    :value: haw
+    :description: Hawaiian
+    :notes: ''
+    :issue_number: '0'
+  heb:
+    :value: heb
+    :description: Hebrew
+    :notes: ''
+    :issue_number: '0'
+  her:
+    :value: her
+    :description: Herero
+    :notes: ''
+    :issue_number: '0'
+  hil:
+    :value: hil
+    :description: Hiligaynon
+    :notes: ''
+    :issue_number: '0'
+  him:
+    :value: him
+    :description: Himachali languages; Western Pahari languages
+    :notes: Collective name.
+    :issue_number: '0'
+  hin:
+    :value: hin
+    :description: Hindi
+    :notes: ''
+    :issue_number: '0'
+  hit:
+    :value: hit
+    :description: Hittite
+    :notes: ''
+    :issue_number: '0'
+  hmn:
+    :value: hmn
+    :description: Hmong; Mong
+    :notes: ''
+    :issue_number: '0'
+  hmo:
+    :value: hmo
+    :description: Hiri Motu
+    :notes: ''
+    :issue_number: '0'
+  hrv:
+    :value: hrv
+    :description: Croatian
+    :notes: ''
+    :issue_number: '10'
+  hsb:
+    :value: hsb
+    :description: Upper Sorbian
+    :notes: ''
+    :issue_number: '4'
+  hun:
+    :value: hun
+    :description: Hungarian
+    :notes: ''
+    :issue_number: '0'
+  hup:
+    :value: hup
+    :description: Hupa
+    :notes: ''
+    :issue_number: '0'
+  iba:
+    :value: iba
+    :description: Iban
+    :notes: ''
+    :issue_number: '0'
+  ibo:
+    :value: ibo
+    :description: Igbo
+    :notes: ''
+    :issue_number: '0'
+  ice:
+    :value: ice
+    :description: Icelandic
+    :notes: ''
+    :issue_number: '0'
+  ido:
+    :value: ido
+    :description: Ido
+    :notes: Artificial language.
+    :issue_number: '0'
+  iii:
+    :value: iii
+    :description: Sichuan Yi; Nuosu
+    :notes: ''
+    :issue_number: '0'
+  ijo:
+    :value: ijo
+    :description: Ijo languages
+    :notes: Collective name.
+    :issue_number: '0'
+  iku:
+    :value: iku
+    :description: Inuktitut
+    :notes: ''
+    :issue_number: '0'
+  ile:
+    :value: ile
+    :description: Interlingue; Occidental
+    :notes: Artificial language.
+    :issue_number: '0'
+  ilo:
+    :value: ilo
+    :description: Iloko
+    :notes: ''
+    :issue_number: '0'
+  ina:
+    :value: ina
+    :description: Interlingua (International Auxiliary Language Association)
+    :notes: Artificial language.
+    :issue_number: '0'
+  inc:
+    :value: inc
+    :description: Indic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  ind:
+    :value: ind
+    :description: Indonesian
+    :notes: ''
+    :issue_number: '0'
+  ine:
+    :value: ine
+    :description: Indo-European languages
+    :notes: Collective name.
+    :issue_number: '0'
+  inh:
+    :value: inh
+    :description: Ingush
+    :notes: ''
+    :issue_number: '0'
+  ipk:
+    :value: ipk
+    :description: Inupiaq
+    :notes: ''
+    :issue_number: '0'
+  ira:
+    :value: ira
+    :description: Iranian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  iro:
+    :value: iro
+    :description: Iroquoian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  ita:
+    :value: ita
+    :description: Italian
+    :notes: ''
+    :issue_number: '0'
+  jav:
+    :value: jav
+    :description: Javanese
+    :notes: ''
+    :issue_number: '0'
+  jbo:
+    :value: jbo
+    :description: Lojban
+    :notes: ''
+    :issue_number: '4'
+  jpn:
+    :value: jpn
+    :description: Japanese
+    :notes: ''
+    :issue_number: '0'
+  jpr:
+    :value: jpr
+    :description: Judeo-Persian
+    :notes: ''
+    :issue_number: '0'
+  jrb:
+    :value: jrb
+    :description: Judeo-Arabic
+    :notes: ''
+    :issue_number: '0'
+  kaa:
+    :value: kaa
+    :description: Kara-Kalpak
+    :notes: ''
+    :issue_number: '0'
+  kab:
+    :value: kab
+    :description: Kabyle
+    :notes: ''
+    :issue_number: '0'
+  kac:
+    :value: kac
+    :description: Kachin; Jingpho
+    :notes: ''
+    :issue_number: '0'
+  kal:
+    :value: kal
+    :description: Kalâtdlisut; Greenlandic
+    :notes: ''
+    :issue_number: '0'
+  kam:
+    :value: kam
+    :description: Kamba
+    :notes: ''
+    :issue_number: '0'
+  kan:
+    :value: kan
+    :description: Kannada
+    :notes: ''
+    :issue_number: '0'
+  kar:
+    :value: kar
+    :description: Karen languages
+    :notes: Collective name.
+    :issue_number: '0'
+  kas:
+    :value: kas
+    :description: Kashmiri
+    :notes: ''
+    :issue_number: '0'
+  kau:
+    :value: kau
+    :description: Kanuri
+    :notes: ''
+    :issue_number: '0'
+  kaw:
+    :value: kaw
+    :description: Kawi
+    :notes: ''
+    :issue_number: '0'
+  kaz:
+    :value: kaz
+    :description: Kazakh
+    :notes: ''
+    :issue_number: '0'
+  kbd:
+    :value: kbd
+    :description: Kabardian (Circassian)
+    :notes: ''
+    :issue_number: '0'
+  kha:
+    :value: kha
+    :description: Khasi
+    :notes: ''
+    :issue_number: '0'
+  khi:
+    :value: khi
+    :description: Khoisan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  khm:
+    :value: khm
+    :description: Central Khmer
+    :notes: ''
+    :issue_number: '0'
+  kho:
+    :value: kho
+    :description: Khotanese; Sakan
+    :notes: ''
+    :issue_number: '0'
+  kik:
+    :value: kik
+    :description: Kikuyu; Gikuyu
+    :notes: ''
+    :issue_number: '0'
+  kin:
+    :value: kin
+    :description: Kinyarwanda
+    :notes: ''
+    :issue_number: '0'
+  kir:
+    :value: kir
+    :description: Kirghiz; Kyrgyz
+    :notes: ''
+    :issue_number: '0'
+  kmb:
+    :value: kmb
+    :description: Kimbundu
+    :notes: ''
+    :issue_number: '0'
+  kok:
+    :value: kok
+    :description: Konkani
+    :notes: ''
+    :issue_number: '0'
+  kom:
+    :value: kom
+    :description: Komi
+    :notes: ''
+    :issue_number: '0'
+  kon:
+    :value: kon
+    :description: Kongo
+    :notes: ''
+    :issue_number: '0'
+  kor:
+    :value: kor
+    :description: Korean
+    :notes: ''
+    :issue_number: '0'
+  kos:
+    :value: kos
+    :description: Kusaiean (Caroline Islands)
+    :notes: ''
+    :issue_number: '0'
+  kpe:
+    :value: kpe
+    :description: Kpelle
+    :notes: ''
+    :issue_number: '0'
+  krc:
+    :value: krc
+    :description: Karachay-Balkar
+    :notes: ''
+    :issue_number: '4'
+  krl:
+    :value: krl
+    :description: Karelian
+    :notes: ''
+    :issue_number: '7'
+  kro:
+    :value: kro
+    :description: Kru languages
+    :notes: Collective name.
+    :issue_number: '0'
+  kru:
+    :value: kru
+    :description: Kurukh
+    :notes: ''
+    :issue_number: '0'
+  kua:
+    :value: kua
+    :description: Kuanyama
+    :notes: ''
+    :issue_number: '0'
+  kum:
+    :value: kum
+    :description: Kumyk
+    :notes: ''
+    :issue_number: '0'
+  kur:
+    :value: kur
+    :description: Kurdish
+    :notes: ''
+    :issue_number: '0'
+  kut:
+    :value: kut
+    :description: Kutenai
+    :notes: ''
+    :issue_number: '0'
+  lad:
+    :value: lad
+    :description: Ladino
+    :notes: ''
+    :issue_number: '0'
+  lah:
+    :value: lah
+    :description: Lahnda
+    :notes: ''
+    :issue_number: '0'
+  lam:
+    :value: lam
+    :description: Lamba
+    :notes: ''
+    :issue_number: '0'
+  lao:
+    :value: lao
+    :description: Lao
+    :notes: ''
+    :issue_number: '0'
+  lat:
+    :value: lat
+    :description: Latin
+    :notes: ''
+    :issue_number: '0'
+  lav:
+    :value: lav
+    :description: Latvian
+    :notes: ''
+    :issue_number: '0'
+  lez:
+    :value: lez
+    :description: Lezgian
+    :notes: ''
+    :issue_number: '0'
+  lim:
+    :value: lim
+    :description: Limburgish
+    :notes: ''
+    :issue_number: '0'
+  lin:
+    :value: lin
+    :description: Lingala
+    :notes: ''
+    :issue_number: '0'
+  lit:
+    :value: lit
+    :description: Lithuanian
+    :notes: ''
+    :issue_number: '0'
+  lol:
+    :value: lol
+    :description: Mongo-Nkundu
+    :notes: ''
+    :issue_number: '0'
+  loz:
+    :value: loz
+    :description: Lozi
+    :notes: ''
+    :issue_number: '0'
+  ltz:
+    :value: ltz
+    :description: Luxembourgish; Letzeburgesch
+    :notes: ''
+    :issue_number: '0'
+  lua:
+    :value: lua
+    :description: Luba-Lulua
+    :notes: ''
+    :issue_number: '0'
+  lub:
+    :value: lub
+    :description: Luba-Katanga
+    :notes: ''
+    :issue_number: '0'
+  lug:
+    :value: lug
+    :description: Ganda
+    :notes: ''
+    :issue_number: '0'
+  lui:
+    :value: lui
+    :description: Luiseño
+    :notes: ''
+    :issue_number: '0'
+  lun:
+    :value: lun
+    :description: Lunda
+    :notes: ''
+    :issue_number: '0'
+  luo:
+    :value: luo
+    :description: Luo (Kenya and Tanzania)
+    :notes: ''
+    :issue_number: '0'
+  lus:
+    :value: lus
+    :description: Lushai
+    :notes: ''
+    :issue_number: '0'
+  mac:
+    :value: mac
+    :description: Macedonian
+    :notes: ''
+    :issue_number: '0'
+  mad:
+    :value: mad
+    :description: Madurese
+    :notes: ''
+    :issue_number: '0'
+  mag:
+    :value: mag
+    :description: Magahi
+    :notes: ''
+    :issue_number: '0'
+  mah:
+    :value: mah
+    :description: Marshallese
+    :notes: ''
+    :issue_number: '0'
+  mai:
+    :value: mai
+    :description: Maithili
+    :notes: ''
+    :issue_number: '0'
+  mak:
+    :value: mak
+    :description: Makasar
+    :notes: ''
+    :issue_number: '0'
+  mal:
+    :value: mal
+    :description: Malayalam
+    :notes: ''
+    :issue_number: '0'
+  man:
+    :value: man
+    :description: Mandingo
+    :notes: ''
+    :issue_number: '0'
+  mao:
+    :value: mao
+    :description: Maori
+    :notes: ''
+    :issue_number: '0'
+  map:
+    :value: map
+    :description: Austronesian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  mar:
+    :value: mar
+    :description: Marathi
+    :notes: ''
+    :issue_number: '0'
+  mas:
+    :value: mas
+    :description: Masai
+    :notes: ''
+    :issue_number: '0'
+  may:
+    :value: may
+    :description: Malay
+    :notes: ''
+    :issue_number: '0'
+  mdf:
+    :value: mdf
+    :description: Moksha
+    :notes: ''
+    :issue_number: '4'
+  mdr:
+    :value: mdr
+    :description: Mandar
+    :notes: ''
+    :issue_number: '0'
+  men:
+    :value: men
+    :description: Mende
+    :notes: ''
+    :issue_number: '0'
+  mga:
+    :value: mga
+    :description: Irish, Middle (ca. 1100-1550)
+    :notes: ''
+    :issue_number: '0'
+  mic:
+    :value: mic
+    :description: Mi’kmaq; Micmac
+    :notes: ''
+    :issue_number: '0'
+  min:
+    :value: min
+    :description: Minangkabau
+    :notes: ''
+    :issue_number: '0'
+  mis:
+    :value: mis
+    :description: Uncoded languages
+    :notes: ''
+    :issue_number: '0'
+  mkh:
+    :value: mkh
+    :description: Mon-Khmer languages
+    :notes: Collective name.
+    :issue_number: '0'
+  mlg:
+    :value: mlg
+    :description: Malagasy
+    :notes: ''
+    :issue_number: '0'
+  mlt:
+    :value: mlt
+    :description: Maltese
+    :notes: ''
+    :issue_number: '0'
+  mnc:
+    :value: mnc
+    :description: Manchu
+    :notes: ''
+    :issue_number: '0'
+  mni:
+    :value: mni
+    :description: Manipuri
+    :notes: ''
+    :issue_number: '0'
+  mno:
+    :value: mno
+    :description: Manobo languages
+    :notes: Collective name.
+    :issue_number: '0'
+  moh:
+    :value: moh
+    :description: Mohawk
+    :notes: ''
+    :issue_number: '0'
+  mol:
+    :value: mol
+    :description: Moldavian; Moldovan
+    :notes: DEPRECATED – use rum.
+    :issue_number: '10'
+  mon:
+    :value: mon
+    :description: Mongolian
+    :notes: ''
+    :issue_number: '0'
+  mos:
+    :value: mos
+    :description: Mooré; Mossi
+    :notes: ''
+    :issue_number: '0'
+  mul:
+    :value: mul
+    :description: Multiple languages
+    :notes: ''
+    :issue_number: '0'
+  mun:
+    :value: mun
+    :description: Munda languages
+    :notes: Collective name.
+    :issue_number: '0'
+  mus:
+    :value: mus
+    :description: Creek
+    :notes: ''
+    :issue_number: '0'
+  mwl:
+    :value: mwl
+    :description: Mirandese
+    :notes: ''
+    :issue_number: '4'
+  mwr:
+    :value: mwr
+    :description: Marwari
+    :notes: ''
+    :issue_number: '0'
+  myn:
+    :value: myn
+    :description: Mayan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  myv:
+    :value: myv
+    :description: Erzya
+    :notes: ''
+    :issue_number: '4'
+  nah:
+    :value: nah
+    :description: Nahuatl languages
+    :notes: Collective name.
+    :issue_number: '0'
+  nai:
+    :value: nai
+    :description: North American Indian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  nap:
+    :value: nap
+    :description: Neapolitan
+    :notes: ''
+    :issue_number: '0'
+  nau:
+    :value: nau
+    :description: Nauruan
+    :notes: ''
+    :issue_number: '0'
+  nav:
+    :value: nav
+    :description: Navajo
+    :notes: ''
+    :issue_number: '0'
+  nbl:
+    :value: nbl
+    :description: Ndebele, South
+    :notes: ''
+    :issue_number: '0'
+  nde:
+    :value: nde
+    :description: Ndebele, North
+    :notes: ''
+    :issue_number: '0'
+  ndo:
+    :value: ndo
+    :description: Ndonga
+    :notes: ''
+    :issue_number: '0'
+  nds:
+    :value: nds
+    :description: Low German; Low Saxon
+    :notes: ''
+    :issue_number: '0'
+  nep:
+    :value: nep
+    :description: Nepali
+    :notes: ''
+    :issue_number: '0'
+  new:
+    :value: new
+    :description: Newari; Nepal Bhasa
+    :notes: ''
+    :issue_number: '0'
+  nia:
+    :value: nia
+    :description: Nias
+    :notes: ''
+    :issue_number: '0'
+  nic:
+    :value: nic
+    :description: Niger-Kordofanian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  niu:
+    :value: niu
+    :description: Niuean
+    :notes: ''
+    :issue_number: '0'
+  nno:
+    :value: nno
+    :description: Norwegian Nynorsk
+    :notes: ''
+    :issue_number: '5'
+  nob:
+    :value: nob
+    :description: Norwegian Bokmål
+    :notes: ''
+    :issue_number: '5'
+  nog:
+    :value: nog
+    :description: Nogai
+    :notes: ''
+    :issue_number: '0'
+  non:
+    :value: non
+    :description: Old Norse
+    :notes: ''
+    :issue_number: '0'
+  nor:
+    :value: nor
+    :description: Norwegian
+    :notes: ''
+    :issue_number: '0'
+  nqo:
+    :value: nqo
+    :description: N’Ko
+    :notes: ''
+    :issue_number: '7'
+  nso:
+    :value: nso
+    :description: Pedi; Sepedi; Northern Sotho
+    :notes: ''
+    :issue_number: '0'
+  nub:
+    :value: nub
+    :description: Nubian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  nwc:
+    :value: nwc
+    :description: Classical Newari; Old Newari; Classical Nepal Bhasa
+    :notes: ''
+    :issue_number: '4'
+  nya:
+    :value: nya
+    :description: Chichewa; Chewa; Nyanja
+    :notes: ''
+    :issue_number: '0'
+  nym:
+    :value: nym
+    :description: Nyamwezi
+    :notes: ''
+    :issue_number: '0'
+  nyn:
+    :value: nyn
+    :description: Nyankole
+    :notes: ''
+    :issue_number: '0'
+  nyo:
+    :value: nyo
+    :description: Nyoro
+    :notes: ''
+    :issue_number: '0'
+  nzi:
+    :value: nzi
+    :description: Nzima
+    :notes: ''
+    :issue_number: '0'
+  oci:
+    :value: oci
+    :description: Occitan (post 1500)
+    :notes: ''
+    :issue_number: '0'
+  oji:
+    :value: oji
+    :description: Ojibwa
+    :notes: ''
+    :issue_number: '0'
+  ori:
+    :value: ori
+    :description: Oriya
+    :notes: ''
+    :issue_number: '0'
+  orm:
+    :value: orm
+    :description: Oromo
+    :notes: ''
+    :issue_number: '0'
+  osa:
+    :value: osa
+    :description: Osage
+    :notes: ''
+    :issue_number: '0'
+  oss:
+    :value: oss
+    :description: Ossetian; Ossetic
+    :notes: ''
+    :issue_number: '0'
+  ota:
+    :value: ota
+    :description: Turkish, Ottoman
+    :notes: ''
+    :issue_number: '0'
+  oto:
+    :value: oto
+    :description: Otomian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  paa:
+    :value: paa
+    :description: Papuan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  pag:
+    :value: pag
+    :description: Pangasinan
+    :notes: ''
+    :issue_number: '0'
+  pal:
+    :value: pal
+    :description: Pahlavi
+    :notes: ''
+    :issue_number: '0'
+  pam:
+    :value: pam
+    :description: Pampanga; Kapampangan
+    :notes: ''
+    :issue_number: '0'
+  pan:
+    :value: pan
+    :description: Panjabi
+    :notes: ''
+    :issue_number: '0'
+  pap:
+    :value: pap
+    :description: Papiamento
+    :notes: ''
+    :issue_number: '0'
+  pau:
+    :value: pau
+    :description: Palauan
+    :notes: ''
+    :issue_number: '0'
+  peo:
+    :value: peo
+    :description: Old Persian (ca. 600-400 B.C.)
+    :notes: ''
+    :issue_number: '0'
+  per:
+    :value: per
+    :description: Persian
+    :notes: ''
+    :issue_number: '0'
+  phi:
+    :value: phi
+    :description: Philippine languages
+    :notes: Collective name.
+    :issue_number: '0'
+  phn:
+    :value: phn
+    :description: Phoenician
+    :notes: ''
+    :issue_number: '0'
+  pli:
+    :value: pli
+    :description: Pali
+    :notes: ''
+    :issue_number: '0'
+  pol:
+    :value: pol
+    :description: Polish
+    :notes: ''
+    :issue_number: '0'
+  pon:
+    :value: pon
+    :description: Ponapeian
+    :notes: ''
+    :issue_number: '0'
+  por:
+    :value: por
+    :description: Portuguese
+    :notes: ''
+    :issue_number: '0'
+  pra:
+    :value: pra
+    :description: Prakrit languages
+    :notes: Collective name.
+    :issue_number: '0'
+  pro:
+    :value: pro
+    :description: Provençal, Old (to 1500); Occitan, Old (to 1500)
+    :notes: ''
+    :issue_number: '0'
+  pus:
+    :value: pus
+    :description: Pushto; Pashto
+    :notes: ''
+    :issue_number: '0'
+  qar:
+    :value: qar
+    :description: Aranés
+    :notes: ONIX local code.
+    :issue_number: '6'
+  qav:
+    :value: qav
+    :description: Valencian
+    :notes: ONIX local code.
+    :issue_number: '5'
+  que:
+    :value: que
+    :description: Quechua
+    :notes: ''
+    :issue_number: '0'
+  raj:
+    :value: raj
+    :description: Rajasthani
+    :notes: ''
+    :issue_number: '0'
+  rap:
+    :value: rap
+    :description: Rapanui
+    :notes: ''
+    :issue_number: '0'
+  rar:
+    :value: rar
+    :description: Rarotongan; Cook Islands Maori
+    :notes: ''
+    :issue_number: '0'
+  roa:
+    :value: roa
+    :description: Romance languages
+    :notes: Collective name.
+    :issue_number: '0'
+  roh:
+    :value: roh
+    :description: Romansh
+    :notes: ''
+    :issue_number: '0'
+  rom:
+    :value: rom
+    :description: Romany
+    :notes: ''
+    :issue_number: '0'
+  rum:
+    :value: rum
+    :description: Romanian
+    :notes: ''
+    :issue_number: '0'
+  run:
+    :value: run
+    :description: Rundi
+    :notes: ''
+    :issue_number: '0'
+  rup:
+    :value: rup
+    :description: Aromanian; Arumanian; Macedo-Romanian
+    :notes: ''
+    :issue_number: '5'
+  rus:
+    :value: rus
+    :description: Russian
+    :notes: ''
+    :issue_number: '0'
+  sad:
+    :value: sad
+    :description: Sandawe
+    :notes: ''
+    :issue_number: '0'
+  sag:
+    :value: sag
+    :description: Sango
+    :notes: ''
+    :issue_number: '0'
+  sah:
+    :value: sah
+    :description: Yakut
+    :notes: ''
+    :issue_number: '0'
+  sai:
+    :value: sai
+    :description: South American Indian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  sal:
+    :value: sal
+    :description: Salishan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  sam:
+    :value: sam
+    :description: Samaritan Aramaic
+    :notes: ''
+    :issue_number: '0'
+  san:
+    :value: san
+    :description: Sanskrit
+    :notes: ''
+    :issue_number: '0'
+  sas:
+    :value: sas
+    :description: Sasak
+    :notes: ''
+    :issue_number: '0'
+  sat:
+    :value: sat
+    :description: Santali
+    :notes: ''
+    :issue_number: '0'
+  scc:
+    :value: scc
+    :description: Serbian
+    :notes: DEPRECATED – use srp.
+    :issue_number: '10'
+  scn:
+    :value: scn
+    :description: Sicilian
+    :notes: ''
+    :issue_number: '4'
+  sco:
+    :value: sco
+    :description: Scots (lallans)
+    :notes: ''
+    :issue_number: '0'
+  scr:
+    :value: scr
+    :description: Croatian
+    :notes: DEPRECATED – use hrv.
+    :issue_number: '10'
+  sel:
+    :value: sel
+    :description: Selkup
+    :notes: ''
+    :issue_number: '0'
+  sem:
+    :value: sem
+    :description: Semitic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  sga:
+    :value: sga
+    :description: Irish, Old (to 1100)
+    :notes: ''
+    :issue_number: '0'
+  sgn:
+    :value: sgn
+    :description: Sign languages
+    :notes: Collective name.
+    :issue_number: '0'
+  shn:
+    :value: shn
+    :description: Shan
+    :notes: ''
+    :issue_number: '0'
+  sid:
+    :value: sid
+    :description: Sidamo
+    :notes: ''
+    :issue_number: '0'
+  sin:
+    :value: sin
+    :description: Sinhala; Sinhalese
+    :notes: ''
+    :issue_number: '0'
+  sio:
+    :value: sio
+    :description: Siouan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  sit:
+    :value: sit
+    :description: Sino-Tibetan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  sla:
+    :value: sla
+    :description: Slavic languages
+    :notes: Collective name.
+    :issue_number: '0'
+  slo:
+    :value: slo
+    :description: Slovak
+    :notes: ''
+    :issue_number: '0'
+  slv:
+    :value: slv
+    :description: Slovenian
+    :notes: ''
+    :issue_number: '0'
+  sma:
+    :value: sma
+    :description: Southern Sami
+    :notes: ''
+    :issue_number: '0'
+  sme:
+    :value: sme
+    :description: Northern Sami
+    :notes: ''
+    :issue_number: '0'
+  smi:
+    :value: smi
+    :description: Sami languages
+    :notes: Collective name.
+    :issue_number: '0'
+  smj:
+    :value: smj
+    :description: Lule Sami
+    :notes: ''
+    :issue_number: '0'
+  smn:
+    :value: smn
+    :description: Inari Sami
+    :notes: ''
+    :issue_number: '0'
+  smo:
+    :value: smo
+    :description: Samoan
+    :notes: ''
+    :issue_number: '0'
+  sms:
+    :value: sms
+    :description: Skolt Sami
+    :notes: ''
+    :issue_number: '0'
+  sna:
+    :value: sna
+    :description: Shona
+    :notes: ''
+    :issue_number: '0'
+  snd:
+    :value: snd
+    :description: Sindhi
+    :notes: ''
+    :issue_number: '0'
+  snk:
+    :value: snk
+    :description: Soninke
+    :notes: ''
+    :issue_number: '0'
+  sog:
+    :value: sog
+    :description: Sogdian
+    :notes: ''
+    :issue_number: '0'
+  som:
+    :value: som
+    :description: Somali
+    :notes: ''
+    :issue_number: '0'
+  son:
+    :value: son
+    :description: Songhai languages
+    :notes: Collective name.
+    :issue_number: '0'
+  sot:
+    :value: sot
+    :description: Sotho; Sesotho
+    :notes: ''
+    :issue_number: '0'
+  spa:
+    :value: spa
+    :description: Spanish
+    :notes: ''
+    :issue_number: '0'
+  srd:
+    :value: srd
+    :description: Sardinian
+    :notes: ''
+    :issue_number: '0'
+  srn:
+    :value: srn
+    :description: Sranan Tongo
+    :notes: ''
+    :issue_number: '7'
+  srp:
+    :value: srp
+    :description: Serbian
+    :notes: ''
+    :issue_number: '10'
+  srr:
+    :value: srr
+    :description: Serer
+    :notes: ''
+    :issue_number: '0'
+  ssa:
+    :value: ssa
+    :description: Nilo-Saharan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  ssw:
+    :value: ssw
+    :description: Swazi; Swati
+    :notes: ''
+    :issue_number: '0'
+  suk:
+    :value: suk
+    :description: Sukuma
+    :notes: ''
+    :issue_number: '0'
+  sun:
+    :value: sun
+    :description: Sundanese
+    :notes: ''
+    :issue_number: '0'
+  sus:
+    :value: sus
+    :description: Susu
+    :notes: ''
+    :issue_number: '0'
+  sux:
+    :value: sux
+    :description: Sumerian
+    :notes: ''
+    :issue_number: '0'
+  swa:
+    :value: swa
+    :description: Swahili
+    :notes: ''
+    :issue_number: '0'
+  swe:
+    :value: swe
+    :description: Swedish
+    :notes: ''
+    :issue_number: '0'
+  syc:
+    :value: syc
+    :description: Classical Syriac
+    :notes: ''
+    :issue_number: '8'
+  syr:
+    :value: syr
+    :description: Syriac
+    :notes: ''
+    :issue_number: '0'
+  tah:
+    :value: tah
+    :description: Tahitian
+    :notes: ''
+    :issue_number: '0'
+  tai:
+    :value: tai
+    :description: Tai languages
+    :notes: Collective name.
+    :issue_number: '0'
+  tam:
+    :value: tam
+    :description: Tamil
+    :notes: ''
+    :issue_number: '0'
+  tat:
+    :value: tat
+    :description: Tatar
+    :notes: ''
+    :issue_number: '0'
+  tel:
+    :value: tel
+    :description: Telugu
+    :notes: ''
+    :issue_number: '0'
+  tem:
+    :value: tem
+    :description: Temne; Time
+    :notes: ''
+    :issue_number: '0'
+  ter:
+    :value: ter
+    :description: Terena
+    :notes: ''
+    :issue_number: '0'
+  tet:
+    :value: tet
+    :description: Tetum
+    :notes: ''
+    :issue_number: '0'
+  tgk:
+    :value: tgk
+    :description: Tajik
+    :notes: ''
+    :issue_number: '0'
+  tgl:
+    :value: tgl
+    :description: Tagalog
+    :notes: ''
+    :issue_number: '0'
+  tha:
+    :value: tha
+    :description: Thai
+    :notes: ''
+    :issue_number: '0'
+  tib:
+    :value: tib
+    :description: Tibetan
+    :notes: ''
+    :issue_number: '0'
+  tig:
+    :value: tig
+    :description: Tigré
+    :notes: ''
+    :issue_number: '0'
+  tir:
+    :value: tir
+    :description: Tigrinya
+    :notes: ''
+    :issue_number: '0'
+  tiv:
+    :value: tiv
+    :description: Tiv
+    :notes: ''
+    :issue_number: '0'
+  tkl:
+    :value: tkl
+    :description: Tokelauan
+    :notes: ''
+    :issue_number: '0'
+  tlh:
+    :value: tlh
+    :description: Klingon; tlhIngan-Hol
+    :notes: Artificial language.
+    :issue_number: '4'
+  tli:
+    :value: tli
+    :description: Tlingit
+    :notes: ''
+    :issue_number: '0'
+  tmh:
+    :value: tmh
+    :description: Tamashek
+    :notes: ''
+    :issue_number: '0'
+  tog:
+    :value: tog
+    :description: Tonga (Nyasa)
+    :notes: ''
+    :issue_number: '0'
+  ton:
+    :value: ton
+    :description: Tongan
+    :notes: ''
+    :issue_number: '0'
+  tpi:
+    :value: tpi
+    :description: Tok Pisin
+    :notes: ''
+    :issue_number: '0'
+  tsi:
+    :value: tsi
+    :description: Tsimshian
+    :notes: ''
+    :issue_number: '0'
+  tsn:
+    :value: tsn
+    :description: Tswana
+    :notes: AKA Setswana.
+    :issue_number: '0'
+  tso:
+    :value: tso
+    :description: Tsonga
+    :notes: ''
+    :issue_number: '0'
+  tuk:
+    :value: tuk
+    :description: Turkmen
+    :notes: ''
+    :issue_number: '0'
+  tum:
+    :value: tum
+    :description: Tumbuka
+    :notes: ''
+    :issue_number: '0'
+  tup:
+    :value: tup
+    :description: Tupi languages
+    :notes: Collective name.
+    :issue_number: '0'
+  tur:
+    :value: tur
+    :description: Turkish
+    :notes: ''
+    :issue_number: '0'
+  tut:
+    :value: tut
+    :description: Altaic languages
+    :notes: ''
+    :issue_number: '0'
+  tvl:
+    :value: tvl
+    :description: Tuvaluan
+    :notes: ''
+    :issue_number: '0'
+  twi:
+    :value: twi
+    :description: Twi
+    :notes: ''
+    :issue_number: '0'
+  tyv:
+    :value: tyv
+    :description: Tuvinian
+    :notes: ''
+    :issue_number: '0'
+  udm:
+    :value: udm
+    :description: Udmurt
+    :notes: ''
+    :issue_number: '0'
+  uga:
+    :value: uga
+    :description: Ugaritic
+    :notes: ''
+    :issue_number: '0'
+  uig:
+    :value: uig
+    :description: Uighur; Uyghur
+    :notes: ''
+    :issue_number: '0'
+  ukr:
+    :value: ukr
+    :description: Ukrainian
+    :notes: ''
+    :issue_number: '0'
+  umb:
+    :value: umb
+    :description: Umbundu
+    :notes: ''
+    :issue_number: '0'
+  und:
+    :value: und
+    :description: Undetermined language
+    :notes: ''
+    :issue_number: '0'
+  urd:
+    :value: urd
+    :description: Urdu
+    :notes: ''
+    :issue_number: '0'
+  uzb:
+    :value: uzb
+    :description: Uzbek
+    :notes: ''
+    :issue_number: '0'
+  vai:
+    :value: vai
+    :description: Vai
+    :notes: ''
+    :issue_number: '0'
+  ven:
+    :value: ven
+    :description: Venda
+    :notes: ''
+    :issue_number: '0'
+  vie:
+    :value: vie
+    :description: Vietnamese
+    :notes: ''
+    :issue_number: '0'
+  vol:
+    :value: vol
+    :description: Volapük
+    :notes: Artificial language.
+    :issue_number: '0'
+  vot:
+    :value: vot
+    :description: Votic
+    :notes: ''
+    :issue_number: '0'
+  wak:
+    :value: wak
+    :description: Wakashan languages
+    :notes: Collective name.
+    :issue_number: '0'
+  wal:
+    :value: wal
+    :description: Wolaitta; Wolaytta
+    :notes: ''
+    :issue_number: '0'
+  war:
+    :value: war
+    :description: Waray
+    :notes: ''
+    :issue_number: '0'
+  was:
+    :value: was
+    :description: Washo
+    :notes: ''
+    :issue_number: '0'
+  wel:
+    :value: wel
+    :description: Welsh
+    :notes: ''
+    :issue_number: '0'
+  wen:
+    :value: wen
+    :description: Sorbian languages
+    :notes: Collective name.
+    :issue_number: '0'
+  wln:
+    :value: wln
+    :description: Walloon
+    :notes: ''
+    :issue_number: '0'
+  wol:
+    :value: wol
+    :description: Wolof
+    :notes: ''
+    :issue_number: '0'
+  xal:
+    :value: xal
+    :description: Kalmyk
+    :notes: ''
+    :issue_number: '0'
+  xho:
+    :value: xho
+    :description: Xhosa
+    :notes: ''
+    :issue_number: '0'
+  yao:
+    :value: yao
+    :description: Yao
+    :notes: ''
+    :issue_number: '0'
+  yap:
+    :value: yap
+    :description: Yapese
+    :notes: ''
+    :issue_number: '0'
+  yid:
+    :value: yid
+    :description: Yiddish
+    :notes: ''
+    :issue_number: '0'
+  yor:
+    :value: yor
+    :description: Yoruba
+    :notes: ''
+    :issue_number: '0'
+  ypk:
+    :value: ypk
+    :description: Yupik languages
+    :notes: Collective name.
+    :issue_number: '0'
+  zap:
+    :value: zap
+    :description: Zapotec
+    :notes: ''
+    :issue_number: '0'
+  zbl:
+    :value: zbl
+    :description: Blissymbols; Blissymbolics; Bliss
+    :notes: Artificial language.
+    :issue_number: '8'
+  zen:
+    :value: zen
+    :description: Zenaga
+    :notes: ''
+    :issue_number: '0'
+  zha:
+    :value: zha
+    :description: Zhuang; Chuang
+    :notes: ''
+    :issue_number: '0'
+  znd:
+    :value: znd
+    :description: Zande languages
+    :notes: Collective name.
+    :issue_number: '0'
+  zul:
+    :value: zul
+    :description: Zulu
+    :notes: ''
+    :issue_number: '0'
+  zun:
+    :value: zun
+    :description: Zuni
+    :notes: ''
+    :issue_number: '0'
+  zxx:
+    :value: zxx
+    :description: No linguistic content
+    :notes: ''
+    :issue_number: '10'
+  zza:
+    :value: zza
+    :description: Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki
+    :notes: ''
+    :issue_number: '7'

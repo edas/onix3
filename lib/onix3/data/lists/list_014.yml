@@ -1,0 +1,27 @@
+---
+:number: '14'
+:description: Text case flag
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Undefined
+    :notes: Default.
+    :issue_number: '0'
+  '01':
+    :value: '01'
+    :description: Sentence case
+    :notes: Initial capitals on first word and subsequently on proper names only,
+      eg “The conquest of Mexico”.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Title case
+    :notes: Initial capitals on first word and on all significant words thereafter,
+      eg “The Conquest of Mexico”.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: All capitals
+    :notes: For example, “THE CONQUEST OF MEXICO”.
+    :issue_number: '0'

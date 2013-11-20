@@ -1,0 +1,40 @@
+---
+:number: '8'
+:description: Book form detail
+:issue_number: '2'
+:codes:
+  '01':
+    :value: '01'
+    :description: A-format paperback
+    :notes: DEPRECATED.
+    :issue_number: '2'
+  '02':
+    :value: '02'
+    :description: B-format paperback
+    :notes: '‘B’ format paperback: UK 198 x 129 mm – DEPRECATED.'
+    :issue_number: '2'
+  '03':
+    :value: '03'
+    :description: C-format paperback
+    :notes: '‘C’ format paperback: UK 216 x 135 mm – DEPRECATED.'
+    :issue_number: '2'
+  '04':
+    :value: '04'
+    :description: Paper over boards
+    :notes: DEPRECATED.
+    :issue_number: '2'
+  '05':
+    :value: '05'
+    :description: Cloth
+    :notes: DEPRECATED.
+    :issue_number: '2'
+  '06':
+    :value: '06'
+    :description: With dust jacket
+    :notes: DEPRECATED.
+    :issue_number: '2'
+  '07':
+    :value: '07'
+    :description: Reinforced binding
+    :notes: DEPRECATED.
+    :issue_number: '2'

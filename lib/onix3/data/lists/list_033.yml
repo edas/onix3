@@ -1,0 +1,253 @@
+---
+:number: '33'
+:description: Other text type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Main description
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Short description/annotation
+    :notes: Limited to a maximum of 350 characters.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Long description
+    :notes: ''
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Table of contents
+    :notes: Used for a table of contents sent as a single text field, which may or
+      may not carry structure expressed through HTML etc. Alternatively, a fully structured
+      table of contents may be sent by using the <ContentItem> composite.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Review quote, restricted length
+    :notes: A review quote that is restricted to a maximum length agreed between the
+      sender and receiver of an ONIX file.
+    :issue_number: '5'
+  '06':
+    :value: '06'
+    :description: Quote from review of previous edition
+    :notes: A review quote taken from a review of a previous edition of the work.
+    :issue_number: '5'
+  '07':
+    :value: '07'
+    :description: Review text
+    :notes: Full text of a review of the product.
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: Review quote
+    :notes: A quote from a review of the product.
+    :issue_number: '0'
+  09:
+    :value: 09
+    :description: Promotional “headline”
+    :notes: A promotional phrase which is intended to headline a description of the
+      product.
+    :issue_number: '0'
+  '10':
+    :value: '10'
+    :description: Previous review quote
+    :notes: A quote from a review of a previous work by the same author(s) or in the
+      same series.
+    :issue_number: '0'
+  '11':
+    :value: '11'
+    :description: Author comments
+    :notes: 'May be part of Reading Group Guide material: for other commentary, see
+      code 42.'
+    :issue_number: '1'
+  '12':
+    :value: '12'
+    :description: Description for reader
+    :notes: ''
+    :issue_number: '0'
+  '13':
+    :value: '13'
+    :description: Biographical note
+    :notes: A note referring to all contributors to a product – NOT linked to a single
+      contributor.
+    :issue_number: '0'
+  '14':
+    :value: '14'
+    :description: Description for Reading Group Guide
+    :notes: For linking to a complete Reading Group Guide, see code 41.
+    :issue_number: '1'
+  '15':
+    :value: '15'
+    :description: Discussion question for Reading Group Guide
+    :notes: 'Each instance must carry a single question: for linking to a complete
+      Reading Group Guide, see code 41.'
+    :issue_number: '1'
+  '16':
+    :value: '16'
+    :description: Competing titles
+    :notes: 'Free text listing of other titles with which the product is in competition:
+      although this text might not appear in “public” ONIX records, it could be required
+      where ONIX Is used as a communication format within a group of publishing and
+      distribution companies.'
+    :issue_number: '2'
+  '17':
+    :value: '17'
+    :description: Flap copy
+    :notes: ''
+    :issue_number: '0'
+  '18':
+    :value: '18'
+    :description: Back cover copy
+    :notes: ''
+    :issue_number: '0'
+  '19':
+    :value: '19'
+    :description: Feature
+    :notes: Text describing a feature of a product to which the publisher wishes to
+      draw attention for promotional purposes. Each separate feature should be described
+      by a separate repeat, so that formatting can be applied at the discretion of
+      the receiver of the ONIX record.
+    :issue_number: '3'
+  '20':
+    :value: '20'
+    :description: New feature
+    :notes: As code 19, but used for a feature which is new in a new edition of the
+      product.
+    :issue_number: '3'
+  '21':
+    :value: '21'
+    :description: Publisher’s notice
+    :notes: A statement included by a publisher in fulfillment of its contractual
+      obligations, such as a disclaimer, sponsor statement, or legal notice of any
+      sort. Note that the inclusion of such a notice cannot and does not imply that
+      a user of the ONIX record is obliged to reproduce it.
+    :issue_number: '8'
+  '22':
+    :value: '22'
+    :description: Index
+    :notes: ''
+    :issue_number: '17'
+  '23':
+    :value: '23'
+    :description: Excerpt from book
+    :notes: ''
+    :issue_number: '0'
+  '24':
+    :value: '24'
+    :description: First chapter
+    :notes: ''
+    :issue_number: '0'
+  '25':
+    :value: '25'
+    :description: Description for sales people
+    :notes: ''
+    :issue_number: '0'
+  '26':
+    :value: '26'
+    :description: Description for press or other media
+    :notes: ''
+    :issue_number: '0'
+  '27':
+    :value: '27'
+    :description: Description for subsidiary rights department
+    :notes: ''
+    :issue_number: '0'
+  '28':
+    :value: '28'
+    :description: Description for teachers/educators
+    :notes: ''
+    :issue_number: '0'
+  '30':
+    :value: '30'
+    :description: Unpublished endorsement
+    :notes: A quote usually provided by a celebrity to promote a new book, not from
+      a review.
+    :issue_number: '0'
+  '31':
+    :value: '31'
+    :description: Description for bookstore
+    :notes: ''
+    :issue_number: '0'
+  '32':
+    :value: '32'
+    :description: Description for library
+    :notes: ''
+    :issue_number: '0'
+  '33':
+    :value: '33'
+    :description: Introduction or preface
+    :notes: ''
+    :issue_number: '0'
+  '34':
+    :value: '34'
+    :description: Full text
+    :notes: ''
+    :issue_number: '0'
+  '35':
+    :value: '35'
+    :description: Promotional text
+    :notes: Promotional text not covered elsewhere.
+    :issue_number: '8'
+  '40':
+    :value: '40'
+    :description: Author interview / QandA
+    :notes: ''
+    :issue_number: '8'
+  '41':
+    :value: '41'
+    :description: Reading Group Guide
+    :notes: 'Complete guide: see also codes 14 and 15.'
+    :issue_number: '8'
+  '42':
+    :value: '42'
+    :description: Commentary / discussion
+    :notes: 'Other than author comments: see code 11.'
+    :issue_number: '8'
+  '43':
+    :value: '43'
+    :description: Short description for series or set
+    :notes: (of which the product is a part.) Limited to a maximum of 350 characters.
+    :issue_number: '17'
+  '44':
+    :value: '44'
+    :description: Long description for series or set
+    :notes: (of which the product is a part.)
+    :issue_number: '17'
+  '45':
+    :value: '45'
+    :description: Contributor event schedule
+    :notes: Link to a schedule in iCalendar format.
+    :issue_number: '20'
+  '46':
+    :value: '46'
+    :description: License
+    :notes: Link to a license covering permitted usage of the product content.
+    :issue_number: '22'
+  '47':
+    :value: '47'
+    :description: Open access statement
+    :notes: Short summary statement of open access status and any related conditions
+      (eg “Open access – no commercial use”), primarily for marketing purposes. Should
+      always be accompanied by a link to the complete license (see code 46).
+    :issue_number: '22'
+  '98':
+    :value: '98'
+    :description: Master brand name
+    :notes: A master brand name or title, where the use of the brand spans multiple
+      sets, series and product forms, and possibly multiple imprints and publishers.
+      Used only for branded media properties such as children’s character properties.
+      (This functionality is provided as a workaround in ONIX 2.1 only. ONIX 3.0 has
+      specific provision for master brands as title elements.
+    :issue_number: '20'
+  '99':
+    :value: '99'
+    :description: Country of final manufacture
+    :notes: A single ISO 3166-1 country code from List 91 designating the country
+      of final manufacture of the product. (This functionality is provided as a workaround
+      in ONIX 2.1. ONIX 3.0 has specific provision for country of manufacture as a
+      separate element.).
+    :issue_number: '11'

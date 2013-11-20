@@ -1,0 +1,119 @@
+---
+:number: '68'
+:description: Market publishing status
+:issue_number: '3'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified
+    :notes: 'Status is not specified (as distinct from unknown): the default if the
+      <MarketPublishingStatus> element is not sent.'
+    :issue_number: '3'
+  '01':
+    :value: '01'
+    :description: Cancelled
+    :notes: The product was announced for publication in this market, and subsequently
+      abandoned.
+    :issue_number: '3'
+  '02':
+    :value: '02'
+    :description: Forthcoming
+    :notes: Not yet published in this market, should be accompanied by expected local
+      publication date..
+    :issue_number: '3'
+  '03':
+    :value: '03'
+    :description: Postponed indefinitely
+    :notes: The product was announced for publication in this market, and subsequently
+      postponed with no expected local publication date.
+    :issue_number: '3'
+  '04':
+    :value: '04'
+    :description: Active
+    :notes: The product was published in this market, and is still active in the sense
+      that the publisher will accept orders for it, though it may or may not be immediately
+      available, for which see <SupplyDetail>.
+    :issue_number: '3'
+  '05':
+    :value: '05'
+    :description: No longer our product
+    :notes: Responsibility for the product in this market has been transferred elsewhere.
+    :issue_number: '3'
+  '06':
+    :value: '06'
+    :description: Out of stock indefinitely
+    :notes: The product was active, but is now inactive in the sense that (a) no further
+      stock is expected to be made available in this market, though stock may still
+      be available elsewhere in the supply chain, and (b) there are no current plans
+      to bring it back into stock.
+    :issue_number: '3'
+  '07':
+    :value: '07'
+    :description: Out of print
+    :notes: The product was active, but is now permanently inactive in the sense that
+      (a) no further stock is expected to be made available in this market, though
+      stock may still be available elsewhere in the supply chain, and (b) the product
+      will not be made available again under the same ISBN.
+    :issue_number: '3'
+  08:
+    :value: 08
+    :description: Inactive
+    :notes: The product was active, but is now permanently or indefinitely inactive
+      in the sense that no further stock is expected to be made available in this
+      market, though stock may still be available elsewhere in the supply chain. Code
+      08 covers both of codes 06 and 07, and may be used where the distinction between
+      those values is either unnecessary or meaningless.
+    :issue_number: '3'
+  09:
+    :value: 09
+    :description: Unknown
+    :notes: The sender of the ONIX record does not know the current publishing status
+      in this market.
+    :issue_number: '3'
+  '10':
+    :value: '10'
+    :description: Remaindered
+    :notes: The product is no longer available in this market from the local publisher,
+      under the current ISBN, at the current price. It may be available to be traded
+      through another channel, usually at a reduced price.
+    :issue_number: '3'
+  '11':
+    :value: '11'
+    :description: Withdrawn from sale
+    :notes: Withdrawn from sale in this market, typically for legal reasons.
+    :issue_number: '3'
+  '12':
+    :value: '12'
+    :description: Not available in this market
+    :notes: Either no rights are held for the product in this market, or for other
+      reasons the publisher has decided not to make it available in this market.
+    :issue_number: '3'
+  '13':
+    :value: '13'
+    :description: Active, but not sold separately
+    :notes: The product is published in this market and active but, as a publishing
+      decision, it is not sold separately – only in an assembly or as part of a package.
+    :issue_number: '3'
+  '14':
+    :value: '14'
+    :description: Active, with market restrictions
+    :notes: The product is published in this market and active, but is not available
+      to all customer types, typically because the market is split between exclusive
+      sales agents for different market segments. In ONIX 2.1, should be accompanied
+      by a free-text statement in <MarketRestrictionDetail> describing the nature
+      of the restriction. In ONIX 3.0, the <SalesRestriction> composite in Group P.24
+      should be used.
+    :issue_number: '3'
+  '15':
+    :value: '15'
+    :description: Recalled
+    :notes: Recalled in this market for reasons of consumer safety.
+    :issue_number: '15'
+  '16':
+    :value: '16'
+    :description: Temporarily withdrawn from sale
+    :notes: Temporarily withdrawn from sale in this market, typically for quality
+      or technical reasons. In ONIX 3.0, must be accompanied by expected availability
+      date coded ‘22’ within the <MarketPublishingDate> composite, except in exceptional
+      circumstances where no date is known.
+    :issue_number: '15'

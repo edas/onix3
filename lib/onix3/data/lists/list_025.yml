@@ -1,0 +1,157 @@
+---
+:number: '25'
+:description: Illustration and other content type code
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified, see description
+    :notes: See description in the <IllustrationTypeDescription> element.
+    :issue_number: '0'
+  '01':
+    :value: '01'
+    :description: Illustrations, black and white
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Illustrations, color
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Halftones, black and white
+    :notes: Including black and white photographs.
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Halftones, color
+    :notes: Including color photographs.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Line drawings, black and white
+    :notes: ''
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: Line drawings, color
+    :notes: ''
+    :issue_number: '0'
+  '07':
+    :value: '07'
+    :description: Tables, black and white
+    :notes: ''
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: Tables, color
+    :notes: ''
+    :issue_number: '0'
+  09:
+    :value: 09
+    :description: Illustrations, unspecified
+    :notes: ''
+    :issue_number: '1'
+  '10':
+    :value: '10'
+    :description: Halftones, unspecified
+    :notes: Including photographs.
+    :issue_number: '1'
+  '11':
+    :value: '11'
+    :description: Tables, unspecified
+    :notes: ''
+    :issue_number: '1'
+  '12':
+    :value: '12'
+    :description: Line drawings, unspecified
+    :notes: ''
+    :issue_number: '1'
+  '13':
+    :value: '13'
+    :description: Halftones, duotone
+    :notes: ''
+    :issue_number: '1'
+  '14':
+    :value: '14'
+    :description: Maps
+    :notes: ''
+    :issue_number: '1'
+  '15':
+    :value: '15'
+    :description: Frontispiece
+    :notes: ''
+    :issue_number: '1'
+  '16':
+    :value: '16'
+    :description: Diagrams
+    :notes: ''
+    :issue_number: '1'
+  '17':
+    :value: '17'
+    :description: Figures
+    :notes: ''
+    :issue_number: '1'
+  '18':
+    :value: '18'
+    :description: Charts
+    :notes: ''
+    :issue_number: '1'
+  '19':
+    :value: '19'
+    :description: Recorded music items
+    :notes: Recorded music extracts or examples, or complete recorded work(s), accompanying
+      textual or other content.
+    :issue_number: '1'
+  '20':
+    :value: '20'
+    :description: Printed music items
+    :notes: Printed music extracts or examples, or complete music score(s), accompanying
+      textual or other content.
+    :issue_number: '1'
+  '21':
+    :value: '21'
+    :description: Graphs
+    :notes: To be used in the mathematical sense of a diagram that represents numerical
+      values plotted against an origin and axes, cf codes 16 and 18.
+    :issue_number: '4'
+  '22':
+    :value: '22'
+    :description: Plates, unspecified
+    :notes: ‘Plates’ means illustrations that are on separate pages bound into the
+      body of a book.
+    :issue_number: '4'
+  '23':
+    :value: '23'
+    :description: Plates, black and white
+    :notes: ‘Plates’ means illustrations that are on separate pages bound into the
+      body of a book.
+    :issue_number: '4'
+  '24':
+    :value: '24'
+    :description: Plates, color
+    :notes: ‘Plates’ means illustrations that are on separate pages bound into the
+      body of a book.
+    :issue_number: '4'
+  '25':
+    :value: '25'
+    :description: Index
+    :notes: ''
+    :issue_number: '5'
+  '26':
+    :value: '26'
+    :description: Bibliography
+    :notes: ''
+    :issue_number: '5'
+  '27':
+    :value: '27'
+    :description: Inset maps
+    :notes: Larger-scale inset maps of places or features of interest included in
+      a map product.
+    :issue_number: '7'
+  '28':
+    :value: '28'
+    :description: GPS grids
+    :notes: GPS grids included in a map product.
+    :issue_number: '7'

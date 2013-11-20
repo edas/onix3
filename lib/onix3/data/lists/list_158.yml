@@ -1,0 +1,170 @@
+---
+:number: '158'
+:description: Resource content type
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Front cover
+    :notes: ''
+    :issue_number: '10'
+  '02':
+    :value: '02'
+    :description: Back cover
+    :notes: ''
+    :issue_number: '10'
+  '03':
+    :value: '03'
+    :description: Cover / pack
+    :notes: Not limited to front or back.
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Contributor picture
+    :notes: Photograph or portrait of contributor(s).
+    :issue_number: '10'
+  '05':
+    :value: '05'
+    :description: Series image / artwork
+    :notes: ''
+    :issue_number: '10'
+  '06':
+    :value: '06'
+    :description: Series logo
+    :notes: ''
+    :issue_number: '10'
+  '07':
+    :value: '07'
+    :description: Product image / artwork
+    :notes: ''
+    :issue_number: '10'
+  08:
+    :value: 08
+    :description: Product logo
+    :notes: ''
+    :issue_number: '10'
+  09:
+    :value: 09
+    :description: Publisher logo
+    :notes: ''
+    :issue_number: '10'
+  '10':
+    :value: '10'
+    :description: Imprint logo
+    :notes: ''
+    :issue_number: '10'
+  '11':
+    :value: '11'
+    :description: Contributor interview
+    :notes: ''
+    :issue_number: '12'
+  '12':
+    :value: '12'
+    :description: Contributor presentation
+    :notes: Contributor presentation and/or commentary.
+    :issue_number: '12'
+  '13':
+    :value: '13'
+    :description: Contributor reading
+    :notes: ''
+    :issue_number: '12'
+  '14':
+    :value: '14'
+    :description: Contributor event schedule
+    :notes: Link to a schedule in iCalendar format.
+    :issue_number: '12'
+  '15':
+    :value: '15'
+    :description: Sample content
+    :notes: 'For example: sample chapter text, page images, screenshots.'
+    :issue_number: '10'
+  '16':
+    :value: '16'
+    :description: Widget
+    :notes: A ‘look inside’ feature presented as a small embeddable application.
+    :issue_number: '10'
+  '17':
+    :value: '17'
+    :description: Review
+    :notes: Use the <TextContent> composite for review quotes carried in the ONIX
+      record. Use the <CitedContent> composite for a third-party review which is referenced
+      from the ONIX record. Use <SupportingResource> only for a review which is offered
+      for reproduction as part of promotional material for the product.
+    :issue_number: '11'
+  '18':
+    :value: '18'
+    :description: Other commentary / discussion
+    :notes: ''
+    :issue_number: '10'
+  '19':
+    :value: '19'
+    :description: Reading group guide
+    :notes: ''
+    :issue_number: '10'
+  '20':
+    :value: '20'
+    :description: Teacher’s guide
+    :notes: ''
+    :issue_number: '10'
+  '21':
+    :value: '21'
+    :description: Feature article
+    :notes: Feature article provided by publisher.
+    :issue_number: '10'
+  '22':
+    :value: '22'
+    :description: Character ‘interview’
+    :notes: Fictional character ‘interview’.
+    :issue_number: '10'
+  '23':
+    :value: '23'
+    :description: Wallpaper / screensaver
+    :notes: ''
+    :issue_number: '10'
+  '24':
+    :value: '24'
+    :description: Press release
+    :notes: ''
+    :issue_number: '10'
+  '25':
+    :value: '25'
+    :description: Table of contents
+    :notes: A table of contents held on a webpage, not in the ONIX record.
+    :issue_number: '11'
+  '26':
+    :value: '26'
+    :description: Trailer
+    :notes: A promotional video, similar to a movie trailer (sometimes referred to
+      as a ‘book trailer’).
+    :issue_number: '11'
+  '27':
+    :value: '27'
+    :description: Cover thumbnail
+    :notes: Intended ONLY for transitional use, where ONIX 2.1 records referencing
+      existing thumbnail assets of unknown pixel size are being re-expressed in ONIX
+      3.0. Use code 01 for all new cover assets, and where the pixel size of older
+      assets is known.
+    :issue_number: '14'
+  '28':
+    :value: '28'
+    :description: Full content
+    :notes: The full content of the product (or the product itself), supplied for
+      example to support full-text search.
+    :issue_number: '17'
+  '29':
+    :value: '29'
+    :description: Full cover
+    :notes: Includes cover, back cover, spine and – where appropriate – any flaps.
+    :issue_number: '17'
+  '30':
+    :value: '30'
+    :description: Master brand logo
+    :notes: ''
+    :issue_number: '20'
+  '99':
+    :value: '99'
+    :description: License
+    :notes: Link to a license covering permitted usage of the product content. This
+      is a workaround in ONIX 3.0, pending introduction of an license link element
+      near to UsageConstraints.
+    :issue_number: '22'

@@ -1,0 +1,34 @@
+---
+:number: '197'
+:description: Collection sequence type
+:issue_number: '16'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: A short explanatory label for the sequence should be provided in <CollectionSequenceTypeName>.
+    :issue_number: '16'
+  '02':
+    :value: '02'
+    :description: Title order
+    :notes: Order as specified by the title, eg by volume or part number sequence,
+      provided for confirmation.
+    :issue_number: '16'
+  '03':
+    :value: '03'
+    :description: Publication order
+    :notes: Order of publication of products within the collection.
+    :issue_number: '16'
+  '04':
+    :value: '04'
+    :description: Temporal/narrative order
+    :notes: Order defined by a continuing narrative or temporal sequence within products
+      in the collection. Applicable to either fiction or to non-fiction (eg within
+      a collection of history textbooks).
+    :issue_number: '16'
+  '05':
+    :value: '05'
+    :description: Original publication order
+    :notes: Original publication order, for a republished collection or collected
+      works originally published outside a collection.
+    :issue_number: '16'

@@ -1,0 +1,20 @@
+---
+:number: '31'
+:description: Audience range precision
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Exact
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: From
+    :notes: ''
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: To
+    :notes: ''
+    :issue_number: '0'

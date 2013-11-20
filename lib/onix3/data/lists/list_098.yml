@@ -1,0 +1,110 @@
+---
+:number: '98'
+:description: Product form feature value – binding or page edge color
+:issue_number: '1'
+:codes:
+  BLK:
+    :value: BLK
+    :description: Black
+    :notes: ''
+    :issue_number: '1'
+  BLU:
+    :value: BLU
+    :description: Blue
+    :notes: ''
+    :issue_number: '1'
+  BRN:
+    :value: BRN
+    :description: Brown
+    :notes: ''
+    :issue_number: '1'
+  BUR:
+    :value: BUR
+    :description: Burgundy/maroon
+    :notes: ''
+    :issue_number: '1'
+  CRE:
+    :value: CRE
+    :description: Cream
+    :notes: ''
+    :issue_number: '1'
+  FCO:
+    :value: FCO
+    :description: Four-color
+    :notes: ''
+    :issue_number: '8'
+  FCS:
+    :value: FCS
+    :description: Four-color and spot-color
+    :notes: ''
+    :issue_number: '8'
+  GLD:
+    :value: GLD
+    :description: Gold
+    :notes: ''
+    :issue_number: '1'
+  GRN:
+    :value: GRN
+    :description: Green
+    :notes: ''
+    :issue_number: '1'
+  GRY:
+    :value: GRY
+    :description: Grey
+    :notes: ''
+    :issue_number: '1'
+  MUL:
+    :value: MUL
+    :description: Multicolor
+    :notes: Use <ProductFormFeatureDescription> to add brief details if required.
+    :issue_number: '17'
+  NAV:
+    :value: NAV
+    :description: Navy/Dark blue
+    :notes: ''
+    :issue_number: '17'
+  ORG:
+    :value: ORG
+    :description: Orange
+    :notes: ''
+    :issue_number: '6'
+  PNK:
+    :value: PNK
+    :description: Pink
+    :notes: ''
+    :issue_number: '1'
+  PUR:
+    :value: PUR
+    :description: Purple
+    :notes: ''
+    :issue_number: '1'
+  RED:
+    :value: RED
+    :description: Red
+    :notes: ''
+    :issue_number: '1'
+  SLV:
+    :value: SLV
+    :description: Silver
+    :notes: ''
+    :issue_number: '1'
+  TAN:
+    :value: TAN
+    :description: Tan
+    :notes: ''
+    :issue_number: '1'
+  WHI:
+    :value: WHI
+    :description: White
+    :notes: ''
+    :issue_number: '1'
+  YEL:
+    :value: YEL
+    :description: Yellow
+    :notes: ''
+    :issue_number: '1'
+  ZZZ:
+    :value: ZZZ
+    :description: Other
+    :notes: ''
+    :issue_number: '1'

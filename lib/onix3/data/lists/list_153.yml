@@ -1,0 +1,125 @@
+---
+:number: '153'
+:description: Text type
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Sender-defined text
+    :notes: To be used only in circumstances where the parties to an exchange have
+      agreed to include text which (a) is not for general distribution, and (b) cannot
+      be coded elsewhere. If more than one type of text is sent, it must be identified
+      by tagging within the text itself.
+    :issue_number: '10'
+  '02':
+    :value: '02'
+    :description: Short description/annotation
+    :notes: Limited to a maximum of 350 characters.
+    :issue_number: '10'
+  '03':
+    :value: '03'
+    :description: Description
+    :notes: Length unrestricted.
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Table of contents
+    :notes: Used for a table of contents sent as a single text field, which may or
+      may not carry structure expressed as XHTML.
+    :issue_number: '10'
+  '05':
+    :value: '05'
+    :description: Flap / cover copy
+    :notes: Descriptive blurb taken from the back cover and/or flaps.
+    :issue_number: '10'
+  '06':
+    :value: '06'
+    :description: Review quote
+    :notes: A quote taken from a review of the product or of the work in question
+      where there is no need to take account of different editions.
+    :issue_number: '10'
+  '07':
+    :value: '07'
+    :description: 'Review quote: previous edition'
+    :notes: A quote taken from a review of a previous edition of the work.
+    :issue_number: '10'
+  08:
+    :value: 08
+    :description: 'Review quote: previous work'
+    :notes: A quote taken from a review of a previous work by the same author(s) or
+      in the same series.
+    :issue_number: '10'
+  09:
+    :value: 09
+    :description: Endorsement
+    :notes: A quote usually provided by a celebrity to promote a new book, not from
+      a review.
+    :issue_number: '10'
+  '10':
+    :value: '10'
+    :description: Promotional headline
+    :notes: A promotional phrase which is intended to headline a description of the
+      product.
+    :issue_number: '10'
+  '11':
+    :value: '11'
+    :description: Feature
+    :notes: Text describing a feature of a product to which the publisher wishes to
+      draw attention for promotional purposes. Each separate feature should be described
+      by a separate repeat, so that formatting can be applied at the discretion of
+      the receiver of the ONIX record, or multiple features can be described using
+      appropriate XHTML markup.
+    :issue_number: '22'
+  '12':
+    :value: '12'
+    :description: Biographical note
+    :notes: A note referring to all contributors to a product – NOT linked to a single
+      contributor.
+    :issue_number: '10'
+  '13':
+    :value: '13'
+    :description: Publisher’s notice
+    :notes: A statement included by a publisher in fulfillment of contractual obligations,
+      such as a disclaimer, sponsor statement, or legal notice of any sort. Note that
+      the inclusion of such a notice cannot and does not imply that a user of the
+      ONIX record is obliged to reproduce it.
+    :issue_number: '10'
+  '14':
+    :value: '14'
+    :description: Excerpt
+    :notes: A short excerpt from the work.
+    :issue_number: '10'
+  '15':
+    :value: '15'
+    :description: Index
+    :notes: Used for an index sent as a single text field, which may be structured
+      using XHTML.
+    :issue_number: '17'
+  '16':
+    :value: '16'
+    :description: Short description/annotation for collection
+    :notes: (of which the product is a part.) Limited to a maximum of 350 characters.
+    :issue_number: '17'
+  '17':
+    :value: '17'
+    :description: Description for collection
+    :notes: (of which the product is a part.) Length unrestricted.
+    :issue_number: '17'
+  '18':
+    :value: '18'
+    :description: New feature
+    :notes: As code 11 but used for a new feature of this edition or version.
+    :issue_number: '22'
+  '19':
+    :value: '19'
+    :description: Version history
+    :notes: ''
+    :issue_number: '22'
+  '20':
+    :value: '20'
+    :description: Open access statement
+    :notes: Short summary statement of open access status and any related conditions
+      (eg “Open access – no commercial use”), primarily for marketing purposes. Should
+      always be accompanied by a link to the complete license (see code 99 in List
+      158).
+    :issue_number: '22'

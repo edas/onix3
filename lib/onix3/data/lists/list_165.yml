@@ -1,0 +1,29 @@
+---
+:number: '165'
+:description: Supplier own code type
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Supplier’s sales classification
+    :notes: A rating applied by a supplier (typically a wholesaler) to indicate its
+      assessment of the expected or actual sales performance of a product.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Supplier’s bonus eligibility
+    :notes: A supplier’s coding of the eligibility of a product for a bonus scheme
+      on overall sales.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Publisher’s sales classification
+    :notes: A rating applied by the publisher to indicate a sales category (eg backlist/frontlist,
+      core stock etc). Use only when the publisher is not the ‘supplier’.
+    :issue_number: '13'
+  '04':
+    :value: '04'
+    :description: Supplier’s pricing restriction classification
+    :notes: A classification applied by a supplier to a product sold on Agency terms,
+      to indicate that retail price restrictions are applicable.
+    :issue_number: '15'

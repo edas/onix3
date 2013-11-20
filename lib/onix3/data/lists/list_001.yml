@@ -1,0 +1,72 @@
+---
+:number: '1'
+:description: Notification or update type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Early notification
+    :notes: Use for a complete record issued earlier than approximately six months
+      before publication.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Advance notification (confirmed)
+    :notes: Use for a complete record issued to confirm advance information approximately
+      six months before publication; or for a complete record issued after that date
+      and before information has been confirmed from the book-in-hand.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Notification confirmed on publication
+    :notes: Use for a complete record issued to confirm advance information at or
+      just before actual publication date; or for a complete record issued at any
+      later date.
+    :issue_number: '11'
+  '04':
+    :value: '04'
+    :description: Update (partial)
+    :notes: In ONIX 3.0 only, use when sending a ‘block update’ record. In previous
+      ONIX releases, ONIX updating has generally been by complete record replacement
+      using code 03, and code 04 is not used.
+    :issue_number: '11'
+  '05':
+    :value: '05'
+    :description: Delete
+    :notes: 'Use when sending an instruction to delete a record which was previously
+      issued. Note that a Delete instruction should NOT be used when a product is
+      cancelled, put out of print, or otherwise withdrawn from sale: this should be
+      handled as a change of Publishing status, leaving the receiver to decide whether
+      to retain or delete the record. A Delete instruction is only used when there
+      is a particular reason to withdraw a record completely, eg because it was issued
+      in error.'
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: Notice of sale
+    :notes: 'Notice of sale of a product, from one publisher to another: sent by the
+      publisher disposing of the product.'
+    :issue_number: '2'
+  09:
+    :value: 09
+    :description: Notice of acquisition
+    :notes: 'Notice of acquisition of a product, by one publisher from another: sent
+      by the acquiring publisher.'
+    :issue_number: '2'
+  '12':
+    :value: '12'
+    :description: Update – SupplyDetail only
+    :notes: ONIX Books 2.1 supply update – <SupplyDetail> only (not used in ONIX 3.0).
+    :issue_number: '7'
+  '13':
+    :value: '13'
+    :description: Update – MarketRepresentation only
+    :notes: ONIX Books 2.1 supply update – <MarketRepresentation> only (not used in
+      ONIX 3.0).
+    :issue_number: '7'
+  '14':
+    :value: '14'
+    :description: Update – SupplyDetail and MarketRepresentation
+    :notes: ONIX Books 2.1 supply update – both <SupplyDetail> and <MarketRepresentation>
+      (not used in ONIX 3.0).
+    :issue_number: '7'

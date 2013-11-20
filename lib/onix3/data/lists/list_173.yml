@@ -1,0 +1,21 @@
+---
+:number: '173'
+:description: Price date role
+:issue_number: '9'
+:codes:
+  '14':
+    :value: '14'
+    :description: From date
+    :notes: Date on which a price becomes effective.
+    :issue_number: '9'
+  '15':
+    :value: '15'
+    :description: Until date
+    :notes: Date on which a price ceases to be effective.
+    :issue_number: '9'
+  '24':
+    :value: '24'
+    :description: From… until date
+    :notes: Combines From date and Until date to define a period (both dates are inclusive).
+      Use with for example dateformat 06.
+    :issue_number: '16'

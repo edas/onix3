@@ -1,0 +1,43 @@
+---
+:number: '100'
+:description: Discount code type
+:issue_number: '1'
+:codes:
+  '01':
+    :value: '01'
+    :description: BIC discount group code
+    :notes: UK publisher’s or distributor’s discount group code in a format specified
+      by BIC to ensure uniqueness.
+    :issue_number: '1'
+  '02':
+    :value: '02'
+    :description: Proprietary discount code
+    :notes: A publisher’s or supplier’s own code which identifies a trade discount
+      category, the actual discount being set by trading partner agreement (applies
+      to goods supplied on standard trade discounting terms).
+    :issue_number: '11'
+  '03':
+    :value: '03'
+    :description: Boeksoort
+    :notes: Terms code used in the Netherlands book trade.
+    :issue_number: '4'
+  '04':
+    :value: '04'
+    :description: German terms code
+    :notes: Terms code used in German ONIX applications.
+    :issue_number: '5'
+  '05':
+    :value: '05'
+    :description: Proprietary commission code
+    :notes: A publisher’s or supplier’s own code which identifies a commission rate
+      category, the actual commission rate being set by trading partner agreement
+      (applies to goods supplied on agency terms).
+    :issue_number: '11'
+  '06':
+    :value: '06'
+    :description: BIC commission group code
+    :notes: UK publisher’s or distributor’s commission group code in format specified
+      by BIC to ensure uniqueness. Format is identical to BIC discount group code,
+      but indicates a commission rather than a discount (applies to goods supplied
+      on agency terms).
+    :issue_number: '12'

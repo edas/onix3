@@ -1,0 +1,52 @@
+---
+:number: '22'
+:description: Language role code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Language of text
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Original language of a translated text
+    :notes: Where the text in the original language is NOT part of the current product.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Language of abstracts
+    :notes: 'Where different from language of text: used mainly for serials.'
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Rights language
+    :notes: Language to which specified rights apply.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Rights-excluded language
+    :notes: Language to which specified rights do not apply.
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: Original language in a multilingual edition
+    :notes: Where the text in the original language is part of a bilingual or multilingual
+      edition.
+    :issue_number: '5'
+  '07':
+    :value: '07'
+    :description: Translated language in a multilingual edition
+    :notes: Where the text in a translated language is part of a bilingual or multilingual
+      edition.
+    :issue_number: '5'
+  08:
+    :value: 08
+    :description: Language of audio track
+    :notes: For example, on a DVD.
+    :issue_number: '7'
+  09:
+    :value: 09
+    :description: Language of subtitles
+    :notes: For example, on a DVD.
+    :issue_number: '7'

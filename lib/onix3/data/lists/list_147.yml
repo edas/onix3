@@ -1,0 +1,85 @@
+---
+:number: '147'
+:description: Unit of usage
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Copies
+    :notes: Maximum number of copies that may be made of a permitted extract.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Characters
+    :notes: Maximum number of characters in a permitted extract for a specified usage.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Words
+    :notes: Maximum number of words in a permitted extract for a specified usage.
+    :issue_number: '9'
+  '04':
+    :value: '04'
+    :description: Pages
+    :notes: Maximum number of pages in a permitted extract for a specified usage.
+    :issue_number: '9'
+  '05':
+    :value: '05'
+    :description: Percentage
+    :notes: Maximum percentage of total content in a permitted extract for a specified
+      usage.
+    :issue_number: '9'
+  '06':
+    :value: '06'
+    :description: Devices
+    :notes: Maximum number of devices in ‘share group’.
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: Concurrent users
+    :notes: Maximum number of concurrent users. NB where the number of concurrent
+      users is specifically not limited, set the number of concurrent users to zero.
+    :issue_number: '15'
+  08:
+    :value: 08
+    :description: Percentage per time period
+    :notes: Maximum percentage of total content which may be used in a specified usage
+      per time period; the time period being specified as another EpubUsageQuantity.
+    :issue_number: '11'
+  09:
+    :value: 09
+    :description: Days
+    :notes: Maximum time period in days.
+    :issue_number: '11'
+  '13':
+    :value: '13'
+    :description: Weeks
+    :notes: Maximum time period in weeks.
+    :issue_number: '17'
+  '14':
+    :value: '14'
+    :description: Months
+    :notes: Maximum time period in months.
+    :issue_number: '17'
+  '10':
+    :value: '10'
+    :description: Times
+    :notes: Maximum number of times a specified usage may occur.
+    :issue_number: '11'
+  '11':
+    :value: '11'
+    :description: Allowed usage start page
+    :notes: Page number where allowed usage begins. <Quantity> should contain an absolute
+      page number, counting the cover as page 1. (This type of page numbering should
+      not be used where the e-publication has no fixed pagination). Use with (max
+      number of) Pages, Percentage of content, or End page to specify pages allowed
+      in Preview.
+    :issue_number: '14'
+  '12':
+    :value: '12'
+    :description: Allowed usage end page
+    :notes: Page number at which allowed usage ends. <Quantity> should contain an
+      absolute page number, counting the cover as page 1. (This type of page numbering
+      should not be used where the e-publication has no fixed pagination). Use with
+      Start page to specify pages allowed in a preview.
+    :issue_number: '14'

@@ -1,0 +1,70 @@
+---
+:number: '3'
+:description: Record source type code
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified
+    :notes: ''
+    :issue_number: '0'
+  '01':
+    :value: '01'
+    :description: Publisher
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Publisher’s distributor
+    :notes: Use to designate a distributor providing warehousing and fulfillment for
+      a publisher or for a publisher’s sales agent, as distinct from a wholesaler.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Wholesaler
+    :notes: ''
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Bibliographic agency
+    :notes: Bibliographic data aggregator.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Library bookseller
+    :notes: ''
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: Publisher’s sales agent
+    :notes: Use for a publisher’s sales agent responsible for marketing the publisher’s
+      products within a territory, as opposed to a publisher’s distributor who fulfills
+      orders but does not market.
+    :issue_number: '4'
+  '07':
+    :value: '07'
+    :description: Publisher’s conversion service provider
+    :notes: Downstream provider of e-publication format conversion service (who might
+      also be a distributor or retailer of the converted e-publication), supplying
+      metadata on behalf of the publisher. The assigned ISBN is taken from the publisher’s
+      ISBN prefix.
+    :issue_number: '15'
+  08:
+    :value: 08
+    :description: Conversion service provider
+    :notes: Downstream provider of e-publication format conversion service (who might
+      also be a distributor or retailer of the converted e-publication), supplying
+      metadata on behalf of the publisher. The assigned ISBN is taken from the service
+      provider’s prefix (whether or not the service provider dedicates that prefix
+      to a particular publisher).
+    :issue_number: '15'
+  09:
+    :value: 09
+    :description: ISBN Registration Agency
+    :notes: ''
+    :issue_number: '18'
+  '10':
+    :value: '10'
+    :description: ISTC Registration Agency
+    :notes: ''
+    :issue_number: '18'

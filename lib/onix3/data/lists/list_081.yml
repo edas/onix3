@@ -1,0 +1,217 @@
+---
+:number: '81'
+:description: Product content type
+:issue_number: '1'
+:codes:
+  '10':
+    :value: '10'
+    :description: Text (eye-readable)
+    :notes: 'Readable text of the main work: this value is required, together with
+      applicable <ProductForm> and <ProductFormDetail> values, to designate an e-book
+      or other digital product whose primary content is eye-readable text.'
+    :issue_number: '9'
+  '15':
+    :value: '15'
+    :description: Extensive links between internal content
+    :notes: E-publication is enhanced with a significant number of actionable cross-references,
+      hyperlinked notes and annotations, or with other links between largely textual
+      elements (eg quiz/test questions, ‘choose your own ending’ etc).
+    :issue_number: '13'
+  '14':
+    :value: '14'
+    :description: Extensive links to external content
+    :notes: E-publication is enhanced with a significant number of actionable (clickable)
+      web links.
+    :issue_number: '13'
+  '16':
+    :value: '16'
+    :description: Additional eye-readable text not part of main work
+    :notes: E-publication is enhanced with additional textual content such as interview,
+      feature article, essay, bibliography, quiz/test, other background material or
+      text that is not included in a primary or ‘unenhanced’ version.
+    :issue_number: '13'
+  '17':
+    :value: '17'
+    :description: Promotional text for other book product
+    :notes: eg Teaser chapter.
+    :issue_number: '13'
+  '11':
+    :value: '11'
+    :description: Musical notation
+    :notes: ''
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: Still images / graphics
+    :notes: Use only when no more detailed specification is provided.
+    :issue_number: '13'
+  '18':
+    :value: '18'
+    :description: Photographs
+    :notes: Whether in a plate section / insert, or not.
+    :issue_number: '13'
+  '19':
+    :value: '19'
+    :description: Figures, diagrams, charts, graphs
+    :notes: Including other ‘mechanical’ (ie non-photographic) illustrations.
+    :issue_number: '13'
+  '20':
+    :value: '20'
+    :description: Additional images / graphics not part of main work
+    :notes: E-publication is enhanced with additional images or graphical content
+      such as supplementary photographs that are not included in a primary or ‘unenhanced’
+      version.
+    :issue_number: '13'
+  '12':
+    :value: '12'
+    :description: Maps and/or other cartographic content
+    :notes: ''
+    :issue_number: '12'
+  '01':
+    :value: '01'
+    :description: Audiobook
+    :notes: Audio recording of a reading of a book or other text.
+    :issue_number: '1'
+  '02':
+    :value: '02'
+    :description: Performance – spoken word
+    :notes: Audio recording of a drama or other spoken word performance.
+    :issue_number: '1'
+  '13':
+    :value: '13'
+    :description: Other speech content
+    :notes: eg an interview, not a ‘reading’ or ‘performance’).
+    :issue_number: '12'
+  '03':
+    :value: '03'
+    :description: Music recording
+    :notes: Audio recording of a music performance, including musical drama and opera.
+    :issue_number: '1'
+  '04':
+    :value: '04'
+    :description: Other audio
+    :notes: Audio recording of other sound, eg birdsong.
+    :issue_number: '2'
+  '21':
+    :value: '21'
+    :description: Partial performance – spoken word
+    :notes: Audio recording of a reading, performance or dramatization of part of
+      the work.
+    :issue_number: '13'
+  '22':
+    :value: '22'
+    :description: Additional audio content not part of main work
+    :notes: Product is enhanced with audio recording of full or partial reading, performance,
+      dramatization, interview, background documentary or other audio content not
+      included in the primary or ‘unenhanced’ version.
+    :issue_number: '13'
+  '23':
+    :value: '23'
+    :description: Promotional audio for other book product
+    :notes: eg Reading of teaser chapter.
+    :issue_number: '13'
+  '06':
+    :value: '06'
+    :description: Video
+    :notes: Includes Film, video, animation etc. Use only when no more detailed specification
+      is provided. Formerly ‘Moving images’.
+    :issue_number: '13'
+  '26':
+    :value: '26'
+    :description: Video recording of a reading
+    :notes: ''
+    :issue_number: '13'
+  '27':
+    :value: '27'
+    :description: Performance – visual
+    :notes: Video recording of a drama or other performance, including musical performance.
+    :issue_number: '13'
+  '24':
+    :value: '24'
+    :description: Animated / interactive illustrations
+    :notes: eg animated diagrams, charts, graphs or other illustrations.
+    :issue_number: '13'
+  '25':
+    :value: '25'
+    :description: Narrative animation
+    :notes: eg cartoon, animatic or CGI animation.
+    :issue_number: '13'
+  '28':
+    :value: '28'
+    :description: Other video
+    :notes: Other video content eg interview, not a reading or performance.
+    :issue_number: '13'
+  '29':
+    :value: '29'
+    :description: Partial performance – video
+    :notes: Video recording of a reading, performance or dramatization of part of
+      the work.
+    :issue_number: '13'
+  '30':
+    :value: '30'
+    :description: Additional video content not part of main work
+    :notes: E-publication is enhanced with video recording of full or partial reading,
+      performance, dramatization, interview, background documentary or other content
+      not included in the primary or ‘unenhanced’ version.
+    :issue_number: '13'
+  '31':
+    :value: '31'
+    :description: Promotional video for other book product
+    :notes: eg Book trailer.
+    :issue_number: '13'
+  '05':
+    :value: '05'
+    :description: Game / Puzzle
+    :notes: No multi-user functionality. Formerly just ‘Game’.
+    :issue_number: '13'
+  '32':
+    :value: '32'
+    :description: Contest
+    :notes: Includes some degree of multi-user functionality.
+    :issue_number: '13'
+  08:
+    :value: 08
+    :description: Software
+    :notes: Largely ‘content free’.
+    :issue_number: '13'
+  09:
+    :value: 09
+    :description: Data
+    :notes: Data files.
+    :issue_number: '2'
+  '33':
+    :value: '33'
+    :description: Data set plus software
+    :notes: ''
+    :issue_number: '13'
+  '34':
+    :value: '34'
+    :description: Blank pages
+    :notes: Intended to be filled in by the reader.
+    :issue_number: '13'
+  '35':
+    :value: '35'
+    :description: Advertising content
+    :notes: Use only where type of advertising content is not stated.
+    :issue_number: '13'
+  '37':
+    :value: '37'
+    :description: Advertising – first party
+    :notes: ‘Back ads’ – promotional pages for other books (that do not include sample
+      content, cf codes 17, 23).
+    :issue_number: '13'
+  '36':
+    :value: '36'
+    :description: Advertising – coupons
+    :notes: Eg to obtain discounts on other products.
+    :issue_number: '13'
+  '38':
+    :value: '38'
+    :description: Advertising – third party display
+    :notes: ''
+    :issue_number: '13'
+  '39':
+    :value: '39'
+    :description: Advertising – third party textual
+    :notes: ''
+    :issue_number: '13'

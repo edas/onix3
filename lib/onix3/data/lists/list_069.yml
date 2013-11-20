@@ -1,0 +1,26 @@
+---
+:number: '69'
+:description: Agent role
+:issue_number: '3'
+:codes:
+  '05':
+    :value: '05'
+    :description: Exclusive sales agent
+    :notes: Publisher’s exclusive sales agent in a specified territory.
+    :issue_number: '3'
+  '06':
+    :value: '06'
+    :description: Non-exclusive sales agent
+    :notes: Publisher’s non-exclusive sales agent in a specified territory.
+    :issue_number: '3'
+  '07':
+    :value: '07'
+    :description: Local publisher
+    :notes: Publisher for a specified territory.
+    :issue_number: '3'
+  08:
+    :value: 08
+    :description: Sales agent
+    :notes: Publisher’s sales agent in a specific territory. Use only where exclusive
+      / non-exclusive status is not known. Prefer 05 or 06 as appropriate, where possible.
+    :issue_number: '7'

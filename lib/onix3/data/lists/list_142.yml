@@ -1,0 +1,65 @@
+---
+:number: '142'
+:description: Position on product
+:issue_number: '9'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unknown / unspecified
+    :notes: Position unknown or unspecified.
+    :issue_number: '9'
+  '01':
+    :value: '01'
+    :description: Cover 4
+    :notes: The back cover of a book.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Cover 3
+    :notes: The inside back cover of a book.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Cover 2
+    :notes: The inside front cover of a book.
+    :issue_number: '9'
+  '04':
+    :value: '04'
+    :description: Cover 1
+    :notes: The front cover of a book.
+    :issue_number: '9'
+  '05':
+    :value: '05'
+    :description: On spine
+    :notes: The spine of a book.
+    :issue_number: '9'
+  '06':
+    :value: '06'
+    :description: On box
+    :notes: Used only for boxed products.
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: On tag
+    :notes: Used only for products fitted with hanging tags.
+    :issue_number: '9'
+  08:
+    :value: 08
+    :description: On bottom
+    :notes: Not be used for books unless they are contained within outer packaging.
+    :issue_number: '9'
+  09:
+    :value: 09
+    :description: On back
+    :notes: Not be used for books unless they are contained within outer packaging.
+    :issue_number: '9'
+  '10':
+    :value: '10'
+    :description: On outer sleeve / back
+    :notes: Used only for products packaged in outer sleeves.
+    :issue_number: '9'
+  '11':
+    :value: '11'
+    :description: On removable wrapping
+    :notes: Used only for products packaged in shrink-wrap or other removable wrapping.
+    :issue_number: '9'

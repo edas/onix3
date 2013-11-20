@@ -1,0 +1,61 @@
+---
+:number: '11'
+:description: Epublication format code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: HTML
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: PDF
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Microsoft Reader
+    :notes: ‘.LIT’ file format used by Microsoft Reader software.
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: RocketBook
+    :notes: ''
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Rich text format (RTF)
+    :notes: ''
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: Open Ebook Publication Structure (OEBPS) format standard
+    :notes: ''
+    :issue_number: '0'
+  '07':
+    :value: '07'
+    :description: XML
+    :notes: ''
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: SGML
+    :notes: ''
+    :issue_number: '0'
+  09:
+    :value: 09
+    :description: EXE
+    :notes: ‘.EXE’ file format used when an epublication is delivered as a self-executing
+      package of software and content.
+    :issue_number: '1'
+  '10':
+    :value: '10'
+    :description: ASCII
+    :notes: ‘.TXT’ file format.
+    :issue_number: '1'
+  '11':
+    :value: '11'
+    :description: MobiPocket format
+    :notes: Proprietary file format used for the MobiPocket reader software.
+    :issue_number: '5'

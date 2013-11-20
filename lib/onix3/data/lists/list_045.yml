@@ -1,0 +1,98 @@
+---
+:number: '45'
+:description: Publishing role code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Publisher
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Co-publisher
+    :notes: Use where two or more publishers co-publish the exact same product, either
+      under a single ISBN (in which case both publishers are co-publishers), or under
+      different ISBNs (in which case the publisher of THIS ISBN is the publisher and
+      the publishers of OTHER ISBNs are co-publishers. Note this is different from
+      publication of 'co-editions'.
+    :issue_number: '19'
+  '03':
+    :value: '03'
+    :description: Sponsor
+    :notes: ''
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Publisher of original-language version
+    :notes: Of a translated work.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Host/distributor of electronic content
+    :notes: ''
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: Published for/on behalf of
+    :notes: ''
+    :issue_number: '1'
+  '07':
+    :value: '07'
+    :description: Published in association with
+    :notes: Use also for “Published in cooperation with”.
+    :issue_number: '2'
+  08:
+    :value: 08
+    :description: Published on behalf of
+    :notes: 'DEPRECATED: use code 06.'
+    :issue_number: '3'
+  09:
+    :value: 09
+    :description: New or acquiring publisher
+    :notes: When ownership of a product or title is transferred from one publisher
+      to another.
+    :issue_number: '2'
+  '10':
+    :value: '10'
+    :description: Publishing group
+    :notes: 'The group to which a publisher (publishing role 01) belongs: use only
+      if a publisher has been identified with role code 01.'
+    :issue_number: '8'
+  '11':
+    :value: '11'
+    :description: Publisher of facsimile original
+    :notes: The publisher of the edition of which a product is a facsimile.
+    :issue_number: '9'
+  '12':
+    :value: '12'
+    :description: Repackager of prebound edition
+    :notes: The repackager of a prebound edition that has been assigned its own identifier.
+      (In the US, a ‘prebound edition’ is a book that was previously bound, normally
+      as a paperback, and has been rebound with a library-quality hardcover binding
+      by a supplier other than the original publisher.) Required when the <EditionType>
+      is coded PRB. The original publisher should be named as the ‘publisher’.
+    :issue_number: '9'
+  '13':
+    :value: '13'
+    :description: Former publisher
+    :notes: When ownership of a product or title is transferred from one publisher
+      to another (complement of code 09).
+    :issue_number: '12'
+  '14':
+    :value: '14'
+    :description: Publication funder
+    :notes: Body funding publication fees, if different from the body funding the
+      underlying research. For use with open access publications.
+    :issue_number: '22'
+  '15':
+    :value: '15'
+    :description: Research funder
+    :notes: Body funding the research on which publication is based, if different
+      from the body funding the publication. For use with open access publications.
+    :issue_number: '22'
+  '16':
+    :value: '16'
+    :description: Funding body
+    :notes: Body funding research and publication. For use with open access publications.
+    :issue_number: '22'

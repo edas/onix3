@@ -1,0 +1,177 @@
+---
+:number: '79'
+:description: Product form feature type
+:issue_number: '1'
+:codes:
+  '01':
+    :value: '01'
+    :description: Color of cover
+    :notes: For Product Form Feature values see code list 98.
+    :issue_number: '1'
+  '02':
+    :value: '02'
+    :description: Color of page edge
+    :notes: For Product Form Feature values see code list 98.
+    :issue_number: '1'
+  '03':
+    :value: '03'
+    :description: Text font
+    :notes: The principal font used for body text, when this is a significant aspect
+      of product description, eg for some Bibles, and for large print product. The
+      accompanying Product Form Feature Description is text specifying font size and,
+      if desired, typeface.
+    :issue_number: '14'
+  '04':
+    :value: '04'
+    :description: Special cover material
+    :notes: For Product Form Feature values see code list 99.
+    :issue_number: '1'
+  '05':
+    :value: '05'
+    :description: DVD region
+    :notes: For Product Form Feature values see code list 76.
+    :issue_number: '2'
+  '06':
+    :value: '06'
+    :description: Operating system requirements
+    :notes: A computer or handheld device operating system required to use a digital
+      product, with version detail if applicable. The accompanying Product Form Feature
+      Value is a code from List 176. Version detail, when applicable, is carried in
+      Product Form Feature Description.
+    :issue_number: '10'
+  '07':
+    :value: '07'
+    :description: Other system requirements
+    :notes: Other system requirements for a digital product, described by free text
+      in Product Form Feature Description.
+    :issue_number: '10'
+  08:
+    :value: 08
+    :description: ‘Point and listen’ device compatibility
+    :notes: Indicates compatibility with proprietary ‘point and listen’ devices such
+      as Ting Pen (http://www.ting.eu) or the iSmart Touch and Read Pen. These devices
+      scan invisible codes specially printed on the page to identify the book and
+      position of the word, and the word is then read aloud by the device. The name
+      of the compatible device (or range of devices) should be given in <ProductFormFeatureDescription>.
+    :issue_number: '15'
+  09:
+    :value: 09
+    :description: E-publication accessibility detail
+    :notes: For <ProductFormFeatureValue> codes, see Codelist 196.
+    :issue_number: '15'
+  '10':
+    :value: '10'
+    :description: E-publication format version
+    :notes: For versioned e-book file format (or in some cases, device) – for example
+      EPUB 2 and EPUB 3. <ProductFormFeatureValue> should contain the version number.
+      Use only with ONIX 3.0 – in ONIX 2.1, use <EpubTypeVersion> instead.
+    :issue_number: '17'
+  '11':
+    :value: '11'
+    :description: CPSIA choking hazard warning
+    :notes: DEPRECATED – use code 12 and List 143.
+    :issue_number: '10'
+  '12':
+    :value: '12'
+    :description: CPSIA choking hazard warning
+    :notes: Choking hazard warning required by US Consumer Product Safety Improvement
+      Act (CPSIA) of 2008. Required, when applicable, for products sold in the US.
+      The Product Form Feature Value is a code from List 143. Further explanation
+      may be given in Product Form Feature Description.
+    :issue_number: '9'
+  '13':
+    :value: '13'
+    :description: EU Toy Safety Hazard warning
+    :notes: Product carries hazard warning required by EU Toy Safety Directive. The
+      Product Form Feature value is a code from List 184, and (for some codes) the
+      exact wording of the warning may be given in Product Form Feature Description.
+    :issue_number: '14'
+  '14':
+    :value: '14'
+    :description: IATA Dangerous Goods warning
+    :notes: Product Form Feature Description must give further details of the warning.
+    :issue_number: '21'
+  '30':
+    :value: '30'
+    :description: Not FSC or PEFC certified
+    :notes: Product does not carry FSC or PEFC logo. The Product Form Feature Value
+      and Description elements are not used. The product may, however, still carry
+      a claimed Pre- and Post-Consumer Waste (PCW) content (type code 37) in a separate
+      repeat of the Product Form Feature composite.
+    :issue_number: '14'
+  '31':
+    :value: '31'
+    :description: FSC certified – pure
+    :notes: 'Product carries FSC logo (Pure, 100%). <ProductFormFeatureValue> is the
+      Certification number (ie either a Chain Of Custody (COC) number or a Trademark
+      License number) printed on the book. Format: Chain of Custody number is two
+      to five letters-COC-six digits (the digits should include leading zeros if necessary),
+      eg “AB-COC-001234” or “ABCDE-COC-123456”; Trademark License number is C followed
+      by six digits, eg “C005678” (this would normally be prefixed by ‘FSC®’ when
+      displayed). By definition, a product certified Pure does not contain Pre- and
+      Post-Consumer-Waste (PCW), so type code 31 can only occur on its own. Certification
+      numbers may be checked at ‘http://info.fsc.org/’.'
+    :issue_number: '14'
+  '32':
+    :value: '32'
+    :description: FSC certified – mixed sources
+    :notes: 'Product carries FSC logo (Mixed sources, Mix). <ProductFormFeatureValue>
+      is the Certification number (ie either a Chain Of Custody (COC) number or a
+      Trademark License number) printed on the book. Format: Chain of Custody number
+      is two to five letters-COC-six digits (the digits should include leading zeros
+      if necessary), eg “AB-COC-001234” or “ABCDE-COC-123456”; Trademark License number
+      is C followed by six digits, eg “C005678” (this would normally be prefixed by
+      ‘FSC®’ when displayed). May be accompanied by a Pre- and Post-Consumer-Waste
+      (PCW) percentage value, to be reported in another instance of <ProductFormFeature>
+      with type code 36. Certification numbers may be checked at http://info.fsc.org/'
+    :issue_number: '14'
+  '33':
+    :value: '33'
+    :description: FSC certified – recycled
+    :notes: 'Product carries FSC logo (Recycled). <ProductFormFeatureValue> is the
+      Certification number (ie either a Chain Of Custody (COC) number or a Trademark
+      License number) printed on the book. Format: Chain of Custody number is two
+      to five letters-COC-six digits (the digits should include leading zeroes if
+      necessary), eg “AB-COC-001234” or “ABCDE-COC-123456”; Trademark License number
+      is C followed by six digits, eg “C005678” (this would normally be prefixed by
+      ‘FSC®’ when displayed). Should be accompanied by a Pre- and Post-Consumer-Waste
+      (PCW) percentage value, to be reported in another instance of <ProductFormFeature>
+      with type code 36. Certification numbers may be checked at‘ http://info.fsc.org/’.'
+    :issue_number: '14'
+  '34':
+    :value: '34'
+    :description: PEFC certified
+    :notes: Product carries PEFC logo (certified). <ProductFormFeatureValue> is the
+      Chain Of Custody (COC) number printed on the book. May be accompanied by a Post-Consumer
+      Waste (PCW) percentage value, to be reported in another instance of <ProductFormFeature>
+      with type code 36.
+    :issue_number: '10'
+  '35':
+    :value: '35'
+    :description: PEFC recycled
+    :notes: Product carries PEFC logo (recycled). <ProductFormFeatureValue> is the
+      Chain Of Custody (COC) number printed on the book. Should be accompanied by
+      a Post-Consumer-Waste (PCW) percentage value, to be reported in another instance
+      of <ProductFormFeature> with type code 36.
+    :issue_number: '10'
+  '36':
+    :value: '36'
+    :description: FSC or PEFC certified Pre- and Post-Consumer Waste (PCW) percentage
+    :notes: The percentage of recycled Pre- and Post-Consumer-Waste (PCW) used in
+      a product where the composition is certified by FSC or PEFC. <ProductFormFeatureValue>
+      is an integer. May occur together with type code 32, 33, 34 or 35.
+    :issue_number: '14'
+  '37':
+    :value: '37'
+    :description: Claimed Pre- and Post-Consumer Waste (PCW) percentage
+    :notes: The percentage of recycled Pre- and Post-Consumer Waste (PCW) claimed
+      to be used in a product where the composition is not certified by FSC or PEFC.
+      <Product FormFeatureValue> is an integer. <ProductFormFeatureDescription> may
+      carry free text supporting the claim. Must be accompanied by type code 30.
+    :issue_number: '14'
+  '40':
+    :value: '40'
+    :description: Paper produced by ‘green’ technology
+    :notes: Product made from paper produced using environmentally-conscious technology.
+      <ProductFormFeatureDescription> may carry free text with a more detailed statement.
+    :issue_number: '11'

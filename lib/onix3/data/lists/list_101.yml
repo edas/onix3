@@ -1,0 +1,37 @@
+---
+:number: '101'
+:description: Person name identifier type
+:issue_number: '1'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: ''
+    :issue_number: '2'
+  '02':
+    :value: '02'
+    :description: PND
+    :notes: Personennamendatei – person name authority file used by Deutsche Nationalbibliothek
+      and in other German-speaking countries. See http://www.d-nb.de/standardisierung/normdateien/pnd.htm
+      (German) or http://www.d-nb.de/eng/standardisierung/normdateien/pnd.htm (English).
+      DEPRECATED in favour of the GND.
+    :issue_number: '18'
+  '04':
+    :value: '04'
+    :description: LCCN
+    :notes: Library of Congress control number assigned to a Library of Congress Name
+      Authority record.
+    :issue_number: '10'
+  '16':
+    :value: '16'
+    :description: ISNI
+    :notes: International Standard Name Identifier. See ‘http://www.isni.org/’.
+    :issue_number: '17'
+  '25':
+    :value: '25'
+    :description: GND
+    :notes: Gemeinsame Normdatei – Joint Authority File in the German-speaking countries.
+      See 'http://www.dnb.de/EN/Standardisierung/Normdaten/GND/gnd_node.html (English)'.
+      Combines the PND, SWD and GKD into a single authority file, and should be used
+      in preference.
+    :issue_number: '18'

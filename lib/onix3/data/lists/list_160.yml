@@ -1,0 +1,29 @@
+---
+:number: '160'
+:description: Resource feature type
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Required credit
+    :notes: Credit that must be displayed when a resource is used (eg ‘Photo Jerry
+      Bauer’ or ‘© Magnum Photo’). Credit text should be carried in <FeatureNote>.
+    :issue_number: '12'
+  '02':
+    :value: '02'
+    :description: Caption
+    :notes: Explanatory caption that may accompany a resource (eg use to identify
+      an author in a photograph). Caption text should be carried in <FeatureNote>.
+    :issue_number: '12'
+  '03':
+    :value: '03'
+    :description: Copyright holder
+    :notes: Copyright holder of resource (indicative only, as the resource can be
+      used without consultation). Copyright text should be carried in <FeatureNote>.
+    :issue_number: '12'
+  '04':
+    :value: '04'
+    :description: Length in minutes
+    :notes: Approximate length in minutes of an audio or video resource. <FeatureValue>
+      should contain the length of time as an integer number of minutes.
+    :issue_number: '12'

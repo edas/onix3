@@ -1,0 +1,63 @@
+---
+:number: '84'
+:description: Study Bible type
+:issue_number: '1'
+:codes:
+  CAM:
+    :value: CAM
+    :description: Cambridge Annotated
+    :notes: Contains the work of Howard Clark Kee including a summary of the development
+      of the canon, introductions to the books, notes and cross references. Originally
+      published in 1993, NRSV.
+    :issue_number: '1'
+  LIF:
+    :value: LIF
+    :description: Life Application
+    :notes: A project of Tyndale House Publishers and Zondervan intended to help readers
+      apply the Bible to daily living. Living Bible, King James, New International,
+      NASB.
+    :issue_number: '1'
+  MAC:
+    :value: MAC
+    :description: Macarthur
+    :notes: A King James version study Bible with notes by James Macarthur first published
+      in 1997.
+    :issue_number: '1'
+  OXF:
+    :value: OXF
+    :description: Oxford Annotated
+    :notes: A study Bible originally published in the 1960s and based on the RSV /
+      NRSV.
+    :issue_number: '1'
+  NNT:
+    :value: NNT
+    :description: Studiebibel, Det Nye testamentet
+    :notes: Norwegian study Bible, New Testament.
+    :issue_number: '6'
+  NOX:
+    :value: NOX
+    :description: New Oxford Annotated
+    :notes: Published in 1991 and based on the New Revised Standard version.
+    :issue_number: '1'
+  NSB:
+    :value: NSB
+    :description: Norsk studiebibel
+    :notes: Norwegian study Bible.
+    :issue_number: '6'
+  RYR:
+    :value: RYR
+    :description: Ryrie
+    :notes: Based on the work of Charles C. Ryrie. King James, NI, NASB.
+    :issue_number: '1'
+  SCO:
+    :value: SCO
+    :description: Scofield
+    :notes: A study Bible based on the early 20th century work of C.I. Scofield. Based
+      on the King James version.
+    :issue_number: '1'
+  SPR:
+    :value: SPR
+    :description: Spirit Filled
+    :notes: A transdenominational study Bible for persons from the Pentecostal/Charismatic
+      traditions.
+    :issue_number: '1'

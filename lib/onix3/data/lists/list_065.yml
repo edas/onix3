@@ -1,0 +1,183 @@
+---
+:number: '65'
+:description: Product availability
+:issue_number: '2'
+:codes:
+  '01':
+    :value: '01'
+    :description: Cancelled
+    :notes: 'Cancelled: product was announced, and subsequently abandoned.'
+    :issue_number: '2'
+  '10':
+    :value: '10'
+    :description: Not yet available
+    :notes: Not yet available (requires <ExpectedShipDate>, except in exceptional
+      circumstances where no date is known).
+    :issue_number: '2'
+  '11':
+    :value: '11'
+    :description: Awaiting stock
+    :notes: Not yet available, but will be a stock item when available (requires <ExpectedShipDate>,
+      except in exceptional circumstances where no date is known). Used particularly
+      for imports which have been published in the country of origin but have not
+      yet arrived in the importing country.
+    :issue_number: '2'
+  '12':
+    :value: '12'
+    :description: Not yet available, will be POD
+    :notes: Not yet available, to be published as print-on-demand only. May apply
+      either to a POD successor to an existing conventional edition, when the successor
+      will be published under a different ISBN (normally because different trade terms
+      apply); or to a title that is being published as a POD original.
+    :issue_number: '5'
+  '20':
+    :value: '20'
+    :description: Available
+    :notes: Available from us (form of availability unspecified).
+    :issue_number: '2'
+  '21':
+    :value: '21'
+    :description: In stock
+    :notes: Available from us as a stock item.
+    :issue_number: '2'
+  '22':
+    :value: '22'
+    :description: To order
+    :notes: Available from us as a non-stock item, by special order.
+    :issue_number: '2'
+  '23':
+    :value: '23'
+    :description: POD
+    :notes: Available from us by print-on-demand.
+    :issue_number: '10'
+  '30':
+    :value: '30'
+    :description: Temporarily unavailable
+    :notes: 'Temporarily unavailable: temporarily unavailable from us (reason unspecified)
+      (requires expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate>
+      with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances
+      where no date is known).'
+    :issue_number: '2'
+  '31':
+    :value: '31'
+    :description: Out of stock
+    :notes: Stock item, temporarily out of stock (requires expected date, either as
+      <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded
+      ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known).
+    :issue_number: '2'
+  '32':
+    :value: '32'
+    :description: Reprinting
+    :notes: Temporarily unavailable, reprinting (requires expected date, either as
+      <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole> coded
+      ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is known).
+    :issue_number: '2'
+  '33':
+    :value: '33'
+    :description: Awaiting reissue
+    :notes: Temporarily unavailable, awaiting reissue (requires the <Reissue> composite,
+      and expected date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate>
+      with <SupplyDateRole> coded ‘08’ (ONIX 3.0), except in exceptional circumstances
+      where no date is known).
+    :issue_number: '2'
+  '34':
+    :value: '34'
+    :description: Temporarily withdrawn from sale
+    :notes: May be for quality or technical reasons. Requires expected availability
+      date, either as <ExpectedShipDate> (ONIX 2.1) or as <SupplyDate> with <SupplyDateRole>
+      coded ‘08’ (ONIX 3.0), except in exceptional circumstances where no date is
+      known.
+    :issue_number: '15'
+  '40':
+    :value: '40'
+    :description: Not available (reason unspecified)
+    :notes: Not available from us (for any reason).
+    :issue_number: '13'
+  '41':
+    :value: '41'
+    :description: Not available, replaced by new product
+    :notes: This product is unavailable, but a successor product or edition is or
+      will be available from us (identify successor in <RelatedProduct>).
+    :issue_number: '2'
+  '42':
+    :value: '42'
+    :description: Not available, other format available
+    :notes: This product is unavailable, but the same content is or will be available
+      from us in an alternative format (identify other format product in <RelatedProduct>).
+    :issue_number: '2'
+  '43':
+    :value: '43'
+    :description: No longer supplied by us
+    :notes: Identify new supplier in <NewSupplier> if possible.
+    :issue_number: '2'
+  '44':
+    :value: '44'
+    :description: Apply direct
+    :notes: Not available to trade, apply direct to publisher.
+    :issue_number: '2'
+  '45':
+    :value: '45'
+    :description: Not sold separately
+    :notes: Must be bought as part of a set (identify set in <RelatedProduct>).
+    :issue_number: '2'
+  '46':
+    :value: '46'
+    :description: Withdrawn from sale
+    :notes: May be for legal reasons or to avoid giving offence.
+    :issue_number: '2'
+  '47':
+    :value: '47'
+    :description: Remaindered
+    :notes: Remaindered.
+    :issue_number: '2'
+  '48':
+    :value: '48'
+    :description: Not available, replaced by POD
+    :notes: Out of print, but a print-on-demand edition is or will be available under
+      a different ISBN. Use only when the POD successor has a different ISBN, normally
+      because different trade terms apply.
+    :issue_number: '5'
+  '49':
+    :value: '49'
+    :description: Recalled
+    :notes: Recalled for reasons of consumer safety.
+    :issue_number: '9'
+  '50':
+    :value: '50'
+    :description: Not sold as set
+    :notes: When a collection that is not sold as a set nevertheless has its own ONIX
+      record.
+    :issue_number: '10'
+  '51':
+    :value: '51'
+    :description: Not available, publisher indicates OP
+    :notes: This product is unavailable, no successor product or alternative format
+      is available or planned. Use this code only when the publisher has indicated
+      the product is out of print.
+    :issue_number: '13'
+  '52':
+    :value: '52'
+    :description: Not available, publisher no longer sells product in this market
+    :notes: This product is unavailable in this market, no successor product or alternative
+      format is available or planned. Use this code when a publisher has indicated
+      the product is permanently unavailable (in this market) while remaining available
+      elsewhere.
+    :issue_number: '13'
+  '97':
+    :value: '97'
+    :description: No recent update received
+    :notes: 'Sender has not received any recent update for this product from the publisher/supplier
+      (for use when the sender is a data aggregator): the definition of “recent” must
+      be specified by the aggregator, or by agreement between parties to an exchange.'
+    :issue_number: '11'
+  '98':
+    :value: '98'
+    :description: No longer receiving updates
+    :notes: Sender is no longer receiving any updates from the publisher/supplier
+      of this product (for use when the sender is a data aggregator).
+    :issue_number: '11'
+  '99':
+    :value: '99'
+    :description: Contact supplier
+    :notes: Availability not known to sender.
+    :issue_number: '9'

@@ -1,0 +1,37 @@
+---
+:number: '18'
+:description: Person / organization name type
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified
+    :notes: ''
+    :issue_number: '0'
+  '01':
+    :value: '01'
+    :description: Pseudonym
+    :notes: May be used to give a well-known pseudonym, where the primary name is
+      a ‘real’ name.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Authority-controlled name
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Earlier name
+    :notes: ''
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: ‘Real’ name
+    :notes: May be used to identify a well-known real name, where the primary name
+      is a pseudonym.
+    :issue_number: '12'
+  '05':
+    :value: '05'
+    :description: Transliterated form of primary name
+    :notes: Use only within <AlternativeName>, when the primary name type is unspecified.
+    :issue_number: '16'

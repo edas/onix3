@@ -1,0 +1,45 @@
+---
+:number: '151'
+:description: Contributor place relator
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Born in
+    :notes: ''
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Died in
+    :notes: ''
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Formerly resided in
+    :notes: ''
+    :issue_number: '9'
+  '04':
+    :value: '04'
+    :description: Currently resides in
+    :notes: ''
+    :issue_number: '9'
+  '05':
+    :value: '05'
+    :description: Educated in
+    :notes: ''
+    :issue_number: '9'
+  '06':
+    :value: '06'
+    :description: Worked in
+    :notes: ''
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: Flourished in
+    :notes: ''
+    :issue_number: '9'
+  08:
+    :value: 08
+    :description: Citizen of
+    :notes: Or nationality. For use with country codes only.
+    :issue_number: '20'

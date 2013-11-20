@@ -1,0 +1,43 @@
+---
+:number: '145'
+:description: Usage type
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Preview
+    :notes: Preview before purchase.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Print
+    :notes: Print paper copy of extract.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Copy / paste
+    :notes: Make digital copy of extract.
+    :issue_number: '9'
+  '04':
+    :value: '04'
+    :description: Share
+    :notes: Share product across multiple concurrent devices.
+    :issue_number: '9'
+  '05':
+    :value: '05'
+    :description: Text to speech
+    :notes: ‘Read aloud’ with text to speech functionality.
+    :issue_number: '9'
+  '06':
+    :value: '06'
+    :description: Lend
+    :notes: Lendable to other device owner or account holder, eg ‘Lend-to-a-friend’,
+      library lending. The ‘primary’ copy becomes unusable while the secondary copy
+      is ‘on loan’ unless a number of concurrent borrowers is also specified).
+    :issue_number: '15'
+  '07':
+    :value: '07'
+    :description: Time-limited license
+    :notes: E-publication license is time limited. Use with 02 from List 146 and a
+      number of days in <EpubUsageLimit>.
+    :issue_number: '13'

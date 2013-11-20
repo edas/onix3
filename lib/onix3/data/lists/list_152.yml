@@ -1,0 +1,15 @@
+---
+:number: '152'
+:description: Illustrated / not illustrated
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: 'No'
+    :notes: Not illustrated.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: 'Yes'
+    :notes: Illustrated.
+    :issue_number: '9'

@@ -1,0 +1,25 @@
+---
+:number: '66'
+:description: BISAC returnable indicator
+:issue_number: '2'
+:codes:
+  N:
+    :value: N
+    :description: No, not returnable
+    :notes: ''
+    :issue_number: '2'
+  Y:
+    :value: Y
+    :description: Yes, returnable, full copies only
+    :notes: ''
+    :issue_number: '2'
+  S:
+    :value: S
+    :description: Yes, returnable, stripped cover
+    :notes: ''
+    :issue_number: '2'
+  C:
+    :value: C
+    :description: Conditional
+    :notes: Contact publisher for requirements and/or authorization.
+    :issue_number: '2'

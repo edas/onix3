@@ -1,0 +1,15 @@
+---
+:number: '60'
+:description: Unit of pricing code
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Per copy of whole product
+    :notes: Default.
+    :issue_number: '0'
+  '01':
+    :value: '01'
+    :description: Per page for printed loose-leaf content only
+    :notes: ''
+    :issue_number: '0'

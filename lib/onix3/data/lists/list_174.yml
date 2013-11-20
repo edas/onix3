@@ -1,0 +1,15 @@
+---
+:number: '174'
+:description: Printed on product
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: 'No'
+    :notes: Price not printed on product.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: 'Yes'
+    :notes: Price printed on product.
+    :issue_number: '9'

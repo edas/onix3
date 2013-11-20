@@ -1,0 +1,57 @@
+---
+:number: '46'
+:description: Sales rights type code
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Sales rights unknown or unstated for any reason
+    :notes: May only be used with the ONIX 3 <ROWSalesRightsType> element.
+    :issue_number: '12'
+  '01':
+    :value: '01'
+    :description: For unrestricted sale with exclusive rights in the specified countries
+      or territories
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: For unrestricted sale with non-exclusive rights in the specified
+      countries or territories
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Not for sale in the specified countries or territories (reason unspecified)
+    :notes: ''
+    :issue_number: '12'
+  '04':
+    :value: '04'
+    :description: Not for sale in the specified countries (but publisher holds exclusive
+      rights in those countries or territories)
+    :notes: ''
+    :issue_number: '12'
+  '05':
+    :value: '05'
+    :description: Not for sale in the specified countries (publisher holds non-exclusive
+      rights in those countries or territories)
+    :notes: ''
+    :issue_number: '12'
+  '06':
+    :value: '06'
+    :description: Not for sale in the specified countries (because publisher does
+      not hold rights in those countries or territories)
+    :notes: ''
+    :issue_number: '12'
+  '07':
+    :value: '07'
+    :description: For sale with exclusive rights in the specified countries or territories
+      (sales restriction applies)
+    :notes: Only for use with ONIX 3.
+    :issue_number: '12'
+  08:
+    :value: 08
+    :description: For sale with non-exclusive rights in the specified countries or
+      territories (sales restriction applies)
+    :notes: Only for use with ONIX 3.
+    :issue_number: '12'

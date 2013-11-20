@@ -1,0 +1,413 @@
+---
+:number: '83'
+:description: Bible version
+:issue_number: '1'
+:codes:
+  ALV:
+    :value: ALV
+    :description: Alberto Vaccari
+    :notes: Alberto Vaccari – Pontificio Istituto Biblico.
+    :issue_number: '7'
+  AMP:
+    :value: AMP
+    :description: Amplified
+    :notes: A translation based on the American Standard Version and showing multiple
+      options for the translation of ancient text. Published in full in 1965. Sponsored
+      by the Lockman Foundation.
+    :issue_number: '1'
+  ANM:
+    :value: ANM
+    :description: Antonio Martini
+    :notes: Most popular Catholic Bible translation in Italian prior to the CEI translation
+      in 1971.
+    :issue_number: '7'
+  ASV:
+    :value: ASV
+    :description: American Standard
+    :notes: A 1901 translation using verbal equivalence techniques with the purpose
+      of Americanizing the REV.
+    :issue_number: '17'
+  CEI:
+    :value: CEI
+    :description: Conferenza Episcopale Italiana
+    :notes: Italian Episcopal Conference 1971 translation suitable for Italian Catholic
+      liturgy. (Includes minor 1974 revision).
+    :issue_number: '9'
+  CEN:
+    :value: CEN
+    :description: Conferenza Episcopale Italiana 2008
+    :notes: New translation of the C.E.I. first published in 2008 – the version most
+      widely used by the Italian Catholic Church.
+    :issue_number: '9'
+  CEV:
+    :value: CEV
+    :description: Contemporary English
+    :notes: A translation completed in 1995 and sponsored by the American Bible Society
+      under the leadership of Barclay Newman.
+    :issue_number: '1'
+  CNC:
+    :value: CNC
+    :description: Concordata
+    :notes: 1968 Interfaith version promoted by the Italian Bible Society. Has a Catholic
+      ‘imprimateur’, but its ecumenical approach has Jewish, Protestant and Christian
+      Orthodox approval.
+    :issue_number: '7'
+  DDI:
+    :value: DDI
+    :description: Diodati
+    :notes: Version based on original documents, edited by Giovanni Diodati in 1607,
+      revised by Diodati in 1641 and again in 1894. It is the reference version for
+      many Italian Protestants.
+    :issue_number: '7'
+  DDN:
+    :value: DDN
+    :description: Nuova Diodati
+    :notes: Revision of the Diodati Bible dating to the 1990s, aiming at highest fidelity
+      to original ancient Greek (New Testament) and Hebrew (Old Testament) texts.
+    :issue_number: '7'
+  DOU:
+    :value: DOU
+    :description: Douay-Rheims
+    :notes: An early (1580-1609) English translation from the Latin Vulgate designed
+      for Catholics and performed by George Martin.
+    :issue_number: '1'
+  EIN:
+    :value: EIN
+    :description: Einheitsübersetzung
+    :notes: A German translation of the Bible for use in Roman Catholic churches.
+    :issue_number: '7'
+  ESV:
+    :value: ESV
+    :description: English Standard
+    :notes: An update of the Revised Standard Version that makes ‘modest’ use of gender-free
+      terminology.
+    :issue_number: '1'
+  FBB:
+    :value: FBB
+    :description: Biblia (1776)
+    :notes: Finnish Bible translation.
+    :issue_number: '8'
+  FRA:
+    :value: FRA
+    :description: Raamattu (1933/1938)
+    :notes: Finnish Bible translation.
+    :issue_number: '8'
+  FRK:
+    :value: FRK
+    :description: Raamattu kansalle
+    :notes: Finnish Bible translation.
+    :issue_number: '8'
+  FRM:
+    :value: FRM
+    :description: Raamattu (1992)
+    :notes: Finnish Bible translation.
+    :issue_number: '8'
+  GDW:
+    :value: GDW
+    :description: God’s Word
+    :notes: A 1995 translation by the World Bible Publishing Company using the English
+      language in a manner to communicate to the late 20th century American.
+    :issue_number: '1'
+  GEN:
+    :value: GEN
+    :description: Geneva
+    :notes: An early (1560) English version of the Bible translated by William Whittingham
+      with strong Protestant leanings.
+    :issue_number: '1'
+  GNB:
+    :value: GNB
+    :description: Good News
+    :notes: A translation sponsored by the American Bible Society. The New Testament
+      was first published (as “Today’s English Version” TEV) in 1966. The Old Testament
+      was completed in 1976, and the whole was published as the “Good News Bible”.
+    :issue_number: '1'
+  GPR:
+    :value: GPR
+    :description: Galbiati, Penna, Rossano – UTET
+    :notes: Version edited by E. Galbiati, A. Penna and P. Rossano, and published
+      by UTET. This version, based on original texts, is rich in notes and has been
+      used as the basis for CEI translation.
+    :issue_number: '7'
+  GRK:
+    :value: GRK
+    :description: Original Greek
+    :notes: New Testament text in an original Greek version.
+    :issue_number: '1'
+  GRM:
+    :value: GRM
+    :description: Garofano, Rinaldi – Marietti
+    :notes: Richly annotated 1963 Version edited by S. Garofano and S. Rinaldi, and
+      published by Marietti.
+    :issue_number: '7'
+  HBR:
+    :value: HBR
+    :description: Original Hebrew
+    :notes: Old Testament text in an original Hebrew version.
+    :issue_number: '1'
+  HCS:
+    :value: HCS
+    :description: Holman Christian Standard
+    :notes: Published by Broadman and Holman this translation rejects all forms of
+      gender-neutral wording and is written with strong influences from the Southern
+      Baptist perspective of biblical scholarship.
+    :issue_number: '1'
+  ICB:
+    :value: ICB
+    :description: International Children’s
+    :notes: A translation completed in 1986 targeting readability at the US third
+      grade level.
+    :issue_number: '1'
+  ILC:
+    :value: ILC
+    :description: Traduzione Interconfessionale in Lingua Corrente
+    :notes: Interconfessional translation resulting from 1985 effort by Catholic and
+      Protestant scholars, aimed at delivering an easy-to-understand message.
+    :issue_number: '7'
+  JER:
+    :value: JER
+    :description: Jerusalem
+    :notes: A translation designed for English speaking Catholics based on the original
+      languages. It is based on French as well as ancient texts and was first published
+      in 1966.
+    :issue_number: '1'
+  KJV:
+    :value: KJV
+    :description: King James
+    :notes: A translation commissioned by King James I of England and first published
+      in 1611.
+    :issue_number: '1'
+  KJT:
+    :value: KJT
+    :description: 21st Century King James
+    :notes: A verbal translation led by William Prindele. Published in 1994, it was
+      designed to modernize the language of the King James Version based on Webster’s
+      New International Dictionary, 2nd edition, unabridged.
+    :issue_number: '1'
+  LVB:
+    :value: LVB
+    :description: Living Bible
+    :notes: A paraphrase translation led by Kenneth N Taylor and first published in
+      1972.
+    :issue_number: '1'
+  LZZ:
+    :value: LZZ
+    :description: Luzzi
+    :notes: 1924 translation by Giovanni Luzzi, Professor at the Waldensian Faculty
+      of Theology in Rome, who revised the 17th Century Diodati version.
+    :issue_number: '7'
+  MSG:
+    :value: MSG
+    :description: Message Bible
+    :notes: A paraphrase translation of the New Testament by Eugene Peterson first
+      published in 1993.
+    :issue_number: '1'
+  NAB:
+    :value: NAB
+    :description: New American
+    :notes: A translation aimed at Catholic readers first published in its entirety
+      in 1970. A revised New Testament was issued in 1986 as the 2nd Edition. The
+      3rd Edtion was published in 1991 with a revision to Psalms. The 4th Edition
+      (also known as the New American Bible Revised Edition) was published in 2011,
+      incorporating revisions to the Old Testament.
+    :issue_number: '17'
+  NAS:
+    :value: NAS
+    :description: New American Standard
+    :notes: A translation commissioned by the Lockman Foundation. The New Testament
+      was published in 1960 followed by the entire Bible in 1971.
+    :issue_number: '1'
+  NAU:
+    :value: NAU
+    :description: New American Standard, Updated
+    :notes: A 1995 translation using more modern language than the NASB.
+    :issue_number: '1'
+  NBA:
+    :value: NBA
+    :description: Bibelen 1895
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBB:
+    :value: NBB
+    :description: Bibelen 1930
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBC:
+    :value: NBC
+    :description: Bibelen 1938
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBD:
+    :value: NBD
+    :description: Bibelen 1978-85
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBE:
+    :value: NBE
+    :description: Bibelen 1978
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBF:
+    :value: NBF
+    :description: Bibelen 1985
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBG:
+    :value: NBG
+    :description: Bibelen 1988
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBH:
+    :value: NBH
+    :description: Bibelen 1978-85/rev. 2005
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NBI:
+    :value: NBI
+    :description: Bibelen 2011
+    :notes: Norwegian Bible translation.
+    :issue_number: '17'
+  NCV:
+    :value: NCV
+    :description: New Century
+    :notes: A translation inspired by the International Children’s version. First
+      published by World Publishing in 1991.
+    :issue_number: '1'
+  NEB:
+    :value: NEB
+    :description: New English
+    :notes: A translation first issued in 1961 (New Testament) and 1970 (complete
+      Bible) as a result of a proposal at the 1946 General Assembly of the Church
+      of Scotland.
+    :issue_number: '17'
+  NGO:
+    :value: NGO
+    :description: Bibelen Guds ord
+    :notes: Norwegian Bible translation.
+    :issue_number: '6'
+  NIV:
+    :value: NIV
+    :description: New International
+    :notes: A translation underwritten by Biblica (formerly the International Bible
+      Society, and previously the New York Bible Society). The New Testament was published
+      in 1973 followed by the entire Bible in 1978. The NIV text was revised in 1984
+      and again in 2011.
+    :issue_number: '17'
+  NIR:
+    :value: NIR
+    :description: New International Reader’s
+    :notes: A 1996 translation designed for people with limited literacy in English
+      and based on the NIV.
+    :issue_number: '1'
+  NJB:
+    :value: NJB
+    :description: New Jerusalem
+    :notes: A revision of the Jerusalem Bible. First published in 1986.
+    :issue_number: '1'
+  NKJ:
+    :value: NKJ
+    :description: New King James
+    :notes: A version issued by Thomas Nelson Publishers in 1982-83 designed to update
+      the language of the King James Version while maintaining the phrasing and rhythm
+      and using the same sources as its predecessor.
+    :issue_number: '1'
+  NNK:
+    :value: NNK
+    :description: Bibelen, nynorsk
+    :notes: Norwegian ‘nynorsk’ Bible translation.
+    :issue_number: '6'
+  NLV:
+    :value: NLV
+    :description: New Living
+    :notes: A translation sponsored by Tyndale House and first released in 1996. It
+      is considered a revision and updating of the Living Bible.
+    :issue_number: '1'
+  NRS:
+    :value: NRS
+    :description: New Revised Standard
+    :notes: A revision of the Revised Standard based on ancient texts but updating
+      language to American usage of the 1980s.
+    :issue_number: '1'
+  NTV:
+    :value: NTV
+    :description: Nueva Traduccion Vivienta
+    :notes: A Spanish translation from the original Greek and Hebrew, sponsored by
+      Tyndale House.
+    :issue_number: '10'
+  NVB:
+    :value: NVB
+    :description: Novissima Versione della Bibbia
+    :notes: Nuovissima version – a Catholic-oriented translation in modern Italian,
+      edited by a group including Carlo Martini, Gianfranco Ravasi and Ugo Vanni and
+      first published (in 48 volumes, 1967-1980) by Edizioni San Paolo.
+    :issue_number: '7'
+  NVD:
+    :value: NVD
+    :description: Nueva Biblia al Dia
+    :notes: A Spanish translation from the original Greek and Hebrew, sponsored by
+      the International Bible Society/Sociedad Bíblica Internacional.
+    :issue_number: '10'
+  NVI:
+    :value: NVI
+    :description: Nueva Version Internacional
+    :notes: A Spanish translation underwritten by the International Bible Society.
+    :issue_number: '1'
+  PHP:
+    :value: PHP
+    :description: New Testament in Modern English (Phillips)
+    :notes: An idiomatic translation by J B Phillips, first completed in 1966.
+    :issue_number: '1'
+  REB:
+    :value: REB
+    :description: Revised English
+    :notes: A 1989 revision of the NEB. A significant effort was made to reduce the
+      British flavor present in the NEB.
+    :issue_number: '1'
+  REV:
+    :value: REV
+    :description: Revised Version
+    :notes: The first major revision of the King James Version, the Revised Version
+      incorporates insights from early manuscripts discovered between 1611 and 1870,
+      and corrects readings in the KJV which nineteenth-century scholarship deemed
+      mistaken. The New Testament was published in 1881, the Old Testament in 1885,
+      and the Apocrypha in 1895.
+    :issue_number: '5'
+  RSV:
+    :value: RSV
+    :description: Revised Standard
+    :notes: A translation authorized by the National Council of Churches of Christ
+      in the USA. The New Testament was published in 1946 followed by a complete Protestant
+      canon in 1951.
+    :issue_number: '1'
+  RVL:
+    :value: RVL
+    :description: Reina Valera
+    :notes: A Spanish translation based on the original texts.
+    :issue_number: '1'
+  SBB:
+    :value: SBB
+    :description: Bibel 2000
+    :notes: Swedish Bible translation.
+    :issue_number: '8'
+  SMK:
+    :value: SMK
+    :description: Bibelen, samisk
+    :notes: Norwegian ‘samisk’ Bible translation.
+    :issue_number: '6'
+  TEV:
+    :value: TEV
+    :description: Today’s English
+    :notes: A translation of the New Testament sponsored by the American Bible Society
+      and first published in 1966. It was incorporated into the “Good News Bible”
+      GNB in 1976.
+    :issue_number: '1'
+  TNI:
+    :value: TNI
+    :description: Today’s New International
+    :notes: An updating of the New International Version. The New Testament was published
+      in 2002, and the entire Bible in 2005. Superseded by the 2011 NIV update.
+    :issue_number: '17'
+  ZZZ:
+    :value: ZZZ
+    :description: Other
+    :notes: Other translations not otherwise noted.
+    :issue_number: '1'

@@ -1,0 +1,131 @@
+---
+:number: '54'
+:description: Availability status code
+:issue_number: '0'
+:codes:
+  AB:
+    :value: AB
+    :description: Cancelled
+    :notes: Publication abandoned after having been announced.
+    :issue_number: '0'
+  AD:
+    :value: AD
+    :description: Available direct from publisher only
+    :notes: Apply direct to publisher, item not available to trade.
+    :issue_number: '0'
+  CS:
+    :value: CS
+    :description: Availability uncertain
+    :notes: Check with customer service.
+    :issue_number: '0'
+  EX:
+    :value: EX
+    :description: No longer stocked by us
+    :notes: Wholesaler or vendor only.
+    :issue_number: '0'
+  IP:
+    :value: IP
+    :description: Available
+    :notes: In-print and in stock.
+    :issue_number: '0'
+  MD:
+    :value: MD
+    :description: Manufactured on demand
+    :notes: May be accompanied by an estimated average time to supply.
+    :issue_number: '0'
+  NP:
+    :value: NP
+    :description: Not yet published
+    :notes: MUST be accompanied by an expected availability date.
+    :issue_number: '0'
+  NY:
+    :value: NY
+    :description: Newly catalogued, not yet in stock
+    :notes: 'Wholesaler or vendor only: MUST be accompanied by expected availability
+      date.'
+    :issue_number: '0'
+  OF:
+    :value: OF
+    :description: Other format available
+    :notes: 'This format is out of print, but another format is available: should
+      be accompanied by an identifier for the alternative product.'
+    :issue_number: '0'
+  OI:
+    :value: OI
+    :description: Out of stock indefinitely
+    :notes: No current plan to reprint.
+    :issue_number: '0'
+  OP:
+    :value: OP
+    :description: Out of print
+    :notes: Discontinued, deleted from catalogue.
+    :issue_number: '0'
+  OR:
+    :value: OR
+    :description: Replaced by new edition
+    :notes: 'This edition is out of print, but a new edition has been or will soon
+      be published: should be accompanied by an identifier for the new edition.'
+    :issue_number: '0'
+  PP:
+    :value: PP
+    :description: Publication postponed indefinitely
+    :notes: Publication has been announced, and subsequently postponed with no new
+      date.
+    :issue_number: '1'
+  RF:
+    :value: RF
+    :description: Refer to another supplier
+    :notes: 'Supply of this item has been transferred to another publisher or distributor:
+      should be accompanied by an identifier for the new supplier.'
+    :issue_number: '0'
+  RM:
+    :value: RM
+    :description: Remaindered
+    :notes: ''
+    :issue_number: '0'
+  RP:
+    :value: RP
+    :description: Reprinting
+    :notes: MUST be accompanied by an expected availability date.
+    :issue_number: '0'
+  RU:
+    :value: RU
+    :description: Reprinting, undated
+    :notes: Use instead of RP as a last resort, only if it is really impossible to
+      give an expected availability date.
+    :issue_number: '1'
+  TO:
+    :value: TO
+    :description: Special order
+    :notes: 'This item is not stocked but has to be specially ordered from a supplier
+      (eg import item not stocked locally): may be accompanied by an estimated average
+      time to supply.'
+    :issue_number: '0'
+  TP:
+    :value: TP
+    :description: Temporarily out of stock because publisher cannot supply
+    :notes: Wholesaler or vendor only.
+    :issue_number: '0'
+  TU:
+    :value: TU
+    :description: Temporarily unavailable
+    :notes: MUST be accompanied by an expected availability date.
+    :issue_number: '0'
+  UR:
+    :value: UR
+    :description: Unavailable, awaiting reissue
+    :notes: 'The item is out of stock but will be reissued under the same ISBN: MUST
+      be accompanied by an expected availability date and by the reissue date in the
+      <Reissue> composite. See notes on the <Reissue> composite for details on treatment
+      of availability status during reissue.'
+    :issue_number: '1'
+  WR:
+    :value: WR
+    :description: Will be remaindered as of (date)
+    :notes: MUST be accompanied by the remainder date.
+    :issue_number: '0'
+  WS:
+    :value: WS
+    :description: Withdrawn from sale
+    :notes: Typically, withdrawn indefinitely for legal reasons.
+    :issue_number: '1'

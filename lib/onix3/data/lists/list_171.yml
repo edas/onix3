@@ -1,0 +1,15 @@
+---
+:number: '171'
+:description: Tax type
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: VAT
+    :notes: Value added tax (TVA, IVA, MwSt etc).
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: GST
+    :notes: General sales tax.
+    :issue_number: '9'

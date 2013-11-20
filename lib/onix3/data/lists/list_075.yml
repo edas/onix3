@@ -1,0 +1,15 @@
+---
+:number: '75'
+:description: Person date role
+:issue_number: '1'
+:codes:
+  '007':
+    :value: '007'
+    :description: Date of birth
+    :notes: ''
+    :issue_number: '1'
+  008:
+    :value: 008
+    :description: Date of death
+    :notes: ''
+    :issue_number: '1'

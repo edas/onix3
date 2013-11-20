@@ -1,0 +1,122 @@
+---
+:number: '80'
+:description: Product packaging type
+:issue_number: '1'
+:codes:
+  '00':
+    :value: '00'
+    :description: No outer packaging
+    :notes: No packaging, or all smaller items enclosed inside largest item.
+    :issue_number: '13'
+  '01':
+    :value: '01'
+    :description: Slip-sleeve
+    :notes: Thin card or soft plastic sleeve, much less rigid than a slip case.
+    :issue_number: '21'
+  '02':
+    :value: '02'
+    :description: Clamshell
+    :notes: Packaging consisting of formed plastic sealed around each side of the
+      product. Not to be confused with single-sided Blister pack.
+    :issue_number: '17'
+  '03':
+    :value: '03'
+    :description: Keep case
+    :notes: Typical DVD-style packaging, sometimes known as an ‘Amaray’ case.
+    :issue_number: '17'
+  '05':
+    :value: '05'
+    :description: Jewel case
+    :notes: Typical CD-style packaging.
+    :issue_number: '17'
+  '06':
+    :value: '06'
+    :description: Digipak
+    :notes: Common CD-style packaging, a card folder with one or more panels incorporating
+      a tray, hub or pocket to hold the disc(s).
+    :issue_number: '21'
+  09:
+    :value: 09
+    :description: In box
+    :notes: 'Individual item, items or set in card box with separate or hinged lid:
+      not to be confused with the commonly-used ‘boxed set’.'
+    :issue_number: '17'
+  '10':
+    :value: '10'
+    :description: Slip-cased
+    :notes: 'Slip-case for single item only: German ‘Schuber’.'
+    :issue_number: '2'
+  '11':
+    :value: '11'
+    :description: Slip-cased set
+    :notes: 'Slip-case for multi-volume set: German ‘Kassette’; also commonly referred
+      to as ‘boxed set’.'
+    :issue_number: '2'
+  '12':
+    :value: '12'
+    :description: Tube
+    :notes: 'Rolled in tube or cylinder: eg sheet map or poster.'
+    :issue_number: '2'
+  '13':
+    :value: '13'
+    :description: Binder
+    :notes: Use for miscellaneous items such as slides, microfiche, when presented
+      in a binder.
+    :issue_number: '2'
+  '14':
+    :value: '14'
+    :description: In wallet or folder
+    :notes: Use for miscellaneous items such as slides, microfiche, when presented
+      in a wallet or folder.
+    :issue_number: '2'
+  '15':
+    :value: '15'
+    :description: Long triangular package
+    :notes: Long package with triangular cross-section used for rolled sheet maps,
+      posters etc.
+    :issue_number: '7'
+  '16':
+    :value: '16'
+    :description: Long square package
+    :notes: Long package with square cross-section used for rolled sheet maps, posters,
+      etc.
+    :issue_number: '7'
+  '17':
+    :value: '17'
+    :description: Softbox (for DVD)
+    :notes: ''
+    :issue_number: '8'
+  '18':
+    :value: '18'
+    :description: Pouch
+    :notes: In pouch, eg teaching materials in a plastic bag or pouch.
+    :issue_number: '8'
+  '19':
+    :value: '19'
+    :description: Rigid plastic case
+    :notes: In duroplastic or other rigid plastic case, eg for a class set.
+    :issue_number: '8'
+  '20':
+    :value: '20'
+    :description: Cardboard case
+    :notes: In cardboard case, eg for a class set.
+    :issue_number: '8'
+  '21':
+    :value: '21'
+    :description: Shrink-wrapped
+    :notes: Use for products or product bundles supplied for retail sale in shrink-wrapped
+      packaging. For shrink-wrapped packs of multiple products for trade supply only,
+      see code XL in List 7.
+    :issue_number: '8'
+  '22':
+    :value: '22'
+    :description: Blister pack
+    :notes: A pack comprising a pre-formed plastic blister and a printed card with
+      a heat-seal coating.
+    :issue_number: '8'
+  '23':
+    :value: '23'
+    :description: Carry case
+    :notes: A case with carrying handle, typically for a set of educational books
+      and/or learning materials.
+    :issue_number: '8'

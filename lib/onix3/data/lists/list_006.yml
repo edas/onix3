@@ -1,0 +1,395 @@
+---
+:number: '6'
+:description: Barcode indicator
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Not barcoded
+    :notes: ''
+    :issue_number: '0'
+  '01':
+    :value: '01'
+    :description: Barcoded, scheme unspecified
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: EAN13
+    :notes: Position unspecified.
+    :issue_number: '2'
+  '03':
+    :value: '03'
+    :description: EAN13+5 (US dollar price encoded)
+    :notes: Position unspecified.
+    :issue_number: '8'
+  '04':
+    :value: '04'
+    :description: UPC12
+    :notes: 'Type and position unspecified. DEPRECATED: if possible, use more specific
+      values below.'
+    :issue_number: '4'
+  '05':
+    :value: '05'
+    :description: UPC12+5
+    :notes: 'Type and position unspecified. DEPRECATED: if possible, use more specific
+      values below.'
+    :issue_number: '4'
+  '06':
+    :value: '06'
+    :description: UPC12 (item-specific)
+    :notes: 'AKA item/price: position unspecified.'
+    :issue_number: '4'
+  '07':
+    :value: '07'
+    :description: UPC12+5 (item-specific)
+    :notes: 'AKA item/price: position unspecified.'
+    :issue_number: '4'
+  08:
+    :value: 08
+    :description: UPC12 (price-point)
+    :notes: 'AKA price/item: position unspecified.'
+    :issue_number: '4'
+  09:
+    :value: 09
+    :description: UPC12+5 (price-point)
+    :notes: 'AKA price/item: position unspecified.'
+    :issue_number: '4'
+  '10':
+    :value: '10'
+    :description: EAN13 on cover 4
+    :notes: ‘Cover 4’ is defined as the back cover of a book.
+    :issue_number: '4'
+  '11':
+    :value: '11'
+    :description: EAN13+5 on cover 4 (US dollar price encoded)
+    :notes: ‘Cover 4’ is defined as the back cover of a book.
+    :issue_number: '8'
+  '12':
+    :value: '12'
+    :description: UPC12 (item-specific) on cover 4
+    :notes: AKA item/price; ‘cover 4’ is defined as the back cover of a book.
+    :issue_number: '4'
+  '13':
+    :value: '13'
+    :description: UPC12+5 (item-specific) on cover 4
+    :notes: AKA item/price; ‘cover 4’ is defined as the back cover of a book.
+    :issue_number: '4'
+  '14':
+    :value: '14'
+    :description: UPC12 (price-point) on cover 4
+    :notes: AKA price/item; ‘cover 4’ is defined as the back cover of a book.
+    :issue_number: '4'
+  '15':
+    :value: '15'
+    :description: UPC12+5 (price-point) on cover 4
+    :notes: AKA price/item; ‘cover 4’ is defined as the back cover of a book.
+    :issue_number: '4'
+  '16':
+    :value: '16'
+    :description: EAN13 on cover 3
+    :notes: ‘Cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '4'
+  '17':
+    :value: '17'
+    :description: EAN13+5 on cover 3 (US dollar price encoded)
+    :notes: ‘Cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '8'
+  '18':
+    :value: '18'
+    :description: UPC12 (item-specific) on cover 3
+    :notes: AKA item/price; ‘cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '4'
+  '19':
+    :value: '19'
+    :description: UPC12+5 (item-specific) on cover 3
+    :notes: AKA item/price; ‘cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '4'
+  '20':
+    :value: '20'
+    :description: UPC12 (price-point) on cover 3
+    :notes: AKA price/item; ‘cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '4'
+  '21':
+    :value: '21'
+    :description: UPC12+5 (price-point) on cover 3
+    :notes: AKA price/item; ‘cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '4'
+  '22':
+    :value: '22'
+    :description: EAN13 on cover 2
+    :notes: ‘Cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '4'
+  '23':
+    :value: '23'
+    :description: EAN13+5 on cover 2 (US dollar price encoded)
+    :notes: ‘Cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '8'
+  '24':
+    :value: '24'
+    :description: UPC12 (item-specific) on cover 2
+    :notes: AKA item/price; ‘cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '4'
+  '25':
+    :value: '25'
+    :description: UPC12+5 (item-specific) on cover 2
+    :notes: AKA item/price; ‘cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '4'
+  '26':
+    :value: '26'
+    :description: UPC12 (price-point) on cover 2
+    :notes: AKA price/item; ‘cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '4'
+  '27':
+    :value: '27'
+    :description: UPC12+5 (price-point) on cover 2
+    :notes: AKA price/item; ‘cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '4'
+  '28':
+    :value: '28'
+    :description: EAN13 on box
+    :notes: To be used only on boxed products.
+    :issue_number: '4'
+  '29':
+    :value: '29'
+    :description: EAN13+5 on box (US dollar price encoded)
+    :notes: To be used only on boxed products.
+    :issue_number: '8'
+  '30':
+    :value: '30'
+    :description: UPC12 (item-specific) on box
+    :notes: AKA item/price; to be used only on boxed products.
+    :issue_number: '4'
+  '31':
+    :value: '31'
+    :description: UPC12+5 (item-specific) on box
+    :notes: AKA item/price; to be used only on boxed products.
+    :issue_number: '4'
+  '32':
+    :value: '32'
+    :description: UPC12 (price-point) on box
+    :notes: AKA price/item; to be used only on boxed products.
+    :issue_number: '4'
+  '33':
+    :value: '33'
+    :description: UPC12+5 (price-point) on box
+    :notes: AKA price/item; to be used only on boxed products.
+    :issue_number: '4'
+  '34':
+    :value: '34'
+    :description: EAN13 on tag
+    :notes: To be used only on products fitted with hanging tags.
+    :issue_number: '4'
+  '35':
+    :value: '35'
+    :description: EAN13+5 on tag (US dollar price encoded)
+    :notes: To be used only on products fitted with hanging tags.
+    :issue_number: '8'
+  '36':
+    :value: '36'
+    :description: UPC12 (item-specific) on tag
+    :notes: AKA item/price; to be used only on products fitted with hanging tags.
+    :issue_number: '4'
+  '37':
+    :value: '37'
+    :description: UPC12+5 (item-specific) on tag
+    :notes: AKA item/price; to be used only on products fitted with hanging tags.
+    :issue_number: '4'
+  '38':
+    :value: '38'
+    :description: UPC12 (price-point) on tag
+    :notes: AKA price/item; to be used only on products fitted with hanging tags.
+    :issue_number: '4'
+  '39':
+    :value: '39'
+    :description: UPC12+5 (price-point) on tag
+    :notes: AKA price/item; to be used only on products fitted with hanging tags.
+    :issue_number: '4'
+  '40':
+    :value: '40'
+    :description: EAN13 on bottom
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '4'
+  '41':
+    :value: '41'
+    :description: EAN13+5 on bottom (US dollar price encoded)
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '8'
+  '42':
+    :value: '42'
+    :description: UPC12 (item-specific) on bottom
+    :notes: AKA item/price; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '43':
+    :value: '43'
+    :description: UPC12+5 (item-specific) on bottom
+    :notes: AKA item/price; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '44':
+    :value: '44'
+    :description: UPC12 (price-point) on bottom
+    :notes: AKA price/item; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '45':
+    :value: '45'
+    :description: UPC12+5 (price-point) on bottom
+    :notes: AKA price/item; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '46':
+    :value: '46'
+    :description: EAN13 on back
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '4'
+  '47':
+    :value: '47'
+    :description: EAN13+5 on back (US dollar price encoded)
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '8'
+  '48':
+    :value: '48'
+    :description: UPC12 (item-specific) on back
+    :notes: AKA item/price; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '49':
+    :value: '49'
+    :description: UPC12+5 (item-specific) on back
+    :notes: AKA item/price; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '50':
+    :value: '50'
+    :description: UPC12 (price-point) on back
+    :notes: AKA price/item; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '51':
+    :value: '51'
+    :description: UPC12+5 (price-point) on back
+    :notes: AKA price/item; not be used on books unless they are contained within
+      outer packaging.
+    :issue_number: '4'
+  '52':
+    :value: '52'
+    :description: EAN13 on outer sleeve/back
+    :notes: To be used only on products packaged in outer sleeves.
+    :issue_number: '8'
+  '53':
+    :value: '53'
+    :description: EAN13+5 on outer sleeve/back (US dollar price encoded)
+    :notes: To be used only on products packaged in outer sleeves.
+    :issue_number: '4'
+  '54':
+    :value: '54'
+    :description: UPC12 (item-specific) on outer sleeve/back
+    :notes: AKA item/price; to be used only on products packaged in outer sleeves.
+    :issue_number: '4'
+  '55':
+    :value: '55'
+    :description: UPC12+5 (item-specific) on outer sleeve/back
+    :notes: AKA item/price; to be used only on products packaged in outer sleeves.
+    :issue_number: '4'
+  '56':
+    :value: '56'
+    :description: UPC12 (price-point) on outer sleeve/back
+    :notes: AKA price/item; to be used only on products packaged in outer sleeves.
+    :issue_number: '4'
+  '57':
+    :value: '57'
+    :description: UPC12+5 (price-point) on outer sleeve/back
+    :notes: AKA price/item; to be used only on products packaged in outer sleeves.
+    :issue_number: '4'
+  '58':
+    :value: '58'
+    :description: EAN13+5 (no price encoded)
+    :notes: Position unspecified.
+    :issue_number: '8'
+  '59':
+    :value: '59'
+    :description: EAN13+5 on cover 4 (no price encoded)
+    :notes: ‘Cover 4’ is defined as the back cover of a book.
+    :issue_number: '8'
+  '60':
+    :value: '60'
+    :description: EAN13+5 on cover 3 (no price encoded)
+    :notes: ‘Cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '8'
+  '61':
+    :value: '61'
+    :description: EAN13+5 on cover 2 (no price encoded)
+    :notes: ‘Cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '8'
+  '62':
+    :value: '62'
+    :description: EAN13+5 on box (no price encoded)
+    :notes: To be used only on boxed products.
+    :issue_number: '8'
+  '63':
+    :value: '63'
+    :description: EAN13+5 on tag (no price encoded)
+    :notes: To be used only on products fitted with hanging tags.
+    :issue_number: '8'
+  '64':
+    :value: '64'
+    :description: EAN13+5 on bottom (no price encoded)
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '8'
+  '65':
+    :value: '65'
+    :description: EAN13+5 on back (no price encoded)
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '8'
+  '66':
+    :value: '66'
+    :description: EAN13+5 on outer sleeve/back (no price encoded)
+    :notes: To be used only on products packaged in outer sleeves.
+    :issue_number: '8'
+  '67':
+    :value: '67'
+    :description: EAN13+5 (CAN dollar price encoded)
+    :notes: Position unspecified.
+    :issue_number: '9'
+  '68':
+    :value: '68'
+    :description: EAN13+5 on cover 4 (CAN dollar price encoded)
+    :notes: ‘Cover 4’ is defined as the back cover of a book.
+    :issue_number: '9'
+  '69':
+    :value: '69'
+    :description: EAN13+5 on cover 3 (CAN dollar price encoded)
+    :notes: ‘Cover 3’ is defined as the inside back cover of a book.
+    :issue_number: '9'
+  '70':
+    :value: '70'
+    :description: EAN13+5 on cover 2 (CAN dollar price encoded)
+    :notes: ‘Cover 2’ is defined as the inside front cover of a book.
+    :issue_number: '9'
+  '71':
+    :value: '71'
+    :description: EAN13+5 on box (CAN dollar price encoded)
+    :notes: To be used only on boxed products.
+    :issue_number: '9'
+  '72':
+    :value: '72'
+    :description: EAN13+5 on tag (CAN dollar price encoded)
+    :notes: To be used only on products fitted with hanging tags.
+    :issue_number: '9'
+  '73':
+    :value: '73'
+    :description: EAN13+5 on bottom (CAN dollar price encoded)
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '9'
+  '74':
+    :value: '74'
+    :description: EAN13+5 on back (CAN dollar price encoded)
+    :notes: Not be used on books unless they are contained within outer packaging.
+    :issue_number: '9'
+  '75':
+    :value: '75'
+    :description: EAN13+5 on outer sleeve/back (CAN dollar price encoded)
+    :notes: To be used only on products packaged in outer sleeves.
+    :issue_number: '9'

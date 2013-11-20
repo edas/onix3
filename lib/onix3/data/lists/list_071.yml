@@ -1,0 +1,76 @@
+---
+:number: '71'
+:description: Sales restriction type code
+:issue_number: '1'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified – see text
+    :notes: Restriction must be described in <SalesRestrictionDetail> (ONIX 2.1) or
+      <SalesRestrictionNote> (ONIX 3.0).
+    :issue_number: '1'
+  '01':
+    :value: '01'
+    :description: Retailer exclusive / own brand
+    :notes: For sale only through designated retailer. Retailer must be identified
+      or named in an instance of the <SalesOutlet> composite. Use only when it is
+      not possible to assign the more explicit code 04 or 05.
+    :issue_number: '6'
+  '02':
+    :value: '02'
+    :description: Office supplies edition
+    :notes: For editions sold only though office supplies wholesalers. Retailer(s)
+      and/or distributor(s) may be identified or named in an instance of the <SalesOutlet>
+      composite.
+    :issue_number: '1'
+  '03':
+    :value: '03'
+    :description: 'Internal publisher use only: do not list'
+    :notes: For an ISBN that is assigned for a publisher’s internal purposes.
+    :issue_number: '1'
+  '04':
+    :value: '04'
+    :description: Retailer exclusive
+    :notes: For sale only through designated retailer, though not under retailer’s
+      own brand/imprint. Retailer must be identified or named in an instance of the
+      <SalesOutlet> composite.
+    :issue_number: '6'
+  '05':
+    :value: '05'
+    :description: Retailer own brand
+    :notes: For sale only through designated retailer under retailer’s own brand/imprint.
+      Retailer must be identified or named in an instance of the <SalesOutlet> composite.
+    :issue_number: '6'
+  '06':
+    :value: '06'
+    :description: Library edition
+    :notes: For sale to libraries only; not for sale through retail trade.
+    :issue_number: '6'
+  '07':
+    :value: '07'
+    :description: Schools only edition
+    :notes: For sale directly to schools only; not for sale through retail trade.
+    :issue_number: '8'
+  08:
+    :value: 08
+    :description: Indiziert
+    :notes: Indexed for the German market – in Deutschland indiziert.
+    :issue_number: '9'
+  09:
+    :value: 09
+    :description: Not for sale to libraries
+    :notes: Expected to apply in particular to digital products for consumer sale
+      where the publisher does not permit the product to be supplied to libraries
+      who provide an ebook loan service.
+    :issue_number: '11'
+  '10':
+    :value: '10'
+    :description: News outlet edition
+    :notes: For editions sold only through newsstands/newsagents.
+    :issue_number: '14'
+  '11':
+    :value: '11'
+    :description: Retailer exception
+    :notes: Not for sale through designated retailer. Retailer must be identified
+      or named in an instance of the <SalesOutlet> composite.
+    :issue_number: '23'

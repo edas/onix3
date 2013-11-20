@@ -1,0 +1,20 @@
+---
+:number: '61'
+:description: Price status code
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified
+    :notes: Default.
+    :issue_number: '0'
+  '01':
+    :value: '01'
+    :description: Provisional
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Firm
+    :notes: ''
+    :issue_number: '0'

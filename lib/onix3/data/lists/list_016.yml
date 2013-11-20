@@ -1,0 +1,42 @@
+---
+:number: '16'
+:description: Work identifier type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: ISBN-10
+    :notes: 10-character ISBN of manifestation of work, when this is the only work
+      identifier available – now DEPRECATED in ONIX for Books, except where providing
+      historical information for compatibility with legacy systems. It should only
+      be used in relation to products published before 2007 – when ISBN-13 superseded
+      it – and should never be used as the ONLY identifier (it should always be accompanied
+      by the correct GTIN-13 / ISBN-13 of the manifestation of the work).
+    :issue_number: '14'
+  '06':
+    :value: '06'
+    :description: DOI
+    :notes: Digital Object Identifier (variable length and character set).
+    :issue_number: '0'
+  '11':
+    :value: '11'
+    :description: ISTC
+    :notes: 'International Standard Text Code (16 characters: numerals and letters
+      A-F, unhyphenated).'
+    :issue_number: '0'
+  '15':
+    :value: '15'
+    :description: ISBN-13
+    :notes: 13-character ISBN of manifestation of work, when this is the only work
+      identifier available.
+    :issue_number: '7'
+  '18':
+    :value: '18'
+    :description: ISRC
+    :notes: International Standard Recording Code.
+    :issue_number: '7'

@@ -1,0 +1,100 @@
+---
+:number: '39'
+:description: Image/audio/video file format code
+:issue_number: '0'
+:codes:
+  '02':
+    :value: '02'
+    :description: GIF
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: JPEG
+    :notes: ''
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: PDF
+    :notes: ''
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: TIF
+    :notes: ''
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: RealAudio 28.8
+    :notes: ''
+    :issue_number: '0'
+  '07':
+    :value: '07'
+    :description: MP3
+    :notes: MPEG-1/2 Audio Layer III file (.mp3).
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: MPEG-4
+    :notes: MPEG-4 container format (.mp4, .m4a).
+    :issue_number: '15'
+  09:
+    :value: 09
+    :description: PNG
+    :notes: Portable Network Graphics bitmapped image format (.png).
+    :issue_number: '9'
+  '10':
+    :value: '10'
+    :description: WMA
+    :notes: Windows Media Audio format (.wma).
+    :issue_number: '15'
+  '11':
+    :value: '11'
+    :description: AAC
+    :notes: Advanced Audio Codec format (.aac).
+    :issue_number: '15'
+  '12':
+    :value: '12'
+    :description: WAV
+    :notes: Waveform audio file (.wav).
+    :issue_number: '15'
+  '13':
+    :value: '13'
+    :description: AIFF
+    :notes: Audio Interchange File Format (.aiff).
+    :issue_number: '15'
+  '14':
+    :value: '14'
+    :description: WMV
+    :notes: Windows Media Video format (.wmv).
+    :issue_number: '15'
+  '15':
+    :value: '15'
+    :description: OGG
+    :notes: Ogg container format (.ogg).
+    :issue_number: '15'
+  '16':
+    :value: '16'
+    :description: AVI
+    :notes: Audio Video Interleaved container format (.avi).
+    :issue_number: '15'
+  '17':
+    :value: '17'
+    :description: MOV
+    :notes: Quicktime container format (.mov).
+    :issue_number: '15'
+  '18':
+    :value: '18'
+    :description: Flash
+    :notes: Flash container format (includes .flv, .swf, .f4v etc).
+    :issue_number: '15'
+  '19':
+    :value: '19'
+    :description: 3GP
+    :notes: 3GP container format (.3gp, 3g2).
+    :issue_number: '15'
+  '20':
+    :value: '20'
+    :description: WebM
+    :notes: WebM container format (includes .webm and .mkv).
+    :issue_number: '15'

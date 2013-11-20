@@ -1,0 +1,15 @@
+---
+:number: '168'
+:description: Price condition quantity type
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Time period
+    :notes: The price condition quantity represents a time period.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Number of updates
+    :notes: The price condition quantity is a number of updates.
+    :issue_number: '9'

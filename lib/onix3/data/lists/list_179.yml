@@ -1,0 +1,17 @@
+---
+:number: '179'
+:description: Price code type
+:issue_number: '12'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: A publisher or retailer’s proprietary code list which identifies particular
+      codes with particular price points, price tiers or bands.
+    :issue_number: '12'
+  '02':
+    :value: '02'
+    :description: Finnish Pocket Book price code
+    :notes: Price Code scheme for Finnish Pocket Books (Pokkareiden hintaryhmä). Price
+      codes expressed as letters A–J in <PriceCode>.
+    :issue_number: '14'

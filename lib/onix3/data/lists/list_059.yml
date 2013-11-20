@@ -1,0 +1,73 @@
+---
+:number: '59'
+:description: Price type qualifier
+:issue_number: '0'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unqualified price
+    :notes: Price applies to all customers that do not fall within any other group
+      with a specified group-specific qualified price.
+    :issue_number: '20'
+  '01':
+    :value: '01'
+    :description: Member/subscriber price
+    :notes: Price applies to a designated group membership.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Export price
+    :notes: Price applies to sales outside the territory in which the supplier is
+      located.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Reduced price applicable when the item is purchased as part of a
+      set (or series, or collection)
+    :notes: Use in cases where there is no combined price, but a lower price is offered
+      for each part if the whole set / series / collection is purchased (either at
+      one time, as part of a continuing commitment, or in a single purchase).
+    :issue_number: '13'
+  '04':
+    :value: '04'
+    :description: Voucher price
+    :notes: 'In the Netherlands (or any other market where similar arrangements exist):
+      a reduced fixed price available for a limited time on presentation of a voucher
+      or coupon published in a specified medium, eg a newspaper. Should be accompanied
+      by Price Type code 13 and additional detail in <PriceTypeDescription>, and by
+      validity dates in <PriceEffectiveFrom> and <PriceEffectiveUntil> (ONIX 2.1)
+      or in the <PriceDate> composite (ONIX 3.0).'
+    :issue_number: '2'
+  '05':
+    :value: '05'
+    :description: Consumer price
+    :notes: Price for individual consumer sale only.
+    :issue_number: '11'
+  '06':
+    :value: '06'
+    :description: Corporate price
+    :notes: Price for sale to libraries or other corporate or institutional customers.
+    :issue_number: '11'
+  '07':
+    :value: '07'
+    :description: Reservation order price
+    :notes: Price valid for a specified period prior to publication. Orders placed
+      prior to the end of the period are guaranteed to be delivered to the retailer
+      before the nominal publication date. The price may or may not be different from
+      the ‘normal’ price, which carries no such delivery guarantee. Must be accompanied
+      by a <PriceEffectiveUntil> date (or equivalent <PriceDate> composite in ONIX
+      3), and should also be accompanied by a ‘normal’ price.
+    :issue_number: '13'
+  08:
+    :value: 08
+    :description: Promotional offer price
+    :notes: Temporary ‘Special offer’ price. Must be accompanied by <PriceEffectiveFrom>
+      and <PriceEffectiveUntil> dates (or equivalent <PriceDate> composites in ONIX
+      3), and may also be accompanied by a ‘normal’ price.
+    :issue_number: '15'
+  09:
+    :value: 09
+    :description: Linked price
+    :notes: Price requires purchase with, or proof of ownership of another product.
+      Further details of purchase or ownership requirements must be given in <PriceTypeDescription>.
+    :issue_number: '21'

@@ -1,0 +1,40 @@
+---
+:number: '72'
+:description: Thesis type code
+:issue_number: '1'
+:codes:
+  '01':
+    :value: '01'
+    :description: Habilitationsschrift
+    :notes: Professorial dissertation (thesis for postdoctoral lecturing qualification).
+    :issue_number: '1'
+  '02':
+    :value: '02'
+    :description: Dissertationsschrift
+    :notes: Doctoral thesis.
+    :issue_number: '1'
+  '03':
+    :value: '03'
+    :description: Staatsexamensarbeit
+    :notes: State examination thesis.
+    :issue_number: '1'
+  '04':
+    :value: '04'
+    :description: Magisterarbeit
+    :notes: Magisters degree thesis.
+    :issue_number: '9'
+  '05':
+    :value: '05'
+    :description: Diplomarbeit
+    :notes: Diploma degree thesis.
+    :issue_number: '9'
+  '06':
+    :value: '06'
+    :description: Bachelorarbeit
+    :notes: Bachelors degree thesis.
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: Masterarbeit
+    :notes: Masters degree thesis.
+    :issue_number: '9'

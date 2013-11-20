@@ -1,0 +1,46 @@
+---
+:number: '13'
+:description: Series identifier type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: For example, publisher’s own series ID.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: ISSN
+    :notes: International Standard Serial Number, unhyphenated, 8 digits.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: German National Bibliography series ID
+    :notes: Maintained by the Deutsche Nationalbibliothek.
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: German Books in Print series ID
+    :notes: Maintained by VLB.
+    :issue_number: '1'
+  '05':
+    :value: '05'
+    :description: Electre series ID
+    :notes: Maintained by Electre Information, France.
+    :issue_number: '1'
+  '06':
+    :value: '06'
+    :description: DOI
+    :notes: Digital Object Identifier (variable length and character set).
+    :issue_number: '6'
+  '15':
+    :value: '15'
+    :description: ISBN-13
+    :notes: Use only where the collection (series or set) is available as a single
+      product.
+    :issue_number: '15'
+  '22':
+    :value: '22'
+    :description: URN
+    :notes: Uniform Resource Name.
+    :issue_number: '8'

@@ -1,0 +1,42 @@
+---
+:number: '2'
+:description: Product composition
+:issue_number: '9'
+:codes:
+  '00':
+    :value: '00'
+    :description: Single-item retail product
+    :notes: ''
+    :issue_number: '9'
+  '10':
+    :value: '10'
+    :description: Multiple-item retail product
+    :notes: Multiple-item product retailed as a whole.
+    :issue_number: '9'
+  '11':
+    :value: '11'
+    :description: Multiple-item collection, retailed as separate parts
+    :notes: Used when an ONIX record is required for a collection-as-a-whole, even
+      though it is not currently retailed as such.
+    :issue_number: '9'
+  '20':
+    :value: '20'
+    :description: Trade-only product
+    :notes: Product not for retail, and not carrying retail items, eg empty dumpbin,
+      empty counterpack, promotional material.
+    :issue_number: '9'
+  '30':
+    :value: '30'
+    :description: Multiple-item trade pack
+    :notes: Carrying multiple copies for retailing as separate items, eg shrink-wrapped
+      trade pack, filled dumpbin, filled counterpack.
+    :issue_number: '9'
+  '31':
+    :value: '31'
+    :description: Multiple-item pack
+    :notes: Carrying multiple copies, primarily for retailing as separate items. The
+      pack may be split and retailed as separate items OR retailed as a single item.
+      Use instead of Multiple item trade pack (code 30) only if the data provider
+      specifically wishes to make explicit that the pack may optionally be retailed
+      as a whole.
+    :issue_number: '21'

@@ -1,0 +1,31 @@
+---
+:number: '166'
+:description: Supply date role
+:issue_number: '9'
+:codes:
+  '02':
+    :value: '02'
+    :description: Embargo date
+    :notes: If there is an embargo on retail sales before a certain date, the date
+      from which the embargo is lifted and retail sales are permitted.
+    :issue_number: '9'
+  08:
+    :value: 08
+    :description: Expected availability date
+    :notes: The date on which physical stock is expected to be available to be shipped
+      to retailers, or a digital product is expected to be released by the publisher
+      or digital asset distributor to retailers or their retail platform providers.
+    :issue_number: '9'
+  '18':
+    :value: '18'
+    :description: Last date for returns
+    :notes: Last date when returns will be accepted, generally for a product which
+      is being remaindered or put out of print.
+    :issue_number: '11'
+  '25':
+    :value: '25'
+    :description: Reservation order deadline
+    :notes: Latest date on which an order may be placed for guaranteed delivery prior
+      to the publication date. May or may not be linked to a special reservation or
+      pre-publication price.
+    :issue_number: '17'

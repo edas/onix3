@@ -1,0 +1,33 @@
+---
+:number: '86'
+:description: Bible text organization
+:issue_number: '1'
+:codes:
+  CHR:
+    :value: CHR
+    :description: Chronological
+    :notes: A Bible with the text organized in the order in which events are believed
+      to have happened.
+    :issue_number: '1'
+  CHA:
+    :value: CHA
+    :description: Chain reference
+    :notes: A Bible which explores keywords or themes by referring text to preceding
+      or following text.
+    :issue_number: '1'
+  INT:
+    :value: INT
+    :description: Interlinear
+    :notes: A Bible or other text in which different versions are printed one line
+      above the other, so that the variations can easily be detected.
+    :issue_number: '1'
+  PAR:
+    :value: PAR
+    :description: Parallel
+    :notes: A Bible with two or more versions printed side by side.
+    :issue_number: '1'
+  STN:
+    :value: STN
+    :description: Standard
+    :notes: A Bible in which the text is presented in the traditional order.
+    :issue_number: '1'

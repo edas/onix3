@@ -1,0 +1,500 @@
+---
+:number: '139'
+:description: ONIX sales outlet IDs
+:issue_number: '8'
+:codes:
+  ACM:
+    :value: ACM
+    :description: A C Moore
+    :notes: ''
+    :issue_number: '8'
+  AAP:
+    :value: AAP
+    :description: AandP
+    :notes: ''
+    :issue_number: '8'
+  ALB:
+    :value: ALB
+    :description: Albertson’s
+    :notes: ''
+    :issue_number: '8'
+  AMZ:
+    :value: AMZ
+    :description: Amazon
+    :notes: ''
+    :issue_number: '8'
+  ANR:
+    :value: ANR
+    :description: Angus and Robertson
+    :notes: ''
+    :issue_number: '8'
+  ANB:
+    :value: ANB
+    :description: Anobii
+    :notes: ''
+    :issue_number: '16'
+  APC:
+    :value: APC
+    :description: Apple
+    :notes: ''
+    :issue_number: '8'
+  ASD:
+    :value: ASD
+    :description: Asda
+    :notes: ''
+    :issue_number: '8'
+  AUD:
+    :value: AUD
+    :description: Audible
+    :notes: ''
+    :issue_number: '8'
+  BDL:
+    :value: BDL
+    :description: B Dalton
+    :notes: ''
+    :issue_number: '8'
+  BNO:
+    :value: BNO
+    :description: Barnes and Noble
+    :notes: ''
+    :issue_number: '8'
+  BBB:
+    :value: BBB
+    :description: Bed Bath and Beyond
+    :notes: ''
+    :issue_number: '8'
+  BST:
+    :value: BST
+    :description: Best Buy
+    :notes: ''
+    :issue_number: '8'
+  BIL:
+    :value: BIL
+    :description: Bilbary
+    :notes: ''
+    :issue_number: '16'
+  BJW:
+    :value: BJW
+    :description: BJ’s Wholesale Club
+    :notes: ''
+    :issue_number: '8'
+  BLK:
+    :value: BLK
+    :description: Blackwell’s
+    :notes: ''
+    :issue_number: '8'
+  BCA:
+    :value: BCA
+    :description: Book Club Associates
+    :notes: ''
+    :issue_number: '8'
+  BSH:
+    :value: BSH
+    :description: Bookish
+    :notes: ''
+    :issue_number: '16'
+  BKP:
+    :value: BKP
+    :description: Bookpeople
+    :notes: ''
+    :issue_number: '8'
+  BKM:
+    :value: BKM
+    :description: Books-A-Million
+    :notes: ''
+    :issue_number: '8'
+  BRD:
+    :value: BRD
+    :description: Borders
+    :notes: ''
+    :issue_number: '8'
+  BRB:
+    :value: BRB
+    :description: Borders/Books Etc
+    :notes: ''
+    :issue_number: '8'
+  BRT:
+    :value: BRT
+    :description: British Bookshops
+    :notes: ''
+    :issue_number: '8'
+  CDL:
+    :value: CDL
+    :description: Casa del Libro
+    :notes: ''
+    :issue_number: '20'
+  CHD:
+    :value: CHD
+    :description: Christianbook.com
+    :notes: ''
+    :issue_number: '16'
+  CST:
+    :value: CST
+    :description: Costco
+    :notes: ''
+    :issue_number: '8'
+  CRB:
+    :value: CRB
+    :description: Crate and Barrel
+    :notes: ''
+    :issue_number: '8'
+  CVS:
+    :value: CVS
+    :description: CVS Drug Stores
+    :notes: ''
+    :issue_number: '8'
+  DSG:
+    :value: DSG
+    :description: Dick’s Sporting Goods
+    :notes: ''
+    :issue_number: '8'
+  DYM:
+    :value: DYM
+    :description: Dymocks
+    :notes: ''
+    :issue_number: '8'
+  ELC:
+    :value: ELC
+    :description: Early Learning Centre
+    :notes: ''
+    :issue_number: '8'
+  ESN:
+    :value: ESN
+    :description: Eason
+    :notes: ''
+    :issue_number: '8'
+  EBC:
+    :value: EBC
+    :description: Ebooks Corp
+    :notes: ''
+    :issue_number: '16'
+  ECH:
+    :value: ECH
+    :description: eChristian
+    :notes: ''
+    :issue_number: '16'
+  ECI:
+    :value: ECI
+    :description: El Corte Inglés
+    :notes: ''
+    :issue_number: '20'
+  ELE:
+    :value: ELE
+    :description: Electre
+    :notes: ''
+    :issue_number: '21'
+  ELB:
+    :value: ELB
+    :description: Elib.se
+    :notes: ''
+    :issue_number: '16'
+  EMP:
+    :value: EMP
+    :description: Empik
+    :notes: ''
+    :issue_number: '16'
+  ENH:
+    :value: ENH
+    :description: English Heritage
+    :notes: ''
+    :issue_number: '8'
+  FDB:
+    :value: FDB
+    :description: FeedBooks
+    :notes: ''
+    :issue_number: '21'
+  FNC:
+    :value: FNC
+    :description: Fnac
+    :notes: ''
+    :issue_number: '16'
+  FRY:
+    :value: FRY
+    :description: Fry’s Electronics
+    :notes: ''
+    :issue_number: '8'
+  GMS:
+    :value: GMS
+    :description: Gamestop
+    :notes: ''
+    :issue_number: '8'
+  GOO:
+    :value: GOO
+    :description: Google Books
+    :notes: ''
+    :issue_number: '16'
+  GOS:
+    :value: GOS
+    :description: Blinkbox
+    :notes: Formerly GoSpoken/Mobcast
+    :issue_number: '21'
+  HST:
+    :value: HST
+    :description: Hastings Entertainment
+    :notes: ''
+    :issue_number: '8'
+  HMV:
+    :value: HMV
+    :description: HMV
+    :notes: ''
+    :issue_number: '8'
+  HMD:
+    :value: HMD
+    :description: Home Depot
+    :notes: ''
+    :issue_number: '8'
+  IND:
+    :value: IND
+    :description: Indigo-Chapters
+    :notes: ''
+    :issue_number: '8'
+  JSM:
+    :value: JSM
+    :description: John Smith and Son
+    :notes: ''
+    :issue_number: '8'
+  KMT:
+    :value: KMT
+    :description: K-Mart
+    :notes: ''
+    :issue_number: '8'
+  KNB:
+    :value: KNB
+    :description: KNFB/Blio
+    :notes: ''
+    :issue_number: '17'
+  KNO:
+    :value: KNO
+    :description: Kno Inc
+    :notes: ''
+    :issue_number: '16'
+  KBO:
+    :value: KBO
+    :description: Kobo
+    :notes: ''
+    :issue_number: '16'
+  KOO:
+    :value: KOO
+    :description: Koorong
+    :notes: ''
+    :issue_number: '16'
+  KRG:
+    :value: KRG
+    :description: Kroger
+    :notes: ''
+    :issue_number: '8'
+  LWE:
+    :value: LWE
+    :description: Lowe’s
+    :notes: ''
+    :issue_number: '8'
+  MKS:
+    :value: MKS
+    :description: Marks and Spencer
+    :notes: ''
+    :issue_number: '8'
+  MAT:
+    :value: MAT
+    :description: Matras
+    :notes: ''
+    :issue_number: '16'
+  MMS:
+    :value: MMS
+    :description: Media Markt/Saturn
+    :notes: Also known as Media World.
+    :issue_number: '16'
+  MCR:
+    :value: MCR
+    :description: Microcenter
+    :notes: ''
+    :issue_number: '8'
+  MRR:
+    :value: MRR
+    :description: Morrisons
+    :notes: ''
+    :issue_number: '8'
+  MTC:
+    :value: MTC
+    :description: Mothercare
+    :notes: ''
+    :issue_number: '8'
+  MYB:
+    :value: MYB
+    :description: MyBoox
+    :notes: ''
+    :issue_number: '21'
+  NTR:
+    :value: NTR
+    :description: National Trust
+    :notes: ''
+    :issue_number: '8'
+  NUM:
+    :value: NUM
+    :description: Numilog
+    :notes: ''
+    :issue_number: '21'
+  OFD:
+    :value: OFD
+    :description: Office Depot
+    :notes: ''
+    :issue_number: '8'
+  OFM:
+    :value: OFM
+    :description: Office Max
+    :notes: ''
+    :issue_number: '8'
+  OLF:
+    :value: OLF
+    :description: OLF
+    :notes: ''
+    :issue_number: '16'
+  PST:
+    :value: PST
+    :description: Past Times
+    :notes: ''
+    :issue_number: '8'
+  PTS:
+    :value: PTS
+    :description: Pet Smart
+    :notes: ''
+    :issue_number: '8'
+  PTC:
+    :value: PTC
+    :description: Petco
+    :notes: ''
+    :issue_number: '8'
+  PLY:
+    :value: PLY
+    :description: Play.com
+    :notes: ''
+    :issue_number: '8'
+  PTB:
+    :value: PTB
+    :description: Pottery Barn
+    :notes: ''
+    :issue_number: '8'
+  RDB:
+    :value: RDB
+    :description: Readbooks
+    :notes: ''
+    :issue_number: '21'
+  RCL:
+    :value: RCL
+    :description: ReadCloud
+    :notes: ''
+    :issue_number: '16'
+  RST:
+    :value: RST
+    :description: Restoration Hardware
+    :notes: ''
+    :issue_number: '8'
+  RET:
+    :value: RET
+    :description: Rethink
+    :notes: ''
+    :issue_number: '16'
+  RTZ:
+    :value: RTZ
+    :description: Ritz Camera
+    :notes: ''
+    :issue_number: '8'
+  SFW:
+    :value: SFW
+    :description: Safeway
+    :notes: ''
+    :issue_number: '8'
+  SNS:
+    :value: SNS
+    :description: Sainsbury’s
+    :notes: ''
+    :issue_number: '8'
+  SLF:
+    :value: SLF
+    :description: Selfridges
+    :notes: ''
+    :issue_number: '8'
+  SNY:
+    :value: SNY
+    :description: Sony
+    :notes: ''
+    :issue_number: '16'
+  STP:
+    :value: STP
+    :description: Staples
+    :notes: ''
+    :issue_number: '8'
+  TEA:
+    :value: TEA
+    :description: The Ebook Alternative
+    :notes: ''
+    :issue_number: '21'
+  TRG:
+    :value: TRG
+    :description: Target
+    :notes: ''
+    :issue_number: '8'
+  TES:
+    :value: TES
+    :description: Tesco
+    :notes: ''
+    :issue_number: '8'
+  TSR:
+    :value: TSR
+    :description: Toys ‘R’ Us
+    :notes: ''
+    :issue_number: '8'
+  TSO:
+    :value: TSO
+    :description: TSO (The Stationery Office)
+    :notes: ''
+    :issue_number: '8'
+  VRG:
+    :value: VRG
+    :description: Virgin Megastores
+    :notes: ''
+    :issue_number: '8'
+  WHS:
+    :value: WHS
+    :description: W H Smith
+    :notes: ''
+    :issue_number: '8'
+  WTR:
+    :value: WTR
+    :description: Waitrose
+    :notes: ''
+    :issue_number: '8'
+  WLM:
+    :value: WLM
+    :description: Wal-Mart
+    :notes: ''
+    :issue_number: '8'
+  WST:
+    :value: WST
+    :description: Waterstone’s
+    :notes: ''
+    :issue_number: '8'
+  WHT:
+    :value: WHT
+    :description: Whitcoul’s
+    :notes: ''
+    :issue_number: '8'
+  WLS:
+    :value: WLS
+    :description: Williams Sonoma
+    :notes: ''
+    :issue_number: '8'
+  WLW:
+    :value: WLW
+    :description: Woolworths
+    :notes: ''
+    :issue_number: '8'
+  ZVV:
+    :value: ZVV
+    :description: Zavvi
+    :notes: Formerly Virgin Megastores (UK).
+    :issue_number: '8'
+  ZZZ:
+    :value: ZZZ
+    :description: Other
+    :notes: Include retailer name in <SalesOutletName>.
+    :issue_number: '8'

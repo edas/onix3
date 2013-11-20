@@ -1,0 +1,15 @@
+---
+:number: '56'
+:description: Audience restriction flag
+:issue_number: '0'
+:codes:
+  R:
+    :value: R
+    :description: Restrictions apply, see note
+    :notes: ''
+    :issue_number: '0'
+  X:
+    :value: X
+    :description: Indiziert
+    :notes: Indexed for the German market – in Deutschland indiziert.
+    :issue_number: '2'

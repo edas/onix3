@@ -1,0 +1,44 @@
+---
+:number: '162'
+:description: Resource version feature type
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: File format
+    :notes: Resource Version Feature Value carries a code from List 178.
+    :issue_number: '11'
+  '02':
+    :value: '02'
+    :description: Image height in pixels
+    :notes: Resource Version Feature Value carries an integer.
+    :issue_number: '11'
+  '03':
+    :value: '03'
+    :description: Image width in pixels
+    :notes: Resource Version Feature Value carries an integer.
+    :issue_number: '11'
+  '04':
+    :value: '04'
+    :description: Filename
+    :notes: Resource Version Feature Value carries the filename of the supporting
+      resource.
+    :issue_number: '11'
+  '05':
+    :value: '05'
+    :description: Approximate download file size in megabytes
+    :notes: Resource Version Feature Value carries a decimal number only, suggested
+      no more than 2 significant digits (eg 1.7, not 1.7462).
+    :issue_number: '17'
+  '06':
+    :value: '06'
+    :description: MD5 hash value
+    :notes: MD5 hash value of the resource file. <ResourceVersionFeatureValue> should
+      contain the hash value (as 32 hexadecimal digits). Can be used as a cryptographic
+      check on the integrity of a resource after it has been retrieved.
+    :issue_number: '12'
+  '07':
+    :value: '07'
+    :description: Exact download file size in bytes
+    :notes: Resource Version Feature Value carries a integer number only (eg 1831023).
+    :issue_number: '17'

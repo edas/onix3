@@ -1,0 +1,56 @@
+---
+:number: '92'
+:description: Supplier identifier type
+:issue_number: '1'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: ''
+    :issue_number: '11'
+  '02':
+    :value: '02'
+    :description: Proprietary
+    :notes: DEPRECATED – use 01.
+    :issue_number: '11'
+  '04':
+    :value: '04'
+    :description: Börsenverein Verkehrsnummer
+    :notes: ''
+    :issue_number: '1'
+  '05':
+    :value: '05'
+    :description: German ISBN Agency publisher identifier
+    :notes: ''
+    :issue_number: '2'
+  '06':
+    :value: '06'
+    :description: GLN
+    :notes: GS1 global location number (formerly EAN location number).
+    :issue_number: '9'
+  '07':
+    :value: '07'
+    :description: SAN
+    :notes: Book trade Standard Address Number – US, UK etc.
+    :issue_number: '1'
+  '12':
+    :value: '12'
+    :description: Distributeurscode Boekenbank
+    :notes: Flemish supplier code.
+    :issue_number: '7'
+  '13':
+    :value: '13'
+    :description: Fondscode Boekenbank
+    :notes: Flemish publisher code.
+    :issue_number: '7'
+  '23':
+    :value: '23'
+    :description: VAT Identity Number
+    :notes: Identifier for a business organization for VAT purposes, eg within the
+      EU’s VIES system. See http://ec.europa.eu/taxation_customs/vies/faqvies.do for
+      EU VAT ID formats, which vary from country to country. Generally these consist
+      of a two-letter country code followed by the 8–12 digits of the national VAT
+      ID. Some countries include one or two letters within their VAT ID. See http://en.wikipedia.org/wiki/VAT_identification_number
+      for non-EU countries that maintain similar identifiers. Spaces, dashes etc should
+      be omitted.
+    :issue_number: '16'

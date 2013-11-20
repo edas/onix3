@@ -1,0 +1,90 @@
+---
+:number: '42'
+:description: Text item type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Textual work
+    :notes: A complete work which is published as a content item in a product which
+      carries two or more such works, eg when two or three novels are published in
+      a single omnibus volume.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Front matter
+    :notes: Text components such as Preface, Introduction etc which appear as preliminaries
+      to the main body of text content in a product.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Body matter
+    :notes: Text components such as Part, Chapter, Section etc which appear as part
+      of the main body of text content in a product.
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Back matter
+    :notes: Text components such as Index which appear after the main body of text
+      in a product.
+    :issue_number: '0'
+  '10':
+    :value: '10'
+    :description: Serial item, miscellaneous or unspecified
+    :notes: For journals.
+    :issue_number: '0'
+  '11':
+    :value: '11'
+    :description: Research article
+    :notes: For journals.
+    :issue_number: '0'
+  '12':
+    :value: '12'
+    :description: Review article
+    :notes: For journals.
+    :issue_number: '0'
+  '13':
+    :value: '13'
+    :description: Letter
+    :notes: For journals.
+    :issue_number: '0'
+  '14':
+    :value: '14'
+    :description: Short communication
+    :notes: For journals.
+    :issue_number: '0'
+  '15':
+    :value: '15'
+    :description: Erratum
+    :notes: For journals.
+    :issue_number: '0'
+  '16':
+    :value: '16'
+    :description: Abstract
+    :notes: For journals.
+    :issue_number: '0'
+  '17':
+    :value: '17'
+    :description: Book review (or review of other publication)
+    :notes: For journals.
+    :issue_number: '0'
+  '18':
+    :value: '18'
+    :description: Editorial
+    :notes: For journals.
+    :issue_number: '0'
+  '19':
+    :value: '19'
+    :description: Product review
+    :notes: For journals.
+    :issue_number: '0'
+  '20':
+    :value: '20'
+    :description: Index
+    :notes: ''
+    :issue_number: '0'
+  '21':
+    :value: '21'
+    :description: Obituary
+    :notes: For journals.
+    :issue_number: '0'

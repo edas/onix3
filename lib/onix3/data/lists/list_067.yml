@@ -1,0 +1,18 @@
+---
+:number: '67'
+:description: Market date role
+:issue_number: '3'
+:codes:
+  '01':
+    :value: '01'
+    :description: Publication date
+    :notes: The nominal date of publication in this market. If there is a strict embargo
+      on retail sales before the expected date, it should be specified separately
+      as an embargo date.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Embargo date
+    :notes: If there is an embargo on retail sales in this market before a certain
+      date, the date from which the embargo is lifted and retail sales are permitted.
+    :issue_number: '9'

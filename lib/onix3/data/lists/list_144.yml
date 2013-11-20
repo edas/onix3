@@ -1,0 +1,37 @@
+---
+:number: '144'
+:description: E-publication technical protection
+:issue_number: '9'
+:codes:
+  '00':
+    :value: '00'
+    :description: None
+    :notes: Has no technical protection.
+    :issue_number: '9'
+  '01':
+    :value: '01'
+    :description: DRM
+    :notes: Has DRM protection.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Digital watermarking
+    :notes: Has digital watermarking.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Adobe DRM
+    :notes: Has DRM protection applied by the Adobe CS4 Content Server Package or
+      by the Adobe ADEPT hosted service.
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Apple DRM
+    :notes: FairPlay’ DRM protection applied via Apple proprietary online store.
+    :issue_number: '12'
+  '05':
+    :value: '05'
+    :description: OMA DRM
+    :notes: Has OMA v2 DRM protection applied, as used to protect some mobile phone
+      content.
+    :issue_number: '12'

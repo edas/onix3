@@ -1,0 +1,149 @@
+---
+:number: '178'
+:description: Supporting resource file format
+:issue_number: '10'
+:codes:
+  A103:
+    :value: A103
+    :description: MP3
+    :notes: MPEG 1/2 Audio Layer III file.
+    :issue_number: '10'
+  A104:
+    :value: A104
+    :description: WAV
+    :notes: Waveform Audio file.
+    :issue_number: '10'
+  A105:
+    :value: A105
+    :description: Real Audio
+    :notes: Proprietary RealNetworks format.
+    :issue_number: '10'
+  A106:
+    :value: A106
+    :description: WMA
+    :notes: Windows Media Audio format.
+    :issue_number: '10'
+  A107:
+    :value: A107
+    :description: AAC
+    :notes: Advanced Audio Coding format.
+    :issue_number: '10'
+  A111:
+    :value: A111
+    :description: AIFF
+    :notes: Audio Interchange File format.
+    :issue_number: '15'
+  D101:
+    :value: D101
+    :description: Real Video
+    :notes: Proprietary RealNetworks format. Includes Real Video packaged within a
+      .rm RealMedia container.
+    :issue_number: '18'
+  D102:
+    :value: D102
+    :description: Quicktime
+    :notes: Quicktime container format (.mov).
+    :issue_number: '15'
+  D103:
+    :value: D103
+    :description: AVI
+    :notes: Audio Video Interleave format.
+    :issue_number: '10'
+  D104:
+    :value: D104
+    :description: WMV
+    :notes: Windows Media Video format.
+    :issue_number: '10'
+  D105:
+    :value: D105
+    :description: MPEG-4
+    :notes: MPEG-4 container format (.mp4, .m4a).
+    :issue_number: '15'
+  D106:
+    :value: D106
+    :description: FLV
+    :notes: Flash Video (.flv, .f4v).
+    :issue_number: '10'
+  D107:
+    :value: D107
+    :description: SWF
+    :notes: ShockWave (.swf).
+    :issue_number: '10'
+  D108:
+    :value: D108
+    :description: 3GP
+    :notes: 3GPP container format (.3gp, .3g2).
+    :issue_number: '15'
+  D109:
+    :value: D109
+    :description: WebM
+    :notes: WebM container format (includes .mkv).
+    :issue_number: '15'
+  D401:
+    :value: D401
+    :description: PDF
+    :notes: Portable Document File format.
+    :issue_number: '10'
+  D501:
+    :value: D501
+    :description: GIF
+    :notes: Graphic Interchange File format.
+    :issue_number: '10'
+  D502:
+    :value: D502
+    :description: JPEG
+    :notes: Joint Photographic Experts Group format.
+    :issue_number: '10'
+  D503:
+    :value: D503
+    :description: PNG
+    :notes: Portable Network Graphics format.
+    :issue_number: '10'
+  D504:
+    :value: D504
+    :description: TIFF
+    :notes: Tagged Image File format.
+    :issue_number: '10'
+  E101:
+    :value: E101
+    :description: EPUB
+    :notes: The Open Publication Structure / OPS Container Format standard of the
+      International Digital Publishing Forum (IDPF) [File extension .epub].
+    :issue_number: '11'
+  E105:
+    :value: E105
+    :description: HTML
+    :notes: HyperText Mark-up Language [File extension .html, .htm].
+    :issue_number: '17'
+  E107:
+    :value: E107
+    :description: PDF
+    :notes: Portable Document Format (ISO 32000-1:2008) [File extension .pdf].
+    :issue_number: '17'
+  E113:
+    :value: E113
+    :description: XHTML
+    :notes: Extensible Hypertext Markup Language [File extension .xhtml, .xht, .xml,
+      .html, .htm].
+    :issue_number: '17'
+  E115:
+    :value: E115
+    :description: XPS
+    :notes: XML Paper Specification.
+    :issue_number: '16'
+  E116:
+    :value: E116
+    :description: Amazon Kindle
+    :notes: A format proprietary to Amazon for use with its Kindle reading devices
+      or software readers [File extensions .azw, .mobi, .prc].
+    :issue_number: '21'
+  E139:
+    :value: E139
+    :description: CEB
+    :notes: Founder Apabi’s proprietary basic e-book format.
+    :issue_number: '20'
+  E140:
+    :value: E140
+    :description: CEBX
+    :notes: Founder Apabi’s proprietary XML e-book format.
+    :issue_number: '20'

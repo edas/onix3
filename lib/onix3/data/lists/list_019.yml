@@ -1,0 +1,43 @@
+---
+:number: '19'
+:description: Unnamed person(s)
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Unknown
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Anonymous
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: et al
+    :notes: 'And others: additional contributors not listed.'
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Various authors
+    :notes: When the product is a pack of books by different authors.
+    :issue_number: '2'
+  '05':
+    :value: '05'
+    :description: Synthesized voice – male
+    :notes: Use with Contributor role code E07 “read by”, for audio books for the
+      blind.
+    :issue_number: '8'
+  '06':
+    :value: '06'
+    :description: Synthesized voice – female
+    :notes: Use with Contributor role code E07 “read by”, for audio books for the
+      blind.
+    :issue_number: '8'
+  '07':
+    :value: '07'
+    :description: Synthesized voice – unspecified
+    :notes: Use with Contributor role code E07 “read by”, for audio books for the
+      blind.
+    :issue_number: '8'

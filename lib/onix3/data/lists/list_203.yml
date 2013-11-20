@@ -1,0 +1,49 @@
+---
+:number: '203'
+:description: ONIX Adult Audience rating
+:issue_number: '18'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unrated
+    :notes: ''
+    :issue_number: '18'
+  '01':
+    :value: '01'
+    :description: Any adult audience
+    :notes: The publisher states that the product is suitable for any adult audience.
+    :issue_number: '18'
+  '02':
+    :value: '02'
+    :description: Content warning
+    :notes: The publisher warns the content may offend parts of the adult audience
+      (for any reason).
+    :issue_number: '18'
+  '03':
+    :value: '03'
+    :description: Content warning (sex)
+    :notes: The publisher warns the product includes content of an explicit sexual
+      nature.
+    :issue_number: '18'
+  '04':
+    :value: '04'
+    :description: Content warning (violence)
+    :notes: The publisher warns the product includes content of a violent nature.
+    :issue_number: '18'
+  '05':
+    :value: '05'
+    :description: Content warning (drug-taking)
+    :notes: The publisher warns the product includes content involving misuse of drugs.
+    :issue_number: '18'
+  '06':
+    :value: '06'
+    :description: Content warning (language)
+    :notes: The publisher warns the product includes extreme / offensive / explicit
+      language.
+    :issue_number: '18'
+  '07':
+    :value: '07'
+    :description: Content warning (intolerance)
+    :notes: The publisher warns the product includes content involving intolerance
+      of particular groups (eg religious, ethnic, racial, social).
+    :issue_number: '19'

@@ -1,0 +1,85 @@
+---
+:number: '176'
+:description: Product form feature value – operating system
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Android
+    :notes: An Open Source mobile device operating system originally developed by
+      Google and supported by the Open Handset Alliance.
+    :issue_number: '10'
+  '02':
+    :value: '02'
+    :description: BlackBerry OS
+    :notes: A proprietary operating system supplied by Research In Motion for its
+      BlackBerry handheld devices.
+    :issue_number: '10'
+  '03':
+    :value: '03'
+    :description: iOS
+    :notes: A proprietary operating system based on Mac OS X supplied by Apple for
+      its iPhone, iPad and iPod Touch handheld devices.
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Linux
+    :notes: An operating system based on the Linux kernel.
+    :issue_number: '10'
+  '05':
+    :value: '05'
+    :description: Mac OS
+    :notes: '[A proprietary operating system supplied by Apple on Macintosh computers
+      up to 2002] DEPRECATED – use code 13 for all Mac OS versions.'
+    :issue_number: '11'
+  '06':
+    :value: '06'
+    :description: Mac OS X
+    :notes: '[A proprietary operating system supplied by Apple on Macintosh computers
+      from 2001/2002] DEPRECATED – use code 13 for all Mac OS versions.'
+    :issue_number: '11'
+  '07':
+    :value: '07'
+    :description: Palm OS
+    :notes: A proprietary operating system (AKA Garnet OS) originally developed for
+      handheld devices.
+    :issue_number: '10'
+  08:
+    :value: 08
+    :description: webOS
+    :notes: A proprietry Linux-based operating system for handheld devices, originally
+      developed by Palm (now owned by HP).
+    :issue_number: '10'
+  09:
+    :value: 09
+    :description: Symbian
+    :notes: An operating system for hand-held devices, originally developed as a proprietary
+      system, but planned to become wholly Open Source by 2010.
+    :issue_number: '10'
+  '10':
+    :value: '10'
+    :description: Windows
+    :notes: A proprietary operating system supplied by Microsoft.
+    :issue_number: '10'
+  '11':
+    :value: '11'
+    :description: Windows CE
+    :notes: A proprietary operating system (AKA Windows Embedded Compact, WinCE) supplied
+      by Microsoft for small-scale devices.
+    :issue_number: '10'
+  '12':
+    :value: '12'
+    :description: Windows Mobile
+    :notes: A proprietary operating system supplied by Microsoft for mobile devices.
+    :issue_number: '10'
+  '13':
+    :value: '13'
+    :description: Mac OS
+    :notes: A proprietary operating system supplied by Apple on Macintosh computers.
+    :issue_number: '11'
+  '14':
+    :value: '14'
+    :description: Windows Phone 7
+    :notes: A proprietary operating system supplied by Microsoft for mobile devices,
+      successor to Windows Mobile.
+    :issue_number: '12'

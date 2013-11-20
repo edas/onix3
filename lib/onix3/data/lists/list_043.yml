@@ -1,0 +1,35 @@
+---
+:number: '43'
+:description: Text item identifier type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: For example, a publisher’s own identifier.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: GTIN-13
+    :notes: Formerly known as the EAN-13 (unhyphenated).
+    :issue_number: '13'
+  '06':
+    :value: '06'
+    :description: DOI
+    :notes: ''
+    :issue_number: '0'
+  09:
+    :value: 09
+    :description: PII
+    :notes: Publisher item identifier.
+    :issue_number: '0'
+  '10':
+    :value: '10'
+    :description: SICI
+    :notes: For serial items only.
+    :issue_number: '0'
+  '15':
+    :value: '15'
+    :description: ISBN-13
+    :notes: (Unhyphenated).
+    :issue_number: '13'

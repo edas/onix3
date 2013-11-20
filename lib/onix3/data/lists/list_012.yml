@@ -1,0 +1,93 @@
+---
+:number: '12'
+:description: Trade category code
+:issue_number: '1'
+:codes:
+  '01':
+    :value: '01'
+    :description: UK open market edition
+    :notes: An edition from a UK publisher sold only in territories where exclusive
+      rights are not held. Rights details should be carried in PR.21 (ONIX 2.1) OR
+      P.21 (ONIX 3.0) as usual.
+    :issue_number: '2'
+  '02':
+    :value: '02'
+    :description: Airport edition
+    :notes: In UK, an edition intended primarily for airside sales in UK airports,
+      though it may be available for sale in other territories where exclusive rights
+      are not held. Rights details should be carried in PR.21 (ONIX 2.1) OR P.21 (ONIX
+      3.0) as usual.
+    :issue_number: '2'
+  '03':
+    :value: '03'
+    :description: Sonderausgabe
+    :notes: In Germany, a special printing sold at a lower price than the regular
+      hardback.
+    :issue_number: '2'
+  '04':
+    :value: '04'
+    :description: Pocket paperback
+    :notes: In countries where recognised as a distinct trade category, eg France
+      ‘livre de poche’, Germany ‘Taschenbuch’, Italy ‘tascabile’, Spain ‘libro de
+      bolsillo’.
+    :issue_number: '6'
+  '05':
+    :value: '05'
+    :description: International edition (US)
+    :notes: Edition produced solely for sale in designated export markets.
+    :issue_number: '2'
+  '06':
+    :value: '06'
+    :description: Library audio edition
+    :notes: Audio product sold in special durable packaging and with a replacement
+      guarantee for the contained cassettes or CDs for a specified shelf-life.
+    :issue_number: '2'
+  '07':
+    :value: '07'
+    :description: US open market edition
+    :notes: An edition from a US publisher sold only in territories where exclusive
+      rights are not held. Rights details should be carried in PR.21 (ONIX 2.1) OR
+      P.21 (ONIX 3.0) as usual.
+    :issue_number: '3'
+  08:
+    :value: 08
+    :description: Livre scolaire, déclaré par l’éditeur
+    :notes: In France, a category of book that has a particular legal status, claimed
+      by the publisher.
+    :issue_number: '5'
+  09:
+    :value: 09
+    :description: Livre scolaire (non spécifié)
+    :notes: In France, a category of book that has a particular legal status, designated
+      independently of the publisher.
+    :issue_number: '5'
+  '10':
+    :value: '10'
+    :description: Supplement to newspaper
+    :notes: Edition published for sale only with a newspaper or periodical.
+    :issue_number: '7'
+  '11':
+    :value: '11'
+    :description: Precio libre textbook
+    :notes: In Spain, a school textbook for which there is no fixed or suggested retail
+      price and which is supplied by the publisher on terms individually agreed with
+      the bookseller.
+    :issue_number: '8'
+  '12':
+    :value: '12'
+    :description: News outlet edition
+    :notes: For editions sold only through newsstands/newsagents.
+    :issue_number: '14'
+  '13':
+    :value: '13'
+    :description: US textbook
+    :notes: In the US and Canada, a book that is published primarily for use by students
+      in school or college education as a basis for study. Textbooks published for
+      the elementary and secondary school markets are generally purchased by school
+      districts for the use of students. Textbooks published for the higher education
+      market are generally adopted for use in particular classes by the instructors
+      of those classes. Textbooks are usually not marketed to the general public,
+      which distinguishes them from trade books. Note that trade books adopted for
+      course use are not considered to be textbooks (though a specific education edition
+      of a trade title may be).
+    :issue_number: '17'

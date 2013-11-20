@@ -1,0 +1,214 @@
+---
+:number: '38'
+:description: Image/audio/video file type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Whole product
+    :notes: Link to a location where the whole product may be found – used for epublications.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: 'Application: software demo'
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: 'Image: whole cover'
+    :notes: 'Includes cover, back cover, spine and – where appropriate – any flaps.
+      Quality unspecified: if sending both a standard quality and a high quality image,
+      use 03 for standard quality and 05 for high quality.'
+    :issue_number: '17'
+  '04':
+    :value: '04'
+    :description: 'Image: front cover'
+    :notes: 'Quality unspecified: if sending both a standard quality and a high quality
+      image, use 04 for standard quality and 06 for high quality.'
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: 'Image: whole cover, high quality'
+    :notes: Should have a minimum resolution of 300 dpi when rendered at the intended
+      size for display or print.
+    :issue_number: '17'
+  '06':
+    :value: '06'
+    :description: 'Image: front cover, high quality'
+    :notes: Should have a minimum resolution of 300 dpi when rendered at the intended
+      size for display or print.
+    :issue_number: '6'
+  '07':
+    :value: '07'
+    :description: 'Image: front cover thumbnail'
+    :notes: ''
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: 'Image: contributor(s)'
+    :notes: ''
+    :issue_number: '0'
+  '10':
+    :value: '10'
+    :description: 'Image: for series'
+    :notes: Use for an image, other than a logo, that is part of the ‘branding’ of
+      a series.
+    :issue_number: '0'
+  '11':
+    :value: '11'
+    :description: 'Image: series logo'
+    :notes: ''
+    :issue_number: '0'
+  '12':
+    :value: '12'
+    :description: 'Image: product logo'
+    :notes: Use only for a logo which is specific to an individual product.
+    :issue_number: '0'
+  '16':
+    :value: '16'
+    :description: 'Image: Master brand logo'
+    :notes: ''
+    :issue_number: '20'
+  '17':
+    :value: '17'
+    :description: 'Image: publisher logo'
+    :notes: ''
+    :issue_number: '0'
+  '18':
+    :value: '18'
+    :description: 'Image: imprint logo'
+    :notes: ''
+    :issue_number: '0'
+  '22':
+    :value: '22'
+    :description: 'Image: table of contents'
+    :notes: ''
+    :issue_number: '11'
+  '23':
+    :value: '23'
+    :description: 'Image: sample content'
+    :notes: Use for inside page image for book, or screenshot for software or game
+      (revised definition from Issue 8).
+    :issue_number: '8'
+  '24':
+    :value: '24'
+    :description: 'Image: back cover'
+    :notes: 'Quality unspecified: if sending both a standard quality and a high quality
+      image, use 24 for standard quality and 25 for high quality.'
+    :issue_number: '8'
+  '25':
+    :value: '25'
+    :description: 'Image: back cover, high quality'
+    :notes: Should have a minimum resolution of 300 dpi when rendered at the intended
+      size for display or print.
+    :issue_number: '8'
+  '26':
+    :value: '26'
+    :description: 'Image: back cover thumbnail'
+    :notes: ''
+    :issue_number: '8'
+  '27':
+    :value: '27'
+    :description: 'Image: other cover material'
+    :notes: ''
+    :issue_number: '8'
+  '28':
+    :value: '28'
+    :description: 'Image: promotional material'
+    :notes: ''
+    :issue_number: '8'
+  '29':
+    :value: '29'
+    :description: 'Video segment: unspecified'
+    :notes: ''
+    :issue_number: '0'
+  '30':
+    :value: '30'
+    :description: 'Audio segment: unspecified'
+    :notes: ''
+    :issue_number: '0'
+  '31':
+    :value: '31'
+    :description: 'Video: author presentation / commentary'
+    :notes: ''
+    :issue_number: '8'
+  '32':
+    :value: '32'
+    :description: 'Video: author interview'
+    :notes: ''
+    :issue_number: '8'
+  '33':
+    :value: '33'
+    :description: 'Video: author reading'
+    :notes: ''
+    :issue_number: '8'
+  '34':
+    :value: '34'
+    :description: 'Video: cover material'
+    :notes: ''
+    :issue_number: '8'
+  '35':
+    :value: '35'
+    :description: 'Video: sample content'
+    :notes: ''
+    :issue_number: '8'
+  '36':
+    :value: '36'
+    :description: 'Video: promotional material'
+    :notes: ''
+    :issue_number: '8'
+  '37':
+    :value: '37'
+    :description: 'Video: review'
+    :notes: ''
+    :issue_number: '8'
+  '38':
+    :value: '38'
+    :description: 'Video: other commentary / discussion'
+    :notes: ''
+    :issue_number: '8'
+  '41':
+    :value: '41'
+    :description: 'Audio: author presentation / commentary'
+    :notes: ''
+    :issue_number: '8'
+  '42':
+    :value: '42'
+    :description: 'Audio: author interview'
+    :notes: ''
+    :issue_number: '8'
+  '43':
+    :value: '43'
+    :description: 'Audio: author reading'
+    :notes: ''
+    :issue_number: '8'
+  '44':
+    :value: '44'
+    :description: 'Audio: sample content'
+    :notes: ''
+    :issue_number: '8'
+  '45':
+    :value: '45'
+    :description: 'Audio: promotional material'
+    :notes: ''
+    :issue_number: '8'
+  '46':
+    :value: '46'
+    :description: 'Audio: review'
+    :notes: ''
+    :issue_number: '8'
+  '47':
+    :value: '47'
+    :description: 'Audio: other commentary / discussion'
+    :notes: ''
+    :issue_number: '8'
+  '51':
+    :value: '51'
+    :description: 'Application: sample content'
+    :notes: Use for ‘look inside’ facility or ‘widget’.
+    :issue_number: '9'
+  '52':
+    :value: '52'
+    :description: 'Application: promotional material'
+    :notes: ''
+    :issue_number: '8'

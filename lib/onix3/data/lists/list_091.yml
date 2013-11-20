@@ -1,0 +1,1265 @@
+---
+:number: '91'
+:description: Country code – ISO 3166-1
+:issue_number: '0'
+:codes:
+  AD:
+    :value: AD
+    :description: Andorra
+    :notes: ''
+    :issue_number: '0'
+  AE:
+    :value: AE
+    :description: United Arab Emirates
+    :notes: ''
+    :issue_number: '0'
+  AF:
+    :value: AF
+    :description: Afghanistan
+    :notes: ''
+    :issue_number: '0'
+  AG:
+    :value: AG
+    :description: Antigua and Barbuda
+    :notes: ''
+    :issue_number: '0'
+  AI:
+    :value: AI
+    :description: Anguilla
+    :notes: ''
+    :issue_number: '0'
+  AL:
+    :value: AL
+    :description: Albania
+    :notes: ''
+    :issue_number: '0'
+  AM:
+    :value: AM
+    :description: Armenia
+    :notes: ''
+    :issue_number: '0'
+  AN:
+    :value: AN
+    :description: Netherlands Antilles
+    :notes: Deprecated – use BQ, CW or SX as appropriate.
+    :issue_number: '13'
+  AO:
+    :value: AO
+    :description: Angola
+    :notes: ''
+    :issue_number: '0'
+  AQ:
+    :value: AQ
+    :description: Antarctica
+    :notes: ''
+    :issue_number: '0'
+  AR:
+    :value: AR
+    :description: Argentina
+    :notes: ''
+    :issue_number: '0'
+  AS:
+    :value: AS
+    :description: American Samoa
+    :notes: ''
+    :issue_number: '0'
+  AT:
+    :value: AT
+    :description: Austria
+    :notes: ''
+    :issue_number: '0'
+  AU:
+    :value: AU
+    :description: Australia
+    :notes: ''
+    :issue_number: '0'
+  AW:
+    :value: AW
+    :description: Aruba
+    :notes: ''
+    :issue_number: '0'
+  AX:
+    :value: AX
+    :description: Åland Islands
+    :notes: ''
+    :issue_number: '4'
+  AZ:
+    :value: AZ
+    :description: Azerbaijan
+    :notes: ''
+    :issue_number: '0'
+  BA:
+    :value: BA
+    :description: Bosnia and Herzegovina
+    :notes: ''
+    :issue_number: '0'
+  BB:
+    :value: BB
+    :description: Barbados
+    :notes: ''
+    :issue_number: '0'
+  BD:
+    :value: BD
+    :description: Bangladesh
+    :notes: ''
+    :issue_number: '0'
+  BE:
+    :value: BE
+    :description: Belgium
+    :notes: ''
+    :issue_number: '0'
+  BF:
+    :value: BF
+    :description: Burkina Faso
+    :notes: ''
+    :issue_number: '0'
+  BG:
+    :value: BG
+    :description: Bulgaria
+    :notes: ''
+    :issue_number: '0'
+  BH:
+    :value: BH
+    :description: Bahrain
+    :notes: ''
+    :issue_number: '0'
+  BI:
+    :value: BI
+    :description: Burundi
+    :notes: ''
+    :issue_number: '0'
+  BJ:
+    :value: BJ
+    :description: Benin
+    :notes: ''
+    :issue_number: '0'
+  BL:
+    :value: BL
+    :description: Saint Barthélemy
+    :notes: ''
+    :issue_number: '8'
+  BM:
+    :value: BM
+    :description: Bermuda
+    :notes: ''
+    :issue_number: '0'
+  BN:
+    :value: BN
+    :description: Brunei Darussalam
+    :notes: ''
+    :issue_number: '0'
+  BO:
+    :value: BO
+    :description: Bolivia, Plurinational State of
+    :notes: ''
+    :issue_number: '0'
+  BQ:
+    :value: BQ
+    :description: Bonaire, Sint Eustatius and Saba
+    :notes: ''
+    :issue_number: '13'
+  BR:
+    :value: BR
+    :description: Brazil
+    :notes: ''
+    :issue_number: '0'
+  BS:
+    :value: BS
+    :description: Bahamas
+    :notes: ''
+    :issue_number: '0'
+  BT:
+    :value: BT
+    :description: Bhutan
+    :notes: ''
+    :issue_number: '0'
+  BV:
+    :value: BV
+    :description: Bouvet Island
+    :notes: ''
+    :issue_number: '0'
+  BW:
+    :value: BW
+    :description: Botswana
+    :notes: ''
+    :issue_number: '0'
+  BY:
+    :value: BY
+    :description: Belarus
+    :notes: ''
+    :issue_number: '0'
+  BZ:
+    :value: BZ
+    :description: Belize
+    :notes: ''
+    :issue_number: '0'
+  CA:
+    :value: CA
+    :description: Canada
+    :notes: ''
+    :issue_number: '0'
+  CC:
+    :value: CC
+    :description: Cocos (Keeling) Islands
+    :notes: ''
+    :issue_number: '0'
+  CD:
+    :value: CD
+    :description: Congo, Democratic Republic of the
+    :notes: ''
+    :issue_number: '0'
+  CF:
+    :value: CF
+    :description: Central African Republic
+    :notes: ''
+    :issue_number: '0'
+  CG:
+    :value: CG
+    :description: Congo
+    :notes: ''
+    :issue_number: '0'
+  CH:
+    :value: CH
+    :description: Switzerland
+    :notes: ''
+    :issue_number: '0'
+  CI:
+    :value: CI
+    :description: Cote d’Ivoire
+    :notes: ''
+    :issue_number: '0'
+  CK:
+    :value: CK
+    :description: Cook Islands
+    :notes: ''
+    :issue_number: '0'
+  CL:
+    :value: CL
+    :description: Chile
+    :notes: ''
+    :issue_number: '0'
+  CM:
+    :value: CM
+    :description: Cameroon
+    :notes: ''
+    :issue_number: '0'
+  CN:
+    :value: CN
+    :description: China
+    :notes: ''
+    :issue_number: '0'
+  CO:
+    :value: CO
+    :description: Colombia
+    :notes: ''
+    :issue_number: '0'
+  CR:
+    :value: CR
+    :description: Costa Rica
+    :notes: ''
+    :issue_number: '0'
+  CS:
+    :value: CS
+    :description: Serbia and Montenegro
+    :notes: DEPRECATED, replaced by ME – Montenegro and RS – Serbia.
+    :issue_number: '7'
+  CU:
+    :value: CU
+    :description: Cuba
+    :notes: ''
+    :issue_number: '0'
+  CV:
+    :value: CV
+    :description: Cape Verde
+    :notes: ''
+    :issue_number: '0'
+  CW:
+    :value: CW
+    :description: Curaçao
+    :notes: ''
+    :issue_number: '13'
+  CX:
+    :value: CX
+    :description: Christmas Island
+    :notes: ''
+    :issue_number: '0'
+  CY:
+    :value: CY
+    :description: Cyprus
+    :notes: ''
+    :issue_number: '0'
+  CZ:
+    :value: CZ
+    :description: Czech Republic
+    :notes: ''
+    :issue_number: '0'
+  DE:
+    :value: DE
+    :description: Germany
+    :notes: ''
+    :issue_number: '0'
+  DJ:
+    :value: DJ
+    :description: Djibouti
+    :notes: ''
+    :issue_number: '0'
+  DK:
+    :value: DK
+    :description: Denmark
+    :notes: ''
+    :issue_number: '0'
+  DM:
+    :value: DM
+    :description: Dominica
+    :notes: ''
+    :issue_number: '0'
+  DO:
+    :value: DO
+    :description: Dominican Republic
+    :notes: ''
+    :issue_number: '0'
+  DZ:
+    :value: DZ
+    :description: Algeria
+    :notes: ''
+    :issue_number: '0'
+  EC:
+    :value: EC
+    :description: Ecuador
+    :notes: ''
+    :issue_number: '0'
+  EE:
+    :value: EE
+    :description: Estonia
+    :notes: ''
+    :issue_number: '0'
+  EG:
+    :value: EG
+    :description: Egypt
+    :notes: ''
+    :issue_number: '0'
+  EH:
+    :value: EH
+    :description: Western Sahara
+    :notes: ''
+    :issue_number: '0'
+  ER:
+    :value: ER
+    :description: Eritrea
+    :notes: ''
+    :issue_number: '0'
+  ES:
+    :value: ES
+    :description: Spain
+    :notes: ''
+    :issue_number: '0'
+  ET:
+    :value: ET
+    :description: Ethiopia
+    :notes: ''
+    :issue_number: '0'
+  FI:
+    :value: FI
+    :description: Finland
+    :notes: ''
+    :issue_number: '0'
+  FJ:
+    :value: FJ
+    :description: Fiji
+    :notes: ''
+    :issue_number: '0'
+  FK:
+    :value: FK
+    :description: Falkland Islands (Malvinas)
+    :notes: ''
+    :issue_number: '0'
+  FM:
+    :value: FM
+    :description: Micronesia, Federated States of
+    :notes: ''
+    :issue_number: '0'
+  FO:
+    :value: FO
+    :description: Faroe Islands
+    :notes: ''
+    :issue_number: '0'
+  FR:
+    :value: FR
+    :description: France
+    :notes: ''
+    :issue_number: '0'
+  GA:
+    :value: GA
+    :description: Gabon
+    :notes: ''
+    :issue_number: '0'
+  GB:
+    :value: GB
+    :description: United Kingdom
+    :notes: ''
+    :issue_number: '0'
+  GD:
+    :value: GD
+    :description: Grenada
+    :notes: ''
+    :issue_number: '0'
+  GE:
+    :value: GE
+    :description: Georgia
+    :notes: ''
+    :issue_number: '0'
+  GF:
+    :value: GF
+    :description: French Guiana
+    :notes: ''
+    :issue_number: '0'
+  GG:
+    :value: GG
+    :description: Guernsey
+    :notes: ''
+    :issue_number: '7'
+  GH:
+    :value: GH
+    :description: Ghana
+    :notes: ''
+    :issue_number: '0'
+  GI:
+    :value: GI
+    :description: Gibraltar
+    :notes: ''
+    :issue_number: '0'
+  GL:
+    :value: GL
+    :description: Greenland
+    :notes: ''
+    :issue_number: '0'
+  GM:
+    :value: GM
+    :description: Gambia
+    :notes: ''
+    :issue_number: '0'
+  GN:
+    :value: GN
+    :description: Guinea
+    :notes: ''
+    :issue_number: '0'
+  GP:
+    :value: GP
+    :description: Guadeloupe
+    :notes: ''
+    :issue_number: '0'
+  GQ:
+    :value: GQ
+    :description: Equatorial Guinea
+    :notes: ''
+    :issue_number: '0'
+  GR:
+    :value: GR
+    :description: Greece
+    :notes: ''
+    :issue_number: '0'
+  GS:
+    :value: GS
+    :description: South Georgia and the South Sandwich Islands
+    :notes: ''
+    :issue_number: '0'
+  GT:
+    :value: GT
+    :description: Guatemala
+    :notes: ''
+    :issue_number: '0'
+  GU:
+    :value: GU
+    :description: Guam
+    :notes: ''
+    :issue_number: '0'
+  GW:
+    :value: GW
+    :description: Guinea-Bissau
+    :notes: ''
+    :issue_number: '0'
+  GY:
+    :value: GY
+    :description: Guyana
+    :notes: ''
+    :issue_number: '0'
+  HK:
+    :value: HK
+    :description: Hong Kong
+    :notes: ''
+    :issue_number: '0'
+  HM:
+    :value: HM
+    :description: Heard Island and McDonald Islands
+    :notes: ''
+    :issue_number: '0'
+  HN:
+    :value: HN
+    :description: Honduras
+    :notes: ''
+    :issue_number: '0'
+  HR:
+    :value: HR
+    :description: Croatia
+    :notes: ''
+    :issue_number: '0'
+  HT:
+    :value: HT
+    :description: Haiti
+    :notes: ''
+    :issue_number: '0'
+  HU:
+    :value: HU
+    :description: Hungary
+    :notes: ''
+    :issue_number: '0'
+  ID:
+    :value: ID
+    :description: Indonesia
+    :notes: ''
+    :issue_number: '0'
+  IE:
+    :value: IE
+    :description: Ireland
+    :notes: ''
+    :issue_number: '0'
+  IL:
+    :value: IL
+    :description: Israel
+    :notes: ''
+    :issue_number: '0'
+  IM:
+    :value: IM
+    :description: Isle of Man
+    :notes: ''
+    :issue_number: '7'
+  IN:
+    :value: IN
+    :description: India
+    :notes: ''
+    :issue_number: '0'
+  IO:
+    :value: IO
+    :description: British Indian Ocean Territory
+    :notes: ''
+    :issue_number: '0'
+  IQ:
+    :value: IQ
+    :description: Iraq
+    :notes: ''
+    :issue_number: '0'
+  IR:
+    :value: IR
+    :description: Iran, Islamic Republic of
+    :notes: ''
+    :issue_number: '0'
+  IS:
+    :value: IS
+    :description: Iceland
+    :notes: ''
+    :issue_number: '0'
+  IT:
+    :value: IT
+    :description: Italy
+    :notes: ''
+    :issue_number: '0'
+  JE:
+    :value: JE
+    :description: Jersey
+    :notes: ''
+    :issue_number: '7'
+  JM:
+    :value: JM
+    :description: Jamaica
+    :notes: ''
+    :issue_number: '0'
+  JO:
+    :value: JO
+    :description: Jordan
+    :notes: ''
+    :issue_number: '0'
+  JP:
+    :value: JP
+    :description: Japan
+    :notes: ''
+    :issue_number: '0'
+  KE:
+    :value: KE
+    :description: Kenya
+    :notes: ''
+    :issue_number: '0'
+  KG:
+    :value: KG
+    :description: Kyrgyzstan
+    :notes: ''
+    :issue_number: '0'
+  KH:
+    :value: KH
+    :description: Cambodia
+    :notes: ''
+    :issue_number: '0'
+  KI:
+    :value: KI
+    :description: Kiribati
+    :notes: ''
+    :issue_number: '0'
+  KM:
+    :value: KM
+    :description: Comoros
+    :notes: ''
+    :issue_number: '0'
+  KN:
+    :value: KN
+    :description: Saint Kitts and Nevis
+    :notes: ''
+    :issue_number: '0'
+  KP:
+    :value: KP
+    :description: Korea, Democratic People’s Republic of
+    :notes: ''
+    :issue_number: '0'
+  KR:
+    :value: KR
+    :description: Korea, Republic of
+    :notes: ''
+    :issue_number: '0'
+  KW:
+    :value: KW
+    :description: Kuwait
+    :notes: ''
+    :issue_number: '0'
+  KY:
+    :value: KY
+    :description: Cayman Islands
+    :notes: ''
+    :issue_number: '0'
+  KZ:
+    :value: KZ
+    :description: Kazakhstan
+    :notes: ''
+    :issue_number: '0'
+  LA:
+    :value: LA
+    :description: Lao People’s Democratic Republic
+    :notes: ''
+    :issue_number: '0'
+  LB:
+    :value: LB
+    :description: Lebanon
+    :notes: ''
+    :issue_number: '0'
+  LC:
+    :value: LC
+    :description: Saint Lucia
+    :notes: ''
+    :issue_number: '0'
+  LI:
+    :value: LI
+    :description: Liechtenstein
+    :notes: ''
+    :issue_number: '0'
+  LK:
+    :value: LK
+    :description: Sri Lanka
+    :notes: ''
+    :issue_number: '0'
+  LR:
+    :value: LR
+    :description: Liberia
+    :notes: ''
+    :issue_number: '0'
+  LS:
+    :value: LS
+    :description: Lesotho
+    :notes: ''
+    :issue_number: '0'
+  LT:
+    :value: LT
+    :description: Lithuania
+    :notes: ''
+    :issue_number: '0'
+  LU:
+    :value: LU
+    :description: Luxembourg
+    :notes: ''
+    :issue_number: '0'
+  LV:
+    :value: LV
+    :description: Latvia
+    :notes: ''
+    :issue_number: '0'
+  LY:
+    :value: LY
+    :description: Libya
+    :notes: ''
+    :issue_number: '0'
+  MA:
+    :value: MA
+    :description: Morocco
+    :notes: ''
+    :issue_number: '0'
+  MC:
+    :value: MC
+    :description: Monaco
+    :notes: ''
+    :issue_number: '0'
+  MD:
+    :value: MD
+    :description: Moldova, Repubic of
+    :notes: ''
+    :issue_number: '0'
+  ME:
+    :value: ME
+    :description: Montenegro
+    :notes: ''
+    :issue_number: '7'
+  MF:
+    :value: MF
+    :description: Saint Martin (French part)
+    :notes: ''
+    :issue_number: '8'
+  MG:
+    :value: MG
+    :description: Madagascar
+    :notes: ''
+    :issue_number: '0'
+  MH:
+    :value: MH
+    :description: Marshall Islands
+    :notes: ''
+    :issue_number: '0'
+  MK:
+    :value: MK
+    :description: Macedonia, the former Yugoslav Republic of
+    :notes: ''
+    :issue_number: '0'
+  ML:
+    :value: ML
+    :description: Mali
+    :notes: ''
+    :issue_number: '0'
+  MM:
+    :value: MM
+    :description: Myanmar
+    :notes: ''
+    :issue_number: '0'
+  MN:
+    :value: MN
+    :description: Mongolia
+    :notes: ''
+    :issue_number: '0'
+  MO:
+    :value: MO
+    :description: Macao
+    :notes: ''
+    :issue_number: '0'
+  MP:
+    :value: MP
+    :description: Northern Mariana Islands
+    :notes: ''
+    :issue_number: '0'
+  MQ:
+    :value: MQ
+    :description: Martinique
+    :notes: ''
+    :issue_number: '0'
+  MR:
+    :value: MR
+    :description: Mauritania
+    :notes: ''
+    :issue_number: '0'
+  MS:
+    :value: MS
+    :description: Montserrat
+    :notes: ''
+    :issue_number: '0'
+  MT:
+    :value: MT
+    :description: Malta
+    :notes: ''
+    :issue_number: '0'
+  MU:
+    :value: MU
+    :description: Mauritius
+    :notes: ''
+    :issue_number: '0'
+  MV:
+    :value: MV
+    :description: Maldives
+    :notes: ''
+    :issue_number: '0'
+  MW:
+    :value: MW
+    :description: Malawi
+    :notes: ''
+    :issue_number: '0'
+  MX:
+    :value: MX
+    :description: Mexico
+    :notes: ''
+    :issue_number: '0'
+  MY:
+    :value: MY
+    :description: Malaysia
+    :notes: ''
+    :issue_number: '0'
+  MZ:
+    :value: MZ
+    :description: Mozambique
+    :notes: ''
+    :issue_number: '0'
+  NA:
+    :value: NA
+    :description: Namibia
+    :notes: ''
+    :issue_number: '0'
+  NC:
+    :value: NC
+    :description: New Caledonia
+    :notes: ''
+    :issue_number: '0'
+  NE:
+    :value: NE
+    :description: Niger
+    :notes: ''
+    :issue_number: '0'
+  NF:
+    :value: NF
+    :description: Norfolk Island
+    :notes: ''
+    :issue_number: '0'
+  NG:
+    :value: NG
+    :description: Nigeria
+    :notes: ''
+    :issue_number: '0'
+  NI:
+    :value: NI
+    :description: Nicaragua
+    :notes: ''
+    :issue_number: '0'
+  NL:
+    :value: NL
+    :description: Netherlands
+    :notes: ''
+    :issue_number: '0'
+  'NO':
+    :value: 'NO'
+    :description: Norway
+    :notes: ''
+    :issue_number: '0'
+  NP:
+    :value: NP
+    :description: Nepal
+    :notes: ''
+    :issue_number: '0'
+  NR:
+    :value: NR
+    :description: Nauru
+    :notes: ''
+    :issue_number: '0'
+  NU:
+    :value: NU
+    :description: Niue
+    :notes: ''
+    :issue_number: '0'
+  NZ:
+    :value: NZ
+    :description: New Zealand
+    :notes: ''
+    :issue_number: '0'
+  OM:
+    :value: OM
+    :description: Oman
+    :notes: ''
+    :issue_number: '0'
+  PA:
+    :value: PA
+    :description: Panama
+    :notes: ''
+    :issue_number: '0'
+  PE:
+    :value: PE
+    :description: Peru
+    :notes: ''
+    :issue_number: '0'
+  PF:
+    :value: PF
+    :description: French Polynesia
+    :notes: ''
+    :issue_number: '0'
+  PG:
+    :value: PG
+    :description: Papua New Guinea
+    :notes: ''
+    :issue_number: '0'
+  PH:
+    :value: PH
+    :description: Philippines
+    :notes: ''
+    :issue_number: '0'
+  PK:
+    :value: PK
+    :description: Pakistan
+    :notes: ''
+    :issue_number: '0'
+  PL:
+    :value: PL
+    :description: Poland
+    :notes: ''
+    :issue_number: '0'
+  PM:
+    :value: PM
+    :description: Saint Pierre and Miquelon
+    :notes: ''
+    :issue_number: '0'
+  PN:
+    :value: PN
+    :description: Pitcairn
+    :notes: ''
+    :issue_number: '0'
+  PR:
+    :value: PR
+    :description: Puerto Rico
+    :notes: ''
+    :issue_number: '0'
+  PS:
+    :value: PS
+    :description: Palestine, State of
+    :notes: ''
+    :issue_number: '21'
+  PT:
+    :value: PT
+    :description: Portugal
+    :notes: ''
+    :issue_number: '0'
+  PW:
+    :value: PW
+    :description: Palau
+    :notes: ''
+    :issue_number: '0'
+  PY:
+    :value: PY
+    :description: Paraguay
+    :notes: ''
+    :issue_number: '0'
+  QA:
+    :value: QA
+    :description: Qatar
+    :notes: ''
+    :issue_number: '0'
+  RE:
+    :value: RE
+    :description: Réunion
+    :notes: ''
+    :issue_number: '0'
+  RO:
+    :value: RO
+    :description: Romania
+    :notes: ''
+    :issue_number: '0'
+  RS:
+    :value: RS
+    :description: Serbia
+    :notes: ''
+    :issue_number: '7'
+  RU:
+    :value: RU
+    :description: Russian Federation
+    :notes: ''
+    :issue_number: '0'
+  RW:
+    :value: RW
+    :description: Rwanda
+    :notes: ''
+    :issue_number: '0'
+  SA:
+    :value: SA
+    :description: Saudi Arabia
+    :notes: ''
+    :issue_number: '0'
+  SB:
+    :value: SB
+    :description: Solomon Islands
+    :notes: ''
+    :issue_number: '0'
+  SC:
+    :value: SC
+    :description: Seychelles
+    :notes: ''
+    :issue_number: '0'
+  SD:
+    :value: SD
+    :description: Sudan
+    :notes: ''
+    :issue_number: '0'
+  SE:
+    :value: SE
+    :description: Sweden
+    :notes: ''
+    :issue_number: '0'
+  SG:
+    :value: SG
+    :description: Singapore
+    :notes: ''
+    :issue_number: '0'
+  SH:
+    :value: SH
+    :description: Saint Helena, Ascension and Tristan da Cunha
+    :notes: ''
+    :issue_number: '0'
+  SI:
+    :value: SI
+    :description: Slovenia
+    :notes: ''
+    :issue_number: '0'
+  SJ:
+    :value: SJ
+    :description: Svalbard and Jan Mayen
+    :notes: ''
+    :issue_number: '0'
+  SK:
+    :value: SK
+    :description: Slovakia
+    :notes: ''
+    :issue_number: '0'
+  SL:
+    :value: SL
+    :description: Sierra Leone
+    :notes: ''
+    :issue_number: '0'
+  SM:
+    :value: SM
+    :description: San Marino
+    :notes: ''
+    :issue_number: '0'
+  SN:
+    :value: SN
+    :description: Senegal
+    :notes: ''
+    :issue_number: '0'
+  SO:
+    :value: SO
+    :description: Somalia
+    :notes: ''
+    :issue_number: '0'
+  SR:
+    :value: SR
+    :description: Suriname
+    :notes: ''
+    :issue_number: '0'
+  SS:
+    :value: SS
+    :description: South Sudan
+    :notes: ''
+    :issue_number: '15'
+  ST:
+    :value: ST
+    :description: Sao Tome and Principe
+    :notes: ''
+    :issue_number: '0'
+  SV:
+    :value: SV
+    :description: El Salvador
+    :notes: ''
+    :issue_number: '0'
+  SX:
+    :value: SX
+    :description: Sint Maarten (Dutch part)
+    :notes: ''
+    :issue_number: '13'
+  SY:
+    :value: SY
+    :description: Syrian Arab Republic
+    :notes: ''
+    :issue_number: '0'
+  SZ:
+    :value: SZ
+    :description: Swaziland
+    :notes: ''
+    :issue_number: '0'
+  TC:
+    :value: TC
+    :description: Turks and Caicos Islands
+    :notes: ''
+    :issue_number: '0'
+  TD:
+    :value: TD
+    :description: Chad
+    :notes: ''
+    :issue_number: '0'
+  TF:
+    :value: TF
+    :description: French Southern Territories
+    :notes: ''
+    :issue_number: '0'
+  TG:
+    :value: TG
+    :description: Togo
+    :notes: ''
+    :issue_number: '0'
+  TH:
+    :value: TH
+    :description: Thailand
+    :notes: ''
+    :issue_number: '0'
+  TJ:
+    :value: TJ
+    :description: Tajikistan
+    :notes: ''
+    :issue_number: '0'
+  TK:
+    :value: TK
+    :description: Tokelau
+    :notes: ''
+    :issue_number: '0'
+  TL:
+    :value: TL
+    :description: Timor-Leste
+    :notes: ''
+    :issue_number: '0'
+  TM:
+    :value: TM
+    :description: Turkmenistan
+    :notes: ''
+    :issue_number: '0'
+  TN:
+    :value: TN
+    :description: Tunisia
+    :notes: ''
+    :issue_number: '0'
+  TO:
+    :value: TO
+    :description: Tonga
+    :notes: ''
+    :issue_number: '0'
+  TR:
+    :value: TR
+    :description: Turkey
+    :notes: ''
+    :issue_number: '0'
+  TT:
+    :value: TT
+    :description: Trinidad and Tobago
+    :notes: ''
+    :issue_number: '0'
+  TV:
+    :value: TV
+    :description: Tuvalu
+    :notes: ''
+    :issue_number: '0'
+  TW:
+    :value: TW
+    :description: Taiwan, Province of China
+    :notes: ''
+    :issue_number: '0'
+  TZ:
+    :value: TZ
+    :description: Tanzania, United Republic of
+    :notes: ''
+    :issue_number: '0'
+  UA:
+    :value: UA
+    :description: Ukraine
+    :notes: ''
+    :issue_number: '0'
+  UG:
+    :value: UG
+    :description: Uganda
+    :notes: ''
+    :issue_number: '0'
+  UM:
+    :value: UM
+    :description: United States Minor Outlying Islands
+    :notes: ''
+    :issue_number: '0'
+  US:
+    :value: US
+    :description: United States
+    :notes: ''
+    :issue_number: '0'
+  UY:
+    :value: UY
+    :description: Uruguay
+    :notes: ''
+    :issue_number: '0'
+  UZ:
+    :value: UZ
+    :description: Uzbekistan
+    :notes: ''
+    :issue_number: '0'
+  VA:
+    :value: VA
+    :description: Holy See (Vatican City State)
+    :notes: ''
+    :issue_number: '0'
+  VC:
+    :value: VC
+    :description: Saint Vincent and the Grenadines
+    :notes: ''
+    :issue_number: '0'
+  VE:
+    :value: VE
+    :description: Venezuela, Bolivarian Republic of
+    :notes: ''
+    :issue_number: '0'
+  VG:
+    :value: VG
+    :description: Virgin Islands, British
+    :notes: ''
+    :issue_number: '0'
+  VI:
+    :value: VI
+    :description: Virgin Islands, US
+    :notes: ''
+    :issue_number: '0'
+  VN:
+    :value: VN
+    :description: Viet Nam
+    :notes: ''
+    :issue_number: '0'
+  VU:
+    :value: VU
+    :description: Vanuatu
+    :notes: ''
+    :issue_number: '0'
+  WF:
+    :value: WF
+    :description: Wallis and Futuna
+    :notes: ''
+    :issue_number: '0'
+  WS:
+    :value: WS
+    :description: Samoa
+    :notes: ''
+    :issue_number: '0'
+  YE:
+    :value: YE
+    :description: Yemen
+    :notes: ''
+    :issue_number: '0'
+  YT:
+    :value: YT
+    :description: Mayotte
+    :notes: ''
+    :issue_number: '0'
+  YU:
+    :value: YU
+    :description: Yugoslavia
+    :notes: DEPRECATED, replaced by ME – Montenegro and RS – Serbia.
+    :issue_number: '4'
+  ZA:
+    :value: ZA
+    :description: South Africa
+    :notes: ''
+    :issue_number: '0'
+  ZM:
+    :value: ZM
+    :description: Zambia
+    :notes: ''
+    :issue_number: '0'
+  ZW:
+    :value: ZW
+    :description: Zimbabwe
+    :notes: ''
+    :issue_number: '0'

@@ -1,0 +1,45 @@
+---
+:number: '50'
+:description: Measure unit code
+:issue_number: '0'
+:codes:
+  cm:
+    :value: cm
+    :description: Centimeters
+    :notes: Millimeters are the preferred metric unit of length.
+    :issue_number: '6'
+  gr:
+    :value: gr
+    :description: Grams
+    :notes: ''
+    :issue_number: '0'
+  in:
+    :value: in
+    :description: Inches (US)
+    :notes: ''
+    :issue_number: '0'
+  kg:
+    :value: kg
+    :description: Kilograms
+    :notes: Grams are the preferred metric unit of weight.
+    :issue_number: '9'
+  lb:
+    :value: lb
+    :description: Pounds (US)
+    :notes: ''
+    :issue_number: '0'
+  mm:
+    :value: mm
+    :description: Millimeters
+    :notes: ''
+    :issue_number: '0'
+  oz:
+    :value: oz
+    :description: Ounces (US)
+    :notes: ''
+    :issue_number: '0'
+  px:
+    :value: px
+    :description: Pixels
+    :notes: ''
+    :issue_number: '9'

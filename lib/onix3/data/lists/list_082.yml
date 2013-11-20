@@ -1,0 +1,106 @@
+---
+:number: '82'
+:description: Bible contents
+:issue_number: '1'
+:codes:
+  AP:
+    :value: AP
+    :description: Apocrypha (Catholic canon)
+    :notes: 'The seven portions of the Apocrypha added to the Catholic canon at the
+      Council of Trent in 1546: Tobit; Judith; Wisdom of Solomon; Sirach (Ecclesiasticus);
+      Baruch, including the Letter of Jeremiah; I and II Maccabees; Extra portions
+      of Esther and Daniel (Additions to Esther; the Prayer of Azariah; Song of the
+      Three Jews; Susannah; Bel and the Dragon). These are not generally included
+      in the Protestant canon.'
+    :issue_number: '8'
+  AQ:
+    :value: AQ
+    :description: Apocrypha (canon unspecified)
+    :notes: A collection of Apocryphal texts, canon not specified.
+    :issue_number: '8'
+  AX:
+    :value: AX
+    :description: 'Additional Apocryphal texts: Greek Orthodox canon'
+    :notes: I Esdras; Prayer of Manasseh; Psalm 151; III Maccabees.
+    :issue_number: '5'
+  AY:
+    :value: AY
+    :description: 'Additional Apocryphal texts: Slavonic Orthodox canon'
+    :notes: I and II Esdras; Prayer of Manasseh; Psalm 151; III and IV Maccabees.
+    :issue_number: '5'
+  AZ:
+    :value: AZ
+    :description: Additional Apocryphal texts
+    :notes: 'Additional Apocryphal texts included in some Bible versions: I and II
+      Esdras; Prayer of Manasseh.'
+    :issue_number: '5'
+  GA:
+    :value: GA
+    :description: General canon with Apocrypha (Catholic canon)
+    :notes: The 66 books included in the Protestant, Catholic and Orthodox canons,
+      together with the seven portions of the Apocrypha included in the Catholic canon.
+    :issue_number: '8'
+  GC:
+    :value: GC
+    :description: General canon with Apocryphal texts (canon unspecified)
+    :notes: The 66 books included in the Protestant, Catholic and Orthodox canons,
+      together with Apocryphal texts, canon not specified.
+    :issue_number: '8'
+  GE:
+    :value: GE
+    :description: General canon
+    :notes: The 66 books included in the Protestant, Catholic and Orthodox canons,
+      39 from the Old Testament and 27 from the New Testament. The sequence of books
+      may differ in different canons.
+    :issue_number: '1'
+  GS:
+    :value: GS
+    :description: Gospels
+    :notes: The books of Matthew, Mark, Luke and John.
+    :issue_number: '1'
+  OT:
+    :value: OT
+    :description: Old Testament
+    :notes: Those 39 books which were included in the Jewish canon by the rabbinical
+      academy established at Jamma in 90 CE. Also known as the Jewish or Hebrew scriptures.
+    :issue_number: '1'
+  NT:
+    :value: NT
+    :description: New Testament
+    :notes: The 27 books included in the Christian canon through the Easter Letter
+      of Athanasius, Bishop of Alexandria and also by a general council of the Christian
+      church held near the end of the 4th century CE.
+    :issue_number: '1'
+  NP:
+    :value: NP
+    :description: New Testament with Psalms and Proverbs
+    :notes: Includes the 27 books of the New Testament plus Psalms and Proverbs from
+      the Old Testament.
+    :issue_number: '1'
+  PE:
+    :value: PE
+    :description: Paul’s Epistles
+    :notes: The books containing the letters of Paul to the various early Christian
+      churches.
+    :issue_number: '1'
+  PP:
+    :value: PP
+    :description: Psalms and Proverbs
+    :notes: The book of Psalms and the book of Proverbs combined.
+    :issue_number: '1'
+  PS:
+    :value: PS
+    :description: Psalms
+    :notes: The book of Psalms.
+    :issue_number: '5'
+  PT:
+    :value: PT
+    :description: Pentateuch
+    :notes: 'The first five books of the Bible: Genesis, Exodus, Numbers, Leviticus,
+      Deuteronomy. Also applied to the Torah.'
+    :issue_number: '1'
+  ZZ:
+    :value: ZZ
+    :description: Other portions
+    :notes: Selected books of either the OT or NT not otherwise noted.
+    :issue_number: '1'

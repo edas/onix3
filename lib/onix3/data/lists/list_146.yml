@@ -1,0 +1,20 @@
+---
+:number: '146'
+:description: Usage status
+:issue_number: '9'
+:codes:
+  '01':
+    :value: '01'
+    :description: Permitted unlimited
+    :notes: ''
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Permitted subject to limit
+    :notes: Limit should be specified in <EpubUsageLimit>.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Prohibited
+    :notes: ''
+    :issue_number: '9'

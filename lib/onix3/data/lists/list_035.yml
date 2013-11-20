@@ -1,0 +1,35 @@
+---
+:number: '35'
+:description: Text link type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: URL
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: DOI
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: PURL
+    :notes: ''
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: URN
+    :notes: ''
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: FTP address
+    :notes: ''
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: filename
+    :notes: ''
+    :issue_number: '0'

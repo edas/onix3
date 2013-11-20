@@ -1,0 +1,26 @@
+---
+:number: '156'
+:description: Cited content type
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Review
+    :notes: The full text of a review in a third-party publication in any medium.
+    :issue_number: '10'
+  '02':
+    :value: '02'
+    :description: Bestseller list
+    :notes: ''
+    :issue_number: '10'
+  '03':
+    :value: '03'
+    :description: Media mention
+    :notes: Other than a review.
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: ‘One locality, one book’ program
+    :notes: (North America) Inclusion in a program such as ‘Chicago Reads’, ‘Seattle
+      Reads’.
+    :issue_number: '10'

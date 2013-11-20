@@ -1,0 +1,47 @@
+---
+:number: '28'
+:description: Audience code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: General/trade
+    :notes: For a non-specialist adult audience.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Children/juvenile
+    :notes: For a juvenile audience, not specifically for any educational purpose.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Young adult
+    :notes: For a teenage audience, not specifically for any educational purpose.
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: Primary and secondary/elementary and high school
+    :notes: Kindergarten, pre-school, primary/elementary or secondary/high school
+      education.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: College/higher education
+    :notes: For universities and colleges of further and higher education.
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: Professional and scholarly
+    :notes: For an expert adult audience, including academic research.
+    :issue_number: '0'
+  '07':
+    :value: '07'
+    :description: ELT/ESL
+    :notes: Intended for use in teaching English as a second language.
+    :issue_number: '0'
+  08:
+    :value: 08
+    :description: Adult education
+    :notes: For centres providing academic, vocational or recreational courses for
+      adults.
+    :issue_number: '2'

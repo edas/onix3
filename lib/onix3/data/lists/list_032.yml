@@ -1,0 +1,33 @@
+---
+:number: '32'
+:description: Complexity scheme identifier
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Lexile code
+    :notes: For example AD or HL. DEPRECATED in ONIX 3 – use <Audience> instead.
+    :issue_number: '12'
+  '02':
+    :value: '02'
+    :description: Lexile number
+    :notes: For example 880L. DEPRECATED in ONIX 3 – use <Audience> instead.
+    :issue_number: '12'
+  '03':
+    :value: '03'
+    :description: Fry Readability score
+    :notes: DEPRECATED in ONIX 3 – Use <Audience> instead. Fry readability metric
+      based on number of sentences and syllables per 100 words. Expressed as a number
+      from 1 to 15 in <ComplexityCode>.
+    :issue_number: '14'
+  '04':
+    :value: '04'
+    :description: IoE Book Band
+    :notes: UK Institute of Education Book Bands for Guided Reading scheme (see http://www.ioe.ac.uk/research/4664.html).
+      <ComplexityCode> is a colour, eg ‘Pink A’ or ‘Copper’.
+    :issue_number: '23'
+  '05':
+    :value: '05'
+    :description: Fountus and Pinnell Text Level Gradient
+    :notes: <ComplexityCode> is a code from ‘A’ to ‘Z+’.
+    :issue_number: '23'

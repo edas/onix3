@@ -1,0 +1,61 @@
+---
+:number: '90'
+:description: Religious text feature code
+:issue_number: '1'
+:codes:
+  '01':
+    :value: '01'
+    :description: Academic year
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '02':
+    :value: '02'
+    :description: Catechistic year
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '03':
+    :value: '03'
+    :description: Liturgical year
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '04':
+    :value: '04'
+    :description: Advent and Christmas
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '05':
+    :value: '05'
+    :description: Blessings
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '06':
+    :value: '06'
+    :description: Scholastic cycles
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '07':
+    :value: '07'
+    :description: Confirmation and Holy Communion
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  08:
+    :value: 08
+    :description: Summer activites
+    :notes: 'For example, summer camps and other youth recreational activities: use
+      with code 01 in <ReligiousTextFeatureType>.'
+    :issue_number: '7'
+  09:
+    :value: 09
+    :description: Easter
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '10':
+    :value: '10'
+    :description: Lent
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'
+  '11':
+    :value: '11'
+    :description: Marian themes
+    :notes: Use with code 01 in <ReligiousTextFeatureType>.
+    :issue_number: '7'

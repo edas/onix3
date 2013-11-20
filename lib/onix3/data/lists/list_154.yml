@@ -1,0 +1,52 @@
+---
+:number: '154'
+:description: Content audience
+:issue_number: '10'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unrestricted
+    :notes: Any audience.
+    :issue_number: '10'
+  '01':
+    :value: '01'
+    :description: Restricted
+    :notes: Distribution by agreement between the parties to the ONIX exchange (this
+      value is provided to cover applications where ONIX content includes material
+      which is not for general distribution).
+    :issue_number: '10'
+  '02':
+    :value: '02'
+    :description: Booktrade
+    :notes: Distributors, bookstores, publisher’s own staff etc.
+    :issue_number: '10'
+  '03':
+    :value: '03'
+    :description: End-customers
+    :notes: ''
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Librarians
+    :notes: ''
+    :issue_number: '10'
+  '05':
+    :value: '05'
+    :description: Teachers
+    :notes: ''
+    :issue_number: '10'
+  '06':
+    :value: '06'
+    :description: Students
+    :notes: ''
+    :issue_number: '10'
+  '07':
+    :value: '07'
+    :description: Press
+    :notes: Press or other media.
+    :issue_number: '10'
+  08:
+    :value: 08
+    :description: Shopping comparison service
+    :notes: Where a specially formatted description is required for this audience.
+    :issue_number: '10'

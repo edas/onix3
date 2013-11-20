@@ -1,0 +1,497 @@
+---
+:number: '17'
+:description: Contributor role code
+:issue_number: '0'
+:codes:
+  A01:
+    :value: A01
+    :description: By (author)
+    :notes: Author of a textual work.
+    :issue_number: '0'
+  A02:
+    :value: A02
+    :description: With
+    :notes: 'With or as told to: ‘ghost’ author of a literary work.'
+    :issue_number: '0'
+  A03:
+    :value: A03
+    :description: Screenplay by
+    :notes: Writer of screenplay or script (film or video).
+    :issue_number: '0'
+  A04:
+    :value: A04
+    :description: Libretto by
+    :notes: 'Writer of libretto (opera): see also A31.'
+    :issue_number: '0'
+  A05:
+    :value: A05
+    :description: Lyrics by
+    :notes: 'Author of lyrics (song): see also A31.'
+    :issue_number: '0'
+  A06:
+    :value: A06
+    :description: By (composer)
+    :notes: Composer of music.
+    :issue_number: '0'
+  A07:
+    :value: A07
+    :description: By (artist)
+    :notes: Visual artist when named as the primary creator of, eg, a book of reproductions
+      of artworks.
+    :issue_number: '0'
+  A08:
+    :value: A08
+    :description: By (photographer)
+    :notes: Photographer when named as the primary creator of, eg, a book of photographs.
+    :issue_number: '0'
+  A09:
+    :value: A09
+    :description: Created by
+    :notes: ''
+    :issue_number: '0'
+  A10:
+    :value: A10
+    :description: From an idea by
+    :notes: ''
+    :issue_number: '0'
+  A11:
+    :value: A11
+    :description: Designed by
+    :notes: ''
+    :issue_number: '0'
+  A12:
+    :value: A12
+    :description: Illustrated by
+    :notes: Artist when named as the creator of artwork which illustrates a text,
+      or of the artwork of a graphic novel or comic book.
+    :issue_number: '0'
+  A13:
+    :value: A13
+    :description: Photographs by
+    :notes: Photographer when named as the creator of photographs which illustrate
+      a text.
+    :issue_number: '0'
+  A14:
+    :value: A14
+    :description: Text by
+    :notes: Author of text which accompanies art reproductions or photographs, or
+      which is part of a graphic novel or comic book.
+    :issue_number: '0'
+  A15:
+    :value: A15
+    :description: Preface by
+    :notes: Author of preface.
+    :issue_number: '0'
+  A16:
+    :value: A16
+    :description: Prologue by
+    :notes: Author of prologue.
+    :issue_number: '0'
+  A17:
+    :value: A17
+    :description: Summary by
+    :notes: Author of summary.
+    :issue_number: '0'
+  A18:
+    :value: A18
+    :description: Supplement by
+    :notes: Author of supplement.
+    :issue_number: '0'
+  A19:
+    :value: A19
+    :description: Afterword by
+    :notes: Author of afterword.
+    :issue_number: '0'
+  A20:
+    :value: A20
+    :description: Notes by
+    :notes: 'Author of notes or annotations: see also A29.'
+    :issue_number: '0'
+  A21:
+    :value: A21
+    :description: Commentaries by
+    :notes: Author of commentaries on the main text.
+    :issue_number: '0'
+  A22:
+    :value: A22
+    :description: Epilogue by
+    :notes: Author of epilogue.
+    :issue_number: '0'
+  A23:
+    :value: A23
+    :description: Foreword by
+    :notes: Author of foreword.
+    :issue_number: '0'
+  A24:
+    :value: A24
+    :description: Introduction by
+    :notes: 'Author of introduction: see also A29.'
+    :issue_number: '0'
+  A25:
+    :value: A25
+    :description: Footnotes by
+    :notes: Author/compiler of footnotes.
+    :issue_number: '0'
+  A26:
+    :value: A26
+    :description: Memoir by
+    :notes: Author of memoir accompanying main text.
+    :issue_number: '0'
+  A27:
+    :value: A27
+    :description: Experiments by
+    :notes: Person who carried out experiments reported in the text.
+    :issue_number: '0'
+  A29:
+    :value: A29
+    :description: Introduction and notes by
+    :notes: 'Author of introduction and notes: see also A20 and A24.'
+    :issue_number: '0'
+  A30:
+    :value: A30
+    :description: Software written by
+    :notes: Writer of computer programs ancillary to the text.
+    :issue_number: '0'
+  A31:
+    :value: A31
+    :description: Book and lyrics by
+    :notes: 'Author of the textual content of a musical drama: see also A04 and A05.'
+    :issue_number: '0'
+  A32:
+    :value: A32
+    :description: Contributions by
+    :notes: Author of additional contributions to the text.
+    :issue_number: '0'
+  A33:
+    :value: A33
+    :description: Appendix by
+    :notes: Author of appendix.
+    :issue_number: '0'
+  A34:
+    :value: A34
+    :description: Index by
+    :notes: Compiler of index.
+    :issue_number: '0'
+  A35:
+    :value: A35
+    :description: Drawings by
+    :notes: ''
+    :issue_number: '0'
+  A36:
+    :value: A36
+    :description: Cover design or artwork by
+    :notes: Use also for the cover artist of a graphic novel or comic book if named
+      separately.
+    :issue_number: '0'
+  A37:
+    :value: A37
+    :description: Preliminary work by
+    :notes: Responsible for preliminary work on which the work is based.
+    :issue_number: '0'
+  A38:
+    :value: A38
+    :description: Original author
+    :notes: Author of the first edition (usually of a standard work) who is not an
+      author of the current edition.
+    :issue_number: '0'
+  A39:
+    :value: A39
+    :description: Maps by
+    :notes: Maps drawn or otherwise contributed by.
+    :issue_number: '4'
+  A40:
+    :value: A40
+    :description: Inked or colored by
+    :notes: When separate persons are named as having respectively drawn and colored
+      artwork, eg for a graphic novel or comic book, use A12 for ‘drawn by’ and A40
+      for ‘colored by’.
+    :issue_number: '5'
+  A41:
+    :value: A41
+    :description: Pop-ups by
+    :notes: Designer of pop-ups in a pop-up book, who may be different from the illustrator.
+    :issue_number: '7'
+  A42:
+    :value: A42
+    :description: Continued by
+    :notes: Use where a standard work is being continued by somebody other than the
+      original author.
+    :issue_number: '7'
+  A43:
+    :value: A43
+    :description: Interviewer
+    :notes: ''
+    :issue_number: '7'
+  A44:
+    :value: A44
+    :description: Interviewee
+    :notes: ''
+    :issue_number: '7'
+  A99:
+    :value: A99
+    :description: Other primary creator
+    :notes: Other type of primary creator not specified above.
+    :issue_number: '0'
+  B01:
+    :value: B01
+    :description: Edited by
+    :notes: ''
+    :issue_number: '0'
+  B02:
+    :value: B02
+    :description: Revised by
+    :notes: ''
+    :issue_number: '0'
+  B03:
+    :value: B03
+    :description: Retold by
+    :notes: ''
+    :issue_number: '0'
+  B04:
+    :value: B04
+    :description: Abridged by
+    :notes: ''
+    :issue_number: '0'
+  B05:
+    :value: B05
+    :description: Adapted by
+    :notes: ''
+    :issue_number: '0'
+  B06:
+    :value: B06
+    :description: Translated by
+    :notes: ''
+    :issue_number: '0'
+  B07:
+    :value: B07
+    :description: As told by
+    :notes: ''
+    :issue_number: '0'
+  B08:
+    :value: B08
+    :description: Translated with commentary by
+    :notes: This code applies where a translator has provided a commentary on issues
+      relating to the translation. If the translator has also provided a commentary
+      on the work itself, codes B06 and A21 should be used.
+    :issue_number: '0'
+  B09:
+    :value: B09
+    :description: Series edited by
+    :notes: Name of a series editor when the product belongs to a series.
+    :issue_number: '0'
+  B10:
+    :value: B10
+    :description: Edited and translated by
+    :notes: ''
+    :issue_number: '0'
+  B11:
+    :value: B11
+    :description: Editor-in-chief
+    :notes: ''
+    :issue_number: '0'
+  B12:
+    :value: B12
+    :description: Guest editor
+    :notes: ''
+    :issue_number: '0'
+  B13:
+    :value: B13
+    :description: Volume editor
+    :notes: ''
+    :issue_number: '0'
+  B14:
+    :value: B14
+    :description: Editorial board member
+    :notes: ''
+    :issue_number: '0'
+  B15:
+    :value: B15
+    :description: Editorial coordination by
+    :notes: ''
+    :issue_number: '0'
+  B16:
+    :value: B16
+    :description: Managing editor
+    :notes: ''
+    :issue_number: '0'
+  B17:
+    :value: B17
+    :description: Founded by
+    :notes: 'Usually the founder editor of a serial publication: Begruendet von.'
+    :issue_number: '1'
+  B18:
+    :value: B18
+    :description: Prepared for publication by
+    :notes: ''
+    :issue_number: '2'
+  B19:
+    :value: B19
+    :description: Associate editor
+    :notes: ''
+    :issue_number: '2'
+  B20:
+    :value: B20
+    :description: Consultant editor
+    :notes: Use also for ‘advisory editor’.
+    :issue_number: '6'
+  B21:
+    :value: B21
+    :description: General editor
+    :notes: ''
+    :issue_number: '2'
+  B22:
+    :value: B22
+    :description: Dramatized by
+    :notes: ''
+    :issue_number: '2'
+  B23:
+    :value: B23
+    :description: General rapporteur
+    :notes: In Europe, an expert editor who takes responsibility for the legal content
+      of a collaborative law volume.
+    :issue_number: '2'
+  B24:
+    :value: B24
+    :description: Literary editor
+    :notes: An editor who is responsible for establishing the text used in an edition
+      of a literary work, where this is recognised as a distinctive role (in Spain,
+      ‘editor literario’).
+    :issue_number: '6'
+  B25:
+    :value: B25
+    :description: Arranged by (music)
+    :notes: ''
+    :issue_number: '7'
+  B26:
+    :value: B26
+    :description: Technical editor
+    :notes: ''
+    :issue_number: '15'
+  B27:
+    :value: B27
+    :description: Thesis advisor or supervisor
+    :notes: ''
+    :issue_number: '23'
+  B28:
+    :value: B28
+    :description: Thesis examiner
+    :notes: ''
+    :issue_number: '23'
+  B99:
+    :value: B99
+    :description: Other adaptation by
+    :notes: Other type of adaptation or editing not specified above.
+    :issue_number: '0'
+  C01:
+    :value: C01
+    :description: Compiled by
+    :notes: ''
+    :issue_number: '0'
+  C02:
+    :value: C02
+    :description: Selected by
+    :notes: ''
+    :issue_number: '0'
+  C99:
+    :value: C99
+    :description: Other compilation by
+    :notes: Other type of compilation not specified above.
+    :issue_number: '0'
+  D01:
+    :value: D01
+    :description: Producer
+    :notes: ''
+    :issue_number: '0'
+  D02:
+    :value: D02
+    :description: Director
+    :notes: ''
+    :issue_number: '0'
+  D03:
+    :value: D03
+    :description: Conductor
+    :notes: Conductor of a musical performance.
+    :issue_number: '0'
+  D99:
+    :value: D99
+    :description: Other direction by
+    :notes: Other type of direction not specified above.
+    :issue_number: '0'
+  E01:
+    :value: E01
+    :description: Actor
+    :notes: ''
+    :issue_number: '0'
+  E02:
+    :value: E02
+    :description: Dancer
+    :notes: ''
+    :issue_number: '0'
+  E03:
+    :value: E03
+    :description: Narrator
+    :notes: ''
+    :issue_number: '0'
+  E04:
+    :value: E04
+    :description: Commentator
+    :notes: ''
+    :issue_number: '0'
+  E05:
+    :value: E05
+    :description: Vocal soloist
+    :notes: Singer etc.
+    :issue_number: '0'
+  E06:
+    :value: E06
+    :description: Instrumental soloist
+    :notes: ''
+    :issue_number: '0'
+  E07:
+    :value: E07
+    :description: Read by
+    :notes: Reader of recorded text, as in an audiobook.
+    :issue_number: '0'
+  E08:
+    :value: E08
+    :description: Performed by (orchestra, band, ensemble)
+    :notes: Name of a musical group in a performing role.
+    :issue_number: '0'
+  E09:
+    :value: E09
+    :description: Speaker
+    :notes: Of a speech, lecture etc.
+    :issue_number: '15'
+  E99:
+    :value: E99
+    :description: Performed by
+    :notes: 'Other type of performer not specified above: use for a recorded performance
+      which does not fit a category above, eg a performance by a stand-up comedian.'
+    :issue_number: '0'
+  F01:
+    :value: F01
+    :description: Filmed/photographed by
+    :notes: ''
+    :issue_number: '0'
+  F99:
+    :value: F99
+    :description: Other recording by
+    :notes: Other type of recording not specified above.
+    :issue_number: '0'
+  Z01:
+    :value: Z01
+    :description: Assisted by
+    :notes: May be associated with any contributor role, and placement should therefore
+      be controlled by contributor sequence numbering.
+    :issue_number: '2'
+  Z98:
+    :value: Z98
+    :description: (Various roles)
+    :notes: For use ONLY with ‘et al’ or ‘Various’ within <UnnamedPersons>, where
+      the roles of the multiple contributors vary.
+    :issue_number: '20'
+  Z99:
+    :value: Z99
+    :description: Other
+    :notes: Other creative responsibility not falling within A to F above.
+    :issue_number: '0'

@@ -1,0 +1,670 @@
+---
+:number: '150'
+:description: Product form
+:issue_number: '9'
+:codes:
+  '00':
+    :value: '00'
+    :description: Undefined
+    :notes: ''
+    :issue_number: '0'
+  AA:
+    :value: AA
+    :description: Audio
+    :notes: Audio recording – detail unspecified.
+    :issue_number: '0'
+  AB:
+    :value: AB
+    :description: Audio cassette
+    :notes: Audio cassette (analogue).
+    :issue_number: '0'
+  AC:
+    :value: AC
+    :description: CD-Audio
+    :notes: 'Audio compact disc, in any recording format: use for ‘red book’ (conventional
+      audio CD) and SACD, and use coding in Product Form Detail to specify the format,
+      if required.'
+    :issue_number: '8'
+  AD:
+    :value: AD
+    :description: DAT
+    :notes: Digital audio tape cassette.
+    :issue_number: '0'
+  AE:
+    :value: AE
+    :description: Audio disc
+    :notes: Audio disc (excluding CD-Audio).
+    :issue_number: '0'
+  AF:
+    :value: AF
+    :description: Audio tape
+    :notes: Audio tape (analogue open reel tape).
+    :issue_number: '0'
+  AG:
+    :value: AG
+    :description: MiniDisc
+    :notes: Sony MiniDisc format.
+    :issue_number: '2'
+  AH:
+    :value: AH
+    :description: CD-Extra
+    :notes: 'Audio compact disc with part CD-ROM content, also termed CD-Plus or Enhanced-CD:
+      use for ‘blue book’ and ‘yellow/red book’ two-session discs.'
+    :issue_number: '2'
+  AI:
+    :value: AI
+    :description: DVD Audio
+    :notes: ''
+    :issue_number: '2'
+  AJ:
+    :value: AJ
+    :description: Downloadable audio file
+    :notes: Audio recording downloadable online.
+    :issue_number: '2'
+  AK:
+    :value: AK
+    :description: Pre-recorded digital audio player
+    :notes: 'For example, Playaway audiobook and player: use coding in Product Form
+      Detail to specify the recording format, if required.'
+    :issue_number: '11'
+  AL:
+    :value: AL
+    :description: Pre-recorded SD card
+    :notes: For example, Audiofy audiobook chip.
+    :issue_number: '7'
+  AZ:
+    :value: AZ
+    :description: Other audio format
+    :notes: Other audio format not specified by AB to AK.
+    :issue_number: '0'
+  BA:
+    :value: BA
+    :description: Book
+    :notes: Book – detail unspecified.
+    :issue_number: '0'
+  BB:
+    :value: BB
+    :description: Hardback
+    :notes: Hardback or cased book.
+    :issue_number: '0'
+  BC:
+    :value: BC
+    :description: Paperback / softback
+    :notes: Paperback or other softback book.
+    :issue_number: '0'
+  BD:
+    :value: BD
+    :description: Loose-leaf
+    :notes: Loose-leaf book.
+    :issue_number: '0'
+  BE:
+    :value: BE
+    :description: Spiral bound
+    :notes: Spiral, comb or coil bound book.
+    :issue_number: '0'
+  BF:
+    :value: BF
+    :description: Pamphlet
+    :notes: Pamphlet or brochure, stapled; German ‘geheftet’.
+    :issue_number: '0'
+  BG:
+    :value: BG
+    :description: Leather / fine binding
+    :notes: ''
+    :issue_number: '0'
+  BH:
+    :value: BH
+    :description: Board book
+    :notes: Child’s book with all pages printed on board.
+    :issue_number: '0'
+  BI:
+    :value: BI
+    :description: Rag book
+    :notes: Child’s book with all pages printed on textile.
+    :issue_number: '0'
+  BJ:
+    :value: BJ
+    :description: Bath book
+    :notes: Child’s book printed on waterproof material.
+    :issue_number: '0'
+  BK:
+    :value: BK
+    :description: Novelty book
+    :notes: A book whose novelty consists wholly or partly in a format which cannot
+      be described by any other available code – a ‘conventional’ format code is always
+      to be preferred; one or more Product Form Detail codes, eg from the B2nn group,
+      should be used whenever possible to provide additional description.
+    :issue_number: '2'
+  BL:
+    :value: BL
+    :description: Slide bound
+    :notes: Slide bound book.
+    :issue_number: '2'
+  BM:
+    :value: BM
+    :description: Big book
+    :notes: Extra-large format for teaching etc; this format and terminology may be
+      specifically UK; required as a top-level differentiator.
+    :issue_number: '2'
+  BN:
+    :value: BN
+    :description: Part-work (fascículo)
+    :notes: A part-work issued with its own ISBN and intended to be collected and
+      bound into a complete book.
+    :issue_number: '6'
+  BO:
+    :value: BO
+    :description: Fold-out book or chart
+    :notes: 'Concertina-folded book or chart, designed to fold to pocket or regular
+      page size: use for German ‘Leporello’.'
+    :issue_number: '8'
+  BP:
+    :value: BP
+    :description: Foam book
+    :notes: A children’s book whose cover and pages are made of foam.
+    :issue_number: '10'
+  BZ:
+    :value: BZ
+    :description: Other book format
+    :notes: Other book format or binding not specified by BB to BO.
+    :issue_number: '0'
+  CA:
+    :value: CA
+    :description: Sheet map
+    :notes: Sheet map – detail unspecified.
+    :issue_number: '0'
+  CB:
+    :value: CB
+    :description: Sheet map, folded
+    :notes: ''
+    :issue_number: '0'
+  CC:
+    :value: CC
+    :description: Sheet map, flat
+    :notes: ''
+    :issue_number: '0'
+  CD:
+    :value: CD
+    :description: Sheet map, rolled
+    :notes: See Code List 80 for ‘rolled in tube’.
+    :issue_number: '0'
+  CE:
+    :value: CE
+    :description: Globe
+    :notes: Globe or planisphere.
+    :issue_number: '0'
+  CZ:
+    :value: CZ
+    :description: Other cartographic
+    :notes: Other cartographic format not specified by CB to CE.
+    :issue_number: '0'
+  DA:
+    :value: DA
+    :description: Digital (on physical carrier)
+    :notes: Digital content delivered on a physical carrier (detail unspecified).
+    :issue_number: '0'
+  DB:
+    :value: DB
+    :description: CD-ROM
+    :notes: ''
+    :issue_number: '0'
+  DC:
+    :value: DC
+    :description: CD-I
+    :notes: 'CD interactive: use for ‘green book’ discs.'
+    :issue_number: '0'
+  DE:
+    :value: DE
+    :description: Game cartridge
+    :notes: ''
+    :issue_number: '0'
+  DF:
+    :value: DF
+    :description: Diskette
+    :notes: AKA ‘floppy disc’.
+    :issue_number: '0'
+  DI:
+    :value: DI
+    :description: DVD-ROM
+    :notes: ''
+    :issue_number: '2'
+  DJ:
+    :value: DJ
+    :description: Secure Digital (SD) Memory Card
+    :notes: ''
+    :issue_number: '6'
+  DK:
+    :value: DK
+    :description: Compact Flash Memory Card
+    :notes: ''
+    :issue_number: '6'
+  DL:
+    :value: DL
+    :description: Memory Stick Memory Card
+    :notes: ''
+    :issue_number: '6'
+  DM:
+    :value: DM
+    :description: USB Flash Drive
+    :notes: ''
+    :issue_number: '6'
+  DN:
+    :value: DN
+    :description: Double-sided CD/DVD
+    :notes: Double-sided disc, one side Audio CD/CD-ROM, other side DVD.
+    :issue_number: '7'
+  DZ:
+    :value: DZ
+    :description: Other digital carrier
+    :notes: Other carrier of digital content not specified by DB to DN.
+    :issue_number: '0'
+  EA:
+    :value: EA
+    :description: Digital (delivered electronically)
+    :notes: Digital content delivered electronically (delivery method unspecified).
+    :issue_number: '9'
+  EB:
+    :value: EB
+    :description: Digital download and online
+    :notes: Digital content available both by download and by online access.
+    :issue_number: '9'
+  EC:
+    :value: EC
+    :description: Digital online
+    :notes: Digital content accessed online only.
+    :issue_number: '9'
+  ED:
+    :value: ED
+    :description: Digital download
+    :notes: Digital content delivered by download only.
+    :issue_number: '9'
+  FA:
+    :value: FA
+    :description: Film or transparency
+    :notes: Film or transparency – detail unspecified.
+    :issue_number: '0'
+  FC:
+    :value: FC
+    :description: Slides
+    :notes: Photographic transparencies mounted for projection.
+    :issue_number: '0'
+  FD:
+    :value: FD
+    :description: OHP transparencies
+    :notes: Transparencies for overhead projector.
+    :issue_number: '0'
+  FE:
+    :value: FE
+    :description: Filmstrip
+    :notes: ''
+    :issue_number: '2'
+  FF:
+    :value: FF
+    :description: Film
+    :notes: Continuous movie film as opposed to filmstrip.
+    :issue_number: '2'
+  FZ:
+    :value: FZ
+    :description: Other film or transparency format
+    :notes: Other film or transparency format not specified by FB to FF.
+    :issue_number: '0'
+  LA:
+    :value: LA
+    :description: Digital product license
+    :notes: Digital product license (delivery method not encoded).
+    :issue_number: '10'
+  LB:
+    :value: LB
+    :description: Digital product license key
+    :notes: Digital product license delivered through the retail supply chain as a
+      physical “key”, typically a card or booklet containing a code enabling the purchaser
+      to download the associated product.
+    :issue_number: '10'
+  LC:
+    :value: LC
+    :description: Digital product license code
+    :notes: Digital product license delivered by email or other electronic distribution,
+      typically providing a code enabling the purchaser to upgrade or extend the license
+      supplied with the associated product.
+    :issue_number: '10'
+  MA:
+    :value: MA
+    :description: Microform
+    :notes: Microform – detail unspecified.
+    :issue_number: '0'
+  MB:
+    :value: MB
+    :description: Microfiche
+    :notes: ''
+    :issue_number: '0'
+  MC:
+    :value: MC
+    :description: Microfilm
+    :notes: Roll microfilm.
+    :issue_number: '0'
+  MZ:
+    :value: MZ
+    :description: Other microform
+    :notes: Other microform not specified by MB or MC.
+    :issue_number: '0'
+  PA:
+    :value: PA
+    :description: Miscellaneous print
+    :notes: Miscellaneous printed material – detail unspecified.
+    :issue_number: '0'
+  PB:
+    :value: PB
+    :description: Address book
+    :notes: May use product form detail codes P201 to P204 to specify binding.
+    :issue_number: '0'
+  PC:
+    :value: PC
+    :description: Calendar
+    :notes: ''
+    :issue_number: '0'
+  PD:
+    :value: PD
+    :description: Cards
+    :notes: Cards, flash cards (eg for teaching reading).
+    :issue_number: '0'
+  PE:
+    :value: PE
+    :description: Copymasters
+    :notes: Copymasters, photocopiable sheets.
+    :issue_number: '0'
+  PF:
+    :value: PF
+    :description: Diary
+    :notes: May use product form detail codes P201 to P204 to specify binding.
+    :issue_number: '0'
+  PG:
+    :value: PG
+    :description: Frieze
+    :notes: Narrow strip-shaped printed sheet used mostly for education or children’s
+      products (eg depicting alphabet, number line, procession of illustrated characters
+      etc). Usually intended for horizontal display.
+    :issue_number: '14'
+  PH:
+    :value: PH
+    :description: Kit
+    :notes: Parts for post-purchase assembly.
+    :issue_number: '14'
+  PI:
+    :value: PI
+    :description: Sheet music
+    :notes: ''
+    :issue_number: '0'
+  PJ:
+    :value: PJ
+    :description: Postcard book or pack
+    :notes: ''
+    :issue_number: '0'
+  PK:
+    :value: PK
+    :description: Poster
+    :notes: Poster for retail sale – see also XF.
+    :issue_number: '0'
+  PL:
+    :value: PL
+    :description: Record book
+    :notes: 'Record book (eg ‘birthday book’, ‘baby book’): binding unspecified; may
+      use product form detail codes P201 to P204 to specify binding.'
+    :issue_number: '0'
+  PM:
+    :value: PM
+    :description: Wallet or folder
+    :notes: 'Wallet or folder (containing loose sheets etc): it is preferable to code
+      the contents and treat ‘wallet’ as packaging (List 80), but if this is not possible
+      the product as a whole may be coded as a ‘wallet’.'
+    :issue_number: '0'
+  PN:
+    :value: PN
+    :description: Pictures or photographs
+    :notes: ''
+    :issue_number: '0'
+  PO:
+    :value: PO
+    :description: Wallchart
+    :notes: ''
+    :issue_number: '0'
+  PP:
+    :value: PP
+    :description: Stickers
+    :notes: ''
+    :issue_number: '2'
+  PQ:
+    :value: PQ
+    :description: Plate (lámina)
+    :notes: A book-sized (as opposed to poster-sized) sheet, usually in colour or
+      high quality print.
+    :issue_number: '6'
+  PR:
+    :value: PR
+    :description: Notebook / blank book
+    :notes: A book with all pages blank for the buyer’s own use; may use product form
+      detail codes P201 to P204 to specify binding.
+    :issue_number: '8'
+  PS:
+    :value: PS
+    :description: Organizer
+    :notes: May use product form detail codes P201 to P204 to specify binding.
+    :issue_number: '8'
+  PT:
+    :value: PT
+    :description: Bookmark
+    :notes: ''
+    :issue_number: '8'
+  PZ:
+    :value: PZ
+    :description: Other printed item
+    :notes: Other printed item not specified by PB to PQ.
+    :issue_number: '0'
+  SA:
+    :value: SA
+    :description: Multiple-item retail product
+    :notes: 'Presentation unspecified: format of product items must be given in <ProductPart>.'
+    :issue_number: '11'
+  SB:
+    :value: SB
+    :description: Multiple-item retail product, boxed
+    :notes: Format of product items must be given in <ProductPart>.
+    :issue_number: '11'
+  SC:
+    :value: SC
+    :description: Multiple-item retail product, slip-cased
+    :notes: Format of product items must be given in <ProductPart>.
+    :issue_number: '11'
+  SD:
+    :value: SD
+    :description: Multiple-item retail product, shrinkwrapped
+    :notes: Format of product items must be given in <ProductPart>. Use code XL for
+      a shrink-wrapped pack for trade supply, where the retail items it contains are
+      intended for sale individually.
+    :issue_number: '11'
+  SE:
+    :value: SE
+    :description: Multiple-item retail product, loose
+    :notes: Format of product items must be given in <ProductPart>.
+    :issue_number: '11'
+  SF:
+    :value: SF
+    :description: Multiple-item retail product, part(s) enclosed
+    :notes: Multiple item product where subsidiary product part(s) is/are supplied
+      as enclosures to the primary part, eg a book with a CD packaged in a sleeve
+      glued within the back cover. Format of product items must be given in <ProductPart>.
+    :issue_number: '11'
+  VA:
+    :value: VA
+    :description: Video
+    :notes: Video – detail unspecified.
+    :issue_number: '0'
+  VF:
+    :value: VF
+    :description: Videodisc
+    :notes: eg Laserdisc.
+    :issue_number: '0'
+  VI:
+    :value: VI
+    :description: DVD video
+    :notes: 'DVD video: specify TV standard in List 175.'
+    :issue_number: '2'
+  VJ:
+    :value: VJ
+    :description: VHS video
+    :notes: 'VHS videotape: specify TV standard in List 175.'
+    :issue_number: '2'
+  VK:
+    :value: VK
+    :description: Betamax video
+    :notes: 'Betamax videotape: specify TV standard in List 175.'
+    :issue_number: '2'
+  VL:
+    :value: VL
+    :description: VCD
+    :notes: VideoCD.
+    :issue_number: '5'
+  VM:
+    :value: VM
+    :description: SVCD
+    :notes: Super VideoCD.
+    :issue_number: '5'
+  VN:
+    :value: VN
+    :description: HD DVD
+    :notes: High definition DVD disc, Toshiba HD DVD format.
+    :issue_number: '7'
+  VO:
+    :value: VO
+    :description: Blu-ray
+    :notes: High definition DVD disc, Sony Blu-ray format.
+    :issue_number: '7'
+  VP:
+    :value: VP
+    :description: UMD Video
+    :notes: Sony Universal Media disc.
+    :issue_number: '7'
+  VQ:
+    :value: VQ
+    :description: CBHD
+    :notes: China Blue High-Definition, derivative of HD-DVD.
+    :issue_number: '23'
+  VZ:
+    :value: VZ
+    :description: Other video format
+    :notes: Other video format not specified by VB to VP.
+    :issue_number: '0'
+  XA:
+    :value: XA
+    :description: Trade-only material
+    :notes: Trade-only material (unspecified).
+    :issue_number: '0'
+  XB:
+    :value: XB
+    :description: Dumpbin – empty
+    :notes: ''
+    :issue_number: '0'
+  XC:
+    :value: XC
+    :description: Dumpbin – filled
+    :notes: Dumpbin with contents. ISBN (where applicable) and format of contained
+      items must be given in Product Part.
+    :issue_number: '11'
+  XD:
+    :value: XD
+    :description: Counterpack – empty
+    :notes: ''
+    :issue_number: '0'
+  XE:
+    :value: XE
+    :description: Counterpack – filled
+    :notes: Counterpack with contents. ISBN (where applicable) and format of contained
+      items must be given in Product Part.
+    :issue_number: '11'
+  XF:
+    :value: XF
+    :description: Poster, promotional
+    :notes: Promotional poster for display, not for sale – see also PK.
+    :issue_number: '0'
+  XG:
+    :value: XG
+    :description: Shelf strip
+    :notes: ''
+    :issue_number: '0'
+  XH:
+    :value: XH
+    :description: Window piece
+    :notes: Promotional piece for shop window display.
+    :issue_number: '0'
+  XI:
+    :value: XI
+    :description: Streamer
+    :notes: ''
+    :issue_number: '0'
+  XJ:
+    :value: XJ
+    :description: Spinner
+    :notes: ''
+    :issue_number: '0'
+  XK:
+    :value: XK
+    :description: Large book display
+    :notes: Large scale facsimile of book for promotional display.
+    :issue_number: '0'
+  XL:
+    :value: XL
+    :description: Shrink-wrapped pack
+    :notes: 'A quantity pack with its own product code, for trade supply only: the
+      retail items it contains are intended for sale individually. ISBN (where applicable)
+      and format of contained items must be given in Product Part. For products or
+      product bundles supplied shrink-wrapped for retail sale, use code SD.'
+    :issue_number: '11'
+  XZ:
+    :value: XZ
+    :description: Other point of sale
+    :notes: Other point of sale material not specified by XB to XL.
+    :issue_number: '0'
+  ZA:
+    :value: ZA
+    :description: General merchandise
+    :notes: General merchandise – unspecified.
+    :issue_number: '0'
+  ZB:
+    :value: ZB
+    :description: Doll
+    :notes: ''
+    :issue_number: '0'
+  ZC:
+    :value: ZC
+    :description: Soft toy
+    :notes: Soft or plush toy.
+    :issue_number: '0'
+  ZD:
+    :value: ZD
+    :description: Toy
+    :notes: ''
+    :issue_number: '0'
+  ZE:
+    :value: ZE
+    :description: Game
+    :notes: 'Board game, or other game (except computer game: see DE).'
+    :issue_number: '0'
+  ZF:
+    :value: ZF
+    :description: T-shirt
+    :notes: ''
+    :issue_number: '0'
+  ZG:
+    :value: ZG
+    :description: E-book reader
+    :notes: Dedicated e-book reading device, typically with mono screen.
+    :issue_number: '21'
+  ZH:
+    :value: ZH
+    :description: Tablet computer
+    :notes: General purpose tablet computer, typically with color screen.
+    :issue_number: '21'
+  ZZ:
+    :value: ZZ
+    :description: Other merchandise
+    :notes: Other merchandise not specified by ZB to ZF.
+    :issue_number: '0'

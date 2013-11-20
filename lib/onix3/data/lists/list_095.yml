@@ -1,0 +1,20 @@
+---
+:number: '95'
+:description: Default unit of weight
+:issue_number: '1'
+:codes:
+  lb:
+    :value: lb
+    :description: Pounds (US)
+    :notes: ''
+    :issue_number: '1'
+  gr:
+    :value: gr
+    :description: Grams
+    :notes: ''
+    :issue_number: '1'
+  oz:
+    :value: oz
+    :description: Ounces (US)
+    :notes: ''
+    :issue_number: '1'

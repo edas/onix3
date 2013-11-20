@@ -1,0 +1,993 @@
+---
+:number: '96'
+:description: Currency code – ISO 4217
+:issue_number: '0'
+:codes:
+  AED:
+    :value: AED
+    :description: UAE Dirham
+    :notes: United Arab Emirates.
+    :issue_number: '0'
+  AFA:
+    :value: AFA
+    :description: Afghani
+    :notes: DEPRECATED, replaced by AFN.
+    :issue_number: '4'
+  AFN:
+    :value: AFN
+    :description: Afghani
+    :notes: Afghanistan.
+    :issue_number: '4'
+  ALL:
+    :value: ALL
+    :description: Lek
+    :notes: Albania.
+    :issue_number: '0'
+  AMD:
+    :value: AMD
+    :description: Armenian Dram
+    :notes: Armenia.
+    :issue_number: '0'
+  ANG:
+    :value: ANG
+    :description: Netherlands Antillian Guilder
+    :notes: Curaçao, Sint Maarten.
+    :issue_number: '17'
+  AOA:
+    :value: AOA
+    :description: Angolan Kwanza
+    :notes: Angola.
+    :issue_number: '0'
+  ARS:
+    :value: ARS
+    :description: Argentine Peso
+    :notes: Argentina.
+    :issue_number: '0'
+  ATS:
+    :value: ATS
+    :description: Austria, Schilling
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  AUD:
+    :value: AUD
+    :description: Australian Dollar
+    :notes: Australia, Christmas Island, Cocos (Keeling) Islands, Heard Island and
+      McDonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu.
+    :issue_number: '0'
+  AWG:
+    :value: AWG
+    :description: Aruban Florin
+    :notes: Aruba.
+    :issue_number: '0'
+  AZN:
+    :value: AZN
+    :description: Azerbaijanian Manat
+    :notes: Azerbaijan.
+    :issue_number: '7'
+  BAM:
+    :value: BAM
+    :description: Convertible Marks
+    :notes: Bosnia and Herzegovina.
+    :issue_number: '0'
+  BBD:
+    :value: BBD
+    :description: Barbados Dollar
+    :notes: Barbados.
+    :issue_number: '0'
+  BDT:
+    :value: BDT
+    :description: Taka
+    :notes: Bangladesh.
+    :issue_number: '0'
+  BEF:
+    :value: BEF
+    :description: Belgium, Franc
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  BGL:
+    :value: BGL
+    :description: Lev
+    :notes: DEPRECATED, replaced by BGN.
+    :issue_number: '4'
+  BGN:
+    :value: BGN
+    :description: Lev
+    :notes: Bulgaria.
+    :issue_number: '4'
+  BHD:
+    :value: BHD
+    :description: Bahraini Dinar
+    :notes: Bahrain.
+    :issue_number: '0'
+  BIF:
+    :value: BIF
+    :description: Burundi Franc
+    :notes: Burundi.
+    :issue_number: '0'
+  BMD:
+    :value: BMD
+    :description: Bermuda Dollar
+    :notes: Bermuda.
+    :issue_number: '0'
+  BND:
+    :value: BND
+    :description: Brunei Dollar
+    :notes: Brunei Darussalam.
+    :issue_number: '0'
+  BOB:
+    :value: BOB
+    :description: Boliviano
+    :notes: Bolivia.
+    :issue_number: '0'
+  BRL:
+    :value: BRL
+    :description: Brazilian Real
+    :notes: Brazil.
+    :issue_number: '0'
+  BSD:
+    :value: BSD
+    :description: Bahamian Dollar
+    :notes: Bahamas.
+    :issue_number: '0'
+  BTN:
+    :value: BTN
+    :description: Ngultrun
+    :notes: Bhutan.
+    :issue_number: '0'
+  BWP:
+    :value: BWP
+    :description: Pula
+    :notes: Botswana.
+    :issue_number: '0'
+  BYR:
+    :value: BYR
+    :description: Belarussian Ruble
+    :notes: Belarus.
+    :issue_number: '0'
+  BZD:
+    :value: BZD
+    :description: Belize Dollar
+    :notes: Belize.
+    :issue_number: '0'
+  CAD:
+    :value: CAD
+    :description: Canadian Dollar
+    :notes: Canada.
+    :issue_number: '0'
+  CDF:
+    :value: CDF
+    :description: Franc Congolais
+    :notes: Congo (Democratic Republic of the).
+    :issue_number: '0'
+  CHF:
+    :value: CHF
+    :description: Swiss Franc
+    :notes: Switzerland, Liechtenstein.
+    :issue_number: '0'
+  CLP:
+    :value: CLP
+    :description: Chilean Peso
+    :notes: Chile.
+    :issue_number: '0'
+  CNY:
+    :value: CNY
+    :description: Yuan Renminbi
+    :notes: China.
+    :issue_number: '0'
+  COP:
+    :value: COP
+    :description: Colombian Peso
+    :notes: Colombia.
+    :issue_number: '0'
+  CRC:
+    :value: CRC
+    :description: Costa Rican Colon
+    :notes: Costa Rica.
+    :issue_number: '0'
+  CSD:
+    :value: CSD
+    :description: Serbian Dinar
+    :notes: Deprecated, replaced by RSD.
+    :issue_number: '17'
+  CUC:
+    :value: CUC
+    :description: Cuban Convertible Peso
+    :notes: Cuba (alternative currency).
+    :issue_number: '4'
+  CUP:
+    :value: CUP
+    :description: Cuban Peso
+    :notes: Cuba.
+    :issue_number: '0'
+  CVE:
+    :value: CVE
+    :description: Cape Verde Escudo
+    :notes: Cape Verde.
+    :issue_number: '0'
+  CYP:
+    :value: CYP
+    :description: Cyprus Pound
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '13'
+  CZK:
+    :value: CZK
+    :description: Czech Koruna
+    :notes: Czech Republic.
+    :issue_number: '0'
+  DEM:
+    :value: DEM
+    :description: Germany, Mark
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  DJF:
+    :value: DJF
+    :description: Djibouti Franc
+    :notes: Djibouti.
+    :issue_number: '0'
+  DKK:
+    :value: DKK
+    :description: Danish Krone
+    :notes: Denmark, Faroe Islands, Greenland.
+    :issue_number: '0'
+  DOP:
+    :value: DOP
+    :description: Dominican Peso
+    :notes: Dominican Republic.
+    :issue_number: '0'
+  DZD:
+    :value: DZD
+    :description: Algerian Dinar
+    :notes: Algeria.
+    :issue_number: '0'
+  EEK:
+    :value: EEK
+    :description: Kroon
+    :notes: 'Estonia – now replaced by the Euro (EUR): use only for historical prices
+      that pre-date the introduction of the Euro.'
+    :issue_number: '13'
+  EGP:
+    :value: EGP
+    :description: Egyptian Pound
+    :notes: Egypt.
+    :issue_number: '0'
+  ERN:
+    :value: ERN
+    :description: Nakfa
+    :notes: Eritrea.
+    :issue_number: '0'
+  ESP:
+    :value: ESP
+    :description: Spain, Peseta
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  ETB:
+    :value: ETB
+    :description: Ethiopian Birr
+    :notes: Ethiopia.
+    :issue_number: '0'
+  EUR:
+    :value: EUR
+    :description: Euro
+    :notes: Andorra, Austria, Belgium, Cyprus, Estonia, Finland, France, Fr Guiana,
+      Fr S Territories, Germany, Greece, Guadeloupe, Holy See (Vatican City), Ireland,
+      Italy, Luxembourg, Martinique, Malta, Mayotte, Monaco, Montenegro, Netherlands,
+      Portugal, Réunion, St Pierre and Miquelon, San Marino, Spain.
+    :issue_number: '13'
+  FIM:
+    :value: FIM
+    :description: Finland, Markka
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  FJD:
+    :value: FJD
+    :description: Fiji Dollar
+    :notes: Fiji.
+    :issue_number: '0'
+  FKP:
+    :value: FKP
+    :description: Falkland Islands Pound
+    :notes: Falkland Islands (Malvinas).
+    :issue_number: '0'
+  FRF:
+    :value: FRF
+    :description: France, Franc
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  GBP:
+    :value: GBP
+    :description: Pound Sterling
+    :notes: United Kingdom, Isle of Man, Channel Islands, South Georgia, South Sandwich
+      Islands, British Indian Ocean Territory.
+    :issue_number: '0'
+  GEL:
+    :value: GEL
+    :description: Lari
+    :notes: Georgia.
+    :issue_number: '0'
+  GHC:
+    :value: GHC
+    :description: Cedi
+    :notes: Deprecated, replaced by GHS.
+    :issue_number: '0'
+  GHS:
+    :value: GHS
+    :description: Cedi
+    :notes: Ghana.
+    :issue_number: '17'
+  GIP:
+    :value: GIP
+    :description: Gibraltar Pound
+    :notes: Gibraltar.
+    :issue_number: '0'
+  GMD:
+    :value: GMD
+    :description: Dalasi
+    :notes: Gambia.
+    :issue_number: '0'
+  GNF:
+    :value: GNF
+    :description: Guinea Franc
+    :notes: Guinea.
+    :issue_number: '0'
+  GRD:
+    :value: GRD
+    :description: Greece, Drachma
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  GTQ:
+    :value: GTQ
+    :description: Quetzal
+    :notes: Guatemala.
+    :issue_number: '0'
+  GWP:
+    :value: GWP
+    :description: Guinea-Bissau Peso
+    :notes: Now replaced by the CFA Franc BCEAO XOF use only for historical prices
+      that pre-date use of the CFA Franc.
+    :issue_number: '17'
+  GYD:
+    :value: GYD
+    :description: Guyana Dollar
+    :notes: Guyana.
+    :issue_number: '0'
+  HKD:
+    :value: HKD
+    :description: Hong Kong Dollar
+    :notes: Hong Kong, Macao.
+    :issue_number: '0'
+  HNL:
+    :value: HNL
+    :description: Lempira
+    :notes: Honduras.
+    :issue_number: '0'
+  HRK:
+    :value: HRK
+    :description: Croatian Kuna
+    :notes: Croatia.
+    :issue_number: '0'
+  HTG:
+    :value: HTG
+    :description: Gourde
+    :notes: Haiti.
+    :issue_number: '0'
+  HUF:
+    :value: HUF
+    :description: Forint
+    :notes: Hungary.
+    :issue_number: '0'
+  IDR:
+    :value: IDR
+    :description: Rupiah
+    :notes: Indonesia.
+    :issue_number: '0'
+  IEP:
+    :value: IEP
+    :description: Ireland, Punt
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  ILS:
+    :value: ILS
+    :description: Israeli Sheqel
+    :notes: Israel.
+    :issue_number: '0'
+  INR:
+    :value: INR
+    :description: Indian Rupee
+    :notes: India.
+    :issue_number: '0'
+  IQD:
+    :value: IQD
+    :description: Iraqi Dinar
+    :notes: Iraq.
+    :issue_number: '0'
+  IRR:
+    :value: IRR
+    :description: Iranian Rial
+    :notes: Iran (Islamic Republic of).
+    :issue_number: '0'
+  ISK:
+    :value: ISK
+    :description: Iceland Krona
+    :notes: Iceland.
+    :issue_number: '0'
+  ITL:
+    :value: ITL
+    :description: Italy, Lira
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  JMD:
+    :value: JMD
+    :description: Jamaican Dollar
+    :notes: Jamaica.
+    :issue_number: '0'
+  JOD:
+    :value: JOD
+    :description: Jordanian Dinar
+    :notes: Jordan.
+    :issue_number: '0'
+  JPY:
+    :value: JPY
+    :description: Yen
+    :notes: Japan.
+    :issue_number: '0'
+  KES:
+    :value: KES
+    :description: Kenyan Shilling
+    :notes: Kenya.
+    :issue_number: '0'
+  KGS:
+    :value: KGS
+    :description: Som
+    :notes: Kyrgyzstan.
+    :issue_number: '0'
+  KHR:
+    :value: KHR
+    :description: Riel
+    :notes: Cambodia.
+    :issue_number: '0'
+  KMF:
+    :value: KMF
+    :description: Comoro Franc
+    :notes: Comoros.
+    :issue_number: '0'
+  KPW:
+    :value: KPW
+    :description: North Korean Won
+    :notes: Korea (Democratic People’s Republic of).
+    :issue_number: '0'
+  KRW:
+    :value: KRW
+    :description: Won
+    :notes: Korea (Republic of).
+    :issue_number: '0'
+  KWD:
+    :value: KWD
+    :description: Kuwaiti Dinar
+    :notes: Kuwait.
+    :issue_number: '0'
+  KYD:
+    :value: KYD
+    :description: Cayman Islands Dollar
+    :notes: Cayman Islands.
+    :issue_number: '0'
+  KZT:
+    :value: KZT
+    :description: Tenge
+    :notes: Kazakstan.
+    :issue_number: '0'
+  LAK:
+    :value: LAK
+    :description: Kip
+    :notes: Lao People’s Democratic Republic.
+    :issue_number: '0'
+  LBP:
+    :value: LBP
+    :description: Lebanese Pound
+    :notes: Lebanon.
+    :issue_number: '0'
+  LKR:
+    :value: LKR
+    :description: Sri Lanka Rupee
+    :notes: Sri Lanka.
+    :issue_number: '0'
+  LRD:
+    :value: LRD
+    :description: Liberian Dollar
+    :notes: Liberia.
+    :issue_number: '0'
+  LSL:
+    :value: LSL
+    :description: Loti
+    :notes: Lesotho.
+    :issue_number: '0'
+  LTL:
+    :value: LTL
+    :description: Lithuanian Litus
+    :notes: Lithuania.
+    :issue_number: '0'
+  LUF:
+    :value: LUF
+    :description: Luxembourg, Franc
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  LVL:
+    :value: LVL
+    :description: Latvian Lats
+    :notes: Latvia.
+    :issue_number: '0'
+  LYD:
+    :value: LYD
+    :description: Libyan Dinar
+    :notes: Libyan Arab Jamahiriya.
+    :issue_number: '0'
+  MAD:
+    :value: MAD
+    :description: Moroccan Dirham
+    :notes: Morocco, Western Sahara.
+    :issue_number: '0'
+  MDL:
+    :value: MDL
+    :description: Moldovan Leu
+    :notes: Moldova, Republic of.
+    :issue_number: '0'
+  MGA:
+    :value: MGA
+    :description: Ariary
+    :notes: Madagascar.
+    :issue_number: '4'
+  MGF:
+    :value: MGF
+    :description: Malagasy Franc
+    :notes: Now replaced by the Ariary (MGA).
+    :issue_number: '17'
+  MKD:
+    :value: MKD
+    :description: Denar
+    :notes: Macedonia (former Yugoslav Republic of).
+    :issue_number: '0'
+  MMK:
+    :value: MMK
+    :description: Kyat
+    :notes: Myanmar.
+    :issue_number: '0'
+  MNT:
+    :value: MNT
+    :description: Tugrik
+    :notes: Mongolia.
+    :issue_number: '0'
+  MOP:
+    :value: MOP
+    :description: Pataca
+    :notes: Macau.
+    :issue_number: '0'
+  MRO:
+    :value: MRO
+    :description: Ouguiya
+    :notes: Mauritania.
+    :issue_number: '0'
+  MTL:
+    :value: MTL
+    :description: Maltese Lira
+    :notes: 'Malta – now replaced by the Euro (EUR): use only for historical prices
+      that pre-date the introduction of the Euro.'
+    :issue_number: '13'
+  MUR:
+    :value: MUR
+    :description: Mauritius Rupee
+    :notes: Mauritius.
+    :issue_number: '0'
+  MVR:
+    :value: MVR
+    :description: Rufiyaa
+    :notes: Maldives.
+    :issue_number: '0'
+  MWK:
+    :value: MWK
+    :description: Kwacha
+    :notes: Malawi.
+    :issue_number: '0'
+  MXN:
+    :value: MXN
+    :description: Mexican Peso
+    :notes: Mexico.
+    :issue_number: '0'
+  MYR:
+    :value: MYR
+    :description: Malaysian Ringgit
+    :notes: Malaysia.
+    :issue_number: '0'
+  MZN:
+    :value: MZN
+    :description: Metical
+    :notes: Mozambique.
+    :issue_number: '7'
+  NAD:
+    :value: NAD
+    :description: Namibia Dollar
+    :notes: Namibia.
+    :issue_number: '0'
+  NGN:
+    :value: NGN
+    :description: Naira
+    :notes: Nigeria.
+    :issue_number: '0'
+  NIO:
+    :value: NIO
+    :description: Cordoba Oro
+    :notes: Nicaragua.
+    :issue_number: '0'
+  NLG:
+    :value: NLG
+    :description: Netherlands, Guilder
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  NOK:
+    :value: NOK
+    :description: Norwegian Krone
+    :notes: Norway, Bouvet Island, Svalbard and Jan Mayen.
+    :issue_number: '0'
+  NPR:
+    :value: NPR
+    :description: Nepalese Rupee
+    :notes: Nepal.
+    :issue_number: '0'
+  NZD:
+    :value: NZD
+    :description: New Zealand Dollar
+    :notes: New Zealand, Cook Islands, Niue, Pitcairn, Tokelau.
+    :issue_number: '0'
+  OMR:
+    :value: OMR
+    :description: Rial Omani
+    :notes: Oman.
+    :issue_number: '0'
+  PAB:
+    :value: PAB
+    :description: Balboa
+    :notes: Panama.
+    :issue_number: '0'
+  PEN:
+    :value: PEN
+    :description: Nuevo Sol
+    :notes: Peru.
+    :issue_number: '0'
+  PGK:
+    :value: PGK
+    :description: Kina
+    :notes: Papua New Guinea.
+    :issue_number: '0'
+  PHP:
+    :value: PHP
+    :description: Philippine Peso
+    :notes: Philippines.
+    :issue_number: '0'
+  PKR:
+    :value: PKR
+    :description: Pakistan Rupee
+    :notes: Pakistan.
+    :issue_number: '0'
+  PLN:
+    :value: PLN
+    :description: Zloty
+    :notes: Poland.
+    :issue_number: '0'
+  PTE:
+    :value: PTE
+    :description: Portugal, Escudo
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '5'
+  PYG:
+    :value: PYG
+    :description: Guarani
+    :notes: Paraguay.
+    :issue_number: '0'
+  QAR:
+    :value: QAR
+    :description: Qatari Rial
+    :notes: Qatar.
+    :issue_number: '0'
+  ROL:
+    :value: ROL
+    :description: Old Leu
+    :notes: Deprecated, replaced by RON.
+    :issue_number: '17'
+  RON:
+    :value: RON
+    :description: New Leu
+    :notes: Romania.
+    :issue_number: '7'
+  RSD:
+    :value: RSD
+    :description: Serbian Dinar
+    :notes: Serbia.
+    :issue_number: '17'
+  RUB:
+    :value: RUB
+    :description: Russian Ruble
+    :notes: Russian Federation.
+    :issue_number: '4'
+  RUR:
+    :value: RUR
+    :description: Russian Ruble
+    :notes: DEPRECATED, replaced by RUB.
+    :issue_number: '4'
+  RWF:
+    :value: RWF
+    :description: Rwanda Franc
+    :notes: Rwanda.
+    :issue_number: '0'
+  SAR:
+    :value: SAR
+    :description: Saudi Riyal
+    :notes: Saudi Arabia.
+    :issue_number: '0'
+  SBD:
+    :value: SBD
+    :description: Solomon Islands Dollar
+    :notes: Solomon Islands.
+    :issue_number: '0'
+  SCR:
+    :value: SCR
+    :description: Seychelles Rupee
+    :notes: Seychelles.
+    :issue_number: '0'
+  SDD:
+    :value: SDD
+    :description: Sudanese Dinar
+    :notes: Now replaced by the Sudanese Pound (SDG).
+    :issue_number: '17'
+  SDG:
+    :value: SDG
+    :description: Sudanese Pound
+    :notes: Sudan.
+    :issue_number: '17'
+  SEK:
+    :value: SEK
+    :description: Swedish Krona
+    :notes: Sweden.
+    :issue_number: '0'
+  SGD:
+    :value: SGD
+    :description: Singapore Dollar
+    :notes: Singapore.
+    :issue_number: '0'
+  SHP:
+    :value: SHP
+    :description: Saint Helena Pound
+    :notes: Saint Helena.
+    :issue_number: '0'
+  SIT:
+    :value: SIT
+    :description: Tolar
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '17'
+  SKK:
+    :value: SKK
+    :description: Slovak Koruna
+    :notes: 'Now replaced by the Euro (EUR): use only for historical prices that pre-date
+      the introduction of the Euro.'
+    :issue_number: '17'
+  SLL:
+    :value: SLL
+    :description: Leone
+    :notes: Sierra Leone.
+    :issue_number: '0'
+  SOS:
+    :value: SOS
+    :description: Somali Shilling
+    :notes: Somalia.
+    :issue_number: '0'
+  SRD:
+    :value: SRD
+    :description: Surinam Dollar
+    :notes: Suriname.
+    :issue_number: '4'
+  SRG:
+    :value: SRG
+    :description: Suriname Guilder
+    :notes: DEPRECATED, replaced by SRD.
+    :issue_number: '4'
+  STD:
+    :value: STD
+    :description: Dobra
+    :notes: São Tome and Principe.
+    :issue_number: '0'
+  SVC:
+    :value: SVC
+    :description: El Salvador Colon
+    :notes: El Salvador.
+    :issue_number: '0'
+  SYP:
+    :value: SYP
+    :description: Syrian Pound
+    :notes: Syrian Arab Republic.
+    :issue_number: '0'
+  SZL:
+    :value: SZL
+    :description: Lilangeni
+    :notes: Swaziland.
+    :issue_number: '0'
+  THB:
+    :value: THB
+    :description: Baht
+    :notes: Thailand.
+    :issue_number: '0'
+  TJS:
+    :value: TJS
+    :description: Somoni
+    :notes: Tajikistan.
+    :issue_number: '0'
+  TMM:
+    :value: TMM
+    :description: Manat
+    :notes: Deprecated, replaced by TMT.
+    :issue_number: '17'
+  TMT:
+    :value: TMT
+    :description: Manat
+    :notes: Turkmenistan.
+    :issue_number: '17'
+  TND:
+    :value: TND
+    :description: Tunisian Dinar
+    :notes: Tunisia.
+    :issue_number: '0'
+  TOP:
+    :value: TOP
+    :description: Pa’anga
+    :notes: Tonga.
+    :issue_number: '0'
+  TPE:
+    :value: TPE
+    :description: Timor Escudo
+    :notes: NO LONGER VALID, Timor-Leste now uses the US Dollar.
+    :issue_number: '7'
+  TRL:
+    :value: TRL
+    :description: Turkish Lira (old)
+    :notes: Deprecated, replaced by TRY.
+    :issue_number: '17'
+  TRY:
+    :value: TRY
+    :description: Turkish Lira (new)
+    :notes: Turkey, from 1 January 2005.
+    :issue_number: '4'
+  TTD:
+    :value: TTD
+    :description: Trinidad and Tobago Dollar
+    :notes: Trinidad and Tobago.
+    :issue_number: '0'
+  TWD:
+    :value: TWD
+    :description: New Taiwan Dollar
+    :notes: Taiwan (Province of China).
+    :issue_number: '0'
+  TZS:
+    :value: TZS
+    :description: Tanzanian Shilling
+    :notes: Tanzania (United Republic of).
+    :issue_number: '0'
+  UAH:
+    :value: UAH
+    :description: Hryvnia
+    :notes: Ukraine.
+    :issue_number: '0'
+  UGX:
+    :value: UGX
+    :description: Uganda Shilling
+    :notes: Uganda.
+    :issue_number: '0'
+  USD:
+    :value: USD
+    :description: US Dollar
+    :notes: United States, American Samoa, British Indian Ocean Territory, Ecuador,
+      Guam, Marshall Is, Micronesia (Federated States of), Northern Mariana Is, Palau,
+      Puerto Rico, Timor-Leste, Turks and Caicos Is, US Minor Outlying Is, Virgin
+      Is (British), Virgin Is (US).
+    :issue_number: '0'
+  UYU:
+    :value: UYU
+    :description: Peso Uruguayo
+    :notes: Uruguay.
+    :issue_number: '0'
+  UZS:
+    :value: UZS
+    :description: Uzbekistan Sum
+    :notes: Uzbekistan.
+    :issue_number: '0'
+  VEB:
+    :value: VEB
+    :description: Bolivar
+    :notes: Deprecated, replaced by VEF.
+    :issue_number: '17'
+  VEF:
+    :value: VEF
+    :description: Bolivar fuerte
+    :notes: Venezuela.
+    :issue_number: '17'
+  VND:
+    :value: VND
+    :description: Dong
+    :notes: Viet Nam.
+    :issue_number: '0'
+  VUV:
+    :value: VUV
+    :description: Vatu
+    :notes: Vanuatu.
+    :issue_number: '0'
+  WST:
+    :value: WST
+    :description: Tala
+    :notes: Samoa.
+    :issue_number: '0'
+  XAF:
+    :value: XAF
+    :description: CFA Franc BEAC
+    :notes: Cameroon, Central African Republic, Chad, Congo, Equatorial Guinea, Gabon.
+    :issue_number: '0'
+  XCD:
+    :value: XCD
+    :description: East Caribbean Dollar
+    :notes: Anguilla, Antigua and Barbuda, Dominica, Grenada, Montserrat, Saint Kitts
+      and Nevis, Saint Lucia, Saint Vincent and the Grenadines.
+    :issue_number: '0'
+  XOF:
+    :value: XOF
+    :description: CFA Franc BCEAO
+    :notes: Benin, Burkina Faso, Côte D’Ivoire, Guinea-Bissau, Mali, Niger, Senegal,
+      Togo.
+    :issue_number: '17'
+  XPF:
+    :value: XPF
+    :description: CFP Franc
+    :notes: French Polynesia, New Caledonia, Wallis and Futuna.
+    :issue_number: '0'
+  YER:
+    :value: YER
+    :description: Yemeni Rial
+    :notes: Yemen.
+    :issue_number: '0'
+  YUM:
+    :value: YUM
+    :description: Yugoslavian Dinar
+    :notes: DEPRECATED, replaced by CSD.
+    :issue_number: '4'
+  ZAR:
+    :value: ZAR
+    :description: Rand
+    :notes: South Africa.
+    :issue_number: '0'
+  ZMK:
+    :value: ZMK
+    :description: Kwacha
+    :notes: Deprecated, replaced with ZMW.
+    :issue_number: '23'
+  ZWD:
+    :value: ZWD
+    :description: Zimbabwe Dollar
+    :notes: Deprecated, replaced with ZWL.
+    :issue_number: '17'
+  ZMW:
+    :value: ZMW
+    :description: Zambian Kwacha
+    :notes: Zambia.
+    :issue_number: '23'
+  ZWL:
+    :value: ZWL
+    :description: Zimbabwe Dollar
+    :notes: Zimbabwe.
+    :issue_number: '17'

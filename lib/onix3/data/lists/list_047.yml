@@ -1,0 +1,25 @@
+---
+:number: '47'
+:description: Rights region
+:issue_number: '0'
+:codes:
+  '000':
+    :value: '000'
+    :description: World
+    :notes: ''
+    :issue_number: '0'
+  '001':
+    :value: '001'
+    :description: World except territories specified elsewhere in rights statements
+    :notes: ''
+    :issue_number: '0'
+  '002':
+    :value: '002'
+    :description: UK airports
+    :notes: ''
+    :issue_number: '0'
+  '003':
+    :value: '003'
+    :description: UK ‘open market’
+    :notes: Use when an open market edition is published under its own ISBN.
+    :issue_number: '0'

@@ -1,0 +1,198 @@
+---
+:number: '21'
+:description: Edition type code
+:issue_number: '0'
+:codes:
+  ABR:
+    :value: ABR
+    :description: Abridged
+    :notes: 'Content has been shortened: use for abridged, shortened, concise, condensed.'
+    :issue_number: '0'
+  ACT:
+    :value: ACT
+    :description: Acting edtion
+    :notes: Version of a play or script intended for use of those directly involved
+      in a production, usually including full stage directions in addition to the
+      text of the script.
+    :issue_number: '16'
+  ADP:
+    :value: ADP
+    :description: Adapted
+    :notes: 'Content has been adapted to serve a different purpose or audience, or
+      from one medium to another: use for dramatization, novelization etc. Use <EditionStatement>
+      to describe the exact nature of the adaptation.'
+    :issue_number: '0'
+  ALT:
+    :value: ALT
+    :description: Alternate
+    :notes: Do not use. This code is now DEPRECATED, but is retained in the list for
+      reasons of backwards compatibility.
+    :issue_number: '1'
+  ANN:
+    :value: ANN
+    :description: Annotated
+    :notes: Content is augmented by the addition of notes.
+    :issue_number: '0'
+  BLL:
+    :value: BLL
+    :description: Bilingual edition
+    :notes: Both languages should be specified in the ‘Language’ group. Use MLL for
+      an edition in more than two languages.
+    :issue_number: '5'
+  BRL:
+    :value: BRL
+    :description: Braille
+    :notes: Braille edition.
+    :issue_number: '6'
+  CMB:
+    :value: CMB
+    :description: Combined volume
+    :notes: An edition in which two or more works also published separately are combined
+      in a single volume; AKA ‘omnibus’ edition.
+    :issue_number: '9'
+  CRI:
+    :value: CRI
+    :description: Critical
+    :notes: Content includes critical commentary on the text.
+    :issue_number: '0'
+  CSP:
+    :value: CSP
+    :description: Coursepack
+    :notes: Content was compiled for a specified educational course.
+    :issue_number: '0'
+  DGO:
+    :value: DGO
+    :description: Digital original
+    :notes: A digital product which has no print counterpart and is not expected to
+      have a print counterpart.
+    :issue_number: '11'
+  ENH:
+    :value: ENH
+    :description: Enhanced
+    :notes: Use for e-publications that have been enhanced with additional text, speech,
+      other audio, video, interactive or other content.
+    :issue_number: '12'
+  ENL:
+    :value: ENL
+    :description: Enlarged
+    :notes: Content has been enlarged or expanded from that of a previous edition.
+    :issue_number: '0'
+  EXP:
+    :value: EXP
+    :description: Expurgated
+    :notes: ‘Offensive’ content has been removed.
+    :issue_number: '0'
+  FAC:
+    :value: FAC
+    :description: Facsimile
+    :notes: Exact reproduction of the content and format of a previous edition.
+    :issue_number: '0'
+  FST:
+    :value: FST
+    :description: Festschrift
+    :notes: A collection of writings published in honor of a person, an institution
+      or a society.
+    :issue_number: '9'
+  ILL:
+    :value: ILL
+    :description: Illustrated
+    :notes: Content includes extensive illustrations which are not part of other editions.
+    :issue_number: '0'
+  LTE:
+    :value: LTE
+    :description: Large type / large print
+    :notes: Large print edition, print sizes 14 to 19 pt – see also ULP.
+    :issue_number: '6'
+  MCP:
+    :value: MCP
+    :description: Microprint
+    :notes: A printed edition in a type size too small to be read without a magnifying
+      glass.
+    :issue_number: '6'
+  MDT:
+    :value: MDT
+    :description: Media tie-in
+    :notes: An edition published to coincide with the release of a film, TV program,
+      or electronic game based on the same work. Use <EditionStatement> to describe
+      the exact nature of the tie-in.
+    :issue_number: '1'
+  MLL:
+    :value: MLL
+    :description: Multilingual edition
+    :notes: All languages should be specified in the ‘Language’ group. Use BLL for
+      a bilingual edition.
+    :issue_number: '5'
+  NED:
+    :value: NED
+    :description: New edition
+    :notes: Where no other information is given, or no other coded type is applicable.
+    :issue_number: '1'
+  NUM:
+    :value: NUM
+    :description: Edition with numbered copies
+    :notes: A limited edition in which each copy is individually numbered.
+    :issue_number: '9'
+  PRB:
+    :value: PRB
+    :description: Prebound edition
+    :notes: In the US, a book that was previously bound, normally as a paperback,
+      and has been rebound with a library-quality hardcover binding by a supplier
+      other than the original publisher. See also the <Publisher> and <RelatedProduct>
+      composites for other aspects of the treatment of prebound editions in ONIX.
+    :issue_number: '9'
+  REV:
+    :value: REV
+    :description: Revised
+    :notes: Content has been revised from that of a previous edition.
+    :issue_number: '0'
+  SCH:
+    :value: SCH
+    :description: School edition
+    :notes: An edition intended specifically for use in schools.
+    :issue_number: '0'
+  SMP:
+    :value: SMP
+    :description: Simplified language edition
+    :notes: An edition that uses simplified language (Finnish ‘Selkokirja’).
+    :issue_number: '8'
+  SPE:
+    :value: SPE
+    :description: Special edition
+    :notes: Use for anniversary, collectors’, de luxe, gift, limited, numbered, autographed
+      edition. Use <EditionStatement> to describe the exact nature of the special
+      edition.
+    :issue_number: '1'
+  STU:
+    :value: STU
+    :description: Student edition
+    :notes: Where a text is available in both student and teacher’s editions.
+    :issue_number: '0'
+  TCH:
+    :value: TCH
+    :description: Teacher’s edition
+    :notes: Where a text is available in both student and teacher’s editions; use
+      also for instructor’s or leader’s editions.
+    :issue_number: '0'
+  UBR:
+    :value: UBR
+    :description: Unabridged
+    :notes: Where a title has also been published in an abridged edition; also for
+      audiobooks, regardless of whether an abridged audio version also exists.
+    :issue_number: '0'
+  ULP:
+    :value: ULP
+    :description: Ultra large print
+    :notes: For print sizes 20pt and above, and with typefaces designed for the visually
+      impaired – see also LTE.
+    :issue_number: '6'
+  UXP:
+    :value: UXP
+    :description: Unexpurgated
+    :notes: Content previously considered ‘offensive’ has been restored.
+    :issue_number: '0'
+  VAR:
+    :value: VAR
+    :description: Variorum
+    :notes: Content includes notes by various commentators, and/or includes and compares
+      several variant texts of the same work.
+    :issue_number: '0'

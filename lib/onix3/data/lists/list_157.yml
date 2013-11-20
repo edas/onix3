@@ -1,0 +1,25 @@
+---
+:number: '157'
+:description: Content source type
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Printed media
+    :notes: ''
+    :issue_number: '10'
+  '02':
+    :value: '02'
+    :description: Website
+    :notes: ''
+    :issue_number: '10'
+  '03':
+    :value: '03'
+    :description: Radio
+    :notes: ''
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: TV
+    :notes: ''
+    :issue_number: '10'

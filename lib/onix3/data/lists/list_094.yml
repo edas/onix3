@@ -1,0 +1,20 @@
+---
+:number: '94'
+:description: Default linear unit
+:issue_number: '1'
+:codes:
+  cm:
+    :value: cm
+    :description: Centimeters
+    :notes: Millimeters are the preferred metric unit of length.
+    :issue_number: '6'
+  in:
+    :value: in
+    :description: Inches (US)
+    :notes: ''
+    :issue_number: '1'
+  mm:
+    :value: mm
+    :description: Millimeters
+    :notes: ''
+    :issue_number: '1'

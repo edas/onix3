@@ -1,0 +1,69 @@
+---
+:number: '24'
+:description: Extent unit code
+:issue_number: '0'
+:codes:
+  '02':
+    :value: '02'
+    :description: Words
+    :notes: Words of natural language text.
+    :issue_number: '2'
+  '03':
+    :value: '03'
+    :description: Pages
+    :notes: ''
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Hours (integer and decimals)
+    :notes: ''
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: Minutes (integer and decimals)
+    :notes: ''
+    :issue_number: '0'
+  '06':
+    :value: '06'
+    :description: Seconds (integer only)
+    :notes: ''
+    :issue_number: '0'
+  '11':
+    :value: '11'
+    :description: Tracks
+    :notes: Of an audiobook on CD (or a similarly divided selection of audio files).
+      Conventionally, each track is 3–6 minutes of running time, and track counts
+      are misleading and inappropriate if the average track duration is significantly
+      more or less than this. Note that track breaks are not necessarily aligned with
+      structural breaks in the text (eg chapter breaks).
+    :issue_number: '22'
+  '14':
+    :value: '14'
+    :description: Hours HHH
+    :notes: Fill with leading zeroes if any elements are missing.
+    :issue_number: '0'
+  '15':
+    :value: '15'
+    :description: Hours and minutes HHHMM
+    :notes: Fill with leading zeroes if any elements are missing.
+    :issue_number: '0'
+  '16':
+    :value: '16'
+    :description: Hours minutes seconds HHHMMSS
+    :notes: Fill with leading zeroes if any elements are missing.
+    :issue_number: '0'
+  '17':
+    :value: '17'
+    :description: Bytes
+    :notes: ''
+    :issue_number: '10'
+  '18':
+    :value: '18'
+    :description: Kbytes
+    :notes: ''
+    :issue_number: '0'
+  '19':
+    :value: '19'
+    :description: Mbytes
+    :notes: ''
+    :issue_number: '0'

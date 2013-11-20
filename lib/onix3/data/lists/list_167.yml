@@ -1,0 +1,31 @@
+---
+:number: '167'
+:description: Price condition type
+:issue_number: '9'
+:codes:
+  '00':
+    :value: '00'
+    :description: No conditions
+    :notes: Allows positive indication that there are no conditions.
+    :issue_number: '20'
+  '01':
+    :value: '01'
+    :description: Includes updates
+    :notes: Purchase at this price includes specified updates.
+    :issue_number: '9'
+  '02':
+    :value: '02'
+    :description: Must also purchase updates
+    :notes: Purchase at this price requires commitment to purchase specified updates,
+      not included in price.
+    :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Updates available
+    :notes: Updates may be purchased separately, no minimum commitment required.
+    :issue_number: '9'
+  '10':
+    :value: '10'
+    :description: Rental duration
+    :notes: The duration of the rental to which the price applies.
+    :issue_number: '20'

@@ -1,0 +1,31 @@
+---
+:number: '62'
+:description: Tax rate, coded
+:issue_number: '0'
+:codes:
+  H:
+    :value: H
+    :description: Higher rate
+    :notes: Specifies that tax is applied at a higher rate than standard.
+    :issue_number: '5'
+  P:
+    :value: P
+    :description: Tax paid at source (Italy)
+    :notes: Under Italian tax rules, VAT on books may be paid at source by the publisher,
+      and subsequent transactions through the supply chain are tax-exempt.
+    :issue_number: '7'
+  R:
+    :value: R
+    :description: Lower rate
+    :notes: Specifies that tax is applied at a lower rate than standard.
+    :issue_number: '0'
+  S:
+    :value: S
+    :description: Standard rate
+    :notes: ''
+    :issue_number: '0'
+  Z:
+    :value: Z
+    :description: Zero-rated
+    :notes: ''
+    :issue_number: '0'

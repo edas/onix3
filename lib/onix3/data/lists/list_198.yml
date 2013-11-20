@@ -1,0 +1,16 @@
+---
+:number: '198'
+:description: Product contact role
+:issue_number: '16'
+:codes:
+  '01':
+    :value: '01'
+    :description: Accessibility request contact
+    :notes: Eg for requests for supply of mutable digital files for conversion to
+      other formats.
+    :issue_number: '16'
+  '02':
+    :value: '02'
+    :description: Promotional contact
+    :notes: ''
+    :issue_number: '16'

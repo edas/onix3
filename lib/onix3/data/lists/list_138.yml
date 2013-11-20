@@ -1,0 +1,35 @@
+---
+:number: '138'
+:description: Transliteration scheme code
+:issue_number: '8'
+:codes:
+  SFS4900:
+    :value: SFS4900
+    :description: Finnish standard SFS 4900
+    :notes: Transliteration of Cyrillic characters – Slavic languages.
+    :issue_number: '8'
+  SFS5807:
+    :value: SFS5807
+    :description: Finnish standard SFS 5807
+    :notes: Transliteration and transcription of Greek characters.
+    :issue_number: '8'
+  SFS5755:
+    :value: SFS5755
+    :description: Finnish standard SFS 5755
+    :notes: Transliteration of Arabic characters.
+    :issue_number: '8'
+  SFS3602:
+    :value: SFS3602
+    :description: Finnish standard SFS 5824
+    :notes: Transliteration of Hebrew characters.
+    :issue_number: '8'
+  ISO3602:
+    :value: ISO3602
+    :description: ISO 3602
+    :notes: Documentation – Romanization of Japanese (kana script).
+    :issue_number: '8'
+  ISO7098:
+    :value: ISO7098
+    :description: ISO 7098
+    :notes: Information and documentation – Romanization of Chinese.
+    :issue_number: '8'

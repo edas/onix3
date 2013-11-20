@@ -1,0 +1,60 @@
+---
+:number: '9'
+:description: Product classification type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: WCO Harmonized System
+    :notes: World Customs Organization Harmonized Commodity Coding and Description
+      System.
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: UNSPSC
+    :notes: UN Standard Product and Service Classification.
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: HMRC
+    :notes: UK Revenue and Customs classifications, based on the Harmonized System.
+    :issue_number: '11'
+  '04':
+    :value: '04'
+    :description: Warenverzeichnis für die Außenhandelsstatistik
+    :notes: German export trade classification, based on the Harmonised System.
+    :issue_number: '5'
+  '05':
+    :value: '05'
+    :description: TARIC
+    :notes: EU TARIC codes, an extended version of the Harmonized System.
+    :issue_number: '5'
+  '06':
+    :value: '06'
+    :description: Fondsgroep
+    :notes: Centraal Boekhuis free classification field for publishers.
+    :issue_number: '8'
+  '07':
+    :value: '07'
+    :description: Sender’s product category
+    :notes: A product category (not a subject classification) assigned by the sender.
+    :issue_number: '10'
+  08:
+    :value: 08
+    :description: GAPP Product Class
+    :notes: Product classification maintained by the Chinese General Administration
+      of Press and Publication (http://www.gapp.gov.cn).
+    :issue_number: '15'
+  09:
+    :value: 09
+    :description: CPA
+    :notes: Statistical Classification of Products by Activity in the European Economic
+      Community, see http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=CPA_2008.
+      Up to six digits, with one or two periods. For example, printed children’s books
+      are “58.11.13”, but the periods are normally ommited in ONIX.
+    :issue_number: '16'
+  '10':
+    :value: '10'
+    :description: NCM
+    :notes: Mercosur/Mercosul Common Nomenclature, based on the Harmonised System.
+    :issue_number: '23'

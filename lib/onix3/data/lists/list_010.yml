@@ -1,0 +1,320 @@
+---
+:number: '10'
+:description: Epublication type code
+:issue_number: '0'
+:codes:
+  '000':
+    :value: '000'
+    :description: Epublication “content package”
+    :notes: An epublication viewed as a unique package of content which may be converted
+      into any of a number of different types for delivery to the consumer. This code
+      is used when an ONIX <Product> record describes the content package and lists
+      within the record the different forms in which it is available.
+    :issue_number: '0'
+  '001':
+    :value: '001'
+    :description: HTML
+    :notes: An epublication delivered in a basic, unprotected, HTML format. Do NOT
+      use for HTML-based formats which include DRM protection.
+    :issue_number: '0'
+  '002':
+    :value: '002'
+    :description: PDF
+    :notes: An epublication delivered in a basic, unprotected, PDF format. Do NOT
+      use for PDF-based formats which include DRM protection.
+    :issue_number: '0'
+  '003':
+    :value: '003'
+    :description: PDF-Merchant
+    :notes: An epublication delivered in PDF format, capable of being read in the
+      standard Acrobat Reader, and protected by PDF-Merchant DRM features. (This format
+      is no longer supported for new applications.).
+    :issue_number: '0'
+  '004':
+    :value: '004'
+    :description: Adobe Ebook Reader
+    :notes: An epublication delivered in an enhanced PDF format, using Adobe’s proprietary
+      EBX DRM, capable of being read in the Adobe Ebook Reader software, on any platform
+      which can support this software, which was formerly known as Glassbook.
+    :issue_number: '0'
+  '005':
+    :value: '005'
+    :description: Microsoft Reader Level 1/Level 3
+    :notes: An epublication delivered in an unencrypted Microsoft .LIT format, capable
+      of being read in the Microsoft Reader software at any level, on any platform
+      which can support this software. (Level 3 differs from Level 1 only in that
+      it embeds the name of the original purchaser.).
+    :issue_number: '0'
+  '006':
+    :value: '006'
+    :description: Microsoft Reader Level 5
+    :notes: An epublication delivered in the Microsoft .LIT format, with full encryption,
+      capable of being read in the Microsoft Reader software at Level 5, on any platform
+      which can support this software.
+    :issue_number: '0'
+  '007':
+    :value: '007'
+    :description: NetLibrary
+    :notes: An epublication delivered in a proprietary HTML- or OEBF-based format,
+      capable of being read only through subscription to the NetLibrary service.
+    :issue_number: '0'
+  008:
+    :value: 008
+    :description: MetaText
+    :notes: An epublication delivered in a proprietary format through a web browser,
+      capable of being read only through subscription to the MetaText service (the
+      educational division of NetLibrary).
+    :issue_number: '0'
+  009:
+    :value: 009
+    :description: MightyWords
+    :notes: An epublication delivered in a proprietary PDF-based format, capable of
+      being read only through subscription to the MightyWords service.
+    :issue_number: '0'
+  '010':
+    :value: '010'
+    :description: eReader (AKA Palm Reader)
+    :notes: An epublication delivered in a proprietary HTML-based format, capable
+      of being read in reading software which may be used on handheld devices using
+      the Palm OS or Pocket PC/Windows CE operating systems.
+    :issue_number: '11'
+  '011':
+    :value: '011'
+    :description: Softbook
+    :notes: An epublication delivered in a proprietary format capable of being read
+      in reading software which is specific to the Softbook hardware platform. Also
+      capable of being read on the Softbook’s successor, the Gemstar REB 1200.
+    :issue_number: '0'
+  '012':
+    :value: '012'
+    :description: RocketBook
+    :notes: An epublication delivered in a proprietary .RB format, capable of being
+      read in reading software which is specific to the RocketBook hardware platform.
+      Also capable of being read on the RocketBook’s successor, the Gemstar REB 1100.
+    :issue_number: '0'
+  '013':
+    :value: '013'
+    :description: Gemstar REB 1100
+    :notes: An epublication delivered in a proprietary .RB format, capable of being
+      read in reading software which is specific to the Gemstar REB 1100 hardware
+      platform. Also capable of being read on the RocketBook with some loss of functionality.
+    :issue_number: '0'
+  '014':
+    :value: '014'
+    :description: Gemstar REB 1200
+    :notes: An epublication delivered in a proprietary format, capable of being read
+      in reading software which is specific to the Gemstar REB 1200 hardware platform.
+      Also capable of being read on the Softbook with some loss of functionality.
+    :issue_number: '0'
+  '015':
+    :value: '015'
+    :description: Franklin eBookman
+    :notes: An epublication delivered in Franklin’s proprietary HTML-based format,
+      capable of being read in reading software which is specific to the Franklin
+      eBookman platform.
+    :issue_number: '0'
+  '016':
+    :value: '016'
+    :description: Books24x7
+    :notes: An epublication delivered in a proprietary XML-based format and available
+      for online access only through subscription to the Books24x7 service.
+    :issue_number: '0'
+  '017':
+    :value: '017'
+    :description: DigitalOwl
+    :notes: An epublication available through DigitalOwl proprietary packaging, distribution
+      and DRM software, delivered in a variety of formats across a range of platforms.
+    :issue_number: '0'
+  018:
+    :value: 018
+    :description: Handheldmed
+    :notes: An epublication delivered in a proprietary HTML-based format, capable
+      of being read in Handheldmed reader software on Palm OS, Windows, and EPOC/Psion
+      handheld devices, available only through the Handheldmed service.
+    :issue_number: '0'
+  019:
+    :value: 019
+    :description: WizeUp
+    :notes: An epublication delivered in a proprietary ???-based format and available
+      for download only through the WizeUp service.
+    :issue_number: '0'
+  '020':
+    :value: '020'
+    :description: TK3
+    :notes: An epublication delivered in the proprietary TK3 format, capable of being
+      read only in the TK3 reader software supplied by Night Kitchen Inc, on any platform
+      which can support this software.
+    :issue_number: '0'
+  '021':
+    :value: '021'
+    :description: Litraweb
+    :notes: An epublication delivered in an encrypted .RTF format, capable of being
+      read only in the Litraweb Visor software, and available only from Litraweb.com.
+    :issue_number: '0'
+  '022':
+    :value: '022'
+    :description: MobiPocket
+    :notes: An epublication delivered in a proprietary format, capable of being read
+      in the MobiPocket software on PalmOS, WindowsCE /Pocket PC, Franklin eBookman,
+      and EPOC32 handheld devices, available through the MobiPocket service. Includes
+      Amazon Kindle formats up to and including version 7 – but prefer code 031 for
+      version 7, and always use 031 for KF8.
+    :issue_number: '17'
+  '023':
+    :value: '023'
+    :description: Open Ebook
+    :notes: An epublication delivered in the standard distribution format specified
+      in the Open Ebook Publication Structure (OEBPS) format and capable of being
+      read in any OEBPS-compliant reading system. Includes EPUB format up to and including
+      version 2 – but prefer code 029 for EPUB 2, and always use 029 for EPUB 3.
+    :issue_number: '17'
+  '024':
+    :value: '024'
+    :description: Town Compass DataViewer
+    :notes: An epublication delivered in a proprietary format, capable of being read
+      in Town Compass DataViewer reader software on a Palm OS handheld device.
+    :issue_number: '1'
+  '025':
+    :value: '025'
+    :description: TXT
+    :notes: An epublication delivered in an openly available .TXT format, with ASCII
+      or UTF-8 encoding, as used for example in Project Gutenberg.
+    :issue_number: '1'
+  '026':
+    :value: '026'
+    :description: ExeBook
+    :notes: An epublication delivered as a self-executing file including its own reader
+      software, and created with proprietary ExeBook Self-Publisher software.
+    :issue_number: '1'
+  '027':
+    :value: '027'
+    :description: Sony BBeB
+    :notes: An epublication in a Sony proprietary format for use with the Sony Reader
+      and LIBRIé reading devices.
+    :issue_number: '6'
+  028:
+    :value: 028
+    :description: VitalSource Bookshelf
+    :notes: ''
+    :issue_number: '8'
+  029:
+    :value: 029
+    :description: EPUB
+    :notes: An epublication delivered using the Open Publication Structure / OPS Container
+      Format standard of the International Digital Publishing Forum (IDPF). [This
+      value was originally defined as ‘Adobe Digital Editions’, which is not an epublication
+      format but a reader which supports PDF or EPUB (IDPF) formats. Since PDF is
+      already covered by code 002, it was agreed, and announced to the ONIX listserv
+      in September 2009, that code 029 should be refined to represent EPUB format.].
+    :issue_number: '11'
+  '030':
+    :value: '030'
+    :description: MyiLibrary
+    :notes: ''
+    :issue_number: '8'
+  '031':
+    :value: '031'
+    :description: Kindle
+    :notes: Amazon proprietary file format derived from Mobipocket format, used for
+      Kindle devices and Kindle reader software.
+    :issue_number: '17'
+  '032':
+    :value: '032'
+    :description: Google Edition
+    :notes: An epublication made available by Google in association with a publisher;
+      readable online on a browser-enabled device and offline on designated ebook
+      readers.
+    :issue_number: '11'
+  '033':
+    :value: '033'
+    :description: Vook
+    :notes: An epublication in a proprietary format combining text and video content
+      and available to be used online or as a downloadable application for a mobile
+      device – see www.vook.com.
+    :issue_number: '11'
+  '034':
+    :value: '034'
+    :description: DXReader
+    :notes: An epublication in a proprietary format for use with DXReader software.
+    :issue_number: '11'
+  '035':
+    :value: '035'
+    :description: EBL
+    :notes: An epublication in a format proprietary to the Ebook Library service.
+    :issue_number: '11'
+  '036':
+    :value: '036'
+    :description: Ebrary
+    :notes: An epublication in a format proprietary to the Ebrary service.
+    :issue_number: '11'
+  '037':
+    :value: '037'
+    :description: iSilo
+    :notes: An epublication in a proprietary format for use with iSilo software on
+      various hardware platforms.
+    :issue_number: '11'
+  038:
+    :value: 038
+    :description: Plucker
+    :notes: An epublication in a proprietary format for use with Plucker reader software
+      on Palm and other handheld devices.
+    :issue_number: '11'
+  039:
+    :value: 039
+    :description: VitalBook
+    :notes: A format proprietary to the VitalSource service.
+    :issue_number: '11'
+  '040':
+    :value: '040'
+    :description: Book ‘app’ for iOS
+    :notes: Epublication packaged as an application for iOS (eg Apple iPhone, iPad
+      etc) containing both executable code and content. Content can be described with
+      <ProductContentType>.
+    :issue_number: '12'
+  '041':
+    :value: '041'
+    :description: Android ‘app’
+    :notes: Epublication packaged as an application for Android (eg Android phone
+      or tablet) containing both executable code and content. Content can be described
+      with <ProductContentType>.
+    :issue_number: '12'
+  '042':
+    :value: '042'
+    :description: Other ‘app’
+    :notes: Epublication packaged as an application. Technical requirements such as
+      target operating system and/or device should be provided in <EpubTypeNote>.
+      Content can be described with <ProductContentType>.
+    :issue_number: '12'
+  '043':
+    :value: '043'
+    :description: XPS
+    :notes: XML Paper Specification format [File extension .xps] for (eg) Blio.
+    :issue_number: '13'
+  '044':
+    :value: '044'
+    :description: iBook
+    :notes: Apple’s iBook format (a proprietary extension of EPUB), can only be read
+      on Apple iOS devices.
+    :issue_number: '17'
+  '045':
+    :value: '045'
+    :description: ePIB
+    :notes: Proprietary format used by Barnes and Noble, readable on NOOK devices
+      and Nook reader software.
+    :issue_number: '17'
+  '046':
+    :value: '046'
+    :description: SCORM
+    :notes: Sharable Content Object Reference Model, standard content and packaging
+      format for e-learning objects.
+    :issue_number: '20'
+  098:
+    :value: 098
+    :description: Multiple formats
+    :notes: Product consists of parts in different formats.
+    :issue_number: '8'
+  099:
+    :value: 099
+    :description: Unspecified
+    :notes: Unknown, or no code yet assigned for this format.
+    :issue_number: '7'

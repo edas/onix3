@@ -1,0 +1,23 @@
+---
+:number: '148'
+:description: Collection type
+:issue_number: '9'
+:codes:
+  '00':
+    :value: '00'
+    :description: Unspecified (default)
+    :notes: Collection type is not determined.
+    :issue_number: '9'
+  '10':
+    :value: '10'
+    :description: Publisher collection
+    :notes: The collection is a bibliographic collection (eg a series) defined and
+      identified by a publisher, either on the product itself or in product information
+      supplied by the publisher.
+    :issue_number: '9'
+  '20':
+    :value: '20'
+    :description: Ascribed collection
+    :notes: The collection has been defined and identified by a party in the metadata
+      supply chain other than the publisher, typically an aggregator.
+    :issue_number: '9'

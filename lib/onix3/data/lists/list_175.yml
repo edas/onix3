@@ -1,0 +1,1213 @@
+---
+:number: '175'
+:description: Product form detail
+:issue_number: '9'
+:codes:
+  A101:
+    :value: A101
+    :description: CD standard audio format
+    :notes: CD ‘red book’ format.
+    :issue_number: '2'
+  A102:
+    :value: A102
+    :description: SACD super audio format
+    :notes: ''
+    :issue_number: '2'
+  A103:
+    :value: A103
+    :description: MP3 format
+    :notes: MPEG-1/2 Audio Layer III file.
+    :issue_number: '2'
+  A104:
+    :value: A104
+    :description: WAV format
+    :notes: ''
+    :issue_number: '2'
+  A105:
+    :value: A105
+    :description: Real Audio format
+    :notes: ''
+    :issue_number: '2'
+  A106:
+    :value: A106
+    :description: WMA
+    :notes: Windows Media Audio format.
+    :issue_number: '9'
+  A107:
+    :value: A107
+    :description: AAC
+    :notes: Advanced Audio Coding format.
+    :issue_number: '9'
+  A108:
+    :value: A108
+    :description: Ogg/Vorbis
+    :notes: Vorbis audio format in the Ogg container.
+    :issue_number: '9'
+  A109:
+    :value: A109
+    :description: Audible
+    :notes: Audio format proprietary to Audible.com.
+    :issue_number: '9'
+  A110:
+    :value: A110
+    :description: FLAC
+    :notes: Free lossless audio codec.
+    :issue_number: '9'
+  A111:
+    :value: A111
+    :description: AIFF
+    :notes: Audio Interchangeable File Format.
+    :issue_number: '9'
+  A112:
+    :value: A112
+    :description: ALAC
+    :notes: Apple Lossless Audio Codec.
+    :issue_number: '9'
+  A201:
+    :value: A201
+    :description: 'DAISY 2: full audio with title only (no navigation)'
+    :notes: Deprecated, as does not meet DAISY 2 standard. Use conventional audiobook
+      codes instead.
+    :issue_number: '13'
+  A202:
+    :value: A202
+    :description: 'DAISY 2: full audio with navigation (no text)'
+    :notes: ''
+    :issue_number: '13'
+  A203:
+    :value: A203
+    :description: 'DAISY 2: full audio with navigation and partial text'
+    :notes: ''
+    :issue_number: '8'
+  A204:
+    :value: A204
+    :description: 'DAISY 2: full audio with navigation and full text'
+    :notes: ''
+    :issue_number: '13'
+  A205:
+    :value: A205
+    :description: 'DAISY 2: full text with navigation and partial audio'
+    :notes: Reading systems may provide full audio via text-to-speech.
+    :issue_number: '13'
+  A206:
+    :value: A206
+    :description: 'DAISY 2: full text with navigation and no audio'
+    :notes: Reading systems may provide full audio via text-to-speech.
+    :issue_number: '13'
+  A207:
+    :value: A207
+    :description: 'DAISY 3: full audio with title only (no navigation)'
+    :notes: Deprecated, as does not meet DAISY 3 standard. Use conventional audiobook
+      codes instead.
+    :issue_number: '13'
+  A208:
+    :value: A208
+    :description: 'DAISY 3: full audio with navigation (no text)'
+    :notes: ''
+    :issue_number: '13'
+  A209:
+    :value: A209
+    :description: 'DAISY 3: full audio with navigation and partial text'
+    :notes: ''
+    :issue_number: '8'
+  A210:
+    :value: A210
+    :description: 'DAISY 3: full audio with navigation and full text'
+    :notes: ''
+    :issue_number: '13'
+  A211:
+    :value: A211
+    :description: 'DAISY 3: full text with navigation and partial audio'
+    :notes: Reading systems may provide full audio via text-to-speech.
+    :issue_number: '13'
+  A212:
+    :value: A212
+    :description: 'DAISY 3: full text with navigation and no audio'
+    :notes: Reading systems may provide full audio via text-to-speech.
+    :issue_number: '13'
+  A301:
+    :value: A301
+    :description: Standalone audio
+    :notes: ''
+    :issue_number: '15'
+  A302:
+    :value: A302
+    :description: Readalong audio
+    :notes: Audio intended exclusively for use alongside a printed copy of the book.
+      Most often a children’s product. Normally contains instructions such as “turn
+      the page now” and other references to the printed item, and is usually sold
+      packaged together with a printed copy.
+    :issue_number: '15'
+  A303:
+    :value: A303
+    :description: Playalong audio
+    :notes: Audio intended for musical accompaniment, eg ‘Music minus one’, etc, often
+      used for music learning. Includes singalong backing audio for musical learning
+      or for Karaoke-style entertainment.
+    :issue_number: '15'
+  A304:
+    :value: A304
+    :description: Speakalong audio
+    :notes: Audio intended for language learning, which includes speech plus gaps
+      intended to be filled by the listener.
+    :issue_number: '15'
+  B101:
+    :value: B101
+    :description: Mass market (rack) paperback
+    :notes: In North America, a category of paperback characterized partly by page
+      size (typically 4¼ x 7 1/8 inches) and partly by target market and terms of
+      trade. Use with Product Form code BC.
+    :issue_number: '2'
+  B102:
+    :value: B102
+    :description: Trade paperback (US)
+    :notes: In North America, a category of paperback characterized partly by page
+      size and partly by target market and terms of trade. AKA ‘quality paperback’,
+      and including textbooks. Most paperback books sold in North America except ‘mass-market’
+      (B101) and ‘tall rack’ (B107) are correctly described with this code. Use with
+      Product Form code BC.
+    :issue_number: '2'
+  B103:
+    :value: B103
+    :description: Digest format paperback
+    :notes: 'In North America, a category of paperback characterized by page size
+      and generally used for children’s books; use with Product Form code BC. Note:
+      was wrongly shown as B102 (duplicate entry) in Issue 3.'
+    :issue_number: '4'
+  B104:
+    :value: B104
+    :description: A-format paperback
+    :notes: In UK, a category of paperback characterized by page size (normally 178
+      x 111 mm approx); use with Product Form code BC.
+    :issue_number: '2'
+  B105:
+    :value: B105
+    :description: B-format paperback
+    :notes: In UK, a category of paperback characterized by page size (normally 198
+      x 129 mm approx); use with Product Form code BC.
+    :issue_number: '2'
+  B106:
+    :value: B106
+    :description: Trade paperback (UK)
+    :notes: In UK, a category of paperback characterized partly by size (usually in
+      traditional hardback dimensions), and often used for paperback originals; use
+      with Product Form code BC (replaces ‘C-format’ from former List 8).
+    :issue_number: '2'
+  B107:
+    :value: B107
+    :description: Tall rack paperback (US)
+    :notes: In North America, a category of paperback characterised partly by page
+      size and partly by target market and terms of trade; use with Product Form code
+      BC.
+    :issue_number: '4'
+  B108:
+    :value: B108
+    :description: A5 size Tankobon
+    :notes: 210x148mm.
+    :issue_number: '17'
+  B109:
+    :value: B109
+    :description: JIS B5 size Tankobon
+    :notes: Japanese B-series size, 257x182mm.
+    :issue_number: '17'
+  B110:
+    :value: B110
+    :description: JIS B6 size Tankobon
+    :notes: Japanese B-series size, 182x128mm.
+    :issue_number: '17'
+  B111:
+    :value: B111
+    :description: A6 size Bunko
+    :notes: 148x105mm.
+    :issue_number: '17'
+  B112:
+    :value: B112
+    :description: B40-dori Shinsho
+    :notes: Japanese format, 182x103mm or 173x105mm.
+    :issue_number: '17'
+  B113:
+    :value: B113
+    :description: Pocket (Sweden)
+    :notes: A Swedish paperback format, use with Product Form Code BC.
+    :issue_number: '7'
+  B114:
+    :value: B114
+    :description: Storpocket (Sweden)
+    :notes: A Swedish paperback format, use with Product Form Code BC.
+    :issue_number: '7'
+  B115:
+    :value: B115
+    :description: Kartonnage (Sweden)
+    :notes: A Swedish hardback format, use with Product Form Code BB.
+    :issue_number: '7'
+  B116:
+    :value: B116
+    :description: Flexband (Sweden)
+    :notes: A Swedish softback format, use with Product Form Code BC.
+    :issue_number: '7'
+  B117:
+    :value: B117
+    :description: Mook
+    :notes: In Japan, a softback book in the format of a magazine but sold like a
+      book.
+    :issue_number: '11'
+  B118:
+    :value: B118
+    :description: Dwarsligger
+    :notes: Also called ‘Flipback’. A softback book in a specially compact proprietary
+      format with pages printed in landscape on very thin paper and bound along the
+      long (top) edge – see www.dwarsligger.com.
+    :issue_number: '14'
+  B119:
+    :value: B119
+    :description: 46 size
+    :notes: 'Japanese format: 188x127mm.'
+    :issue_number: '12'
+  B120:
+    :value: B120
+    :description: 46-Henkei size
+    :notes: Japanese format.
+    :issue_number: '12'
+  B121:
+    :value: B121
+    :description: A4
+    :notes: 297x210mm.
+    :issue_number: '12'
+  B122:
+    :value: B122
+    :description: A4-Henkei size
+    :notes: Japanese format.
+    :issue_number: '12'
+  B123:
+    :value: B123
+    :description: A5-Henkei size
+    :notes: Japanese format.
+    :issue_number: '12'
+  B124:
+    :value: B124
+    :description: B5-Henkei size
+    :notes: Japanese format.
+    :issue_number: '12'
+  B125:
+    :value: B125
+    :description: B6-Henkei size
+    :notes: Japanese format.
+    :issue_number: '12'
+  B126:
+    :value: B126
+    :description: AB size
+    :notes: 257x210mm.
+    :issue_number: '12'
+  B127:
+    :value: B127
+    :description: JIS B7 size
+    :notes: Japanese B-series size, 128x91mm.
+    :issue_number: '17'
+  B128:
+    :value: B128
+    :description: Kiku size
+    :notes: 'Japanese format: 218x152mm or 227x152mm.'
+    :issue_number: '17'
+  B129:
+    :value: B129
+    :description: Kiku-Henkei size
+    :notes: Japanese format.
+    :issue_number: '12'
+  B130:
+    :value: B130
+    :description: JIS B4 size
+    :notes: Japanese B-series size, 257x364mm.
+    :issue_number: '17'
+  B201:
+    :value: B201
+    :description: Coloring / join-the-dot book
+    :notes: ''
+    :issue_number: '2'
+  B202:
+    :value: B202
+    :description: Lift-the-flap book
+    :notes: ''
+    :issue_number: '2'
+  B204:
+    :value: B204
+    :description: Miniature book
+    :notes: 'Note: was wrongly shown as B203 (duplicate entry) in Issue 3.'
+    :issue_number: '4'
+  B205:
+    :value: B205
+    :description: Moving picture / flicker book
+    :notes: ''
+    :issue_number: '2'
+  B206:
+    :value: B206
+    :description: Pop-up book
+    :notes: ''
+    :issue_number: '2'
+  B207:
+    :value: B207
+    :description: Scented / ‘smelly’ book
+    :notes: ''
+    :issue_number: '2'
+  B208:
+    :value: B208
+    :description: Sound story / ‘noisy’ book
+    :notes: ''
+    :issue_number: '2'
+  B209:
+    :value: B209
+    :description: Sticker book
+    :notes: ''
+    :issue_number: '2'
+  B210:
+    :value: B210
+    :description: Touch-and-feel book
+    :notes: 'A book whose pages have a variety of textured inserts designed to stimulate
+      tactile exploration: see also B214 and B215.'
+    :issue_number: '10'
+  B212:
+    :value: B212
+    :description: Die-cut book
+    :notes: A book which is cut into a distinctive non-rectilinear shape and/or in
+      which holes or shapes have been cut internally. (‘Die-cut’ is used here as a
+      convenient shorthand, and does not imply strict limitation to a particular production
+      process.).
+    :issue_number: '10'
+  B213:
+    :value: B213
+    :description: Book-as-toy
+    :notes: A book which is also a toy, or which incorporates a toy as an integral
+      part. (Do not, however, use B213 for a multiple-item product which includes
+      a book and a toy as separate items.).
+    :issue_number: '10'
+  B214:
+    :value: B214
+    :description: Soft-to-touch book
+    :notes: A book whose cover has a soft textured finish, typically over board.
+    :issue_number: '10'
+  B215:
+    :value: B215
+    :description: Fuzzy-felt book
+    :notes: A book with detachable felt pieces and textured pages on which they can
+      be arranged.
+    :issue_number: '10'
+  B221:
+    :value: B221
+    :description: Picture book
+    :notes: 'Children’s picture book: use with applicable Product Form code.'
+    :issue_number: '2'
+  B222:
+    :value: B222
+    :description: ‘Carousel’ Book
+    :notes: (aka ‘Star’ book). Tax treatment of products may differ from that of products
+      with similar codes such as Book as toy or Pop-up book).
+    :issue_number: '12'
+  B301:
+    :value: B301
+    :description: Loose leaf – sheets and binder
+    :notes: Use with Product Form code BD.
+    :issue_number: '2'
+  B302:
+    :value: B302
+    :description: Loose leaf – binder only
+    :notes: Use with Product Form code BD.
+    :issue_number: '2'
+  B303:
+    :value: B303
+    :description: Loose leaf – sheets only
+    :notes: Use with Product Form code BD.
+    :issue_number: '2'
+  B304:
+    :value: B304
+    :description: Sewn
+    :notes: AKA stitched; for ‘saddle-sewn’, see code B310.
+    :issue_number: '2'
+  B305:
+    :value: B305
+    :description: Unsewn / adhesive bound
+    :notes: Including ‘perfect bound’, ‘glued’.
+    :issue_number: '3'
+  B306:
+    :value: B306
+    :description: Library binding
+    :notes: Strengthened binding intended for libraries.
+    :issue_number: '2'
+  B307:
+    :value: B307
+    :description: Reinforced binding
+    :notes: Strengthened binding, not specifically intended for libraries.
+    :issue_number: '2'
+  B308:
+    :value: B308
+    :description: Half bound
+    :notes: Must be accompanied by a code specifiying a material, eg ‘half-bound real
+      leather’.
+    :issue_number: '2'
+  B309:
+    :value: B309
+    :description: Quarter bound
+    :notes: Must be accompanied by a code specifiying a material, eg ‘quarter bound
+      real leather’.
+    :issue_number: '2'
+  B310:
+    :value: B310
+    :description: Saddle-sewn
+    :notes: AKA ‘saddle-stitched’ or ‘wire-stitched’.
+    :issue_number: '3'
+  B311:
+    :value: B311
+    :description: Comb bound
+    :notes: 'Round or oval plastic forms in a clamp-like configuration: use with Product
+      Form code BE.'
+    :issue_number: '6'
+  B312:
+    :value: B312
+    :description: Wire-O
+    :notes: 'Twin loop metal or plastic spine: use with Product Form code BE.'
+    :issue_number: '6'
+  B313:
+    :value: B313
+    :description: Concealed wire
+    :notes: 'Cased over Wire-O binding: use with Product Form code BE.'
+    :issue_number: '6'
+  B401:
+    :value: B401
+    :description: Cloth over boards
+    :notes: AKA fabric, linen over boards.
+    :issue_number: '2'
+  B402:
+    :value: B402
+    :description: Paper over boards
+    :notes: ''
+    :issue_number: '2'
+  B403:
+    :value: B403
+    :description: Leather, real
+    :notes: ''
+    :issue_number: '2'
+  B404:
+    :value: B404
+    :description: Leather, imitation
+    :notes: ''
+    :issue_number: '2'
+  B405:
+    :value: B405
+    :description: Leather, bonded
+    :notes: ''
+    :issue_number: '2'
+  B406:
+    :value: B406
+    :description: Vellum
+    :notes: ''
+    :issue_number: '2'
+  B409:
+    :value: B409
+    :description: Cloth
+    :notes: Cloth, not necessarily over boards – cf B401.
+    :issue_number: '6'
+  B410:
+    :value: B410
+    :description: Imitation cloth
+    :notes: Spanish ‘simil-tela’.
+    :issue_number: '6'
+  B411:
+    :value: B411
+    :description: Velvet
+    :notes: ''
+    :issue_number: '8'
+  B412:
+    :value: B412
+    :description: Flexible plastic/vinyl cover
+    :notes: 'AKA “flexibound”: use with Product Form code BC.'
+    :issue_number: '8'
+  B413:
+    :value: B413
+    :description: Plastic-covered
+    :notes: ''
+    :issue_number: '8'
+  B414:
+    :value: B414
+    :description: Vinyl-covered
+    :notes: ''
+    :issue_number: '8'
+  B415:
+    :value: B415
+    :description: Laminated cover
+    :notes: 'Book, laminating material unspecified: use L101 for ‘whole product laminated’,
+      eg a laminated sheet map or wallchart.'
+    :issue_number: '8'
+  B501:
+    :value: B501
+    :description: With dust jacket
+    :notes: Type unspecified.
+    :issue_number: '2'
+  B502:
+    :value: B502
+    :description: With printed dust jacket
+    :notes: Used to distinguish from B503.
+    :issue_number: '2'
+  B503:
+    :value: B503
+    :description: With translucent dust cover
+    :notes: With translucent paper or plastic protective cover.
+    :issue_number: '2'
+  B504:
+    :value: B504
+    :description: With flaps
+    :notes: For paperback with flaps.
+    :issue_number: '2'
+  B505:
+    :value: B505
+    :description: With thumb index
+    :notes: ''
+    :issue_number: '2'
+  B506:
+    :value: B506
+    :description: With ribbon marker(s)
+    :notes: If the number of markers is significant, it can be stated as free text
+      in <ProductFormDescription>.
+    :issue_number: '2'
+  B507:
+    :value: B507
+    :description: With zip fastener
+    :notes: ''
+    :issue_number: '2'
+  B508:
+    :value: B508
+    :description: With button snap fastener
+    :notes: ''
+    :issue_number: '2'
+  B509:
+    :value: B509
+    :description: With leather edge lining
+    :notes: AKA yapp edge?.
+    :issue_number: '2'
+  B510:
+    :value: B510
+    :description: Rough front
+    :notes: 'With edge trimming such that the front edge is ragged, not neatly and
+      squarely trimmed: AKA deckle edge, feather edge, uncut edge, rough cut.'
+    :issue_number: '11'
+  B601:
+    :value: B601
+    :description: Turn-around book
+    :notes: A book in which half the content is printed upside-down, to be read the
+      other way round. Also known as a ‘flip-book’ (usually an omnibus of two works).
+    :issue_number: '7'
+  B602:
+    :value: B602
+    :description: Unflipped manga format
+    :notes: Manga with pages and panels in the sequence of the original Japanese,
+      but with Western text.
+    :issue_number: '8'
+  B701:
+    :value: B701
+    :description: UK Uncontracted Braille
+    :notes: Single letters only. Was formerly identified as UK Braille Grade 1.
+    :issue_number: '12'
+  B702:
+    :value: B702
+    :description: UK Contracted Braille
+    :notes: With some letter combinations. Was formerly identified as UK Braille Grade
+      2.
+    :issue_number: '12'
+  B703:
+    :value: B703
+    :description: US Braille
+    :notes: DEPRECATED- use B704/B705 as appropriate instead.
+    :issue_number: '12'
+  B704:
+    :value: B704
+    :description: US Uncontracted Braille
+    :notes: ''
+    :issue_number: '12'
+  B705:
+    :value: B705
+    :description: US Contracted Braille
+    :notes: ''
+    :issue_number: '12'
+  B706:
+    :value: B706
+    :description: Unified English Braille
+    :notes: ''
+    :issue_number: '12'
+  B707:
+    :value: B707
+    :description: Moon
+    :notes: Moon embossed alphabet, used by some print-impaired readers who have difficulties
+      with Braille.
+    :issue_number: '13'
+  D101:
+    :value: D101
+    :description: Real Video format
+    :notes: Proprietary RealNetworks format. Includes Real Video packaged within a
+      .rm RealMedia container.
+    :issue_number: '18'
+  D102:
+    :value: D102
+    :description: Quicktime format
+    :notes: ''
+    :issue_number: '2'
+  D103:
+    :value: D103
+    :description: AVI format
+    :notes: ''
+    :issue_number: '2'
+  D104:
+    :value: D104
+    :description: Windows Media Video format
+    :notes: ''
+    :issue_number: '2'
+  D105:
+    :value: D105
+    :description: MPEG-4
+    :notes: ''
+    :issue_number: '5'
+  D201:
+    :value: D201
+    :description: MS-DOS
+    :notes: Use with an applicable Product Form code D*; note that more detail of
+      operating system requirements can be given in a Product Form Feature composite.
+    :issue_number: '2'
+  D202:
+    :value: D202
+    :description: Windows
+    :notes: Use with an applicable Product Form code D*; see note on D201.
+    :issue_number: '2'
+  D203:
+    :value: D203
+    :description: Macintosh
+    :notes: Use with an applicable Product Form code D*; see note on D201.
+    :issue_number: '2'
+  D204:
+    :value: D204
+    :description: UNIX / LINUX
+    :notes: Use with an applicable Product Form code D*; see note on D201.
+    :issue_number: '2'
+  D205:
+    :value: D205
+    :description: Other operating system(s)
+    :notes: Use with an applicable Product Form code D*; see note on D201.
+    :issue_number: '2'
+  D206:
+    :value: D206
+    :description: Palm OS
+    :notes: Use with an applicable Product Form code D*; see note on D201.
+    :issue_number: '6'
+  D207:
+    :value: D207
+    :description: Windows Mobile
+    :notes: Use with an applicable Product Form code D*; see note on D201.
+    :issue_number: '6'
+  D301:
+    :value: D301
+    :description: Microsoft XBox
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D302:
+    :value: D302
+    :description: Nintendo Gameboy Color
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D303:
+    :value: D303
+    :description: Nintendo Gameboy Advanced
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D304:
+    :value: D304
+    :description: Nintendo Gameboy
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D305:
+    :value: D305
+    :description: Nintendo Gamecube
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D306:
+    :value: D306
+    :description: Nintendo 64
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D307:
+    :value: D307
+    :description: Sega Dreamcast
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D308:
+    :value: D308
+    :description: Sega Genesis/Megadrive
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D309:
+    :value: D309
+    :description: Sega Saturn
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D310:
+    :value: D310
+    :description: Sony PlayStation 1
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D311:
+    :value: D311
+    :description: Sony PlayStation 2
+    :notes: Use with Product Form code DE or DB as applicable.
+    :issue_number: '2'
+  D312:
+    :value: D312
+    :description: Nintendo Dual Screen
+    :notes: ''
+    :issue_number: '6'
+  D313:
+    :value: D313
+    :description: Sony PlayStation 3
+    :notes: ''
+    :issue_number: '7'
+  D314:
+    :value: D314
+    :description: Xbox 360
+    :notes: ''
+    :issue_number: '7'
+  D315:
+    :value: D315
+    :description: Nintendo Wii
+    :notes: ''
+    :issue_number: '7'
+  D316:
+    :value: D316
+    :description: Sony PlayStation Portable (PSP)
+    :notes: ''
+    :issue_number: '7'
+  E100:
+    :value: E100
+    :description: Other
+    :notes: No code allocated for this e-publication format yet.
+    :issue_number: '13'
+  E101:
+    :value: E101
+    :description: EPUB
+    :notes: The Open Publication Structure / OPS Container Format standard of the
+      International Digital Publishing Forum (IDPF) [File extension .epub].
+    :issue_number: '10'
+  E102:
+    :value: E102
+    :description: OEB
+    :notes: The Open EBook format of the IDPF, a predecessor of the full EPUB format,
+      still (2008) supported as part of the latter [File extension .opf]. Includes
+      EPUB format up to and including version 2 – but prefer code E101 for EPUB 2,
+      and always use code E101 for EPUB 3.
+    :issue_number: '17'
+  E103:
+    :value: E103
+    :description: DOC
+    :notes: Microsoft Word binary document format [File extension .doc].
+    :issue_number: '10'
+  E104:
+    :value: E104
+    :description: DOCX
+    :notes: Office Open XML / Microsoft Word XML document format (ISO/IEC 29500:2008)
+      [File extension .docx].
+    :issue_number: '10'
+  E105:
+    :value: E105
+    :description: HTML
+    :notes: HyperText Mark-up Language [File extension .html, .htm].
+    :issue_number: '10'
+  E106:
+    :value: E106
+    :description: ODF
+    :notes: Open Document Format [File extension .odt].
+    :issue_number: '10'
+  E107:
+    :value: E107
+    :description: PDF
+    :notes: Portable Document Format (ISO 32000-1:2008) [File extension .pdf].
+    :issue_number: '10'
+  E108:
+    :value: E108
+    :description: PDF/A
+    :notes: PDF archiving format defined by ISO 19005-1:2005 [File extension .pdf].
+    :issue_number: '10'
+  E109:
+    :value: E109
+    :description: RTF
+    :notes: Rich Text Format [File extension .rtf].
+    :issue_number: '10'
+  E110:
+    :value: E110
+    :description: SGML
+    :notes: Standard Generalized Mark-up Language.
+    :issue_number: '10'
+  E111:
+    :value: E111
+    :description: TCR
+    :notes: A compressed text format mainly used on Psion handheld devices [File extension
+      .tcr].
+    :issue_number: '10'
+  E112:
+    :value: E112
+    :description: TXT
+    :notes: Text file format [File extension .txt].
+    :issue_number: '10'
+  E113:
+    :value: E113
+    :description: XHTML
+    :notes: Extensible Hypertext Markup Language [File extension .xhtml, .xht, .xml,
+      .html, .htm].
+    :issue_number: '10'
+  E114:
+    :value: E114
+    :description: zTXT
+    :notes: A compressed text format mainly used on Palm handheld devices [File extension
+      .pdb – see also E121, E125, E130].
+    :issue_number: '10'
+  E115:
+    :value: E115
+    :description: XPS
+    :notes: XML Paper Specification format [File extension .xps].
+    :issue_number: '10'
+  E116:
+    :value: E116
+    :description: Amazon Kindle
+    :notes: A format proprietary to Amazon for use with its Kindle reading devices
+      or software readers [File extensions .azw, .mobi, .prc].
+    :issue_number: '17'
+  E117:
+    :value: E117
+    :description: BBeB
+    :notes: A Sony proprietary format for use with the Sony Reader and LIBRIé reading
+      devices [File extension .lrf].
+    :issue_number: '10'
+  E118:
+    :value: E118
+    :description: DXReader
+    :notes: A proprietary format for use with DXReader software.
+    :issue_number: '10'
+  E119:
+    :value: E119
+    :description: EBL
+    :notes: A format proprietary to the Ebook Library service.
+    :issue_number: '10'
+  E120:
+    :value: E120
+    :description: Ebrary
+    :notes: A format proprietary to the Ebrary service.
+    :issue_number: '10'
+  E121:
+    :value: E121
+    :description: eReader
+    :notes: A proprietary format for use with eReader (AKA ‘Palm Reader’) software
+      on various hardware platforms [File extension .pdb – see also E114, E125, E130].
+    :issue_number: '10'
+  E122:
+    :value: E122
+    :description: Exebook
+    :notes: A proprietary format with its own reading system for Windows platforms
+      [File extension .exe].
+    :issue_number: '10'
+  E123:
+    :value: E123
+    :description: Franklin eBookman
+    :notes: A proprietary format for use with the Franklin eBookman reader.
+    :issue_number: '10'
+  E124:
+    :value: E124
+    :description: Gemstar Rocketbook
+    :notes: A proprietary format for use with the Gemstar Rocketbook reader [File
+      extension .rb].
+    :issue_number: '10'
+  E125:
+    :value: E125
+    :description: iSilo
+    :notes: A proprietary format for use with iSilo software on various hardware platforms
+      [File extension .pdb – see also E114, E121, E130].
+    :issue_number: '10'
+  E126:
+    :value: E126
+    :description: Microsoft Reader
+    :notes: A proprietary format for use with Microsoft Reader software on Windows
+      and Pocket PC platforms [File extension .lit].
+    :issue_number: '10'
+  E127:
+    :value: E127
+    :description: Mobipocket
+    :notes: A proprietary format for use with Mobipocket software on various hardware
+      platforms [File extensions .mobi, .prc]. Includes Amazon Kindle formats up to
+      and including version 7 – but prefer code E116 for version 7, and always use
+      E116 for KF8.
+    :issue_number: '17'
+  E128:
+    :value: E128
+    :description: MyiLibrary
+    :notes: A format proprietary to the MyiLibrary service.
+    :issue_number: '10'
+  E129:
+    :value: E129
+    :description: NetLibrary
+    :notes: A format proprietary to the NetLibrary service.
+    :issue_number: '10'
+  E130:
+    :value: E130
+    :description: Plucker
+    :notes: A proprietary format for use with Plucker reader software on Palm and
+      other handheld devices [File extension .pdb – see also E114, E121, E125].
+    :issue_number: '10'
+  E131:
+    :value: E131
+    :description: VitalBook
+    :notes: A format proprietary to the VitalSource service.
+    :issue_number: '10'
+  E132:
+    :value: E132
+    :description: Vook
+    :notes: A proprietary digital product combining text and video content and available
+      to be used online or as a downloadable application for a mobile device – see
+      www.vook.com.
+    :issue_number: '11'
+  E133:
+    :value: E133
+    :description: Google Edition
+    :notes: An epublication made available by Google in association with a publisher;
+      readable online on a browser-enabled device and offline on designated ebook
+      readers.
+    :issue_number: '11'
+  E134:
+    :value: E134
+    :description: Book ‘app’ for iOS
+    :notes: Epublication packaged as application for iOS (eg Apple iPhone, iPad etc),
+      containing both executable code and content. Use <ProductContentType> to describe
+      content, and <ProductFormFeatureType> to list detailed technical requirements.
+    :issue_number: '12'
+  E135:
+    :value: E135
+    :description: Book ‘app’ for Android
+    :notes: Epublication packaged as application for Android (eg Android phone or
+      tablet), containing both executable code and content. Use <ProductContentType>
+      to describe content, and <ProductFormFeatureType> to list detailed technical
+      requirements.
+    :issue_number: '12'
+  E136:
+    :value: E136
+    :description: Book ‘app’ for other operating system
+    :notes: Epublication packaged as application, containing both executable code
+      and content. Use where other ‘app’ codes are not applicable. Technical requirements
+      such as target operating system and/or device should be provided eg in <ProductFormFeatureType>.
+      Content type (text or text plus various ‘enhancements’) may be described with
+      <ProductContentType>.
+    :issue_number: '12'
+  E139:
+    :value: E139
+    :description: CEB
+    :notes: Founder Apabi’s proprietary basic e-book format.
+    :issue_number: '15'
+  E140:
+    :value: E140
+    :description: CEBX
+    :notes: Founder Apabi’s proprietary XML e-book format.
+    :issue_number: '15'
+  E141:
+    :value: E141
+    :description: iBook
+    :notes: Apple’s iBook format (a proprietary extension of EPUB), can only be read
+      on Apple iOS devices.
+    :issue_number: '17'
+  E142:
+    :value: E142
+    :description: ePIB
+    :notes: Proprietary format used by Barnes and Noble, readable on NOOK devices
+      and Nook reader software.
+    :issue_number: '17'
+  E143:
+    :value: E143
+    :description: SCORM
+    :notes: Sharable Content Object Reference Model, standard content and packaging
+      format for e-learning objects.
+    :issue_number: '20'
+  E200:
+    :value: E200
+    :description: Reflowable
+    :notes: Use when a particular e-publication type (specified using codes E100 and
+      upwards) has both fixed format and reflowable variants.
+    :issue_number: '15'
+  E201:
+    :value: E201
+    :description: Fixed format
+    :notes: Use when a particular e-publication type (specified using codes E100 and
+      upwards) has both fixed format and reflowable variants.
+    :issue_number: '15'
+  E202:
+    :value: E202
+    :description: Readable offline
+    :notes: All e-publication resources are included within the e-publication package.
+    :issue_number: '15'
+  E203:
+    :value: E203
+    :description: Requires network connection
+    :notes: E-publication requires a network connection to access some resources (eg
+      an enhanced e-book where video clips are not stored within the e-publication
+      package itself, but are delivered via an internet connection).
+    :issue_number: '15'
+  E204:
+    :value: E204
+    :description: Content removed
+    :notes: Resources (eg images) present in other editions have been removed from
+      this product, eg due to rights issues.
+    :issue_number: '19'
+  E210:
+    :value: E210
+    :description: Landscape
+    :notes: Use for fixed-format e-books optimised for landscape display. Also include
+      an indication of the optimal screen aspect ratio.
+    :issue_number: '23'
+  E211:
+    :value: E211
+    :description: Portrait
+    :notes: Use for fixed-format e-books optimised for portrait display. Also include
+      an indication of the optimal screen aspect ratio.
+    :issue_number: '23'
+  E221:
+    :value: E221
+    :description: '5:4'
+    :notes: Use for fixed-format e-books optimised for displays with a 5:4 aspect
+      ratio (eg 1280x1024 pixels etc, assuming square pixels). Note that aspect ratio
+      codes are NOT specific to actual screen dimensions or pixel counts, but to the
+      ratios between two dimensions or two pixel counts.
+    :issue_number: '23'
+  E222:
+    :value: E222
+    :description: '4:3'
+    :notes: Use for fixed-format e-books optimised for displays with a 4:3 aspect
+      ratio (eg 800x600, 1024x768, 2048x1536 pixels etc).
+    :issue_number: '23'
+  E223:
+    :value: E223
+    :description: '3:2'
+    :notes: Use for fixed-format e-books optimised for displays with a 3:2 aspect
+      ratio (eg 960x640, 3072x2048 pixels etc).
+    :issue_number: '23'
+  E224:
+    :value: E224
+    :description: '16:10'
+    :notes: Use for fixed-format e-books optimised for displays with a 16:10 aspect
+      ratio (eg 1440x900, 2560x1600 pixels etc).
+    :issue_number: '23'
+  E225:
+    :value: E225
+    :description: '16:9'
+    :notes: Use for fixed-format e-books optimised for displays with a 16:9 aspect
+      ratio (eg 1024x576, 1920x1080, 2048x1152 pixels etc).
+    :issue_number: '23'
+  L101:
+    :value: L101
+    :description: Laminated
+    :notes: 'Whole product laminated (eg laminated map, fold-out chart, wallchart,
+      etc): use B415 for book with laminated cover.'
+    :issue_number: '8'
+  P101:
+    :value: P101
+    :description: Desk calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '2'
+  P102:
+    :value: P102
+    :description: Mini calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '2'
+  P103:
+    :value: P103
+    :description: Engagement calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '2'
+  P104:
+    :value: P104
+    :description: Day by day calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '2'
+  P105:
+    :value: P105
+    :description: Poster calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '2'
+  P106:
+    :value: P106
+    :description: Wall calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '2'
+  P107:
+    :value: P107
+    :description: Perpetual calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '6'
+  P108:
+    :value: P108
+    :description: Advent calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '6'
+  P109:
+    :value: P109
+    :description: Bookmark calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '8'
+  P110:
+    :value: P110
+    :description: Student calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '8'
+  P111:
+    :value: P111
+    :description: Project calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '8'
+  P112:
+    :value: P112
+    :description: Almanac calendar
+    :notes: Use with Product Form code PC.
+    :issue_number: '8'
+  P113:
+    :value: P113
+    :description: Other calendar
+    :notes: 'A calendar that is not one of the types specified elsewhere: use with
+      Product Form code PC.'
+    :issue_number: '8'
+  P114:
+    :value: P114
+    :description: Other calendar or organiser product
+    :notes: 'A product that is associated with or ancillary to a calendar or organiser,
+      eg a deskstand for a calendar, or an insert for an organiser: use with Product
+      Form code PC or PS.'
+    :issue_number: '8'
+  P201:
+    :value: P201
+    :description: Hardback (stationery)
+    :notes: Stationery item in hardback book format.
+    :issue_number: '10'
+  P202:
+    :value: P202
+    :description: Paperback / softback (stationery)
+    :notes: Stationery item in paperback/softback book format.
+    :issue_number: '10'
+  P203:
+    :value: P203
+    :description: Spiral bound (stationery)
+    :notes: Stationery item in spiral-bound book format.
+    :issue_number: '10'
+  P204:
+    :value: P204
+    :description: Leather / fine binding (stationery)
+    :notes: Stationery item in leather-bound book format, or other fine binding.
+    :issue_number: '10'
+  V201:
+    :value: V201
+    :description: PAL
+    :notes: TV standard for video or DVD.
+    :issue_number: '2'
+  V202:
+    :value: V202
+    :description: NTSC
+    :notes: TV standard for video or DVD.
+    :issue_number: '2'
+  V203:
+    :value: V203
+    :description: SECAM
+    :notes: TV standard for video or DVD.
+    :issue_number: '2'

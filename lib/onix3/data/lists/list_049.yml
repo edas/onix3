@@ -1,0 +1,857 @@
+---
+:number: '49'
+:description: Region code
+:issue_number: '1'
+:codes:
+  AU-CT:
+    :value: AU-CT
+    :description: Australian Capital Territory
+    :notes: ''
+    :issue_number: '1'
+  AU-NS:
+    :value: AU-NS
+    :description: New South Wales
+    :notes: ''
+    :issue_number: '1'
+  AU-NT:
+    :value: AU-NT
+    :description: Northern Territory
+    :notes: ''
+    :issue_number: '1'
+  AU-QL:
+    :value: AU-QL
+    :description: Queensland
+    :notes: ''
+    :issue_number: '1'
+  AU-SA:
+    :value: AU-SA
+    :description: South Australia
+    :notes: ''
+    :issue_number: '1'
+  AU-TS:
+    :value: AU-TS
+    :description: Tasmania
+    :notes: ''
+    :issue_number: '1'
+  AU-VI:
+    :value: AU-VI
+    :description: Victoria
+    :notes: ''
+    :issue_number: '1'
+  AU-WA:
+    :value: AU-WA
+    :description: Western Australia
+    :notes: ''
+    :issue_number: '1'
+  CA-AB:
+    :value: CA-AB
+    :description: Alberta
+    :notes: ''
+    :issue_number: '2'
+  CA-BC:
+    :value: CA-BC
+    :description: British Columbia
+    :notes: ''
+    :issue_number: '2'
+  CA-MB:
+    :value: CA-MB
+    :description: Manitoba
+    :notes: ''
+    :issue_number: '2'
+  CA-NB:
+    :value: CA-NB
+    :description: New Brunswick
+    :notes: ''
+    :issue_number: '2'
+  CA-NL:
+    :value: CA-NL
+    :description: Newfoundland and Labrador
+    :notes: ''
+    :issue_number: '2'
+  CA-NS:
+    :value: CA-NS
+    :description: Nova Scotia
+    :notes: ''
+    :issue_number: '2'
+  CA-NT:
+    :value: CA-NT
+    :description: Northwest Territories
+    :notes: ''
+    :issue_number: '2'
+  CA-NU:
+    :value: CA-NU
+    :description: Nunavut
+    :notes: ''
+    :issue_number: '2'
+  CA-ON:
+    :value: CA-ON
+    :description: Ontario
+    :notes: ''
+    :issue_number: '2'
+  CA-PE:
+    :value: CA-PE
+    :description: Prince Edward Island
+    :notes: ''
+    :issue_number: '2'
+  CA-QC:
+    :value: CA-QC
+    :description: Quebec
+    :notes: ''
+    :issue_number: '2'
+  CA-SK:
+    :value: CA-SK
+    :description: Saskatchewan
+    :notes: ''
+    :issue_number: '2'
+  CA-YT:
+    :value: CA-YT
+    :description: Yukon Territory
+    :notes: ''
+    :issue_number: '2'
+  ES-CN:
+    :value: ES-CN
+    :description: Canary Islands
+    :notes: ''
+    :issue_number: '5'
+  IE-AIR:
+    :value: IE-AIR
+    :description: Ireland airside
+    :notes: Airside outlets at Irish international airports only.
+    :issue_number: '23'
+  GB-AIR:
+    :value: GB-AIR
+    :description: UK airside
+    :notes: Airside outlets at UK international airports only.
+    :issue_number: '1'
+  GB-APS:
+    :value: GB-APS
+    :description: UK airports
+    :notes: All UK airports, including both airside and other outlets.
+    :issue_number: '3'
+  GB-CHA:
+    :value: GB-CHA
+    :description: Channel Islands
+    :notes: DEPRECATED, replaced by country codes GG – Guernsey, and JE – Jersey.
+    :issue_number: '13'
+  GB-ENG:
+    :value: GB-ENG
+    :description: England
+    :notes: ''
+    :issue_number: '1'
+  GB-EWS:
+    :value: GB-EWS
+    :description: England, Wales, Scotland
+    :notes: UK excluding Northern Ireland.
+    :issue_number: '1'
+  GB-IOM:
+    :value: GB-IOM
+    :description: Isle of Man
+    :notes: DEPRECATED, replaced by country code IM – Isle of Man.
+    :issue_number: '13'
+  GB-NIR:
+    :value: GB-NIR
+    :description: Northern Ireland
+    :notes: ''
+    :issue_number: '1'
+  GB-SCT:
+    :value: GB-SCT
+    :description: Scotland
+    :notes: ''
+    :issue_number: '1'
+  GB-WLS:
+    :value: GB-WLS
+    :description: Wales
+    :notes: ''
+    :issue_number: '1'
+  RU-AD:
+    :value: RU-AD
+    :description: Republic of Adygeya
+    :notes: ''
+    :issue_number: '22'
+  RU-AL:
+    :value: RU-AL
+    :description: Republic of Altay
+    :notes: ''
+    :issue_number: '22'
+  RU-BA:
+    :value: RU-BA
+    :description: Republic of Bashkortostan
+    :notes: ''
+    :issue_number: '22'
+  RU-BU:
+    :value: RU-BU
+    :description: Republic of Buryatiya
+    :notes: ''
+    :issue_number: '22'
+  RU-CE:
+    :value: RU-CE
+    :description: Chechenskaya Republic
+    :notes: ''
+    :issue_number: '22'
+  RU-CU:
+    :value: RU-CU
+    :description: Chuvashskaya Republic
+    :notes: ''
+    :issue_number: '22'
+  RU-DA:
+    :value: RU-DA
+    :description: Republic of Dagestan
+    :notes: ''
+    :issue_number: '22'
+  RU-IN:
+    :value: RU-IN
+    :description: Republic of Ingushetiya
+    :notes: ''
+    :issue_number: '22'
+  RU-KB:
+    :value: RU-KB
+    :description: Kabardino-Balkarskaya Republic
+    :notes: ''
+    :issue_number: '22'
+  RU-KL:
+    :value: RU-KL
+    :description: Republic of Kalmykiya
+    :notes: ''
+    :issue_number: '22'
+  RU-KC:
+    :value: RU-KC
+    :description: Karachayevo-Cherkesskaya Republic
+    :notes: ''
+    :issue_number: '22'
+  RU-KR:
+    :value: RU-KR
+    :description: Republic of Kareliya
+    :notes: ''
+    :issue_number: '22'
+  RU-KK:
+    :value: RU-KK
+    :description: Republic of Khakasiya
+    :notes: ''
+    :issue_number: '22'
+  RU-KO:
+    :value: RU-KO
+    :description: Republic of Komi
+    :notes: ''
+    :issue_number: '22'
+  RU-ME:
+    :value: RU-ME
+    :description: Republic of Mariy El
+    :notes: ''
+    :issue_number: '22'
+  RU-MO:
+    :value: RU-MO
+    :description: Republic of Mordoviya
+    :notes: ''
+    :issue_number: '22'
+  RU-SA:
+    :value: RU-SA
+    :description: Republic of Sakha (Yakutiya)
+    :notes: ''
+    :issue_number: '22'
+  RU-SE:
+    :value: RU-SE
+    :description: Republic of Severnaya Osetiya-Alaniya
+    :notes: ''
+    :issue_number: '22'
+  RU-TA:
+    :value: RU-TA
+    :description: Republic of Tatarstan
+    :notes: ''
+    :issue_number: '22'
+  RU-TY:
+    :value: RU-TY
+    :description: Republic of Tyva (Tuva)
+    :notes: ''
+    :issue_number: '22'
+  RU-UD:
+    :value: RU-UD
+    :description: Udmurtskaya Republic
+    :notes: ''
+    :issue_number: '22'
+  RU-ALT:
+    :value: RU-ALT
+    :description: Altayskiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-KAM:
+    :value: RU-KAM
+    :description: Kamchatskiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-KHA:
+    :value: RU-KHA
+    :description: Khabarovskiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-KDA:
+    :value: RU-KDA
+    :description: Krasnodarskiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-KYA:
+    :value: RU-KYA
+    :description: Krasnoyarskiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-PER:
+    :value: RU-PER
+    :description: Permskiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-PRI:
+    :value: RU-PRI
+    :description: Primorskiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-STA:
+    :value: RU-STA
+    :description: Stavropol'skiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-ZAB:
+    :value: RU-ZAB
+    :description: Zabaykal'skiy Administrative Territory
+    :notes: ''
+    :issue_number: '22'
+  RU-AMU:
+    :value: RU-AMU
+    :description: Amurskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-ARK:
+    :value: RU-ARK
+    :description: Arkhangel'skaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-AST:
+    :value: RU-AST
+    :description: Astrakhanskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-BEL:
+    :value: RU-BEL
+    :description: Belgorodskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-BRY:
+    :value: RU-BRY
+    :description: Bryanskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-CHE:
+    :value: RU-CHE
+    :description: Chelyabinskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-IRK:
+    :value: RU-IRK
+    :description: Irkutskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-IVA:
+    :value: RU-IVA
+    :description: Ivanovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-KGD:
+    :value: RU-KGD
+    :description: Kaliningradskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-KLU:
+    :value: RU-KLU
+    :description: Kaluzhskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-KEM:
+    :value: RU-KEM
+    :description: Kemerovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-KIR:
+    :value: RU-KIR
+    :description: Kirovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-KOS:
+    :value: RU-KOS
+    :description: Kostromskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-KGN:
+    :value: RU-KGN
+    :description: Kurganskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-KRS:
+    :value: RU-KRS
+    :description: Kurskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-LEN:
+    :value: RU-LEN
+    :description: Leningradskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-LIP:
+    :value: RU-LIP
+    :description: Lipetskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-MAG:
+    :value: RU-MAG
+    :description: Magadanskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-MOS:
+    :value: RU-MOS
+    :description: Moskovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-MUR:
+    :value: RU-MUR
+    :description: Murmanskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-NIZ:
+    :value: RU-NIZ
+    :description: Nizhegorodskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-NGR:
+    :value: RU-NGR
+    :description: Novgorodskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-NVS:
+    :value: RU-NVS
+    :description: Novosibirskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-OMS:
+    :value: RU-OMS
+    :description: Omskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-ORE:
+    :value: RU-ORE
+    :description: Orenburgskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-ORL:
+    :value: RU-ORL
+    :description: Orlovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-PNZ:
+    :value: RU-PNZ
+    :description: Penzenskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-PSK:
+    :value: RU-PSK
+    :description: Pskovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-ROS:
+    :value: RU-ROS
+    :description: Rostovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-RYA:
+    :value: RU-RYA
+    :description: Ryazanskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-SAK:
+    :value: RU-SAK
+    :description: Sakhalinskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-SAM:
+    :value: RU-SAM
+    :description: Samarskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-SAR:
+    :value: RU-SAR
+    :description: Saratovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-SMO:
+    :value: RU-SMO
+    :description: Smolenskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-SVE:
+    :value: RU-SVE
+    :description: Sverdlovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-TAM:
+    :value: RU-TAM
+    :description: Tambovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-TOM:
+    :value: RU-TOM
+    :description: Tomskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-TUL:
+    :value: RU-TUL
+    :description: Tul'skaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-TVE:
+    :value: RU-TVE
+    :description: Tverskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-TYU:
+    :value: RU-TYU
+    :description: Tyumenskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-ULY:
+    :value: RU-ULY
+    :description: Ul'yanovskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-VLA:
+    :value: RU-VLA
+    :description: Vladimirskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-VGG:
+    :value: RU-VGG
+    :description: Volgogradskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-VLG:
+    :value: RU-VLG
+    :description: Vologodskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-VOR:
+    :value: RU-VOR
+    :description: Voronezhskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-YAR:
+    :value: RU-YAR
+    :description: Yaroslavskaya Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-MOW:
+    :value: RU-MOW
+    :description: Moskva City
+    :notes: ''
+    :issue_number: '22'
+  RU-SPE:
+    :value: RU-SPE
+    :description: Sankt-Peterburg City
+    :notes: ''
+    :issue_number: '22'
+  RU-YEV:
+    :value: RU-YEV
+    :description: Yevreyskaya Autonomous Administrative Region
+    :notes: ''
+    :issue_number: '22'
+  RU-CHU:
+    :value: RU-CHU
+    :description: Chukotskiy Autonomous District
+    :notes: ''
+    :issue_number: '22'
+  RU-KHM:
+    :value: RU-KHM
+    :description: Khanty-Mansiyskiy Autonomous District
+    :notes: ''
+    :issue_number: '22'
+  RU-NEN:
+    :value: RU-NEN
+    :description: Nenetskiy Autonomous District
+    :notes: ''
+    :issue_number: '22'
+  RU-YAN:
+    :value: RU-YAN
+    :description: Yamalo-Nenetskiy Autonomous District
+    :notes: ''
+    :issue_number: '22'
+  US-AK:
+    :value: US-AK
+    :description: Alaska
+    :notes: ''
+    :issue_number: '9'
+  US-AL:
+    :value: US-AL
+    :description: Alabama
+    :notes: ''
+    :issue_number: '9'
+  US-AR:
+    :value: US-AR
+    :description: Arkansas
+    :notes: ''
+    :issue_number: '9'
+  US-AZ:
+    :value: US-AZ
+    :description: Arizona
+    :notes: ''
+    :issue_number: '9'
+  US-CA:
+    :value: US-CA
+    :description: California
+    :notes: ''
+    :issue_number: '9'
+  US-CO:
+    :value: US-CO
+    :description: Colorado
+    :notes: ''
+    :issue_number: '9'
+  US-CT:
+    :value: US-CT
+    :description: Connecticut
+    :notes: ''
+    :issue_number: '9'
+  US-DC:
+    :value: US-DC
+    :description: District of Columbia
+    :notes: ''
+    :issue_number: '9'
+  US-DE:
+    :value: US-DE
+    :description: Delaware
+    :notes: ''
+    :issue_number: '9'
+  US-FL:
+    :value: US-FL
+    :description: Florida
+    :notes: ''
+    :issue_number: '9'
+  US-GA:
+    :value: US-GA
+    :description: Georgia
+    :notes: ''
+    :issue_number: '9'
+  US-HI:
+    :value: US-HI
+    :description: Hawaii
+    :notes: ''
+    :issue_number: '9'
+  US-IA:
+    :value: US-IA
+    :description: Iowa
+    :notes: ''
+    :issue_number: '9'
+  US-ID:
+    :value: US-ID
+    :description: Idaho
+    :notes: ''
+    :issue_number: '9'
+  US-IL:
+    :value: US-IL
+    :description: Illinois
+    :notes: ''
+    :issue_number: '9'
+  US-IN:
+    :value: US-IN
+    :description: Indiana
+    :notes: ''
+    :issue_number: '9'
+  US-KS:
+    :value: US-KS
+    :description: Kansas
+    :notes: ''
+    :issue_number: '9'
+  US-KY:
+    :value: US-KY
+    :description: Kentucky
+    :notes: ''
+    :issue_number: '9'
+  US-LA:
+    :value: US-LA
+    :description: Louisiana
+    :notes: ''
+    :issue_number: '9'
+  US-MA:
+    :value: US-MA
+    :description: Massachusetts
+    :notes: ''
+    :issue_number: '9'
+  US-MD:
+    :value: US-MD
+    :description: Maryland
+    :notes: ''
+    :issue_number: '9'
+  US-ME:
+    :value: US-ME
+    :description: Maine
+    :notes: ''
+    :issue_number: '9'
+  US-MI:
+    :value: US-MI
+    :description: Michigan
+    :notes: ''
+    :issue_number: '9'
+  US-MN:
+    :value: US-MN
+    :description: Minnesota
+    :notes: ''
+    :issue_number: '9'
+  US-MO:
+    :value: US-MO
+    :description: Missouri
+    :notes: ''
+    :issue_number: '9'
+  US-MS:
+    :value: US-MS
+    :description: Mississippi
+    :notes: ''
+    :issue_number: '9'
+  US-MT:
+    :value: US-MT
+    :description: Montana
+    :notes: ''
+    :issue_number: '9'
+  US-NC:
+    :value: US-NC
+    :description: North Carolina
+    :notes: ''
+    :issue_number: '9'
+  US-ND:
+    :value: US-ND
+    :description: North Dakota
+    :notes: ''
+    :issue_number: '9'
+  US-NE:
+    :value: US-NE
+    :description: Nebraska
+    :notes: ''
+    :issue_number: '9'
+  US-NH:
+    :value: US-NH
+    :description: New Hampshire
+    :notes: ''
+    :issue_number: '9'
+  US-NJ:
+    :value: US-NJ
+    :description: New Jersey
+    :notes: ''
+    :issue_number: '9'
+  US-NM:
+    :value: US-NM
+    :description: New Mexico
+    :notes: ''
+    :issue_number: '9'
+  US-NV:
+    :value: US-NV
+    :description: Nevada
+    :notes: ''
+    :issue_number: '9'
+  US-NY:
+    :value: US-NY
+    :description: New York
+    :notes: ''
+    :issue_number: '9'
+  US-OH:
+    :value: US-OH
+    :description: Ohio
+    :notes: ''
+    :issue_number: '9'
+  US-OK:
+    :value: US-OK
+    :description: Oklahoma
+    :notes: ''
+    :issue_number: '9'
+  US-OR:
+    :value: US-OR
+    :description: Oregon
+    :notes: ''
+    :issue_number: '9'
+  US-PA:
+    :value: US-PA
+    :description: Pennsylvania
+    :notes: ''
+    :issue_number: '9'
+  US-RI:
+    :value: US-RI
+    :description: Rhode Island
+    :notes: ''
+    :issue_number: '9'
+  US-SC:
+    :value: US-SC
+    :description: South Carolina
+    :notes: ''
+    :issue_number: '9'
+  US-SD:
+    :value: US-SD
+    :description: South Dakota
+    :notes: ''
+    :issue_number: '9'
+  US-TN:
+    :value: US-TN
+    :description: Tennessee
+    :notes: ''
+    :issue_number: '9'
+  US-TX:
+    :value: US-TX
+    :description: Texas
+    :notes: ''
+    :issue_number: '9'
+  US-UT:
+    :value: US-UT
+    :description: Utah
+    :notes: ''
+    :issue_number: '9'
+  US-VA:
+    :value: US-VA
+    :description: Virginia
+    :notes: ''
+    :issue_number: '9'
+  US-VT:
+    :value: US-VT
+    :description: Vermont
+    :notes: ''
+    :issue_number: '9'
+  US-WA:
+    :value: US-WA
+    :description: Washington
+    :notes: ''
+    :issue_number: '9'
+  US-WI:
+    :value: US-WI
+    :description: Wisconsin
+    :notes: ''
+    :issue_number: '9'
+  US-WV:
+    :value: US-WV
+    :description: West Virginia
+    :notes: ''
+    :issue_number: '9'
+  US-WY:
+    :value: US-WY
+    :description: Wyoming
+    :notes: ''
+    :issue_number: '9'
+  ECZ:
+    :value: ECZ
+    :description: Eurozone
+    :notes: Countries geographically within continental Europe which use the Euro
+      as their sole currency. At the time of writing, this is a synonym for “AT BE
+      CY EE FI FR DE ES GR IE IT LU MT NL PT SI SK” (the official Eurozone 17), plus
+      “AD MC SM VA ME” (other Euro-using countries in continental Europe). Note some
+      other territories using the Euro, but outside continental Europe are excluded
+      from this list, and may need to be specified separately. Only valid in ONIX
+      3, and only within P.26. Use of an explicit list of countries instead of ECZ
+      is encouraged.
+    :issue_number: '13'
+  ROW:
+    :value: ROW
+    :description: Rest of world
+    :notes: World except as otherwise specified. NOT USED in ONIX 3.
+    :issue_number: '12'
+  WORLD:
+    :value: WORLD
+    :description: World
+    :notes: ''
+    :issue_number: '1'

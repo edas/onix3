@@ -1,0 +1,155 @@
+---
+:number: '29'
+:description: Audience code type
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: ONIX audience codes
+    :notes: Using a code from List 28.
+    :issue_number: '6'
+  '02':
+    :value: '02'
+    :description: Proprietary
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: MPAA rating
+    :notes: Motion Picture Association of America rating applied to movies.
+    :issue_number: '0'
+  '04':
+    :value: '04'
+    :description: BBFC rating
+    :notes: British Board of Film Classification rating applied to movies.
+    :issue_number: '0'
+  '05':
+    :value: '05'
+    :description: FSK rating
+    :notes: German FSK (Freiwillige Selbstkontrolle der Filmwirtschaft) rating applied
+      to movies.
+    :issue_number: '1'
+  '06':
+    :value: '06'
+    :description: BTLF audience code
+    :notes: French Canadian audience code list, used by BTLF for Memento.
+    :issue_number: '4'
+  '07':
+    :value: '07'
+    :description: Electre audience code
+    :notes: Audience code used by Electre (France).
+    :issue_number: '4'
+  08:
+    :value: 08
+    :description: ANELE Tipo
+    :notes: 'Spain: educational audience and material type code of the Asociación
+      Nacional de Editores de Libros y Material de Enseñanza.'
+    :issue_number: '5'
+  09:
+    :value: 09
+    :description: AVI
+    :notes: Code list used to specify reading levels for children’s books, used in
+      Flanders, and formerly in the Netherlands – see also code 18.
+    :issue_number: '11'
+  '10':
+    :value: '10'
+    :description: USK rating
+    :notes: German USK (Unterhaltungssoftware Selbstkontrolle) rating applied to video
+      or computer games.
+    :issue_number: '7'
+  '11':
+    :value: '11'
+    :description: AWS
+    :notes: Audience code used in Flanders.
+    :issue_number: '8'
+  '12':
+    :value: '12'
+    :description: Schulform
+    :notes: 'Type of school: codelist maintained by VdS Bildungsmedien eV, the German
+      association of educational media publishers.'
+    :issue_number: '8'
+  '13':
+    :value: '13'
+    :description: Bundesland
+    :notes: 'School region: codelist maintained by VdS Bildungsmedien eV, the German
+      association of educational media publishers, indicating where products are licensed
+      to be used in schools.'
+    :issue_number: '8'
+  '14':
+    :value: '14'
+    :description: Ausbildungsberuf
+    :notes: 'Occupation: codelist for vocational training materials, maintained by
+      VdS Bildungsmedien eV, the German association of educational media publishers.'
+    :issue_number: '8'
+  '15':
+    :value: '15'
+    :description: Suomalainen kouluasteluokitus
+    :notes: Finnish school or college level.
+    :issue_number: '8'
+  '16':
+    :value: '16'
+    :description: CBG age guidance
+    :notes: UK Publishers Association, Children’s Book Group, coded indication of
+      intended reader age, carried on book covers.
+    :issue_number: '8'
+  '17':
+    :value: '17'
+    :description: Nielsen Book audience code
+    :notes: Audience code used in Nielsen Book Services.
+    :issue_number: '11'
+  '18':
+    :value: '18'
+    :description: AVI (revised)
+    :notes: Code list used to specify reading levels for children’s books, used in
+      the Netherlands – see also code 09.
+    :issue_number: '11'
+  '19':
+    :value: '19'
+    :description: Lexile measure
+    :notes: Lexile measure (the Lexile measure in <AudienceCodeValue> may optionally
+      be prefixed by the Lexile code). Examples might be ‘880L’, ‘AD0L’ or ‘HL600L’.
+    :issue_number: '12'
+  '20':
+    :value: '20'
+    :description: Fry Readability score
+    :notes: Fry readability metric based on number of sentences and syllables per
+      100 words. Expressed as a number from 1 to 15 in <AudienceCodeValue>.
+    :issue_number: '14'
+  '21':
+    :value: '21'
+    :description: Japanese Children’s audience code
+    :notes: Children’s audience code (対象読者), two-digit encoding of intended target
+      readership from 0–2 years up to High School level.
+    :issue_number: '18'
+  '22':
+    :value: '22'
+    :description: ONIX Adult audience rating
+    :notes: Publisher's rating indicating suitability for an particular adult audience,
+      using a code from List 203.
+    :issue_number: '18'
+  '23':
+    :value: '23'
+    :description: Common European Framework for Language Learning
+    :notes: Codes A1 to C2 indicating standardised level of language learning or teaching
+      material, from beginner to advanced, used in EU.
+    :issue_number: '19'
+  '24':
+    :value: '24'
+    :description: Korean Publication Ethics Commission rating
+    :notes: Rating used in Korea to control selling of books and e-books to minors.
+      Current values are 0 (suitable for all) and 19 (only for sale to ages 19+).
+      See ‘http://www.kpec.or.kr/english/’.
+    :issue_number: '21'
+  '25':
+    :value: '25'
+    :description: IoE Book Band
+    :notes: UK Institute of Education Book Bands for Guided Reading scheme (see http://www.ioe.ac.uk/research/4664.html).
+      <AudienceCodeValue> is a colour, eg ‘Pink A’ or ‘Copper’.
+    :issue_number: '23'
+  '26':
+    :value: '26'
+    :description: FSK Lehr-/Infoprogramm
+    :notes: Used for German videos/DVDs with educational or informative content; value
+      for <AudienceCodeValue> must be either ‘Infoprogramm gemäß § 14 JuSchG’ or ‘Lehrprogramm
+      gemäß § 14 JuSchG’.
+    :issue_number: '23'

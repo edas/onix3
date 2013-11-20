@@ -1,0 +1,34 @@
+---
+:number: '57'
+:description: Unpriced item type code
+:issue_number: '0'
+:codes:
+  '01':
+    :value: '01'
+    :description: Free of charge
+    :notes: ''
+    :issue_number: '0'
+  '02':
+    :value: '02'
+    :description: Price to be announced
+    :notes: ''
+    :issue_number: '0'
+  '03':
+    :value: '03'
+    :description: Not sold separately
+    :notes: ''
+    :issue_number: '1'
+  '04':
+    :value: '04'
+    :description: Contact supplier
+    :notes: May be used for books that do not carry a recommended retail price, when
+      an ONIX file is “broadcast” rather than sent one-to-one to a single trading
+      partner; or for digital products offered on subscription or with pricing which
+      is too complex to specify in ONIX.
+    :issue_number: '4'
+  '05':
+    :value: '05'
+    :description: Not sold as set
+    :notes: When a collection that is not sold as a set nevertheless has its own ONIX
+      record.
+    :issue_number: '10'

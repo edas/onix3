@@ -1,0 +1,53 @@
+---
+:number: '155'
+:description: Content date role
+:issue_number: '10'
+:codes:
+  '01':
+    :value: '01'
+    :description: Publication date
+    :notes: Nominal date of publication.
+    :issue_number: '10'
+  '04':
+    :value: '04'
+    :description: Broadcast date
+    :notes: Date when a TV or radio program was / will be broadcast.
+    :issue_number: '10'
+  '14':
+    :value: '14'
+    :description: From date
+    :notes: Date from which a content item or supporting resource may be referenced
+      or used.
+    :issue_number: '10'
+  '15':
+    :value: '15'
+    :description: Until date
+    :notes: Date until which a content item or supporting resource may be referenced
+      or used.
+    :issue_number: '10'
+  '17':
+    :value: '17'
+    :description: Last updated
+    :notes: Date when a resource was last changed or updated.
+    :issue_number: '10'
+  '24':
+    :value: '24'
+    :description: From… until date
+    :notes: Combines From date and Until date to define a period (both dates are inclusive).
+      Use with for example dateformat 06.
+    :issue_number: '16'
+  '27':
+    :value: '27'
+    :description: Available from
+    :notes: Date from which a supporting resource is available for download. Note
+      that this date also implies that it can be immediately displayed to the intended
+      audience, unless a From date (code 14) is also supplied and is later than the
+      Available from date.
+    :issue_number: '20'
+  '28':
+    :value: '28'
+    :description: Available until
+    :notes: Date until which a supporting resource is available for download. Note
+      that this date does not imply it must be removed from display to the intended
+      audience on this date – for this, use Until date (code 15).
+    :issue_number: '20'

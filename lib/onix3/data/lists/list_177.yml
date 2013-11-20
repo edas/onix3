@@ -1,0 +1,15 @@
+---
+:number: '177'
+:description: Person / organization date role
+:issue_number: '9'
+:codes:
+  '50':
+    :value: '50'
+    :description: Date of birth
+    :notes: ''
+    :issue_number: '9'
+  '51':
+    :value: '51'
+    :description: Date of death
+    :notes: ''
+    :issue_number: '9'
