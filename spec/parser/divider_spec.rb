@@ -1,50 +1,69 @@
 require 'spec_helper'
 require 'zlib'
+require 'stringio'
+require 'nokogiri'
+
 describe Onix3::Parser::Divider do
   
   describe "#each_single_document" do
 
-    before(:each) do
-      @filename = "parser_divider-each_single_product-should_return_the_number_of_products.onix.xml.gz"
-      @filepath = File.join(File.dirname(__FILE__), "..", "fixtures", @filename)
-      @onix = Zlib::GzipReader.open(@filepath)
-    end
+    let(:simple_onix) {
+      '<?xml version="1.0" encoding="UTF-8"?>' +
+      '<ONIXMessage release="3.0" xmlns="http://www.editeur.org/onix/3.0/reference">' +
+      '<Header>H</Header>' +
+      '<Product>P</Product>' +
+      '<Product>P</Product>' +
+      '</ONIXMessage>'
+    }
 
-    after(:each) do
-      @onix.close if @onix
-    end
+    let(:simple_onix_ns) {
+      '<?xml version="1.0" encoding="UTF-8"?>' +
+      '<onix:ONIXMessage release="3.0" xmlns:onix="http://www.editeur.org/onix/3.0/reference">' +
+      '<onix:Header>H</onix:Header>' +
+      '<onix:Product>P</onix:Product>' +
+      '<onix:Product>P</onix:Product>' +
+      '</onix:ONIXMessage>'
+    }
 
     it "should return the number of products" do
-      d = Onix3::Parser::Divider.new(@onix)
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       res = d.each_single_document do |doc|
         # nothing
       end
-      count = 0
-      index = -1
-      f = Zlib::GzipReader.open(@filepath)
-      content = f.read
-      f.close
-      while index=content.index("<Product>",index+1)
-        count += 1
-      end
-      expect(count).to be > 1
-      expect(res).to eq(count)
+      expect(res).to eq(2)
     end
 
     it "should copy the exact header" do
-      pending
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
+      res = d.each_single_document do |doc|
+        expect(doc.index(">H</Header>")).to be > 0
+      end
     end
 
     it "should allow a namespace for the root tag" do
-      pending
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix_ns))
+      res = d.each_single_document do |doc|
+        expect(doc.index(">H</")).to be > 0
+      end
+    end
+
+    it "should allow a namespaced attribute for the root tag" do
+      pending "Nokogiri issue 843" # https://github.com/sparklemotion/nokogiri/issues/843
     end
 
     it "should copy the exact product" do
-      pending
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
+      d.each_single_document do |doc|
+        expect(doc.index(">P</Product>")).to be > 0
+      end
     end
 
     it "should yield valid xml" do
-      pending
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
+      d.each_single_document do |doc|
+        p = Nokogiri.XML(doc) { |config| config.nonet }
+        expect(p).to be_true
+      end
     end
 
   end
