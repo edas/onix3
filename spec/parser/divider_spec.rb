@@ -5,7 +5,7 @@ require 'nokogiri'
 
 describe Onix3::Parser::Divider do
   
-  describe "#each_single_document" do
+  describe "#each_product_document" do
 
     let(:simple_onix) {
       '<?xml version="1.0" encoding="UTF-8"?>' +
@@ -27,7 +27,7 @@ describe Onix3::Parser::Divider do
 
     it "should return the number of products" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
-      res = d.each_single_document do |doc|
+      res = d.each_product_document do |doc|
         # nothing
       end
       expect(res).to eq(2)
@@ -35,14 +35,14 @@ describe Onix3::Parser::Divider do
 
     it "should copy the exact header" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
-      res = d.each_single_document do |doc|
+      res = d.each_product_document do |doc|
         expect(doc.index(">H</Header>")).to be > 0
       end
     end
 
     it "should allow a namespace for the root tag" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix_ns))
-      res = d.each_single_document do |doc|
+      res = d.each_product_document do |doc|
         expect(doc.index(">H</")).to be > 0
       end
     end
@@ -53,14 +53,14 @@ describe Onix3::Parser::Divider do
 
     it "should copy the exact product" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
-      d.each_single_document do |doc|
+      d.each_product_document do |doc|
         expect(doc.index(">P</Product>")).to be > 0
       end
     end
 
     it "should yield valid xml" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
-      d.each_single_document do |doc|
+      d.each_product_document do |doc|
         p = Nokogiri.XML(doc) { |config| config.nonet }
         expect(p).to be_true
       end

@@ -11,11 +11,30 @@ class Runner < Optitron::CLI
     puts Onix3::Tools::Commenter.new.comment_file(onix_file)
   end
 
-
   desc "Update the code lists with an XML description file from editeur.org"
   # arg "file", "The XML file with lists data"
   def update_code_lists(code_list_file)
     Onix3::Tools::CodeListUpdater.new.update_with(code_list_file)
+  end
+
+  desc "Extract a product definition from an onix 3 file"
+  # arg "file", "The onix 3 file"
+  # arg "identifier", "Identifier of the product to extract"
+  opt "comment", "Comment the returned file", :type => :boolean, :use_no => true
+  def extract(onix_file, product_identifier)
+    File.open(onix_file, "r") do |file|
+      p = Onix3::Parser::Divider.new(file)
+      c = Onix3::Tools::Commenter.new
+      products = [ ]
+      p.each_product do |product|
+        if product.index("<IDValue>#{product_identifier}</IDValue>")
+          puts params.inspect
+          products << (params["comment"] ? c.comment(product) : product)
+        end
+      end
+      puts p.document_for_products(products) if products.size > 0
+    end
+
   end
 
 =begin
@@ -26,11 +45,7 @@ class Runner < Optitron::CLI
     opt "types", "list of identifiers types to report", type: :array
     arg "file", "The onix 3 file"
   end
-  cmd "extract", "extract a product from an onix 3 file" do
-    opt "include-product-parts", "list of identifiers types to report", type: :array
-    arg "file", "The onix 3 file"
-    arg "identifier", "Identifier of the product to extract"
-  end
+  
 =end
 
 end

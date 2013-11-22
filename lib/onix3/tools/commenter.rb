@@ -18,8 +18,8 @@ module Onix3
         @search_re
       end
 
-      def comment(io)
-        io.read.gsub(search_re) do |match|
+      def comment(str)
+        str.gsub(search_re) do |match|
           cl = nil
           v = nil
           begin
@@ -33,6 +33,10 @@ module Onix3
           cl_val = "#{$1}<!-- code ##{$2} \"#{v[:description]}\" : #{v[:notes]} -->"
           match + cl_intro + cl_val
         end
+      end
+      
+      def comment_io(io)
+        comment(io.read)
       end
 
       def comment_file(file)
