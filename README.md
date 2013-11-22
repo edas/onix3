@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Executable
+
+`onix3 comment onixfile.xml` returns the onix file commented (code and lists descriptions as xml comments)
+
+`onix3 extract onixfile.xml 3325246` returns the onix file (with headers) leaving only the products that matche the identifier 332546 (this is a simple plain text match, which validates the product even if the identifier is found in ProductParts or RelatedProducts)
+
+`onix3 extract onixfile.xml 3325246 --comment` does the same as above but commenting the product extracted.
+
 
 ## Contributing
 
