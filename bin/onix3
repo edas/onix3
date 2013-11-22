@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+
+require 'onix3'
+require 'optitron'
+
+class Runner < Optitron::CLI
+  
+  desc "Comment an onix 3 file"
+  # arg "file", "The file to comment"
+  def comment(onix_file)
+    puts Onix3::Tools::Commenter.new.comment_file(onix_file)
+  end
+
+
+  desc "Update the code lists with an XML description file from editeur.org"
+  # arg "file", "The XML file with lists data"
+  def update_code_lists(code_list_file)
+    Onix3::Tools::CodeListUpdater.new.update_with(code_list_file)
+  end
+
+=begin
+  cmd "count", "Count products in the onix 3 file" do
+    arg "file", "The onix 3 file"
+  end
+  cmd "list", "list product identifiers in an onix 3 file" do
+    opt "types", "list of identifiers types to report", type: :array
+    arg "file", "The onix 3 file"
+  end
+  cmd "extract", "extract a product from an onix 3 file" do
+    opt "include-product-parts", "list of identifiers types to report", type: :array
+    arg "file", "The onix 3 file"
+    arg "identifier", "Identifier of the product to extract"
+  end
+=end
+
+end
+
+Runner.dispatch
