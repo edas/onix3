@@ -4,16 +4,18 @@ module Onix3
   module Data
     class Loader
 
-      def short_tags
-        @short_tags ||= load_short_tags
+      include Onix3::Tools::Path
+
+      def tags
+        @tags ||= load_tags
       end
 
-      def load_short_tags
-        YAML.load( File.read(short_tags_filename) )
+      def load_tags
+        YAML.load( File.read(tags_filename) )
       end
 
       def short_tag_for(name)
-        short_tags[name]
+        tags[name]
       end
 
       def code_list(number)
@@ -21,12 +23,8 @@ module Onix3
         @code_lists[number.to_s] ||= load_code_list(number)
       end
 
-      def short_tags_filename
-        @short_tags_filename || File.join(data_path, 'tags.yml')
-      end
-
-      def data_path
-        @data_path || File.dirname(__FILE__)
+      def tags_filename
+        @tags_filename || File.join(data_path, 'tags.yml')
       end
 
       def code_list_filename(number)
@@ -48,6 +46,24 @@ module Onix3
         end
         list
       end
+
+      def code_list_numbers
+        @code_list_numbers ||= YAML.load( File.read(lists_filename) )
+      end
+
+      def lists_filename
+        @lists_filename || File.join(data_path, 'lists.yml')
+      end
+
+      def code_list_for_tag(name)
+        if number = code_list_numbers[:tags][name]
+          code_list(number)
+        else
+          nil
+        end
+      end
+
+
 
     end
   end
