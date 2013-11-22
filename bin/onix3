@@ -19,7 +19,7 @@ class Runner < Optitron::CLI
     end
   end
 
-  desc "Update the code lists with an XML description file from editeur.org"
+  desc "Update the code lists with an XML description file from http://www.editeur.org/14/Code-Lists/#code%20lists"
   # arg "file", "The XML file with lists data"
   def update_code_lists(code_list_file)
     Onix3::Tools::CodeListUpdater.new.update_with(code_list_file)
