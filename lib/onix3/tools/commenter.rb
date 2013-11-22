@@ -41,7 +41,7 @@ module Onix3
 
       def comment_file(file)
         File.open(file, "r") do |io|
-          comment(io)
+          comment_io(io)
         end
       end
 

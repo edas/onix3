@@ -8,7 +8,15 @@ class Runner < Optitron::CLI
   desc "Comment an onix 3 file"
   # arg "file", "The file to comment"
   def comment(onix_file)
-    puts Onix3::Tools::Commenter.new.comment_file(onix_file)
+    File.open(onix_file, "r") do |file|
+      p = Onix3::Parser::Divider.new(file)
+      puts p.document_start
+      c = Onix3::Tools::Commenter.new
+      p.each_product do |product|
+        puts c.comment(product)
+      end
+      puts p.document_end
+    end
   end
 
   desc "Update the code lists with an XML description file from editeur.org"
@@ -24,15 +32,14 @@ class Runner < Optitron::CLI
   def extract(onix_file, product_identifier)
     File.open(onix_file, "r") do |file|
       p = Onix3::Parser::Divider.new(file)
+      puts p.document_start
       c = Onix3::Tools::Commenter.new
-      products = [ ]
       p.each_product do |product|
         if product.index("<IDValue>#{product_identifier}</IDValue>")
-          puts params.inspect
-          products << (params["comment"] ? c.comment(product) : product)
+          puts (params["comment"] ? c.comment(product) : product)
         end
       end
-      puts p.document_for_products(products) if products.size > 0
+      puts p.document_end
     end
 
   end
