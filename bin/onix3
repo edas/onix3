@@ -8,7 +8,7 @@ class Runner < Optitron::CLI
   desc "Comment an onix 3 file"
   # arg "file", "The file to comment"
   def comment(onix_file)
-    File.open(onix_file, "r") do |file|
+    File.open(onix_file, "rb") do |file|
       p = Onix3::Parser::Divider.new(file)
       puts p.document_start
       c = Onix3::Tools::Commenter.new
@@ -30,7 +30,7 @@ class Runner < Optitron::CLI
   # arg "identifier", "Identifier of the product to extract"
   opt "comment", "Comment the returned file", :type => :boolean, :use_no => true
   def extract(onix_file, product_identifier)
-    File.open(onix_file, "r") do |file|
+    File.open(onix_file, "rb") do |file|
       p = Onix3::Parser::Divider.new(file)
       puts p.document_start
       c = Onix3::Tools::Commenter.new

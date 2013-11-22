@@ -40,7 +40,7 @@ module Onix3
       end
 
       def comment_file(file)
-        File.open(file, "r") do |io|
+        File.open(file, "rb") do |io|
           comment_io(io)
         end
       end
