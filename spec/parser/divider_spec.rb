@@ -35,7 +35,7 @@ describe Onix3::Parser::Divider do
     it "should have header" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       doc = d.document_for_products([])
-      expect(doc).to match(/<Header[^>]+>H<\/Header>/)
+      expect(doc).to match(/<Header[^>]*>H<\/Header>/)
     end
 
     it "should yield valid xml" do
@@ -75,7 +75,7 @@ describe Onix3::Parser::Divider do
     it "should have header" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       start = d.document_start
-      expect(start).to match(/<Header[^>]+>H<\/Header>/)
+      expect(start).to match(/<Header[^>]*>H<\/Header>/)
     end
 
     it "should yield valid xml" do
@@ -100,7 +100,7 @@ describe Onix3::Parser::Divider do
     it "should copy the exact product" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       d.each_product_document do |doc|
-        expect(doc).to match(/<Product[^>]+>P<\/Product>/)
+        expect(doc).to match(/<Product[^>]*>P<\/Product>/)
       end
     end
 
@@ -119,7 +119,7 @@ describe Onix3::Parser::Divider do
     it "should copy the exact header" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       res = d.each_product_document do |doc|
-        expect(doc).to match(/<Header[^>]+>H<\/Header>/)
+        expect(doc).to match(/<Header[^>]*>H<\/Header>/)
       end
     end
 
@@ -137,7 +137,7 @@ describe Onix3::Parser::Divider do
     it "should copy the exact product" do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       d.each_product_document do |doc|
-        expect(doc).to match(/<Product[^>]+>P<\/Product>/)
+        expect(doc).to match(/<Product[^>]*>P<\/Product>/)
       end
     end
 
