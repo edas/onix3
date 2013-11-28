@@ -30,13 +30,18 @@ module Onix3
 
       def analyze_root
         if reader.local_name == "ONIXMessage"
-          @is_short_tags = false
+          reader.short_tags = false
         elsif reader.local_name == "ONIXmessage"
-          @is_short_tags = true
+          reader.short_tags = true
         else
           raise "ONIX3 XML message root is not <ONIXMessage> or <ONIXmessage>"
         end
+        reader.onix3_namespace = reader.namespace_uri
         @onix_version = @reader.attribute("version")
+      end
+
+      def onix3_namespace
+        @onix3_namespace
       end
 
     end
