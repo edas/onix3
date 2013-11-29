@@ -5,7 +5,7 @@ module Onix3
       attr_writer :reader
 
       def initialize(io)
-        io.binmode
+        io.binmode if io.respond_to? :binmode
         @io = io
       end
 

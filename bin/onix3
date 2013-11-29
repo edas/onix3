@@ -2,13 +2,16 @@
 
 require 'onix3'
 require 'optitron'
+require 'zlib'
 
 class Runner < Optitron::CLI
   
+  class_opt "gzip", "Source file is gziped"
+
   desc "Comment an onix 3 file"
   # arg "file", "The file to comment"
   def comment(onix_file)
-    File.open(onix_file, "rb") do |file|
+    io_for_onix(onix_file) do |file|
       p = Onix3::Parser::Divider.new(file)
       puts p.document_start
       c = Onix3::Tools::Commenter.new
@@ -30,7 +33,7 @@ class Runner < Optitron::CLI
   # arg "identifier", "Identifier of the product to extract"
   opt "comment", "Comment the returned file", :type => :boolean, :use_no => true
   def extract(onix_file, product_identifier)
-    File.open(onix_file, "rb") do |file|
+    io_for_onix(onix_file) do |file|
       p = Onix3::Parser::Divider.new(file)
       puts p.document_start
       c = Onix3::Tools::Commenter.new
@@ -44,16 +47,51 @@ class Runner < Optitron::CLI
 
   end
 
+
+  desc "Count products in the onix 3 file"
+  # arg "file", "The onix 3 file"
+  def count(onix_file)
+    io_for_onix(onix_file) do |file|
+      p = Onix3::Parser::Divider.new(file)
+      count = 0
+      p.each_product do |product|
+        count += 1
+      end
+      puts count
+    end
+  end
+
+protected
+
+  def io_for_onix(onix_file)
+    File.open(onix_file, "rb") do |f|
+      gzip = (f.read(2) == "\x1f\x8b".b)
+      f.rewind
+      if gzip
+        z = Zlib::GzipReader.new(f, :encoding => 'binary')
+        yield z
+        z.close
+      else
+        yield f
+      end
+    end
+  end
+
 =begin
-  cmd "count", "Count products in the onix 3 file" do
-    arg "file", "The onix 3 file"
+q
+  desc "List product identifiers in an onix 3 file" 
+  opt "types", "list of identifiers types to report", type: :array
+  def list(onix_file)
+    File.open(onix_file, "rb") do |file|
+      p = Onix3::Parser::Divider.new(file)
+      p.each_product do |product|
+        #
+      end
+    end
   end
-  cmd "list", "list product identifiers in an onix 3 file" do
-    opt "types", "list of identifiers types to report", type: :array
-    arg "file", "The onix 3 file"
-  end
-  
 =end
+  
+
 
 end
 

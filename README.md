@@ -26,6 +26,9 @@ Or install it yourself as:
 
 `onix3 extract onixfile.xml 3325246 --comment` does the same as above but commenting the product extracted.
 
+`onix3 count onixfile.xml` returns ne number of products in the XML (counting the parts that shouldn't be sold independently)
+
+Onix file could be plain text XML or a gzip archive file
 
 ## Contributing
 
