@@ -4,9 +4,13 @@ module Onix3
   module Parser
     class Divider < Base
 
-      def each_product_document
-        each_product do |product|
-          yield document_for_products([product])
+      def each_product_document(extract=true)
+        each_product(extract) do |product|
+          if extract
+            yield document_for_products([product])
+          else
+            yield
+          end
         end
       end
 
@@ -14,7 +18,7 @@ module Onix3
         unless @document_started
           move_to_root
           prefix = reader.prefix
-          attribs = reader.attributes.to_a.map{ |a| " "+a[0]+"=\""+CGI.escapeHTML(a[1])+"\"" }.join('')
+          attribs = root_attributes.to_a.map{ |a| " "+a[0]+"=\""+CGI.escapeHTML(a[1])+"\"" }.join('')
           tag = (prefix ? prefix+":" : "") + reader.tag("ONIXMessage")
           @opening = "<#{tag}#{attribs}>"
           move_to_header
@@ -24,12 +28,16 @@ module Onix3
         @document_started = true
       end
 
-      def each_product
+      def each_product(extract=true)
         start_document
         count = 0
         while move_to_next_product
           count += 1
-          yield( reader.outer_xml )
+          if extract
+            yield reader.outer_xml 
+          else
+            yield
+          end
         end
         count
       end

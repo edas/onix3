@@ -1,3 +1,5 @@
+require 'cgi'
+
 module Onix3
   module Parser
     class Base
@@ -38,6 +40,26 @@ module Onix3
         end
         reader.onix3_namespace = reader.namespace_uri
         @onix_version = @reader.attribute("version")
+      end
+
+      def root_attributes
+        # We should use reader.attributes, but it seems that
+        # if we use that, Nokogiri try to parse the whole document
+        # same thing for reader.namespaces, reader.attribute_nodes
+        # Doing so we ignore all non-standard attribute on root element
+        attributes = { }
+        if xmlns = reader.attribute("xmlns")
+          attributes["xmlns"] = xmlns 
+        end
+        if release = reader.attribute("release")
+          attributes["release"] = release 
+        end
+        if prefix = reader.prefix
+          if prefixns = reader.attribute("xmlns:#{prefix}")
+            attributes["xmlns:#{prefix}"] = prefixns
+          end
+        end
+        attributes
       end
 
       def onix3_namespace

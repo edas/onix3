@@ -6,7 +6,7 @@ require 'zlib'
 
 class Runner < Optitron::CLI
   
-  class_opt "gzip", "Source file is gziped"
+  class_opt "verbose", "Verbose output", :type => :boolean
 
   desc "Comment an onix 3 file"
   # arg "file", "The file to comment"
@@ -54,9 +54,17 @@ class Runner < Optitron::CLI
     io_for_onix(onix_file) do |file|
       p = Onix3::Parser::Divider.new(file)
       count = 0
-      p.each_product do |product|
+      p.each_product(false) do
         count += 1
+        if params["verbose"]
+          if count % 10000 == 0
+            $stdout.write " (#{count}) "
+          elsif count % 1000 == 0
+            $stdout.write "."
+          end
+        end
       end
+      puts "\n" 
       puts count
     end
   end
