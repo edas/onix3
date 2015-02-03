@@ -2,7 +2,8 @@ module Onix3
   module Parser
     class OnixReader < XmlReader
       
-      ONIX3_NAMESPACE = "http://www.editeur.org/onix/3.0/reference"
+      ONIX3_NAMESPACE = "http://ns.editeur.org/onix/3.0/reference"
+      ONIX3_OLD_NAMESPACE = "http://www.editeur.org/onix/3.0/reference"
       ONIX3_SHORT_NAMESPACE = "http://ns.editeur.org/onix/3.0/short"
 
       def is_on?(names, ns=onix3_namespace)
@@ -51,9 +52,17 @@ module Onix3
         @data ||= Onix3::Data::Loader.new
       end
 
+      def use_old_namespace?
+        return @use_old_namespace
+      end
+
+      def use_old_namespace=(bool)
+        @use_old_namespace = bool
+      end
+
       def onix3_namespace
         if @onix3_namespace.nil?
-          short_tags? ? ONIX3_SHORT_NAMESPACE : ONIX3_NAMESPACE
+          short_tags? ? ONIX3_SHORT_NAMESPACE : ( use_old_namespace? ? ONIX3_OLD_NAMESPACE : ONIX3_NAMESPACE )
         else
           @onix3_namespace || nil
         end
