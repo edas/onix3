@@ -42,7 +42,7 @@ describe Onix3::Parser::Divider do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       doc = d.document_for_products([])
       p = Nokogiri.XML(doc) { |config| config.nonet }
-      expect(p).to be_true
+      expect(p).to be_truthy
     end
 
     it "should contain products" do
@@ -82,7 +82,7 @@ describe Onix3::Parser::Divider do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       start = d.document_start
       p = Nokogiri.XML(start + d.document_end) { |config| config.nonet }
-      expect(p).to be_true
+      expect(p).to be_truthy
     end
 
   end
@@ -131,7 +131,8 @@ describe Onix3::Parser::Divider do
     end
 
     it "should allow a namespaced attribute for the root tag" do
-      pending "Nokogiri issue 843" # https://github.com/sparklemotion/nokogiri/issues/843
+      pending "Nokogiri issue 843" # https://github.com/sparklemotion/nokogiri/issues/843 
+      raise
     end
 
     it "should copy the exact product" do
@@ -145,7 +146,7 @@ describe Onix3::Parser::Divider do
       d = Onix3::Parser::Divider.new(StringIO.new(simple_onix))
       d.each_product_document do |doc|
         p = Nokogiri.XML(doc) { |config| config.nonet }
-        expect(p).to be_true
+        expect(p).to be_truthy
       end
     end
 
