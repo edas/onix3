@@ -4,6 +4,7 @@ module Onix3
       
       ONIX3_NAMESPACE = "http://www.editeur.org/onix/3.0/reference"
       ONIX3_SHORT_NAMESPACE = "http://ns.editeur.org/onix/3.0/short"
+      ONIX3_NAMESPACE_ALTERNATIVE_NS = "http://ns.editeur.org/onix/3.0/reference"
 
       def is_on?(names, ns=onix3_namespace)
         if ns==onix3_namespace
