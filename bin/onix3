@@ -64,7 +64,7 @@ class Runner < Optitron::CLI
           end
         end
       end
-      puts "\n" 
+      puts "\n" if params["verbose"]
       puts count
     end
   end
